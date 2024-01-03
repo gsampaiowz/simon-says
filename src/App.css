@@ -1,0 +1,22 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url(@/assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins-Regular", "Courier New", Courier, monospace;
+}
+
+:root {
+  /* Variáveis de tema */
+
+  --color-white: #fff;
+  --color-orange: #ff6900;
+  --color-black: #000;
+}
