@@ -1,0 +1,11 @@
+.film-item{
+    width: 700px;
+    height: 400px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}

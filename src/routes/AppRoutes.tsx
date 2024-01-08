@@ -1,15 +1,19 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
+import Films from "@/pages/Films/Films";
 
 const AppRoutes = () => {
-    return (
-        <BrowserRouter>
-        <Routes>
-        <Route element path="/" />
+  return (
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route element={<Films/>} path="/" />
         <Route element path="/:idFilme" />
-        </Routes>
-            
-        </BrowserRouter>
-    );
+      </Routes>
+      <Footer />
+    </BrowserRouter>
+  );
 };
 
 export default AppRoutes;

@@ -1,0 +1,42 @@
+.footer{
+    padding: 20px 40px;
+    background: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-options{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer__redes-sociais{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-links-divider{
+    width: 1px;
+    height: 10px;
+    background: var(--color-white);
+}
+
+.footer-links-option{
+    font-size: 13px;
+    color: var(--color-gray);
+    text-decoration: none;
+}
+
+.footer-copyright{
+    font-size: 13px;
+    color: var(--color-gray);
+}
