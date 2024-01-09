@@ -1,0 +1,61 @@
+.films-page-filters {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  overflow-x: auto;
+  transition-duration: 1s;
+}
+
+.films-filters-link {
+  text-decoration: none;
+  padding: 8px;
+  color: var(--color-black);
+  font-size: 28px;
+  font-family: Poppins-SemiBold;
+  text-wrap: nowrap;
+}
+
+.films-filters-link:hover {
+  filter: invert(1);
+  background-color: var(--color-white);
+}
+
+.films-filters-link.active {
+  filter: invert(1);
+}
+
+.films-filter-dropdown{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    width: 280px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 1360px) {
+    .films-page-filters {
+        opacity: 0;
+        height: 0;
+        position: absolute;
+        top: 160px;
+        flex-direction: column;
+    }
+    
+    .exibe-films-filters{
+        opacity: 1;
+        display: flex;
+        width: 280px;
+        padding: 0;
+        background-color: var(--color-white);
+        gap: 10px;
+        height: auto;
+    }
+
+    .films-filters-link{
+        width: 100%;
+    }
+}

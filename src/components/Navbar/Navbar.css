@@ -1,0 +1,30 @@
+.navbar-header{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 50px;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 10;
+    top: 92px;
+    right: -100vw;
+    overflow-y: auto;
+    transition: 0.5s;
+    background-color: var(--color-white);
+}
+
+.navbar-header-active{
+    right: 0;
+}
+
+.link-navbar-header{
+    font-size: 44px;
+    font-family: Poppins-SemiBold;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.navbar-header::-webkit-scrollbar{
+    display: none;
+}

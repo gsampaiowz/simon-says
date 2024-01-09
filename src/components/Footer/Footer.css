@@ -4,11 +4,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer-options{
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -39,4 +42,8 @@
 .footer-copyright{
     font-size: 13px;
     color: var(--color-gray);
+}
+
+@media (max-width: 768px) {
+
 }

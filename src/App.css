@@ -3,6 +3,11 @@
   src: url(@/assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(@/assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +15,7 @@
 }
 
 body {
-  font-family: "Poppins-Regular", "Courier New", Courier, monospace;
+  font-family: Poppins-Regular, "Courier New", Courier, monospace;
 }
 
 :root {
