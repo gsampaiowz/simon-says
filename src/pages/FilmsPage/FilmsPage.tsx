@@ -1,8 +1,7 @@
-import Container from "@/components/Container/Container";
 import "./FilmsPage.css";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import filmsArray from "@/data/films";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";

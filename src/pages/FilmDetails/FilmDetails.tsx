@@ -1,8 +1,8 @@
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import "./FilmDetails.css"
 
 const FilmDetails = () => {
-    const {idFilme} = useParams();
+    // const {idFilme} = useParams();
 
     return (
         <main className="film-details">
