@@ -8,6 +8,11 @@
   src: url(@/assets/fonts/Poppins/Poppins-SemiBold.ttf);
 }
 
+@font-face {
+  font-family: Poppins-ExtraBold;
+  src: url(@/assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,7 +1,7 @@
 import "./MainContent.css";
 
 type MainContentProps = {
-  additionalClass: String;
+  additionalClass?: String;
   children: React.ReactNode;
 };
 

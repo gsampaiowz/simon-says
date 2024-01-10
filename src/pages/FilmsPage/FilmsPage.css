@@ -8,7 +8,7 @@
 .films-page {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
 .films-list-ver-mais {
@@ -19,8 +19,20 @@
   font-family: Poppins-SemiBold;
   padding: 15px 0;
   cursor: pointer;
+  transition-duration: 0.5s;
 }
 
 .films-list-ver-mais:hover {
   filter: invert(1);
+}
+
+.filter-description{
+  font-size: 20px;
+  color: #666666;
+}
+
+.films-page-filter-section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

@@ -4,6 +4,7 @@
   gap: 30px;
   overflow-x: auto;
   transition-duration: 1s;
+  z-index: 1;
 }
 
 .films-filters-link {
@@ -15,24 +16,27 @@
   text-wrap: nowrap;
 }
 
-.films-filters-link:hover {
+.films-filters-link:hover, .films-filters-link.active {
   filter: invert(1);
   background-color: var(--color-white);
-}
-
-.films-filters-link.active {
-  filter: invert(1);
 }
 
 .films-filter-dropdown{
     background-color: var(--color-black);
     color: var(--color-white);
     width: 280px;
-    padding: 10px;
+    padding: 4px;
     border: none;
     cursor: pointer;
     display: flex;
+    font-size: 22px;
+    align-items: center;
+    font-family: Poppins-SemiBold;
     justify-content: space-between;
+}
+
+.films-filter-drop-text{
+  line-height: 22px;
 }
 
 
@@ -41,7 +45,7 @@
         opacity: 0;
         height: 0;
         position: absolute;
-        top: 160px;
+        top: 130px;
         flex-direction: column;
     }
     
@@ -51,7 +55,7 @@
         width: 280px;
         padding: 0;
         background-color: var(--color-white);
-        gap: 10px;
+        gap: 0;
         height: auto;
     }
 

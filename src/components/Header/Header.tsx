@@ -62,7 +62,7 @@ const Header = () => {
           size={50}
         />
       )}
-      <Navbar navbarRef={navbarRef} exibeNav={exibeNav} />
+      <Navbar setExibeNav={setExibeNav} navbarRef={navbarRef} exibeNav={exibeNav} />
     </header>
   );
 };

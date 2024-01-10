@@ -1,12 +1,19 @@
 import { NavLink } from "react-router-dom";
-import Container from "../Container/Container";
 import "./FiltersNav.css";
 import { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
-const FiltersNav = () => {
-  const [atualFilter, setAtualFilter] = useState("Todos");
+type FiltersNavProps = {
+  windowWidthParam: number;
+  atualFilter: string;
+  setAtualFilter: (value: string) => void;
+};
 
+const FiltersNav = ({
+  windowWidthParam,
+  atualFilter,
+  setAtualFilter,
+}: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -17,51 +24,68 @@ const FiltersNav = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    setAtualFilter(localStorage.getItem("atualFilter") || "Todos");
+  }, [localStorage.getItem("atualFilter")]);
+
+  const mudarFiltro = (filtro: string) => {
+    setAtualFilter(filtro);
+    localStorage.setItem("atualFilter", filtro || "Todos");
+    setIsDropdownOpen(!isDropdownOpen)
+  };
+
   return (
-    <Container>
+    <>
       <div
         className={`films-page-filters ${
           isDropdownOpen ? "exibe-films-filters" : ""
         }`}
       >
         <NavLink
-          onClick={() => setAtualFilter("Publicidade")}
+          onClick={() => mudarFiltro("Todos")}
           className="films-filters-link"
-          to={"/publicidade"}
+          to={"/trabalhos/todos"}
+        >
+          Todos
+        </NavLink>
+        <NavLink
+          onClick={() => mudarFiltro("Publicidade")}
+          className="films-filters-link"
+          to={"/trabalhos/publicidade"}
         >
           Publicidade
         </NavLink>
         <NavLink
-          onClick={() => setAtualFilter("Social Media")}
+          onClick={() => mudarFiltro("Social Media")}
           className="films-filters-link"
-          to={"/social-media"}
+          to={"/trabalhos/social-media"}
         >
           Social Media
         </NavLink>
         <NavLink
-          onClick={() => setAtualFilter("Animação 2D e 3D")}
+          onClick={() => mudarFiltro("Motion 2d/3d")}
           className="films-filters-link"
-          to={"/animacao"}
+          to={"/trabalhos/animacao"}
         >
           Animação 2D e 3D
         </NavLink>
         <NavLink
-          onClick={() => setAtualFilter("Institucional")}
+          onClick={() => mudarFiltro("Institucional")}
           className="films-filters-link"
-          to={"/institucional"}
+          to={"/trabalhos/institucional"}
         >
           Institucional
         </NavLink>
         <NavLink
-          onClick={() => setAtualFilter("Clipes de Música")}
+          onClick={() => mudarFiltro("Clipes de Música")}
           className="films-filters-link"
-          to={"/clipes-musica"}
+          to={"/trabalhos/clipes-musica"}
         >
           Clipes de Música
         </NavLink>
       </div>
 
-      {windowWidth <= 1360 && (
+      {windowWidth <= windowWidthParam && (
         <button
           onClick={() => {
             setIsDropdownOpen(!isDropdownOpen);
@@ -69,10 +93,11 @@ const FiltersNav = () => {
           }}
           className="films-filter-dropdown"
         >
-          {atualFilter} <FaChevronDown />
+          <span className="films-filter-drop-text">{atualFilter}</span>{" "}
+          <FaChevronDown />
         </button>
       )}
-    </Container>
+    </>
   );
 };
 
