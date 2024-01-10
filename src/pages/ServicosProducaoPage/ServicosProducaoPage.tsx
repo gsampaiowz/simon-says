@@ -4,7 +4,7 @@ import "./ServicosProducaoPage.css"
 const ServicosProducaoPage = () => {
     return (
         <MainContent>
-            
+            <div></div>
         </MainContent>
     );
 };

@@ -4,7 +4,7 @@ import "./SearchPage.css"
 const SearchPage = () => {
     return (
         <MainContent>
-            
+            <div></div>
         </MainContent>
     );
 };

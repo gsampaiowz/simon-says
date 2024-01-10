@@ -9,7 +9,7 @@ type NavbarProps = {
 };
 
 const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
-  const [atualFilter, setAtualFilter] = useState("");
+  const [, setAtualFilter] = useState("");
 
   const mudarFiltro = (filtro: string) => {
     setExibeNav(false);

@@ -49,28 +49,17 @@ const FilmsPage = () => {
         </p>
       </Container>
       <div className="films-list">
-        {atualFilter === "Todos"
-          ? currentItems.map((film, index) => (
-              <FilmItem
-                image={film["Thumb miniatura"]}
-                onclick={() => navigate(`/trabalho/${index}`)}
-                key={index}
-                title={film["Título"]}
-                subtitle={film["Subtítulo"]}
-              />
-            ))
-          : currentItems
-              .filter((film) => film.Categorias === atualFilter)
-              .map((film, index) => (
-                <FilmItem
-                  image={film["Thumb miniatura"]}
-                  onclick={() => navigate(`/trabalho/${index}`)}
-                  key={index}
-                  title={film["Título"]}
-                  subtitle={film["Subtítulo"]}
-                />
-              ))}
+        {currentItems.map((film, index) => (
+          <FilmItem
+            image={film["Thumb miniatura"]}
+            onclick={() => navigate(`/trabalho/${index}`)}
+            key={index}
+            title={film["Título"]}
+            subtitle={film["Subtítulo"]}
+          />
+        ))}
       </div>
+      {}
       <button className="films-list-ver-mais" onClick={verMais}>
         Ver mais
       </button>

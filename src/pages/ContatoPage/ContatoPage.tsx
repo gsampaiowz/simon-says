@@ -4,7 +4,7 @@ import "./ContatoPage.css"
 const ContatoPage = () => {
     return (
         <MainContent>
-            
+            <div></div>
         </MainContent>
     );
 };
