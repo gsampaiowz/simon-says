@@ -1,0 +1,45 @@
+.about-page-main {
+  margin-top: 92px;
+}
+
+.about-page {
+  background: #e4e4e4;
+  padding: 80px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-page-title {
+  font-size: 32px;
+  font-family: Poppins-ExtraBold;
+}
+
+.about-page-title-destaque {
+  transition-duration: 0.5s;
+  color: var(--color-orange);
+}
+
+.about-page-title-destaque:hover {
+  color: var(--color-white);
+}
+
+.about-page-subtitle {
+  font-size: 20px;
+  font-family: Poppins-SemiBold;
+}
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .about-page-title {
+    font-size: 24px;
+  }
+  .about-page-subtitle {
+    font-size: 18px;
+  }
+}

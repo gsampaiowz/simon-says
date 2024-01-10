@@ -23,6 +23,10 @@ body {
   font-family: Poppins-Regular, "Courier New", Courier, monospace;
 }
 
+html{
+  background-color: var(--color-black);
+}
+
 :root {
   /* Variáveis de tema */
 

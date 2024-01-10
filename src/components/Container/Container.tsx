@@ -2,7 +2,7 @@ import "./Container.css";
 
 type ContainerProps = {
   additionalClass?: String;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 };
 
 const Container = ({ additionalClass = "", children }: ContainerProps) => {

@@ -12,6 +12,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   const [, setAtualFilter] = useState("");
 
   const mudarFiltro = (filtro: string) => {
+    navbarRef.current?.scrollTo(0, 0);
     setExibeNav(false);
     setAtualFilter(filtro);
     localStorage.setItem("atualFilter", filtro || "Todos");
@@ -22,18 +23,69 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       ref={navbarRef}
       className={`navbar-header ${exibeNav ? "navbar-header-active" : ""}`}
     >
-      <NavLink onClick={() => setExibeNav(false)} to={"/sobre"}>Sobre</NavLink>
-      <NavLink onClick={() => mudarFiltro("Publicidade")} to={"/trabalhos/publicidade"}>Publicidade</NavLink>
-      <NavLink onClick={() => mudarFiltro("Motion 2d/3d")} to={"/trabalhos/animacao"}>Animação 2D e 3D</NavLink>
-      <NavLink onClick={() => mudarFiltro("Institucional")} to={"/trabalhos/institucional"}>Institucional</NavLink>
-      <NavLink onClick={() => mudarFiltro("Video Clipes")} to={"/trabalhos/video-clipes"}>Video Clipes</NavLink>
-      <NavLink onClick={() => mudarFiltro("Séries/Doc")} to={"/trabalhos/series-documentarios"}>
+      <NavLink
+        onClick={() => {
+          setExibeNav(false);
+          navbarRef.current?.scrollTo(0, 0);
+        }}
+        to={"/sobre"}
+      >
+        Sobre
+      </NavLink>
+      <NavLink
+        onClick={() => mudarFiltro("Publicidade")}
+        to={"/trabalhos/publicidade"}
+      >
+        Publicidade
+      </NavLink>
+      <NavLink
+        onClick={() => mudarFiltro("Motion 2d/3d")}
+        to={"/trabalhos/animacao"}
+      >
+        Animação 2D e 3D
+      </NavLink>
+      <NavLink
+        onClick={() => mudarFiltro("Institucional")}
+        to={"/trabalhos/institucional"}
+      >
+        Institucional
+      </NavLink>
+      <NavLink
+        onClick={() => mudarFiltro("Video Clipes")}
+        to={"/trabalhos/video-clipes"}
+      >
+        Video Clipes
+      </NavLink>
+      <NavLink
+        onClick={() => mudarFiltro("Séries/Doc")}
+        to={"/trabalhos/series-documentarios"}
+      >
         Séries e Documentários
       </NavLink>
-      <NavLink onClick={() => setExibeNav(false)} to={"/servicos-producao"}>Serviços de Produção</NavLink>
-      <NavLink onClick={() => setExibeNav(false)} to={"/diretores"}>Diretores</NavLink>
-      <NavLink onClick={() => setExibeNav(false)} to={"/contato"}>Contato</NavLink>
-      <NavLink onClick={() => setExibeNav(false)} to={"/search"}>Pesquisar</NavLink>
+      <NavLink onClick={() => {
+          setExibeNav(false);
+          navbarRef.current?.scrollTo(0, 0);
+        }} to={"/servicos-producao"}>
+        Serviços de Produção
+      </NavLink>
+      <NavLink onClick={() => {
+          setExibeNav(false);
+          navbarRef.current?.scrollTo(0, 0);
+        }} to={"/diretores"}>
+        Diretores
+      </NavLink>
+      <NavLink onClick={() => {
+          setExibeNav(false);
+          navbarRef.current?.scrollTo(0, 0);
+        }} to={"/contato"}>
+        Contato
+      </NavLink>
+      <NavLink onClick={() => {
+          setExibeNav(false);
+          navbarRef.current?.scrollTo(0, 0);
+        }} to={"/search"}>
+        Pesquisar
+      </NavLink>
     </nav>
   );
 };

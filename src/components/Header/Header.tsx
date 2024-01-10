@@ -39,12 +39,14 @@ const Header = () => {
 
   return (
     <header ref={headerRef} className="header">
-      <img
-        onClick={() => navigate("/")}
-        className="logo-header"
-        src={logoHeader}
-        alt="Logotipo Simon Says"
-      />
+      <div className="logo-hover">
+        <img
+          onClick={() => navigate("/")}
+          className="logo-header"
+          src={logoHeader}
+          alt="Logotipo Simon Says"
+        />
+      </div>
 
       {exibeNav ? (
         <IoCloseSharp
@@ -62,7 +64,11 @@ const Header = () => {
           size={50}
         />
       )}
-      <Navbar setExibeNav={setExibeNav} navbarRef={navbarRef} exibeNav={exibeNav} />
+      <Navbar
+        setExibeNav={setExibeNav}
+        navbarRef={navbarRef}
+        exibeNav={exibeNav}
+      />
     </header>
   );
 };

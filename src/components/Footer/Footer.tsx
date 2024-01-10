@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa"; // Import the necessary package
 const Footer = () => {
   return (
     <footer className="footer">
-      <img width={250} src={logoFooter} alt="Logotipo Simon Says" />
+      <img className="footer-logo" width={250} src={logoFooter} alt="Logotipo Simon Says" />
 
       <div className="footer-options">
         <div className="footer__redes-sociais">
