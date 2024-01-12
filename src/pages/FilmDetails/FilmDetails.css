@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .film-details .films-page-filters {
@@ -28,7 +29,9 @@
 
 .filter-and-title {
   display: flex;
+  align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .film-detail-title {
@@ -45,12 +48,15 @@
 }
 
 .film-thumb-principal {
+  aspect-ratio: 16 / 9;
+  max-width: 1920px;
+  max-height: 1080px;
   width: 100%;
-  height: 400px;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
-  background-size: contain;
+  background-size: 100% 100%;
   position: relative;
   cursor: pointer;
 }
@@ -80,16 +86,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 16 / 9;
+  max-width: 1920px;
+  max-height: 1080px;
   width: 100%;
-  height: auto;
+  height: 100%;
+  z-index: 10;
   position: relative;
+}
+
+.film-player-react-player {
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .film-close-icon {
   position: absolute;
-  top: 0;
   cursor: pointer;
-  right: 20px;
+  right: 0;
+  top: 0;
 }
 
 .film-close-icon:hover {
@@ -106,6 +123,17 @@
 
 .film-details-text {
   font-size: 20px;
+  word-wrap: wrap;
+}
+
+.film-player-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
 }
 
 .film-details-credits {
@@ -143,6 +171,58 @@
   content: "Categoria:";
 }
 
+.filmes-relacionados {
+  width: 100%;
+  margin-top: -20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--color-orange) !important;
+}
+
+.swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.swiper-slide {
+  margin-right: 0 !important;
+}
+
+.film-relacionado-info {
+  aspect-ratio: 16 / 9;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.film-relacionado {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.film-relacionado:hover {
+  filter: brightness(0.5);
+  background-size: 110% 110%;
+}
+
+.film-relacionado > h1 {
+  font-size: 28px;
+  color: var(--color-white);
+  text-shadow: 0 0 20px var(--color-black);
+}
+
+.film-relacionado > h2 {
+  font-size: 20px;
+  color: var(--color-white);
+  text-shadow: 0 0 20px var(--color-black);
+}
+
 @media (max-width: 768px) {
   .film-details-info {
     flex-direction: column;
@@ -150,6 +230,37 @@
   }
 
   .film-thumb-title {
-    font-size: 40px;
+    display: none;
+  }
+
+  .film-play-icon{
+    width: 40px;
+    height: 40px;
+    right: calc(50% - 20px);
+    top: calc(50% - 20px);
+  }
+
+  .film-details-credits {
+    justify-content: center;
+  }
+
+  .film-thumb-principal {
+    margin: 0 20px;
+  }
+
+  .film-relacionado > h1 {
+    font-size: 16px;
+    color: var(--color-white);
+    text-shadow: 0 0 20px var(--color-black);
+  }
+
+  .film-relacionado > h2 {
+    font-size: 12px;
+    color: var(--color-white);
+    text-shadow: 0 0 20px var(--color-black);
+  }
+
+  .film-detail-title::before {
+    display: none;
   }
 }

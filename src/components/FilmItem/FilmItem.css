@@ -1,21 +1,13 @@
 .film-item {
   flex: 1;
+  aspect-ratio: 16 / 9;
   min-width: 500px;
-  height: 400px;
-  background-size: 100% 100%;
-  background-position: center;
-  background-repeat: no-repeat;
   padding: 40px;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: end;
   cursor: pointer;
-  transition-duration: 0.5s;
-}
-
-.film-item:hover {
-  background-size: 110% 110%;
-  filter: brightness(0.5);
 }
 
 .film-item:last-of-type {
@@ -26,18 +18,40 @@
   color: var(--color-white);
   text-shadow: 0 0 20px var(--color-black);
   font-size: 38px;
+  z-index: 1;
+}
+
+.film-item__image:hover {
+  background-size: 110% 110%;
+  filter: brightness(0.5);
+}
+
+.film-item__image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition-duration: 0.5s;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+
 }
 
 .film-item__subtitle {
   text-shadow: 0 0 20px var(--color-black);
   color: var(--color-white);
   font-size: 18px;
+  z-index: 1;
+}
+
+.film-item__title:hover, .film-item__subtitle:hover{
+  filter: none;
 }
 
 @media (max-width: 768px) {
   .film-item {
-    min-width: 100%;
-    height: 300px;
     padding: 20px;
   }
 }

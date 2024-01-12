@@ -12,11 +12,18 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   const [, setAtualFilter] = useState("");
 
   const mudarFiltro = (filtro: string) => {
+    window.scrollTo(0, 0);
     navbarRef.current?.scrollTo(0, 0);
     setExibeNav(false);
     setAtualFilter(filtro);
     localStorage.setItem("atualFilter", filtro || "Todos");
   };
+
+  const linkClick = () => {
+    setExibeNav(false);
+    navbarRef.current?.scrollTo(0, 0);
+    window.scrollTo(0, 0);
+  }
 
   return (
     <nav
@@ -24,10 +31,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       className={`navbar-header ${exibeNav ? "navbar-header-active" : ""}`}
     >
       <NavLink
-        onClick={() => {
-          setExibeNav(false);
-          navbarRef.current?.scrollTo(0, 0);
-        }}
+        onClick={() => linkClick}
         to={"/sobre"}
       >
         Sobre
@@ -62,28 +66,16 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       >
         Séries e Documentários
       </NavLink>
-      <NavLink onClick={() => {
-          setExibeNav(false);
-          navbarRef.current?.scrollTo(0, 0);
-        }} to={"/servicos-producao"}>
+      <NavLink onClick={() => linkClick} to={"/servicos-producao"}>
         Serviços de Produção
       </NavLink>
-      <NavLink onClick={() => {
-          setExibeNav(false);
-          navbarRef.current?.scrollTo(0, 0);
-        }} to={"/diretores"}>
+      <NavLink onClick={() => linkClick} to={"/diretores"}>
         Diretores
       </NavLink>
-      <NavLink onClick={() => {
-          setExibeNav(false);
-          navbarRef.current?.scrollTo(0, 0);
-        }} to={"/contato"}>
+      <NavLink onClick={() => linkClick} to={"/contato"}>
         Contato
       </NavLink>
-      <NavLink onClick={() => {
-          setExibeNav(false);
-          navbarRef.current?.scrollTo(0, 0);
-        }} to={"/search"}>
+      <NavLink onClick={() => linkClick} to={"/search"}>
         Pesquisar
       </NavLink>
     </nav>

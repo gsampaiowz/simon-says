@@ -11,19 +11,27 @@ const FilmsPage = () => {
   const navigate = useNavigate();
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
+  
+  type Film = (typeof filmsArray)[0];
 
-  useEffect(() => {
-    setAtualFilter(localStorage.getItem("atualFilter"));
-  }, []);
+  const films: Film[] = [];
 
+  const seenClientes = new Set();
+  filmsArray.forEach((film) => {
+    if (!seenClientes.has(film.Cliente)) {
+      films.push(film);
+      seenClientes.add(film.Cliente);
+    }
+  });
+  
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20;
-
+  
   const indexOfLastItem = currentPage * itemsPerPage;
   const currentItems =
     atualFilter === "Todos"
-      ? filmsArray.slice(0, indexOfLastItem)
-      : filmsArray
+      ? films.slice(0, indexOfLastItem)
+      : films
           .filter((film) => film.Categorias === atualFilter)
           .slice(0, indexOfLastItem);
 
@@ -31,13 +39,18 @@ const FilmsPage = () => {
     setCurrentPage(currentPage + 1);
   };
 
+  useEffect(() => {
+    setAtualFilter(localStorage.getItem("atualFilter"));
+    console.log(currentItems);
+  }, [atualFilter]);
+
   return (
     <MainContent additionalClass="films-page">
       <Container additionalClass={"films-page-filter-section"}>
         <FiltersNav
           atualFilter={atualFilter || "Todos"}
           setAtualFilter={setAtualFilter}
-          windowWidthParam={1360}
+          windowWidthParam={1800}
         />
         <p className="filter-description">
           Advertising is where it all began for Radical. We are one of the most
@@ -49,17 +62,16 @@ const FilmsPage = () => {
         </p>
       </Container>
       <div className="films-list">
-        {currentItems.map((film, index) => (
+        {currentItems.map((film) => (
           <FilmItem
             image={film["Thumb miniatura"]}
-            onclick={() => navigate(`/trabalho/${index}`)}
-            key={index}
+            onclick={() => navigate(`/trabalho/${film.FilmId}`)}
+            key={film.FilmId}
             title={film["Título"]}
             subtitle={film["Subtítulo"]}
           />
         ))}
       </div>
-      {}
       <button className="films-list-ver-mais" onClick={verMais}>
         Ver mais
       </button>

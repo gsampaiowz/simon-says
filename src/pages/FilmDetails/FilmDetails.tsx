@@ -7,6 +7,11 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
+// Importando Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
 
 const FilmDetails = () => {
   const { idFilme } = useParams();
@@ -15,16 +20,16 @@ const FilmDetails = () => {
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
+  const film = filmsArray.find((film) => film.FilmId === idFilme);
+
+  const filmsRelacionados = filmsArray.filter(
+    (f) => f.Cliente === film?.Cliente && f.FilmId !== film?.FilmId
+  );
+
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
+    console.log(filmsRelacionados);
   }, []);
-
-  const film =
-    atualFilter === "Todos"
-      ? filmsArray[parseInt(idFilme ?? "0")]
-      : filmsArray.filter((film) => film.Categorias === atualFilter)[
-          parseInt(idFilme ?? "0")
-        ];
 
   return (
     <MainContent additionalClass="film-details">
@@ -37,30 +42,83 @@ const FilmDetails = () => {
         <h2 className="film-detail-title">{film?.Título}</h2>
       </Container>
       {inVideo ? (
-        <div className="film-player">
-          <ReactPlayer url={film?.YouTube} width={640} height={360} controls />
-          <IoCloseSharp
-            className="film-close-icon"
-            size={50}
-            onClick={() => setInVideo(false)}
-          />
-        </div>
+        <>
+          <div className="film-player-background"></div>
+          <div className="film-player">
+            <ReactPlayer
+              url={film?.YouTube}
+              className={"film-player-react-player"}
+              controls
+              width={"100%"}
+              height={"100%"}
+              playing={true}
+            />
+            <IoCloseSharp
+              className="film-close-icon"
+              size={50}
+              onClick={() => setInVideo(false)}
+            />
+          </div>
+        </>
       ) : (
         <div
           onClick={() => setInVideo(true)}
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${film["Thumb principal"]}`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${film?.["Thumb principal"]}`,
           }}
           className="film-thumb-principal"
         >
-          <IoPlaySharp color="var(--color-white)" size={80} className="film-play-icon" />
+          <IoPlaySharp
+            color="var(--color-white)"
+            size={80}
+            className="film-play-icon"
+          />
           <Container additionalClass="film-thumb-flex">
             <h1 className="film-thumb-title">{film?.Título}</h1>
           </Container>
         </div>
       )}
+      {filmsRelacionados.length > 1 && (
+        <div className="filmes-relacionados">
+          <Swiper
+            breakpoints={{
+              992: {
+                slidesPerView: 3,
+              },
+              640: {
+                slidesPerView: 2,
+              },
+              320: {
+                slidesPerView: 2,
+              },
+            }}
+            spaceBetween={0}
+            pagination={{
+              dynamicBullets: true,
+              clickable: true,
+            }}
+            modules={[Pagination]}
+            className="mySwiper"
+          >
+            {filmsRelacionados.map((filme) => (
+              <SwiperSlide key={filme.FilmId}>
+                <div
+                  style={{
+                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${filme["Thumb miniatura"]}`,
+                  }}
+                  className="film-relacionado"
+                ></div>
+                <div className="film-relacionado-info">
+                  <h1>{filme.Título}</h1>
+                  <h2>{filme.Subtítulo}</h2>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+      )}
       <Container additionalClass="film-details-info">
-        {film?.Texto && <p className="film-details-text">{film?.Texto}</p>}
+        {film?.Texto && <p className="film-details-text">{"film?.Texto"}</p>}
         <div className="film-details-credits">
           <p className="film-details-director">{film?.Diretor}</p>
           <p className="film-details-cliente">{film?.Cliente}</p>

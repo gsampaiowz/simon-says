@@ -31,7 +31,7 @@ const FiltersNav = ({
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
     localStorage.setItem("atualFilter", filtro || "Todos");
-    setIsDropdownOpen(!isDropdownOpen)
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   return (
@@ -83,14 +83,18 @@ const FiltersNav = ({
         >
           Clipes de Música
         </NavLink>
+        <NavLink
+          onClick={() => mudarFiltro("Série/Doc")}
+          className="films-filters-link"
+          to={"/trabalhos/series-documentarios"}
+        >
+          Séries/Docs
+        </NavLink>
       </div>
 
       {windowWidth <= windowWidthParam && (
         <button
-          onClick={() => {
-            setIsDropdownOpen(!isDropdownOpen);
-            console.log(isDropdownOpen);
-          }}
+          onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           className="films-filter-dropdown"
         >
           <span className="films-filter-drop-text">{atualFilter}</span>{" "}
