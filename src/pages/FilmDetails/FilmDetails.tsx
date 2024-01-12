@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "./FilmDetails.css";
 import filmsArray from "@/data/films";
 import Container from "./../../components/Container/Container";
@@ -15,6 +15,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const FilmDetails = () => {
+  const navigate = useNavigate();
+
   const { idFilme } = useParams();
 
   const [inVideo, setInVideo] = useState(false);
@@ -103,7 +105,7 @@ const FilmDetails = () => {
           >
             {filmsRelacionados.map((filme) => (
               <SwiperSlide key={filme.FilmId}>
-                <div className="film-relacionado-info">
+                <div onClick={() => navigate(`/trabalho/${filme.FilmId}`)} className="film-relacionado-info">
                   <div
                     style={{
                       backgroundImage: `url("${imagemPadraoMiniatura}"`,
