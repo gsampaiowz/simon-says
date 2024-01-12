@@ -55,7 +55,6 @@
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: black;
   background-size: 100% 100%;
   position: relative;
   cursor: pointer;
@@ -204,6 +203,8 @@
   right: 0;
   width: 100%;
   height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .film-relacionado:hover {
@@ -211,13 +212,13 @@
   background-size: 110% 110%;
 }
 
-.film-relacionado > h1 {
+.film-relacionado-info > h1 {
   font-size: 28px;
   color: var(--color-white);
   text-shadow: 0 0 20px var(--color-black);
 }
 
-.film-relacionado > h2 {
+.film-relacionado-info > h2 {
   font-size: 20px;
   color: var(--color-white);
   text-shadow: 0 0 20px var(--color-black);
