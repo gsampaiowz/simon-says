@@ -7,6 +7,7 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
+import imagemPadraoMiniatura from "@/assets/img/imagem-padrao-miniatura.png";
 // Importando Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
@@ -64,7 +65,7 @@ const FilmDetails = () => {
         <div
           onClick={() => setInVideo(true)}
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${film?.["Thumb principal"]}`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${imagemPadraoMiniatura}")`,
           }}
           className="film-thumb-principal"
         >
@@ -102,13 +103,13 @@ const FilmDetails = () => {
           >
             {filmsRelacionados.map((filme) => (
               <SwiperSlide key={filme.FilmId}>
-                <div
-                  style={{
-                    backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${filme["Thumb miniatura"]}"`,
-                  }}
-                  className="film-relacionado"
-                ></div>
                 <div className="film-relacionado-info">
+                  <div
+                    style={{
+                      backgroundImage: `url("${imagemPadraoMiniatura}"`,
+                    }}
+                    className="film-relacionado"
+                  ></div>
                   <h1>{filme.Título}</h1>
                   <h2>{filme.Subtítulo}</h2>
                 </div>
