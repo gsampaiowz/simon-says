@@ -8,9 +8,9 @@ const filmsArray = [
     Subtítulo: "Por Cada um por todos nós",
     YouTube: "https://youtu.be/3vYC8VUyEOY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=168aC9jpU9N0X8Y7LatOVquBKsy2v3kur",
+      "https://lh3.google.com/u/0/d/168aC9jpU9N0X8Y7LatOVquBKsy2v3kur=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn",
+      "https://lh3.google.com/u/0/d/1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn=k",
     Texto:
       "https://docs.google.com/document/d/1kkYtCKIxMlT-TIyTOI9TdRDl7ON7v4lsRGo2vY3ouLU/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -23,9 +23,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/nMD3m_bd2aU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Vo0ELtrT5xJqe9QsT-uyJM-8zklVQ3bT",
+      "https://lh3.google.com/u/0/d/1Vo0ELtrT5xJqe9QsT-uyJM-8zklVQ3bT=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Vr4jzgwm3L3kw_Rf0kNhjs1ZaGe0JVAt",
+      "https://lh3.google.com/u/0/d/1Vr4jzgwm3L3kw_Rf0kNhjs1ZaGe0JVAt=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -37,9 +37,9 @@ const filmsArray = [
     Subtítulo: "Manifesto",
     YouTube: "https://youtu.be/luErIdsU7ds",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1W51LbgUAJDz-TPFM9CYp0MJe_eYlJNDS",
+      "https://lh3.google.com/u/0/d/1W51LbgUAJDz-TPFM9CYp0MJe_eYlJNDS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1W4jxpcLQGoepMeffMP3aAHQM-f6Nn9Wl",
+      "https://lh3.google.com/u/0/d/1W4jxpcLQGoepMeffMP3aAHQM-f6Nn9Wl=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -51,9 +51,9 @@ const filmsArray = [
     Subtítulo: "Manifesto 30s",
     YouTube: "https://youtu.be/zihZU2mHPQE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1W2Gf-1qwFmYeuP6jTalJsFcJkPGUv1WE",
+      "https://lh3.google.com/u/0/d/1W2Gf-1qwFmYeuP6jTalJsFcJkPGUv1WE=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Vy_19CX64whNB_B-0VnG3SeZvY-uV4Kb",
+      "https://lh3.google.com/u/0/d/1Vy_19CX64whNB_B-0VnG3SeZvY-uV4Kb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -65,9 +65,9 @@ const filmsArray = [
     Subtítulo: "Manifesto 30s 9x16",
     YouTube: "https://youtube.com/shorts/WcDH2HsUDGo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VxNWeZ8-nqQ54igBGiWaq_bOhCCv1ZAE",
+      "https://lh3.google.com/u/0/d/1VxNWeZ8-nqQ54igBGiWaq_bOhCCv1ZAE=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VxGb7m2AZ_4vrq9NutRy3fACiYW4eZun",
+      "https://lh3.google.com/u/0/d/1VxGb7m2AZ_4vrq9NutRy3fACiYW4eZun=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -79,9 +79,9 @@ const filmsArray = [
     Subtítulo: "Guerra",
     YouTube: "https://youtu.be/fIQRZxDXjMk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz",
+      "https://lh3.google.com/u/0/d/1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY",
+      "https://lh3.google.com/u/0/d/1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY=k",
     Texto:
       "https://docs.google.com/document/d/1yfIn5GlDsUDRrLOuxTyGZKzJqzO-90BKtOO4rMq1JwM/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -94,9 +94,9 @@ const filmsArray = [
     Subtítulo: "Religião",
     YouTube: "https://youtu.be/olJRbx13aZw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1mP3euStYgY1hFD6I7oF3yPzPTd5p7R4j",
+      "https://lh3.google.com/u/0/d/1mP3euStYgY1hFD6I7oF3yPzPTd5p7R4j=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF",
+      "https://lh3.google.com/u/0/d/1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF=k",
     Texto:
       "https://docs.google.com/document/d/1wl_JYL5OD7bHq_lEJG7G__GrkhkdRluScPSYLT8hmRY/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -109,9 +109,9 @@ const filmsArray = [
     Subtítulo: "Família",
     YouTube: "https://youtu.be/OFUoGu-dlTs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1sAssmgxtKR-_x7dS-po5xYngXsEjqlks",
+      "https://lh3.google.com/u/0/d/1sAssmgxtKR-_x7dS-po5xYngXsEjqlks=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KEfAWPUmxrNbx3Rf8_NRFbpOCpukjanu",
+      "https://lh3.google.com/u/0/d/1KEfAWPUmxrNbx3Rf8_NRFbpOCpukjanu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -123,9 +123,9 @@ const filmsArray = [
     Subtítulo: "Casal",
     YouTube: "https://youtu.be/d9-JiwdhQ9k",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1HJ821_IJgeUNmW-J2CjYNf1K_NJ7acD-",
+      "https://lh3.google.com/u/0/d/1HJ821_IJgeUNmW-J2CjYNf1K_NJ7acD-=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1kSwnSJM_kFQT_bUnX4ldFNI0DY8EqW_v",
+      "https://lh3.google.com/u/0/d/1kSwnSJM_kFQT_bUnX4ldFNI0DY8EqW_v=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -137,9 +137,9 @@ const filmsArray = [
     Subtítulo: "Senhor",
     YouTube: "https://youtu.be/LAIwz6xrLOI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1s4JwbDCxZqKOEoMvs0-lsbFr0q62XVDf",
+      "https://lh3.google.com/u/0/d/1s4JwbDCxZqKOEoMvs0-lsbFr0q62XVDf=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1l20qRtWSn8h5dnQ9WpvmltYPZ1-jtxg6",
+      "https://lh3.google.com/u/0/d/1l20qRtWSn8h5dnQ9WpvmltYPZ1-jtxg6=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -151,9 +151,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/BziKQe2igyw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Wu4JOzsWBaAvKEksnlswan1enrwQ0sI1",
+      "https://lh3.google.com/u/0/d/1Wu4JOzsWBaAvKEksnlswan1enrwQ0sI1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WsOd4FmcEY5529iyZXgofRUiiSz1LQZF",
+      "https://lh3.google.com/u/0/d/1WsOd4FmcEY5529iyZXgofRUiiSz1LQZF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -165,9 +165,9 @@ const filmsArray = [
     Subtítulo: "9x16",
     YouTube: "https://youtu.be/nsffSAxJEFU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Wu4JOzsWBaAvKEksnlswan1enrwQ0sI1",
+      "https://lh3.google.com/u/0/d/1Wu4JOzsWBaAvKEksnlswan1enrwQ0sI1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WsOd4FmcEY5529iyZXgofRUiiSz1LQZF",
+      "https://lh3.google.com/u/0/d/1WsOd4FmcEY5529iyZXgofRUiiSz1LQZF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -179,9 +179,9 @@ const filmsArray = [
     Subtítulo: "Larissa Manoela conta o que é a Universo",
     YouTube: "https://youtu.be/VbJLzXdw7PE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1e8gR_bpCcEpJ72zPfiZCD9gkVRB27sRp",
+      "https://lh3.google.com/u/0/d/1e8gR_bpCcEpJ72zPfiZCD9gkVRB27sRp=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly",
+      "https://lh3.google.com/u/0/d/1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly=k",
     Texto:
       "https://docs.google.com/document/d/1DlQMqNeFa9iXlJ9JdO9Rn5b6MQhm_oMx4BWLt-cXFbo/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -194,9 +194,9 @@ const filmsArray = [
     Subtítulo: "Apresentação",
     YouTube: "https://youtu.be/d5s4V_aj-T4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=11Ha652rn7y_zHE3QFV6TyNsns4dU9QLk",
+      "https://lh3.google.com/u/0/d/11Ha652rn7y_zHE3QFV6TyNsns4dU9QLk=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TQeMF1dT8v-58AH-s8uPInvsUSEKO4bS",
+      "https://lh3.google.com/u/0/d/1TQeMF1dT8v-58AH-s8uPInvsUSEKO4bS=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -208,9 +208,9 @@ const filmsArray = [
     Subtítulo: "Álcool Ecológico",
     YouTube: "https://youtu.be/POctFA30l7Y",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1uMFpH49_uN3C-BK1NGQXTKkvtENZhATY",
+      "https://lh3.google.com/u/0/d/1uMFpH49_uN3C-BK1NGQXTKkvtENZhATY=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1qOK9BCaqyz48EC4uZRTq6i7JbJByIl0i",
+      "https://lh3.google.com/u/0/d/1qOK9BCaqyz48EC4uZRTq6i7JbJByIl0i=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -222,9 +222,9 @@ const filmsArray = [
     Subtítulo: "Biocápsulas",
     YouTube: "https://youtu.be/EObdGTPCdko",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ixFIgHhuVq1WRZWHTrOYPtTLwT5BKzBm",
+      "https://lh3.google.com/u/0/d/1ixFIgHhuVq1WRZWHTrOYPtTLwT5BKzBm=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1El766VJJl1IA7Tt7bmIh8coy8dfzNsuB",
+      "https://lh3.google.com/u/0/d/1El766VJJl1IA7Tt7bmIh8coy8dfzNsuB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -236,9 +236,9 @@ const filmsArray = [
     Subtítulo: "Biombo",
     YouTube: "https://youtu.be/DhyJmAt3EKU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Lf6Ks4IAS_6-tASkH1tCtMT835s2xNj1",
+      "https://lh3.google.com/u/0/d/1Lf6Ks4IAS_6-tASkH1tCtMT835s2xNj1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IJp03sJsLrWTV0s9mC07a10jxav9zNNE",
+      "https://lh3.google.com/u/0/d/1IJp03sJsLrWTV0s9mC07a10jxav9zNNE=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -250,9 +250,9 @@ const filmsArray = [
     Subtítulo: "Condicionador",
     YouTube: "https://youtu.be/HtfPs82m8eg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13eQFBYHFqtogivlKkEiSbZNVkeCp_AFg",
+      "https://lh3.google.com/u/0/d/13eQFBYHFqtogivlKkEiSbZNVkeCp_AFg=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ymSQbWfg0g18g01rxmEaKaz3Ig_W-OFz",
+      "https://lh3.google.com/u/0/d/1ymSQbWfg0g18g01rxmEaKaz3Ig_W-OFz=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -264,9 +264,9 @@ const filmsArray = [
     Subtítulo: "Ecosolo",
     YouTube: "https://youtu.be/DkEhZZcvOsk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1dT9ZKXmvqrRzO3kJNBkhuw9TuLwmqGhQ",
+      "https://lh3.google.com/u/0/d/1dT9ZKXmvqrRzO3kJNBkhuw9TuLwmqGhQ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1mGjWyM-jekC7aUDYwyeYjfUS6jFyxpr-",
+      "https://lh3.google.com/u/0/d/1mGjWyM-jekC7aUDYwyeYjfUS6jFyxpr-=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -278,9 +278,9 @@ const filmsArray = [
     Subtítulo: "Luminária 3D",
     YouTube: "https://youtu.be/GyFOWHyjytw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1mk16DyAkEmktbZ2Zk1xrk4OqL5sJqgD5",
+      "https://lh3.google.com/u/0/d/1mk16DyAkEmktbZ2Zk1xrk4OqL5sJqgD5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1sQGqIoVeY2mCWlZf-7YhmCDEEUiBmdJw",
+      "https://lh3.google.com/u/0/d/1sQGqIoVeY2mCWlZf-7YhmCDEEUiBmdJw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -292,9 +292,9 @@ const filmsArray = [
     Subtítulo: "Luminárias",
     YouTube: "https://youtu.be/4RimYS5c-yQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13Fs3ssWlQ8PEVtPB9jq6O0GKG3Gyx5xO",
+      "https://lh3.google.com/u/0/d/13Fs3ssWlQ8PEVtPB9jq6O0GKG3Gyx5xO=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1lboiIgItX9eblwoHQg0U4JXB29vS66N1",
+      "https://lh3.google.com/u/0/d/1lboiIgItX9eblwoHQg0U4JXB29vS66N1=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -306,9 +306,9 @@ const filmsArray = [
     Subtítulo: "Macacão",
     YouTube: "https://youtu.be/NQrd0BWCXlY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12O9vmQzQn6Qc0v0xMAf8fUJtN_l-j1nt",
+      "https://lh3.google.com/u/0/d/12O9vmQzQn6Qc0v0xMAf8fUJtN_l-j1nt=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=19cZLEKZ3mY-wVSlCfbRWA79cNYNxLlip",
+      "https://lh3.google.com/u/0/d/19cZLEKZ3mY-wVSlCfbRWA79cNYNxLlip=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -320,9 +320,9 @@ const filmsArray = [
     Subtítulo: "Mesa de Cabeceira",
     YouTube: "https://youtu.be/cr9tVH4t48o",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=109fszHeYvEVY_7wN9ScaZJAiL4Xx2mCQ",
+      "https://lh3.google.com/u/0/d/109fszHeYvEVY_7wN9ScaZJAiL4Xx2mCQ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1N9ct-JbN2oo4VZE0OHr7qGNqUneqVfe5",
+      "https://lh3.google.com/u/0/d/1N9ct-JbN2oo4VZE0OHr7qGNqUneqVfe5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -334,9 +334,9 @@ const filmsArray = [
     Subtítulo: "Obsolescência",
     YouTube: "https://youtu.be/vugRJ_CuBCg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DbwV7kOzh-BsmFpESZGJd_7-2mrpLrAS",
+      "https://lh3.google.com/u/0/d/1DbwV7kOzh-BsmFpESZGJd_7-2mrpLrAS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1eiVVTXbTQ93an8Iuo62uepLU3aGLIWAP",
+      "https://lh3.google.com/u/0/d/1eiVVTXbTQ93an8Iuo62uepLU3aGLIWAP=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -348,9 +348,9 @@ const filmsArray = [
     Subtítulo: "Plástico Bolha",
     YouTube: "https://youtu.be/S-2X_6ikYyQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Rij61v-Gs0AWGspwIIx9geYzIfIfGLan",
+      "https://lh3.google.com/u/0/d/1Rij61v-Gs0AWGspwIIx9geYzIfIfGLan=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1mixImKW8sRsAbgxLeWPelOm2tQ4_kjCi",
+      "https://lh3.google.com/u/0/d/1mixImKW8sRsAbgxLeWPelOm2tQ4_kjCi=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -362,9 +362,9 @@ const filmsArray = [
     Subtítulo: "Sabonete",
     YouTube: "https://youtu.be/phfZQy8BOeI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12VRu9QKKkuuzOOQIhPNQRfHsBECFDrZX",
+      "https://lh3.google.com/u/0/d/12VRu9QKKkuuzOOQIhPNQRfHsBECFDrZX=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12WLYtwrVmM6loeazWDVUTQtwctMro22W",
+      "https://lh3.google.com/u/0/d/12WLYtwrVmM6loeazWDVUTQtwctMro22W=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -376,9 +376,9 @@ const filmsArray = [
     Subtítulo: "Shampoo",
     YouTube: "https://youtu.be/N69qxe6lsDc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12YLcM96gA_Ynh6ZzhNNS4c4kkr-mSnFl",
+      "https://lh3.google.com/u/0/d/12YLcM96gA_Ynh6ZzhNNS4c4kkr-mSnFl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12m1stWCdKKGZS9nsnjL8f6LKk6B_Y7pe",
+      "https://lh3.google.com/u/0/d/12m1stWCdKKGZS9nsnjL8f6LKk6B_Y7pe=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -390,9 +390,9 @@ const filmsArray = [
     Subtítulo: "Matrículas Abertas",
     YouTube: "https://youtu.be/KO1t7eT_wRU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1W5UA2oBmllFDacKefHUMi-YZJnYYtAdX",
+      "https://lh3.google.com/u/0/d/1W5UA2oBmllFDacKefHUMi-YZJnYYtAdX=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WSd4gV8D-8ShG7LLW-6v2hUltHfB3O85",
+      "https://lh3.google.com/u/0/d/1WSd4gV8D-8ShG7LLW-6v2hUltHfB3O85=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -404,9 +404,9 @@ const filmsArray = [
     Subtítulo: "Matrículas Abertas 30s",
     YouTube: "https://youtu.be/DdMGp1PiPwc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WOWCyd3gKLMyMn-wq58NuS-uwH8NKZWl",
+      "https://lh3.google.com/u/0/d/1WOWCyd3gKLMyMn-wq58NuS-uwH8NKZWl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WN5z4cDzhQAnESWjVHtc0fK-qksOh0tM",
+      "https://lh3.google.com/u/0/d/1WN5z4cDzhQAnESWjVHtc0fK-qksOh0tM=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -418,9 +418,9 @@ const filmsArray = [
     Subtítulo: "Matrículas Abertas 9x16",
     YouTube: "https://youtu.be/k4us-DrBoww",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WIX3_xl8wAl2RkpKDb8nN-nxjG-q4njq",
+      "https://lh3.google.com/u/0/d/1WIX3_xl8wAl2RkpKDb8nN-nxjG-q4njq=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WGzwCTcIY-TMxS0nfeapdRjTOIMSM6-5",
+      "https://lh3.google.com/u/0/d/1WGzwCTcIY-TMxS0nfeapdRjTOIMSM6-5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -432,9 +432,9 @@ const filmsArray = [
     Subtítulo: "Matrículas Abertas 30s 9x16",
     YouTube: "https://youtube.com/shorts/Bh1bm1tJjXA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WBeCmFCxQqqo_bwoJ0oTJzKdUEmenYP5",
+      "https://lh3.google.com/u/0/d/1WBeCmFCxQqqo_bwoJ0oTJzKdUEmenYP5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WBVhDNRdEDChdyDWCY3Nl8-dmoYl9Xfd",
+      "https://lh3.google.com/u/0/d/1WBVhDNRdEDChdyDWCY3Nl8-dmoYl9Xfd=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -446,9 +446,9 @@ const filmsArray = [
     Subtítulo: "Escolha para a Vida",
     YouTube: "https://youtu.be/AK2HkF4cliQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WXO374uY2uLeJ8ZIAHoEPQLZ_wJZmg_R",
+      "https://lh3.google.com/u/0/d/1WXO374uY2uLeJ8ZIAHoEPQLZ_wJZmg_R=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WozYWXyfqJNt5jZ6USTV6uhHIy6-0LF2",
+      "https://lh3.google.com/u/0/d/1WozYWXyfqJNt5jZ6USTV6uhHIy6-0LF2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -460,9 +460,9 @@ const filmsArray = [
     Subtítulo: "Escolha para a Vida 9x16",
     YouTube: "https://youtu.be/c9-XTy-OwSo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Wov3ihlDTb_bByLwMcv5S8OtxCz5MKDH",
+      "https://lh3.google.com/u/0/d/1Wov3ihlDTb_bByLwMcv5S8OtxCz5MKDH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WnPitEDTe07_Ihk226a2Bgr3ogIWFVAu",
+      "https://lh3.google.com/u/0/d/1WnPitEDTe07_Ihk226a2Bgr3ogIWFVAu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -474,9 +474,9 @@ const filmsArray = [
     Subtítulo: "Escolha para a Vida 30s",
     YouTube: "https://youtu.be/8vqFludlQbc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Wmr5V_0RbZJeJsB0wcCsoBQqcF82J5B9",
+      "https://lh3.google.com/u/0/d/1Wmr5V_0RbZJeJsB0wcCsoBQqcF82J5B9=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Wm9k-vSGmivGnSAy0VMJjyzIbFZ1np26",
+      "https://lh3.google.com/u/0/d/1Wm9k-vSGmivGnSAy0VMJjyzIbFZ1np26=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -488,9 +488,9 @@ const filmsArray = [
     Subtítulo: "Escolha para a Vida 30sd 9x16",
     YouTube: "https://youtube.com/shorts/bHzaNlwUXdU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WkBAO-SVgNE3iX1h5n00KRsg3Yj_4sJ5",
+      "https://lh3.google.com/u/0/d/1WkBAO-SVgNE3iX1h5n00KRsg3Yj_4sJ5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1WjWMHQRqq3AWCKN-3vTkH6w0f43jM9Wu",
+      "https://lh3.google.com/u/0/d/1WjWMHQRqq3AWCKN-3vTkH6w0f43jM9Wu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -502,9 +502,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/wJ6J0xGLPLc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Cz5W6r5HTk-2IqcRe-zTSC5RTAbNIWHu",
+      "https://lh3.google.com/u/0/d/1Cz5W6r5HTk-2IqcRe-zTSC5RTAbNIWHu=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1D-ph3MVoD1FRkxbTVf9-bKPaMzCrCL1s",
+      "https://lh3.google.com/u/0/d/1D-ph3MVoD1FRkxbTVf9-bKPaMzCrCL1s=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -516,9 +516,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/FKcbcxzmOhE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1T68gBE6cHMUauEpo4JVBAOWFHoS_hsbX",
+      "https://lh3.google.com/u/0/d/1T68gBE6cHMUauEpo4JVBAOWFHoS_hsbX=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TiUWdQdmp7OuF1G2yn2umfwdlnrUVx81",
+      "https://lh3.google.com/u/0/d/1TiUWdQdmp7OuF1G2yn2umfwdlnrUVx81=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -530,9 +530,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/XNMQb7M8G6g?si=e4jIlZchDVQO4-Z1",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ",
+      "https://lh3.google.com/u/0/d/13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj",
+      "https://lh3.google.com/u/0/d/13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj=k",
     Texto:
       "https://docs.google.com/document/d/1jQH80tluOtoNoRNWxmu-PLrwNAIXEAbSObsfPvaP-QI/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -545,9 +545,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/npPlOnwgs5g?si=LjtkAjKPd4SSbAkA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13en0y9PYCJo06vj4H--6ppDqj5y2zVUl",
+      "https://lh3.google.com/u/0/d/13en0y9PYCJo06vj4H--6ppDqj5y2zVUl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13sS6XIoM33L8vZuPRo16YDElBbSiLcXB",
+      "https://lh3.google.com/u/0/d/13sS6XIoM33L8vZuPRo16YDElBbSiLcXB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -559,9 +559,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/BYxS6HxtwkQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=146WBylhHMal1gCc2ZDtAQeZzp1L9tWli",
+      "https://lh3.google.com/u/0/d/146WBylhHMal1gCc2ZDtAQeZzp1L9tWli=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=146fohX2XvEJiRpfFEtKCDyYnknokAIWj",
+      "https://lh3.google.com/u/0/d/146fohX2XvEJiRpfFEtKCDyYnknokAIWj=k",
     Texto:
       "https://docs.google.com/document/d/1GKP3-h_Wgt46plE5LUPGBl7Q-RP89kldu02UsbnZLcU/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -574,9 +574,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/VECwYo9c8Vg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1487WUajGV9wnetBkT4WHdkEwF4ceJOM0",
+      "https://lh3.google.com/u/0/d/1487WUajGV9wnetBkT4WHdkEwF4ceJOM0=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ",
+      "https://lh3.google.com/u/0/d/148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ=k",
     Texto:
       "https://docs.google.com/document/d/1OPKJPDSZTHFLFNk25ISER5MbuiPra6k_nrFAGEsPV_o/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -589,9 +589,9 @@ const filmsArray = [
     Subtítulo: "Vazamento",
     YouTube: "https://youtu.be/Ju3oha2e68E",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14HoLT57DaMsrtSuId44_zkCFhwrsk1pE",
+      "https://lh3.google.com/u/0/d/14HoLT57DaMsrtSuId44_zkCFhwrsk1pE=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14B0sAVpGMn2CO64glfQQG9lX1kB1bZLR",
+      "https://lh3.google.com/u/0/d/14B0sAVpGMn2CO64glfQQG9lX1kB1bZLR=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -603,9 +603,9 @@ const filmsArray = [
     Subtítulo: "Rede de Esgoto",
     YouTube: "https://youtu.be/j51jlCYcKms",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14QQX44FY8kVV9mSJt-_ahjHmMU6sU0j0",
+      "https://lh3.google.com/u/0/d/14QQX44FY8kVV9mSJt-_ahjHmMU6sU0j0=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14Qdud-VFaTp_WYjfXey1YwrMRZmKVSHb",
+      "https://lh3.google.com/u/0/d/14Qdud-VFaTp_WYjfXey1YwrMRZmKVSHb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -617,9 +617,9 @@ const filmsArray = [
     Subtítulo: "Construção",
     YouTube: "https://youtu.be/e4Bt54HRUOU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14UmHkNwIZoPBYZ8nfdFneHXisM_Avpcl",
+      "https://lh3.google.com/u/0/d/14UmHkNwIZoPBYZ8nfdFneHXisM_Avpcl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14Sobr10Oz0kBjJwZDrbRa26EATpOVnif",
+      "https://lh3.google.com/u/0/d/14Sobr10Oz0kBjJwZDrbRa26EATpOVnif=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -631,9 +631,9 @@ const filmsArray = [
     Subtítulo: "Uso Correto",
     YouTube: "https://youtu.be/bf13dUmr_Xs?si=8w6d0Zon9teGGqM-",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14cb_-nybrpZUk9lAHcanSfXkWOExzKFS",
+      "https://lh3.google.com/u/0/d/14cb_-nybrpZUk9lAHcanSfXkWOExzKFS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14ZeKqLE1M3_UUmpdvQ1iiCIm7zR8kfOO",
+      "https://lh3.google.com/u/0/d/14ZeKqLE1M3_UUmpdvQ1iiCIm7zR8kfOO=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -645,9 +645,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://www.youtube.com/watch?v=6jovYBPkfSg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15IfodJgvXC2AHoYh5B6l1XyMo95nHCVb/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/15IfodJgvXC2AHoYh5B6l1XyMo95nHCVb/view?usp=sharing=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15BVOo4NEdlJ2lhfxvxznjMM9oDGieYUA/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/15BVOo4NEdlJ2lhfxvxznjMM9oDGieYUA/view?usp=sharing=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -659,9 +659,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/sYX20-XYA3o",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12yvIaSWQMdzVHZqkvroDRr6GVxyCNw8V",
+      "https://lh3.google.com/u/0/d/12yvIaSWQMdzVHZqkvroDRr6GVxyCNw8V=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12yILVSDNB502WnwwJv9-MuCjKnyFuL8W",
+      "https://lh3.google.com/u/0/d/12yILVSDNB502WnwwJv9-MuCjKnyFuL8W=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -673,9 +673,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/VdadW8Ygo_o",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BdhEzBYcXDwHfzv5cUjeX2qADNdxEOPD",
+      "https://lh3.google.com/u/0/d/1BdhEzBYcXDwHfzv5cUjeX2qADNdxEOPD=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Ba2cbbLHUrs6L5R-zQwOKPmb84UCcHo4",
+      "https://lh3.google.com/u/0/d/1Ba2cbbLHUrs6L5R-zQwOKPmb84UCcHo4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -687,9 +687,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/7ipDJi3Amy8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BgltH2f6tSLlWu--ayvrGpl2JImK1GfE",
+      "https://lh3.google.com/u/0/d/1BgltH2f6tSLlWu--ayvrGpl2JImK1GfE=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1BjP7sA8O0ZNwa17f-3Mz8iRly_-KrvMU",
+      "https://lh3.google.com/u/0/d/1BjP7sA8O0ZNwa17f-3Mz8iRly_-KrvMU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -701,9 +701,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/uuS9N_90yiY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BwgX4AG9RamTy5WYFwCTSFh_lFWznhuA",
+      "https://lh3.google.com/u/0/d/1BwgX4AG9RamTy5WYFwCTSFh_lFWznhuA=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1BxPJX1UbbeALrvEK3MYqPzdPeegAX5xZ",
+      "https://lh3.google.com/u/0/d/1BxPJX1UbbeALrvEK3MYqPzdPeegAX5xZ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -715,9 +715,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/dUtdgk4llMU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1C4Bke4GtS1KKhsVuy4ywdK8tCmoCWUkd",
+      "https://lh3.google.com/u/0/d/1C4Bke4GtS1KKhsVuy4ywdK8tCmoCWUkd=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1By5lYnx3ULD8kSw9bvqAnqMGmUrCDtLf",
+      "https://lh3.google.com/u/0/d/1By5lYnx3ULD8kSw9bvqAnqMGmUrCDtLf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -729,9 +729,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/rcL684GaVZs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB",
+      "https://lh3.google.com/u/0/d/1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2",
+      "https://lh3.google.com/u/0/d/1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -743,9 +743,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/qPAgY2A0IKk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14sdCW4VPVtxCl0LwlqBY4kHjoJZ1qeIJ",
+      "https://lh3.google.com/u/0/d/14sdCW4VPVtxCl0LwlqBY4kHjoJZ1qeIJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14xJ3PYKrwLc76UytUhd5c43ooVWPijth",
+      "https://lh3.google.com/u/0/d/14xJ3PYKrwLc76UytUhd5c43ooVWPijth=k",
     Texto:
       "https://docs.google.com/document/d/1BxJYdUKqk5nlP5Wd81U1g-ITIZ41M6k9-b7Hz9Hgl1I/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -758,9 +758,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Hhrjj1fKXOM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1A5bpRg_qa5-4Zh2lnc6Vbrn9kW8xK8N1",
+      "https://lh3.google.com/u/0/d/1A5bpRg_qa5-4Zh2lnc6Vbrn9kW8xK8N1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1A6A1UdtcI8ScXKBVKylDfzp9hjwv9_Bu",
+      "https://lh3.google.com/u/0/d/1A6A1UdtcI8ScXKBVKylDfzp9hjwv9_Bu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -772,9 +772,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/J9Tmup0KbcQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1A8F2OQh_XVg1CXoC31Gsn2SL0SKecZtP",
+      "https://lh3.google.com/u/0/d/1A8F2OQh_XVg1CXoC31Gsn2SL0SKecZtP=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1A6Z227ZNmBJ6EaPte8N6Khmfl61UDMNV",
+      "https://lh3.google.com/u/0/d/1A6Z227ZNmBJ6EaPte8N6Khmfl61UDMNV=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -786,9 +786,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/tEGXq7yKNZk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1AIB1LXiCuSkqDXXbCRypU0qO3zHfIPuZ",
+      "https://lh3.google.com/u/0/d/1AIB1LXiCuSkqDXXbCRypU0qO3zHfIPuZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1AD6oj79iA8MVPWzme9iHe8tE6J1FWBY3",
+      "https://lh3.google.com/u/0/d/1AD6oj79iA8MVPWzme9iHe8tE6J1FWBY3=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -800,9 +800,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/7AIKyaTdd28",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1COr_wBD_w2YuZz_cAFpN2-iZawGTz30a",
+      "https://lh3.google.com/u/0/d/1COr_wBD_w2YuZz_cAFpN2-iZawGTz30a=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1CJ0DT2qTBawFGdJrzHCsAWfTk5H7ey43",
+      "https://lh3.google.com/u/0/d/1CJ0DT2qTBawFGdJrzHCsAWfTk5H7ey43=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -814,9 +814,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/diH5bJwSvoo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1CeXFz5cOsTjAUQLDb2ZMFRg0HtlJFCda",
+      "https://lh3.google.com/u/0/d/1CeXFz5cOsTjAUQLDb2ZMFRg0HtlJFCda=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1CZm8DEi--zzxKqVxExDNGloqQ61xdbwl",
+      "https://lh3.google.com/u/0/d/1CZm8DEi--zzxKqVxExDNGloqQ61xdbwl=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -828,9 +828,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/wLOpoOKyl7I",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Cxn2b1pkbD1HaDOCYv6-x7T6Qfcy1LyU",
+      "https://lh3.google.com/u/0/d/1Cxn2b1pkbD1HaDOCYv6-x7T6Qfcy1LyU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Cxi1E4NR2yBGrq-fsm6-opqbppLz0wcu",
+      "https://lh3.google.com/u/0/d/1Cxi1E4NR2yBGrq-fsm6-opqbppLz0wcu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -842,9 +842,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/GortQEUOYXw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1KTjZn1wN5Y-tG9wa9iSpjY1yM96h0cp_",
+      "https://lh3.google.com/u/0/d/1KTjZn1wN5Y-tG9wa9iSpjY1yM96h0cp_=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KSSc3ir5J1LwZJke5q1rdt9oePMaXcIe",
+      "https://lh3.google.com/u/0/d/1KSSc3ir5J1LwZJke5q1rdt9oePMaXcIe=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -856,9 +856,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/G1phj3AbeZI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1B78B7rJoIVgJsvnOKiDB-dUh7Dz1VQe_",
+      "https://lh3.google.com/u/0/d/1B78B7rJoIVgJsvnOKiDB-dUh7Dz1VQe_=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1B0xHvj_440unXT3DI82tAlrSe2loS0Zj",
+      "https://lh3.google.com/u/0/d/1B0xHvj_440unXT3DI82tAlrSe2loS0Zj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -870,9 +870,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/F_2qsnnKIKU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1CkiETHpigYSJjHKO_qcC4peoXg7cLeVf",
+      "https://lh3.google.com/u/0/d/1CkiETHpigYSJjHKO_qcC4peoXg7cLeVf=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Cpu9yCZ5sWku-6lCrdpp1vPkrhZAWfUH",
+      "https://lh3.google.com/u/0/d/1Cpu9yCZ5sWku-6lCrdpp1vPkrhZAWfUH=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -884,9 +884,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/o3n7edzFD8Y",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ms44cYkMjOrTPN9OC8-dwC2Nb9CNmYy7",
+      "https://lh3.google.com/u/0/d/1Ms44cYkMjOrTPN9OC8-dwC2Nb9CNmYy7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1OL_PkSEHp6NzzKAJZac1_FZa-EvrPorE",
+      "https://lh3.google.com/u/0/d/1OL_PkSEHp6NzzKAJZac1_FZa-EvrPorE=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -898,9 +898,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/0_lYCEf9nYs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BZPCO-Hs-E5RlimkyGYDh0KuDgl2SwtB",
+      "https://lh3.google.com/u/0/d/1BZPCO-Hs-E5RlimkyGYDh0KuDgl2SwtB=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1B_njizblOIAMI-S7g0JTVBcrBV8qzwAj",
+      "https://lh3.google.com/u/0/d/1B_njizblOIAMI-S7g0JTVBcrBV8qzwAj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -912,9 +912,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/HZNBeWBg4yo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1CYBP_c2LcPaL4Wb7lI7Ig-Bgcpc5AXHt",
+      "https://lh3.google.com/u/0/d/1CYBP_c2LcPaL4Wb7lI7Ig-Bgcpc5AXHt=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1CUsB82BrRdKxJBXrA7OvMwiv60LAYw2c",
+      "https://lh3.google.com/u/0/d/1CUsB82BrRdKxJBXrA7OvMwiv60LAYw2c=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -926,9 +926,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Va2BAjOoWuQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1P0FeFokrcWYpO91pKTgi7FegLEU_WdSi",
+      "https://lh3.google.com/u/0/d/1P0FeFokrcWYpO91pKTgi7FegLEU_WdSi=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1OtM8qMotm7hYLLkfLz_zPwA3aC0zLLIC",
+      "https://lh3.google.com/u/0/d/1OtM8qMotm7hYLLkfLz_zPwA3aC0zLLIC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -940,9 +940,9 @@ const filmsArray = [
     Subtítulo: "Curitiba",
     YouTube: "https://youtu.be/LqdiYDm79g8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1StIV6cszGh3XgSYq-DFuZtxCX8AyUBXz",
+      "https://lh3.google.com/u/0/d/1StIV6cszGh3XgSYq-DFuZtxCX8AyUBXz=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1SsZoBr781VUQj7uoxISN_KS6KFUNlB2o",
+      "https://lh3.google.com/u/0/d/1SsZoBr781VUQj7uoxISN_KS6KFUNlB2o=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -954,9 +954,9 @@ const filmsArray = [
     Subtítulo: "Belo Horizonte",
     YouTube: "https://youtu.be/Rm6TlsuJuQ4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1SrsvoVfKmC-b4Eg0BwtEEQZj0qI-c9aL",
+      "https://lh3.google.com/u/0/d/1SrsvoVfKmC-b4Eg0BwtEEQZj0qI-c9aL=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1SriU80gEp-njLcqazHMiajNqgaNxiVzg",
+      "https://lh3.google.com/u/0/d/1SriU80gEp-njLcqazHMiajNqgaNxiVzg=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -968,9 +968,9 @@ const filmsArray = [
     Subtítulo: "Melhores Condições",
     YouTube: "https://youtu.be/6tq-gbcv0Qw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1LczmUlt5ZYouUN5vTURFakP-V0ExZVoF",
+      "https://lh3.google.com/u/0/d/1LczmUlt5ZYouUN5vTURFakP-V0ExZVoF=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1LZY5NffRIM0x0m0SplWU1i_UDshRmzE6",
+      "https://lh3.google.com/u/0/d/1LZY5NffRIM0x0m0SplWU1i_UDshRmzE6=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -982,9 +982,9 @@ const filmsArray = [
     Subtítulo: "Atendimento Personalizado",
     YouTube: "https://youtu.be/P-hUb4TqHS0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1LTyxa6JbjMQYlhewxMHu7klJNqqthZaD",
+      "https://lh3.google.com/u/0/d/1LTyxa6JbjMQYlhewxMHu7klJNqqthZaD=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1LJt4V7hVe-6xZ0dG2yMIBIoAbFn1LmOQ",
+      "https://lh3.google.com/u/0/d/1LJt4V7hVe-6xZ0dG2yMIBIoAbFn1LmOQ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -996,9 +996,9 @@ const filmsArray = [
     Subtítulo: "Pagar Menos",
     YouTube: "https://youtu.be/EZS-Fq7zpZk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1LHodyGben5e3AGY2Rk35ovq4Ug3qI-MZ",
+      "https://lh3.google.com/u/0/d/1LHodyGben5e3AGY2Rk35ovq4Ug3qI-MZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1LAtAgQFURu_j8Be48KhixsO-h7GF83jR",
+      "https://lh3.google.com/u/0/d/1LAtAgQFURu_j8Be48KhixsO-h7GF83jR=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1010,9 +1010,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/WsYkhyVR_KQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1HzI-tvKVmQtAAzsH1Fv3jSgm1phGFvwv",
+      "https://lh3.google.com/u/0/d/1HzI-tvKVmQtAAzsH1Fv3jSgm1phGFvwv=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Hwnupnd_VVd_Au0Xn5rqcDUKE220krYy",
+      "https://lh3.google.com/u/0/d/1Hwnupnd_VVd_Au0Xn5rqcDUKE220krYy=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1024,9 +1024,9 @@ const filmsArray = [
     Subtítulo: "Video 1",
     YouTube: "https://youtu.be/_ImamSSlVZE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1U2aTrS9f66I0qOwl3xMMiKQLlXm3tKok",
+      "https://lh3.google.com/u/0/d/1U2aTrS9f66I0qOwl3xMMiKQLlXm3tKok=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TyVAaV8RADunaAfAOs9Wt8JpsXV_P0nR",
+      "https://lh3.google.com/u/0/d/1TyVAaV8RADunaAfAOs9Wt8JpsXV_P0nR=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1038,9 +1038,9 @@ const filmsArray = [
     Subtítulo: "Video 2",
     YouTube: "https://youtu.be/2Vqk8jwDvA4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TwDscYOqsEuSWhRgf-8ZWTaN8sa2e_dV",
+      "https://lh3.google.com/u/0/d/1TwDscYOqsEuSWhRgf-8ZWTaN8sa2e_dV=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TqTk_i544ejXDAk_RgGzihO4lh-jgBKk",
+      "https://lh3.google.com/u/0/d/1TqTk_i544ejXDAk_RgGzihO4lh-jgBKk=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1052,9 +1052,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/-OOlYhhJMqM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1N3NnXDTnJ95TnumYvJg5mcXf46mglzUY",
+      "https://lh3.google.com/u/0/d/1N3NnXDTnJ95TnumYvJg5mcXf46mglzUY=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1N382TQ4hr3BHgz9yaufEURcrzS6F_fJ7",
+      "https://lh3.google.com/u/0/d/1N382TQ4hr3BHgz9yaufEURcrzS6F_fJ7=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1066,9 +1066,9 @@ const filmsArray = [
     Subtítulo: "Carreto",
     YouTube: "https://youtu.be/OdLYJKvYSMc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18oEM10Ux6g9byl4-6IDTQIcutAtVKuRz",
+      "https://lh3.google.com/u/0/d/18oEM10Ux6g9byl4-6IDTQIcutAtVKuRz=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18pEa5E9IGWVhwf1Ybul_mz5fHqEcarPc",
+      "https://lh3.google.com/u/0/d/18pEa5E9IGWVhwf1Ybul_mz5fHqEcarPc=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1080,9 +1080,9 @@ const filmsArray = [
     Subtítulo: "Uber",
     YouTube: "https://youtu.be/RDc2N2TWzqo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18pPYd4Yyb-Y-hOqbeFf-FmwUT6A9ZmTN",
+      "https://lh3.google.com/u/0/d/18pPYd4Yyb-Y-hOqbeFf-FmwUT6A9ZmTN=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18qUISd38Sbu-WH7MVmEhqIL2n6QQ-kYB",
+      "https://lh3.google.com/u/0/d/18qUISd38Sbu-WH7MVmEhqIL2n6QQ-kYB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1094,9 +1094,9 @@ const filmsArray = [
     Subtítulo: "Lolla",
     YouTube: "https://youtu.be/Uhot7M6iFZE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18rLFrT3B0ugipJbSyhv5SfLWQyqHqRSj",
+      "https://lh3.google.com/u/0/d/18rLFrT3B0ugipJbSyhv5SfLWQyqHqRSj=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18r9LC-gHvQUUdKQwd0qAvaOWJYHQrBgx",
+      "https://lh3.google.com/u/0/d/18r9LC-gHvQUUdKQwd0qAvaOWJYHQrBgx=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1108,9 +1108,9 @@ const filmsArray = [
     Subtítulo: "Bira",
     YouTube: "https://youtu.be/aHRBv9DyA9Q",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18xskW2vF8d-lbkpzcPkYy4VTu7DtDZ0o",
+      "https://lh3.google.com/u/0/d/18xskW2vF8d-lbkpzcPkYy4VTu7DtDZ0o=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18vBNi2ZnpOctlsQ4R5uVgA4jG1gStltf",
+      "https://lh3.google.com/u/0/d/18vBNi2ZnpOctlsQ4R5uVgA4jG1gStltf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1122,9 +1122,9 @@ const filmsArray = [
     Subtítulo: "Peruas",
     YouTube: "https://youtu.be/azRulD189NA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18zRA2xY-zv4p7tnTVfCaT5KQyMR_VVJA",
+      "https://lh3.google.com/u/0/d/18zRA2xY-zv4p7tnTVfCaT5KQyMR_VVJA=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18yYyk3P4im4qZ6LOWpc1tyDU2MSNQMTR",
+      "https://lh3.google.com/u/0/d/18yYyk3P4im4qZ6LOWpc1tyDU2MSNQMTR=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1136,9 +1136,9 @@ const filmsArray = [
     Subtítulo: "Vampiro",
     YouTube: "https://youtu.be/BM8H7VPJ-Yk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=19-2JVkzClnWm2r25HztwO11i1k3zRqTm",
+      "https://lh3.google.com/u/0/d/19-2JVkzClnWm2r25HztwO11i1k3zRqTm=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=19-LzxOhgPuXNudqg5VTqc8sK1t1fwlqV",
+      "https://lh3.google.com/u/0/d/19-LzxOhgPuXNudqg5VTqc8sK1t1fwlqV=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1150,9 +1150,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/IVTuwKnBqe8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IQQ8rD56CNAztlP0d_TrBBvXtWQKIR39",
+      "https://lh3.google.com/u/0/d/1IQQ8rD56CNAztlP0d_TrBBvXtWQKIR39=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IPKrO4Q7170jnrgQyHOcJqqmXp7ZNgzt",
+      "https://lh3.google.com/u/0/d/1IPKrO4Q7170jnrgQyHOcJqqmXp7ZNgzt=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1164,9 +1164,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/PPDwmfTR1oM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Oi-N9Bqt_jSeCa2k5UKPavKt02HE9y6u",
+      "https://lh3.google.com/u/0/d/1Oi-N9Bqt_jSeCa2k5UKPavKt02HE9y6u=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1OfYSx2d6_z7CQSqFF5e44X5u9w8O811Q",
+      "https://lh3.google.com/u/0/d/1OfYSx2d6_z7CQSqFF5e44X5u9w8O811Q=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1178,9 +1178,9 @@ const filmsArray = [
     Subtítulo: "Imposto de Renda do Pequeno",
     YouTube: "https://youtu.be/R4_XcqXjXcI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XuwRnJOChHiuN9pJCsvn4PxfaVvzAXrV",
+      "https://lh3.google.com/u/0/d/1XuwRnJOChHiuN9pJCsvn4PxfaVvzAXrV=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Xsfsh5M5oSH_ccrJwzQ2LXdWLUusB0md",
+      "https://lh3.google.com/u/0/d/1Xsfsh5M5oSH_ccrJwzQ2LXdWLUusB0md=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1192,9 +1192,9 @@ const filmsArray = [
     Subtítulo: "Declaração anual do MEI",
     YouTube: "https://youtu.be/f93HCQ8D6TA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1YNtFIEpem7l4kFphU5DJmyK0djUUPh0t",
+      "https://lh3.google.com/u/0/d/1YNtFIEpem7l4kFphU5DJmyK0djUUPh0t=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YCv4qFtOw0_kj71B4kBi3dj_bwTRuJ-2",
+      "https://lh3.google.com/u/0/d/1YCv4qFtOw0_kj71B4kBi3dj_bwTRuJ-2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1206,9 +1206,9 @@ const filmsArray = [
     Subtítulo: "O empreendedor é obrigado a emitir a nota fiscal eletrônica?",
     YouTube: "https://youtu.be/HkyPf3soK0A",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Y4dIAKky60JqH5xVvDGfaYCZo2hE9r3v",
+      "https://lh3.google.com/u/0/d/1Y4dIAKky60JqH5xVvDGfaYCZo2hE9r3v=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Y3CsUWz-Hz_SSkNPzI9Ve2kDwjsA-0Gr",
+      "https://lh3.google.com/u/0/d/1Y3CsUWz-Hz_SSkNPzI9Ve2kDwjsA-0Gr=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1220,9 +1220,9 @@ const filmsArray = [
     Subtítulo: "Direitos e deveres do MEI",
     YouTube: "https://youtu.be/kw9xpbLgv-8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Y2z6mP0VhvX8AYeQsnHpnr6Zk_QldGSR",
+      "https://lh3.google.com/u/0/d/1Y2z6mP0VhvX8AYeQsnHpnr6Zk_QldGSR=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1XyGCSu6Y2919YH_0i1J9eUQ3Xayf35F4",
+      "https://lh3.google.com/u/0/d/1XyGCSu6Y2919YH_0i1J9eUQ3Xayf35F4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1234,9 +1234,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Cm6l8FyxM4Y",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14zY_uep4BlyNwplVWPwF127W8cZdG2TV",
+      "https://lh3.google.com/u/0/d/14zY_uep4BlyNwplVWPwF127W8cZdG2TV=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=156VT8RsIdeexcKOtYKSPw2cDKpovHMfu",
+      "https://lh3.google.com/u/0/d/156VT8RsIdeexcKOtYKSPw2cDKpovHMfu=k",
     Texto:
       "https://docs.google.com/document/d/10X6xb3gugEaBN94aqAIkK6_DhJwn0uZu3YSohO40V38/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -1249,9 +1249,9 @@ const filmsArray = [
     Subtítulo: "Redes Sociais",
     YouTube: "https://youtu.be/wwfQtI3PwTg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=158aLvgJ67HEXuSNN3jS5N4TbDyURfXtl",
+      "https://lh3.google.com/u/0/d/158aLvgJ67HEXuSNN3jS5N4TbDyURfXtl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=159tvEBYOTgfz0HD7cJhkPQTnlz94949r",
+      "https://lh3.google.com/u/0/d/159tvEBYOTgfz0HD7cJhkPQTnlz94949r=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1263,9 +1263,9 @@ const filmsArray = [
     Subtítulo: "Video 1",
     YouTube: "https://youtu.be/XZwo3OHTUL4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XcgDF2yQdY1ajkYxaE3YIymwj8v3jAs2",
+      "https://lh3.google.com/u/0/d/1XcgDF2yQdY1ajkYxaE3YIymwj8v3jAs2=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Xs20lGtb1lrR7zRq9c1eaBKB9Xugcxgr",
+      "https://lh3.google.com/u/0/d/1Xs20lGtb1lrR7zRq9c1eaBKB9Xugcxgr=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1277,9 +1277,9 @@ const filmsArray = [
     Subtítulo: "Video 2",
     YouTube: "https://youtu.be/nDDM3t-DQkg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XoiWoyHCpaWVjozLCuSAWE95zKFxdOUy",
+      "https://lh3.google.com/u/0/d/1XoiWoyHCpaWVjozLCuSAWE95zKFxdOUy=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1XoXUfQ7w7KYdd_gbwiGlaqFrUxJawcw3",
+      "https://lh3.google.com/u/0/d/1XoXUfQ7w7KYdd_gbwiGlaqFrUxJawcw3=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1291,9 +1291,9 @@ const filmsArray = [
     Subtítulo: "Video 3",
     YouTube: "https://youtu.be/6k27tS3T-Hw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Xdiwfm2_GvJ7zeIylDxl3bLuK8Wvl1TN",
+      "https://lh3.google.com/u/0/d/1Xdiwfm2_GvJ7zeIylDxl3bLuK8Wvl1TN=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1XdO7b1la_bTmTbxwTc85Kgs5MBOq9Riz",
+      "https://lh3.google.com/u/0/d/1XdO7b1la_bTmTbxwTc85Kgs5MBOq9Riz=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1305,9 +1305,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/GSqPxtuw3Zo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1CPUv_hVXIqXQQZb5fw60wZ__pOFthPrw",
+      "https://lh3.google.com/u/0/d/1CPUv_hVXIqXQQZb5fw60wZ__pOFthPrw=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1CRB2-K46SxwRi4XsfW34WQLWsuShldzn",
+      "https://lh3.google.com/u/0/d/1CRB2-K46SxwRi4XsfW34WQLWsuShldzn=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1319,9 +1319,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/4-YUNaCCXBM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NnpnsNYZJaIf0d5JGwTVmdgZcCxPott4",
+      "https://lh3.google.com/u/0/d/1NnpnsNYZJaIf0d5JGwTVmdgZcCxPott4=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NlmTTyZ79SF7x1NaYp9SHZ3-y654f4sN",
+      "https://lh3.google.com/u/0/d/1NlmTTyZ79SF7x1NaYp9SHZ3-y654f4sN=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1333,9 +1333,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Yoi9W6sAfI0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IKPn_yFJxHu4VaAlEJoXPhlype1EMa2b",
+      "https://lh3.google.com/u/0/d/1IKPn_yFJxHu4VaAlEJoXPhlype1EMa2b=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IF-g_cZMaPMkuqp5-rdIoVJVvmxEz1SN",
+      "https://lh3.google.com/u/0/d/1IF-g_cZMaPMkuqp5-rdIoVJVvmxEz1SN=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1347,9 +1347,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/XKSFJNNaAzY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IEGYw9xEPn2NdqnFcY9PeHFsXC4aErI1",
+      "https://lh3.google.com/u/0/d/1IEGYw9xEPn2NdqnFcY9PeHFsXC4aErI1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ID2ftjmBLhwiOzdprGFjDwSQRDyzg3SO",
+      "https://lh3.google.com/u/0/d/1ID2ftjmBLhwiOzdprGFjDwSQRDyzg3SO=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1361,9 +1361,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/wFkh479tVEo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1GYafmAhrs4z5m7JDa7SOZiRKZy8jttL1",
+      "https://lh3.google.com/u/0/d/1GYafmAhrs4z5m7JDa7SOZiRKZy8jttL1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Gj6Gmu-jZlfrdDljyIWdXrEb4oNEhrjS",
+      "https://lh3.google.com/u/0/d/1Gj6Gmu-jZlfrdDljyIWdXrEb4oNEhrjS=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1375,9 +1375,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Qs9YIJ5XzQ0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IbZ-N0JMyAMGRYkwv678BYhyW5Y8FPB6",
+      "https://lh3.google.com/u/0/d/1IbZ-N0JMyAMGRYkwv678BYhyW5Y8FPB6=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Ib5yhJ2bBy_xN2D2DxODkrj5JLdKnErt",
+      "https://lh3.google.com/u/0/d/1Ib5yhJ2bBy_xN2D2DxODkrj5JLdKnErt=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1389,9 +1389,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/kE1ZdLrqSII",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NdIzsEp5Aqu7YvkDx00CP9Nh0ZTXp-Fk",
+      "https://lh3.google.com/u/0/d/1NdIzsEp5Aqu7YvkDx00CP9Nh0ZTXp-Fk=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NXEUlls-LyxZVls-z_2vfs72rJotRvPj",
+      "https://lh3.google.com/u/0/d/1NXEUlls-LyxZVls-z_2vfs72rJotRvPj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1403,9 +1403,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/AGybaRT1PQo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ITU5iBEOpEUx8KqYx5H7GwVDT8D3PLB3",
+      "https://lh3.google.com/u/0/d/1ITU5iBEOpEUx8KqYx5H7GwVDT8D3PLB3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Iz-l2ilSav1u62pNR4y8mP7FNYz9c9Jb",
+      "https://lh3.google.com/u/0/d/1Iz-l2ilSav1u62pNR4y8mP7FNYz9c9Jb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1417,9 +1417,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/xW86zIbDqig",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ivr0jCkzCimpJGcRZFQm25f7gzC7bGJ2",
+      "https://lh3.google.com/u/0/d/1Ivr0jCkzCimpJGcRZFQm25f7gzC7bGJ2=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1It3WMCG6I4oiPwdgeyjfMCP2XUm0-Xeb",
+      "https://lh3.google.com/u/0/d/1It3WMCG6I4oiPwdgeyjfMCP2XUm0-Xeb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1431,9 +1431,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/uQl21HXigr8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1PeJMJ0Krs3Bsq6Igb_uq8YoU0gwBox8g",
+      "https://lh3.google.com/u/0/d/1PeJMJ0Krs3Bsq6Igb_uq8YoU0gwBox8g=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PcVfwRDUba3vIuefgxEzDph1JvBIA9jv",
+      "https://lh3.google.com/u/0/d/1PcVfwRDUba3vIuefgxEzDph1JvBIA9jv=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1445,9 +1445,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/u23WHzTARIM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1PaeuZKttMXMnjZeOUe6EkiZKkjO-4639",
+      "https://lh3.google.com/u/0/d/1PaeuZKttMXMnjZeOUe6EkiZKkjO-4639=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1REwdRt_5sriQ0s5Nbu_iNBes-Rlt0ft9",
+      "https://lh3.google.com/u/0/d/1REwdRt_5sriQ0s5Nbu_iNBes-Rlt0ft9=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1459,9 +1459,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/06W0PrmIEaI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XHkvxaZtyqajiAF34heJOlhkeOqGCIw6",
+      "https://lh3.google.com/u/0/d/1XHkvxaZtyqajiAF34heJOlhkeOqGCIw6=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1XQCsWwAq7Pc_fgHzQQo7CyY6S27Z_eiP",
+      "https://lh3.google.com/u/0/d/1XQCsWwAq7Pc_fgHzQQo7CyY6S27Z_eiP=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1473,9 +1473,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/r9O-rMJN658",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XYWz9S4FTJ2UgcWzcpYEvdtQcQ_6dJQg",
+      "https://lh3.google.com/u/0/d/1XYWz9S4FTJ2UgcWzcpYEvdtQcQ_6dJQg=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1XUVVG0jQ6HFcVeDgmzv88NFek8HGrmZy",
+      "https://lh3.google.com/u/0/d/1XUVVG0jQ6HFcVeDgmzv88NFek8HGrmZy=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1487,9 +1487,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/l-OpiotvaaU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DhY_x76HoHDeNxiH6gnQDVXas713zFkb",
+      "https://lh3.google.com/u/0/d/1DhY_x76HoHDeNxiH6gnQDVXas713zFkb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1DpCAioDQKELkL7C2XLjjcgDEZ48aiQbj",
+      "https://lh3.google.com/u/0/d/1DpCAioDQKELkL7C2XLjjcgDEZ48aiQbj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1501,9 +1501,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/INxoXJeuFeM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Dsh5cEBo_s7hASVnjVMB2dl19gC8DgEM",
+      "https://lh3.google.com/u/0/d/1Dsh5cEBo_s7hASVnjVMB2dl19gC8DgEM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1DulN-NB58zpONZ-8UifCMBvId9NzHQXA",
+      "https://lh3.google.com/u/0/d/1DulN-NB58zpONZ-8UifCMBvId9NzHQXA=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1515,9 +1515,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/InsZ9ndKiWM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1KXstFu_XVeXltiuI2ysDw748kbRuRXk5",
+      "https://lh3.google.com/u/0/d/1KXstFu_XVeXltiuI2ysDw748kbRuRXk5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KXUwClFGEc99f18b2CRxVuEODJnWNKEp",
+      "https://lh3.google.com/u/0/d/1KXUwClFGEc99f18b2CRxVuEODJnWNKEp=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1529,9 +1529,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/H9bQfGkji0c",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1OFGYWFeMiMXcMtJBAzOAsLFmRZ5yBm3Q",
+      "https://lh3.google.com/u/0/d/1OFGYWFeMiMXcMtJBAzOAsLFmRZ5yBm3Q=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1O7o_t4dwv9VNbUMNV1Dn9BgtBGrK8Xtm",
+      "https://lh3.google.com/u/0/d/1O7o_t4dwv9VNbUMNV1Dn9BgtBGrK8Xtm=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1543,9 +1543,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/MA9kES3cpLc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Qjw2Eke800oBN1URyPAyea5rG5S_qXiX",
+      "https://lh3.google.com/u/0/d/1Qjw2Eke800oBN1URyPAyea5rG5S_qXiX=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1QbPQmGWEVxpQaMwJbAQFMa8gbpnvJW1x",
+      "https://lh3.google.com/u/0/d/1QbPQmGWEVxpQaMwJbAQFMa8gbpnvJW1x=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1557,9 +1557,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/D77_5_Jb4RA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1QaaHCDl9oHsVReGWBUjOleRQa2OlNEPb",
+      "https://lh3.google.com/u/0/d/1QaaHCDl9oHsVReGWBUjOleRQa2OlNEPb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1QVc3PAZOt9MWGGbPCD3TSEavfCw6227P",
+      "https://lh3.google.com/u/0/d/1QVc3PAZOt9MWGGbPCD3TSEavfCw6227P=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1571,9 +1571,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/47bbJig1Af4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Rrxn__LtM0LFrzebGz7rtqHakdHVKj2N",
+      "https://lh3.google.com/u/0/d/1Rrxn__LtM0LFrzebGz7rtqHakdHVKj2N=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RruplE2udPvrtFEA8G2JtPl8qf_EJ7yA",
+      "https://lh3.google.com/u/0/d/1RruplE2udPvrtFEA8G2JtPl8qf_EJ7yA=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1585,9 +1585,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/d0fg1BtsY2s",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RrfYv4zAcRQjwKyTo2hQn5hRBuhLseDJ",
+      "https://lh3.google.com/u/0/d/1RrfYv4zAcRQjwKyTo2hQn5hRBuhLseDJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RoL4LO9Oqf8GcCBjXOg-aKi9kVS3AWPF",
+      "https://lh3.google.com/u/0/d/1RoL4LO9Oqf8GcCBjXOg-aKi9kVS3AWPF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1599,9 +1599,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/8vz9NFOH9ZA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Rnd4-LY11h7Rjy_fwS4eBhPLg22bUI8a",
+      "https://lh3.google.com/u/0/d/1Rnd4-LY11h7Rjy_fwS4eBhPLg22bUI8a=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Rm4ZnSYEW15ubLoGyjPF5fnvf7Pyc_Xp",
+      "https://lh3.google.com/u/0/d/1Rm4ZnSYEW15ubLoGyjPF5fnvf7Pyc_Xp=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1613,9 +1613,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/tWqzHeN08bg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Rls30qqItEC90IqK5qAqMxS5pLtKEF3h",
+      "https://lh3.google.com/u/0/d/1Rls30qqItEC90IqK5qAqMxS5pLtKEF3h=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RkR6eikCbGca4dyBoeZScqfEH2r0TWJk",
+      "https://lh3.google.com/u/0/d/1RkR6eikCbGca4dyBoeZScqfEH2r0TWJk=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1627,9 +1627,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/utkRaGUohlY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1KKded4Z7_WsFTEE6H_5_zMpzZr6busTr",
+      "https://lh3.google.com/u/0/d/1KKded4Z7_WsFTEE6H_5_zMpzZr6busTr=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KHyxcLCr1BK8Nxb4Bf1wzOTrYAnrqKRQ",
+      "https://lh3.google.com/u/0/d/1KHyxcLCr1BK8Nxb4Bf1wzOTrYAnrqKRQ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1641,9 +1641,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/UUqQ0QuAdv4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RSwEoyS31yC8txKEZoZXeqe9WSUkd6HU",
+      "https://lh3.google.com/u/0/d/1RSwEoyS31yC8txKEZoZXeqe9WSUkd6HU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RPzoZsxUFeJ-IsHs1vrgZ0MNaKAO8Hy2",
+      "https://lh3.google.com/u/0/d/1RPzoZsxUFeJ-IsHs1vrgZ0MNaKAO8Hy2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1655,9 +1655,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/3_vPuMdfAj8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RFHNK1D6ovJE2QCvyDKC67QnVQlzrFA5",
+      "https://lh3.google.com/u/0/d/1RFHNK1D6ovJE2QCvyDKC67QnVQlzrFA5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1T3SrwVc2NoMdI3kxpIyJ2glOQCDiMmuI",
+      "https://lh3.google.com/u/0/d/1T3SrwVc2NoMdI3kxpIyJ2glOQCDiMmuI=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1669,9 +1669,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/z6NqK2kb-_0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TgR8BjE7aQaQ9fLThfSWlF8YmOgh-6U3",
+      "https://lh3.google.com/u/0/d/1TgR8BjE7aQaQ9fLThfSWlF8YmOgh-6U3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TfS9fJnMZL6UJgLmEy7Zs7_5hGTX2VMF",
+      "https://lh3.google.com/u/0/d/1TfS9fJnMZL6UJgLmEy7Zs7_5hGTX2VMF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1683,9 +1683,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/pNTR9zLy66c",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TbswxhamChEWxRrJpRViu8p9AOfMHJln",
+      "https://lh3.google.com/u/0/d/1TbswxhamChEWxRrJpRViu8p9AOfMHJln=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1T_VtB3wxwCYpvQfDv7jdj5ve6tHYJV-h",
+      "https://lh3.google.com/u/0/d/1T_VtB3wxwCYpvQfDv7jdj5ve6tHYJV-h=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1697,9 +1697,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/k-WXjn8Y3Xo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TXehBNiNUa9ISrYjrkqfuODHpo2AFAJ4",
+      "https://lh3.google.com/u/0/d/1TXehBNiNUa9ISrYjrkqfuODHpo2AFAJ4=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TSqzVFlamWAyUnYle0t1Q-3Sxw12Epxl",
+      "https://lh3.google.com/u/0/d/1TSqzVFlamWAyUnYle0t1Q-3Sxw12Epxl=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1711,9 +1711,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/1WtZCpnBSgU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TRcLWkcjwlSHkop0BAXUK1-NaOEKWZfm",
+      "https://lh3.google.com/u/0/d/1TRcLWkcjwlSHkop0BAXUK1-NaOEKWZfm=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TPmZZcaTpnT0ZF41XA86Tz1vpDN2in4A",
+      "https://lh3.google.com/u/0/d/1TPmZZcaTpnT0ZF41XA86Tz1vpDN2in4A=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1725,9 +1725,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/F29zu-LKYl0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1TNMvzMy5g6vMVGqwvlU70DyFNcTaQSnd",
+      "https://lh3.google.com/u/0/d/1TNMvzMy5g6vMVGqwvlU70DyFNcTaQSnd=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TFGokRqVT4zDNNX7IkbeOQMyMVPeIfWr",
+      "https://lh3.google.com/u/0/d/1TFGokRqVT4zDNNX7IkbeOQMyMVPeIfWr=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1739,9 +1739,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/uphz4Ixfnc0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1V9aDg-S0yit0m-mb08n7LkWbv-uinIiU",
+      "https://lh3.google.com/u/0/d/1V9aDg-S0yit0m-mb08n7LkWbv-uinIiU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1V-zPZtYsnW3dKh8qOERV7BNfA-rq5j4C",
+      "https://lh3.google.com/u/0/d/1V-zPZtYsnW3dKh8qOERV7BNfA-rq5j4C=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1753,9 +1753,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/2tUGBwqqVjQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1L5URwJmnV-S7AJlFurwoL7xyZ31vP8CS",
+      "https://lh3.google.com/u/0/d/1L5URwJmnV-S7AJlFurwoL7xyZ31vP8CS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KzQJHOkbyWCGlSTV22MyggECl40hY0HI",
+      "https://lh3.google.com/u/0/d/1KzQJHOkbyWCGlSTV22MyggECl40hY0HI=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1767,9 +1767,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/2Ux2tMAqINk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IYO6jd8dy5AYvP0PdePc3pGmFh45IAFL",
+      "https://lh3.google.com/u/0/d/1IYO6jd8dy5AYvP0PdePc3pGmFh45IAFL=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IWciI-ODckAjKWRsTEMsR8zcIiu5djcg",
+      "https://lh3.google.com/u/0/d/1IWciI-ODckAjKWRsTEMsR8zcIiu5djcg=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1781,9 +1781,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/EwM8hjzT018",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1JrQVJVcJTS_b_3j96DPFAvQoNqNHkM1Z",
+      "https://lh3.google.com/u/0/d/1JrQVJVcJTS_b_3j96DPFAvQoNqNHkM1Z=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1JqAHBMJdLFTZ9IlBgTqZNBryVTtMR0h_",
+      "https://lh3.google.com/u/0/d/1JqAHBMJdLFTZ9IlBgTqZNBryVTtMR0h_=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1795,9 +1795,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/5szuxXRnj80",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1JoeGD7msWdy9z2D6IkNhNqe9mBSpVhA5",
+      "https://lh3.google.com/u/0/d/1JoeGD7msWdy9z2D6IkNhNqe9mBSpVhA5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Jo6gFW6koMxKTyeIImAWtFBjhAUDgpyY",
+      "https://lh3.google.com/u/0/d/1Jo6gFW6koMxKTyeIImAWtFBjhAUDgpyY=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1809,9 +1809,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/_wjRNbLV23o",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ji6szn4u_c3Tl-xmZyi0Lp7mEy388OiY",
+      "https://lh3.google.com/u/0/d/1Ji6szn4u_c3Tl-xmZyi0Lp7mEy388OiY=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Jg0cuiJBtq8PZAP7Z2fgzL8NH558ZvEs",
+      "https://lh3.google.com/u/0/d/1Jg0cuiJBtq8PZAP7Z2fgzL8NH558ZvEs=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1823,9 +1823,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/DX1KA1PNCCA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Jy3EJ34kLBSdT1jyNmknpNfHDMOSsa1P",
+      "https://lh3.google.com/u/0/d/1Jy3EJ34kLBSdT1jyNmknpNfHDMOSsa1P=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1JwLZVOS9bTVNinY3oN_vtLh4UxfIaZ-Y",
+      "https://lh3.google.com/u/0/d/1JwLZVOS9bTVNinY3oN_vtLh4UxfIaZ-Y=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1837,9 +1837,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/5W3ehxT4kA0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Rf2Kiu8gshCnOzrSYRm_tSI818-ql4wg",
+      "https://lh3.google.com/u/0/d/1Rf2Kiu8gshCnOzrSYRm_tSI818-ql4wg=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1R_cEPV0Kqa94vGHDVneGtjLqe4gLlLxC",
+      "https://lh3.google.com/u/0/d/1R_cEPV0Kqa94vGHDVneGtjLqe4gLlLxC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1851,9 +1851,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/nUBafnmNhP4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RVlfa2OsAsoBcXvRSkEZi0wQxDAvs4vo",
+      "https://lh3.google.com/u/0/d/1RVlfa2OsAsoBcXvRSkEZi0wQxDAvs4vo=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RTdp-wohRoFQ4G6LW96GAy0XkMJUbx8H",
+      "https://lh3.google.com/u/0/d/1RTdp-wohRoFQ4G6LW96GAy0XkMJUbx8H=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1865,9 +1865,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/vZUZoeD1zq4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VmLu4ZOtT_xMeTpWEn6bR85mmxTTbQGk",
+      "https://lh3.google.com/u/0/d/1VmLu4ZOtT_xMeTpWEn6bR85mmxTTbQGk=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VU6WBPkt2vezHrQ4U7QYsIbVd5egx1Cf",
+      "https://lh3.google.com/u/0/d/1VU6WBPkt2vezHrQ4U7QYsIbVd5egx1Cf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1879,9 +1879,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/BOFxu8m9d8U",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NWhW2eq9fCFfUlI4o3SccLY6rPFaqboZ",
+      "https://lh3.google.com/u/0/d/1NWhW2eq9fCFfUlI4o3SccLY6rPFaqboZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NUx_SWx-fBJVY_8PZDazWB10FNOA12wA",
+      "https://lh3.google.com/u/0/d/1NUx_SWx-fBJVY_8PZDazWB10FNOA12wA=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1893,9 +1893,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/aLVN2soaevs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NMd6VMAiCHejFMB647vyCGdpOb1UTkST",
+      "https://lh3.google.com/u/0/d/1NMd6VMAiCHejFMB647vyCGdpOb1UTkST=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NLsqE27pQiBB9fq2FYwn1lhWcC8pBpOJ",
+      "https://lh3.google.com/u/0/d/1NLsqE27pQiBB9fq2FYwn1lhWcC8pBpOJ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1907,9 +1907,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/p3VLxw8ispc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NF1FKYZsXUkQ1rmmKqiIeFjZ9c-P_9j6",
+      "https://lh3.google.com/u/0/d/1NF1FKYZsXUkQ1rmmKqiIeFjZ9c-P_9j6=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NCU8IwEPVM_VPERpDWKG_4W1_-ygVdkE",
+      "https://lh3.google.com/u/0/d/1NCU8IwEPVM_VPERpDWKG_4W1_-ygVdkE=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1921,9 +1921,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/t_Z5F15b5cI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NkskHfSnXDVyszYFEZNy-A-V_5YRJi3w",
+      "https://lh3.google.com/u/0/d/1NkskHfSnXDVyszYFEZNy-A-V_5YRJi3w=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MqL7xLmZN3UC0DnB-h5iAeUAr4xt_8l1",
+      "https://lh3.google.com/u/0/d/1MqL7xLmZN3UC0DnB-h5iAeUAr4xt_8l1=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1935,9 +1935,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/DjKN85z0wjU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ZAGbaYzBvrzRw4MiniChjxQtAotlnb1M",
+      "https://lh3.google.com/u/0/d/1ZAGbaYzBvrzRw4MiniChjxQtAotlnb1M=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ZC0rdWboUvDEncG4KQ21c1cO9THilD9n",
+      "https://lh3.google.com/u/0/d/1ZC0rdWboUvDEncG4KQ21c1cO9THilD9n=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1949,9 +1949,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/jjqO8xembx4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Murb7S6qwV9anrrtR_rQKyctduDOnhLk",
+      "https://lh3.google.com/u/0/d/1Murb7S6qwV9anrrtR_rQKyctduDOnhLk=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MsDQdA6tHNQPVWpodWC1KtM3NYmVWIOi",
+      "https://lh3.google.com/u/0/d/1MsDQdA6tHNQPVWpodWC1KtM3NYmVWIOi=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1963,9 +1963,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/t9EBdlC5cRU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Q3rHovWfUw3g4DoGRtqIyU_YhTzycOeD",
+      "https://lh3.google.com/u/0/d/1Q3rHovWfUw3g4DoGRtqIyU_YhTzycOeD=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Q3lgiKmrGW2xMfujpVU3jYoTQoHAzsSN",
+      "https://lh3.google.com/u/0/d/1Q3lgiKmrGW2xMfujpVU3jYoTQoHAzsSN=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1977,9 +1977,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Kjwyn0puhMs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1PLt0lX-hWmvt4nV0oFPZl7ZjoZrOhfgS",
+      "https://lh3.google.com/u/0/d/1PLt0lX-hWmvt4nV0oFPZl7ZjoZrOhfgS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PKmOav3aB4tGqoBZQzBKvsOAUPScY_a8",
+      "https://lh3.google.com/u/0/d/1PKmOav3aB4tGqoBZQzBKvsOAUPScY_a8=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -1991,9 +1991,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/2eQh4fPHti8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1PFUVIXxgCZsKXsKpT35f0fH1C-wN7gL6",
+      "https://lh3.google.com/u/0/d/1PFUVIXxgCZsKXsKpT35f0fH1C-wN7gL6=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PAtyb2Sz-ESvi037jmHnBABw0Kna_HrO",
+      "https://lh3.google.com/u/0/d/1PAtyb2Sz-ESvi037jmHnBABw0Kna_HrO=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -2005,9 +2005,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/-p5mkinE48E",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1P7eOtdhjsBPt_kC0_HmByGkzYnza9xxf",
+      "https://lh3.google.com/u/0/d/1P7eOtdhjsBPt_kC0_HmByGkzYnza9xxf=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1P4qijgD-qCxv8wFSiqT2iAuLf_wSJeum",
+      "https://lh3.google.com/u/0/d/1P4qijgD-qCxv8wFSiqT2iAuLf_wSJeum=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -2018,11 +2018,11 @@ const filmsArray = [
     Título: "Dailus Colors",
     Subtítulo: '"',
     YouTube: '"',
-    "Thumb miniatura": "https://youtu.be/bgRoj0I_F_o",
+    "Thumb miniatura": "https://youtu.be/bgRoj0I_F_o=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Ob-3aY1ZD7Q0hxOlGA65iGyvXEXGV7rV",
+      "https://lh3.google.com/u/0/d/1Ob-3aY1ZD7Q0hxOlGA65iGyvXEXGV7rV=k",
     Texto:
-      "https://drive.google.com/uc?export=view&id=1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m",
+      "https://lh3.google.com/u/0/d/1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m",
     Diretor: "",
     Categorias: "Kahue Rozzi",
   },
@@ -2033,9 +2033,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Tau6KXDVAIM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1QUQXvgRbmTFoj66Qde0p4YKzswiEeZQD",
+      "https://lh3.google.com/u/0/d/1QUQXvgRbmTFoj66Qde0p4YKzswiEeZQD=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1QPm-BmUoyVaZX2iwSz-qoBPH1ZFGlcgB",
+      "https://lh3.google.com/u/0/d/1QPm-BmUoyVaZX2iwSz-qoBPH1ZFGlcgB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -2047,9 +2047,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/k4Ua7PJo8LU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Q2I3WC42v9fzPVvOaMmhJkek3pzL-qyo",
+      "https://lh3.google.com/u/0/d/1Q2I3WC42v9fzPVvOaMmhJkek3pzL-qyo=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PtK4IEY4nf8SfCpRVfbEVeQhI3PHK3f-",
+      "https://lh3.google.com/u/0/d/1PtK4IEY4nf8SfCpRVfbEVeQhI3PHK3f-=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -2061,9 +2061,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/AJ3gIFJMqJ8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1O7Yn70d18UfPdV0PCR66l7ijVNe3r36V",
+      "https://lh3.google.com/u/0/d/1O7Yn70d18UfPdV0PCR66l7ijVNe3r36V=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Ny9Q1xaGoKlPR4Bkz_eFX5s07DApKIo-",
+      "https://lh3.google.com/u/0/d/1Ny9Q1xaGoKlPR4Bkz_eFX5s07DApKIo-=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -2075,9 +2075,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/peB2AldqgpQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13WDZ4Ag-bQS3JMsmFvG1UIPeCC4AllO8",
+      "https://lh3.google.com/u/0/d/13WDZ4Ag-bQS3JMsmFvG1UIPeCC4AllO8=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13Y3Gmm1rm4tXw8pgodsYN8dQTH16OFk2",
+      "https://lh3.google.com/u/0/d/13Y3Gmm1rm4tXw8pgodsYN8dQTH16OFk2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2089,9 +2089,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/qnQeiOs3JHE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1AxQPnmkx8j6NCG5mrhPkDyUQQwZJai_e",
+      "https://lh3.google.com/u/0/d/1AxQPnmkx8j6NCG5mrhPkDyUQQwZJai_e=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Af3QOfV0jGG6-vvZJ35EjizFLFEn2kk9",
+      "https://lh3.google.com/u/0/d/1Af3QOfV0jGG6-vvZJ35EjizFLFEn2kk9=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2103,9 +2103,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/VmPMAS_4e1Q",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1GNVxGIqMU5Zt7b7uzNrPOIycJHz_XnIn",
+      "https://lh3.google.com/u/0/d/1GNVxGIqMU5Zt7b7uzNrPOIycJHz_XnIn=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1GMnnyTETxH74n-w21xQcIzhDAuXu4QJ4",
+      "https://lh3.google.com/u/0/d/1GMnnyTETxH74n-w21xQcIzhDAuXu4QJ4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2117,9 +2117,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/UF2Rs63dB78",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1KxVwJMY3WrY6EolpWIikJFm60vehFKWH",
+      "https://lh3.google.com/u/0/d/1KxVwJMY3WrY6EolpWIikJFm60vehFKWH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KwPhwMYrUM7FjyVf_zwj-Fj9qz2NZuja",
+      "https://lh3.google.com/u/0/d/1KwPhwMYrUM7FjyVf_zwj-Fj9qz2NZuja=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2131,9 +2131,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/OTXms7cTxWw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=11ssLV_gOyod9H5acyEioCcGoqAoC_9jM",
+      "https://lh3.google.com/u/0/d/11ssLV_gOyod9H5acyEioCcGoqAoC_9jM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=11vtc78bhLZRsWTVRdS0T1xwCNgYzjuNb",
+      "https://lh3.google.com/u/0/d/11vtc78bhLZRsWTVRdS0T1xwCNgYzjuNb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2145,9 +2145,9 @@ const filmsArray = [
     Subtítulo: "Saúde",
     YouTube: "https://youtu.be/T9L3GzMAg7A",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18P_Ic99lMSIh3hRUSLD_u-5w9nF7nRXn",
+      "https://lh3.google.com/u/0/d/18P_Ic99lMSIh3hRUSLD_u-5w9nF7nRXn=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18PK0i7ems8hobRc938vog9_Lfe0mRR3p",
+      "https://lh3.google.com/u/0/d/18PK0i7ems8hobRc938vog9_Lfe0mRR3p=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2159,9 +2159,9 @@ const filmsArray = [
     Subtítulo: "Cidadania",
     YouTube: "https://youtu.be/0uw2Gk-WRk4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18fF45jdEL4x_qF3SGWRy_Ec1e97qMEex",
+      "https://lh3.google.com/u/0/d/18fF45jdEL4x_qF3SGWRy_Ec1e97qMEex=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18YaklCjnzzDB8Bs6TeVas25RELLge0UD",
+      "https://lh3.google.com/u/0/d/18YaklCjnzzDB8Bs6TeVas25RELLge0UD=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2173,9 +2173,9 @@ const filmsArray = [
     Subtítulo: "Mobilidade Urbana",
     YouTube: "https://youtu.be/OUJwEFvpeKY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18Y3FKF35Z9V7biV8DVcSsSUWqbLVzrAR",
+      "https://lh3.google.com/u/0/d/18Y3FKF35Z9V7biV8DVcSsSUWqbLVzrAR=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18Wsqg7Ws9rZIyyXmAU58YfC7MUI1q3Xd",
+      "https://lh3.google.com/u/0/d/18Wsqg7Ws9rZIyyXmAU58YfC7MUI1q3Xd=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2187,9 +2187,9 @@ const filmsArray = [
     Subtítulo: "Educaçao",
     YouTube: "https://youtu.be/MOV2jA3CsnE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18VGQQyzDOypQdUYbwpZIXgdTtTkgQagb",
+      "https://lh3.google.com/u/0/d/18VGQQyzDOypQdUYbwpZIXgdTtTkgQagb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18Sfy7xef4vb4CPVcHc5iVM2hZM3aMtSW",
+      "https://lh3.google.com/u/0/d/18Sfy7xef4vb4CPVcHc5iVM2hZM3aMtSW=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2201,9 +2201,9 @@ const filmsArray = [
     Subtítulo: "Investimento",
     YouTube: "https://youtu.be/ASFmEnW8dnE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18mVGP0-cznfByxIedqba7ptpVhKC7XI8",
+      "https://lh3.google.com/u/0/d/18mVGP0-cznfByxIedqba7ptpVhKC7XI8=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18fFOAXxdM8rnCDaZoMDHI9U0JXQ5GreP",
+      "https://lh3.google.com/u/0/d/18fFOAXxdM8rnCDaZoMDHI9U0JXQ5GreP=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2215,9 +2215,9 @@ const filmsArray = [
     Subtítulo: "Mãe Cotiana",
     YouTube: "https://youtu.be/trpBwU78zP8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18mcTUQ9iEuJMMuyUehgWXY7x3J68F9av",
+      "https://lh3.google.com/u/0/d/18mcTUQ9iEuJMMuyUehgWXY7x3J68F9av=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18mVm_cRe9Tj9CZVWywtmlAHG8-dG7uLh",
+      "https://lh3.google.com/u/0/d/18mVm_cRe9Tj9CZVWywtmlAHG8-dG7uLh=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2229,9 +2229,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/YRdSb1Z2b5c",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ThUq1almZz8m6zArC8F3LV3moRB1eJNM",
+      "https://lh3.google.com/u/0/d/1ThUq1almZz8m6zArC8F3LV3moRB1eJNM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ThCktmTHPZUjQ00Kl5qANLcQx2gUw4Qw",
+      "https://lh3.google.com/u/0/d/1ThCktmTHPZUjQ00Kl5qANLcQx2gUw4Qw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2243,9 +2243,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/rfa3o3qmbD4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13wM9wntW3ujTn9_ZQVNc6o8gkEyyHUi4",
+      "https://lh3.google.com/u/0/d/13wM9wntW3ujTn9_ZQVNc6o8gkEyyHUi4=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=140HTOUXvip_AGtyha06B3YLL0D7dyFgi",
+      "https://lh3.google.com/u/0/d/140HTOUXvip_AGtyha06B3YLL0D7dyFgi=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2257,9 +2257,9 @@ const filmsArray = [
     Subtítulo: "Video 1",
     YouTube: "https://youtu.be/Y7wyVVbjdqE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13n_dZ7yw7Ar1ydIz54_G0b8Je-q-B1YS",
+      "https://lh3.google.com/u/0/d/13n_dZ7yw7Ar1ydIz54_G0b8Je-q-B1YS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13sw7Sbj5ozh3VIYoIExxYVl0fTpiejjV",
+      "https://lh3.google.com/u/0/d/13sw7Sbj5ozh3VIYoIExxYVl0fTpiejjV=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2271,9 +2271,9 @@ const filmsArray = [
     Subtítulo: "Video 2",
     YouTube: "https://youtu.be/cnREagPUkRE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13saO-_xvgUyk4e3ZJHVKcq6xqIDSEwAs",
+      "https://lh3.google.com/u/0/d/13saO-_xvgUyk4e3ZJHVKcq6xqIDSEwAs=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13p2zB9gKJ_WqsPRSh-1Uw28-aJibQ38J",
+      "https://lh3.google.com/u/0/d/13p2zB9gKJ_WqsPRSh-1Uw28-aJibQ38J=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2285,9 +2285,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/DNsD-w4h1Cc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1GAqF6yNmKCJ8A89-t5F2CHY3lnqWSkwB",
+      "https://lh3.google.com/u/0/d/1GAqF6yNmKCJ8A89-t5F2CHY3lnqWSkwB=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1GBxTEoG93hSBNLNmbvpXuOJHhPuuLbKe",
+      "https://lh3.google.com/u/0/d/1GBxTEoG93hSBNLNmbvpXuOJHhPuuLbKe=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2299,9 +2299,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/gXZS1RfjqvU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1HiFwPnKuSshDwbjfLCZGDJmCEvDH0WAS",
+      "https://lh3.google.com/u/0/d/1HiFwPnKuSshDwbjfLCZGDJmCEvDH0WAS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1HaXq0O_vPnVQ87psVN1eW65IL2T-N0hZ",
+      "https://lh3.google.com/u/0/d/1HaXq0O_vPnVQ87psVN1eW65IL2T-N0hZ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2313,9 +2313,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/wirYreRTQzI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1K5i21TvN4aLKeMVNrkkfpJtwGE-I0yXV",
+      "https://lh3.google.com/u/0/d/1K5i21TvN4aLKeMVNrkkfpJtwGE-I0yXV=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1K4Bz6uwyL6RKGJU84w9jfvB18LS2WnSg",
+      "https://lh3.google.com/u/0/d/1K4Bz6uwyL6RKGJU84w9jfvB18LS2WnSg=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2327,9 +2327,9 @@ const filmsArray = [
     Subtítulo: "Episódio 1",
     YouTube: "https://youtu.be/uUmSN6TRIJY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=19D6483Qqs2CChNqoHzkoSgKWLcQ6uf9Y",
+      "https://lh3.google.com/u/0/d/19D6483Qqs2CChNqoHzkoSgKWLcQ6uf9Y=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1A0e7EY0juB57BLrbYqK-RxLGeYoE1w6t",
+      "https://lh3.google.com/u/0/d/1A0e7EY0juB57BLrbYqK-RxLGeYoE1w6t=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2341,9 +2341,9 @@ const filmsArray = [
     Subtítulo: "Episódio 2",
     YouTube: "https://youtu.be/jinIQoKGEl4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1A0XqrH1laTienXxKzXRDh_ddg-l9tXre",
+      "https://lh3.google.com/u/0/d/1A0XqrH1laTienXxKzXRDh_ddg-l9tXre=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1A-tss43EfnKNaI3svqQfMis_lkeNgBQn",
+      "https://lh3.google.com/u/0/d/1A-tss43EfnKNaI3svqQfMis_lkeNgBQn=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2355,9 +2355,9 @@ const filmsArray = [
     Subtítulo: "Episódio 3",
     YouTube: "https://youtu.be/5Ve8FjPuowE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=19klB9u2G0qAuMLCEp27XofgmMPEreYVq",
+      "https://lh3.google.com/u/0/d/19klB9u2G0qAuMLCEp27XofgmMPEreYVq=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=19jJ6m0QpZcczUuPtGuJ5RmgxColbEfvX",
+      "https://lh3.google.com/u/0/d/19jJ6m0QpZcczUuPtGuJ5RmgxColbEfvX=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2369,9 +2369,9 @@ const filmsArray = [
     Subtítulo: "Episódio 4",
     YouTube: "https://youtu.be/i6ofRMad71A",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=19aLgwNiOovNQXKUS1W37vEo1UkFIPLnE",
+      "https://lh3.google.com/u/0/d/19aLgwNiOovNQXKUS1W37vEo1UkFIPLnE=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=19_UABzmWjhG4gPpyv6qaFNYNPeneQJbx",
+      "https://lh3.google.com/u/0/d/19_UABzmWjhG4gPpyv6qaFNYNPeneQJbx=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2383,9 +2383,9 @@ const filmsArray = [
     Subtítulo: "Episódio 5",
     YouTube: "https://youtu.be/AZIZrJV7JOQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=19O6tVjK-jNz6CESbV7dFvS6vmAgjmAIn",
+      "https://lh3.google.com/u/0/d/19O6tVjK-jNz6CESbV7dFvS6vmAgjmAIn=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=19EKg1GBagiDFYyCGkouFxGSh5u5SzlOq",
+      "https://lh3.google.com/u/0/d/19EKg1GBagiDFYyCGkouFxGSh5u5SzlOq=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2397,9 +2397,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/MYVvDjXCwvs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VACPTIWsy9z5yb3cXRW5mT39cmFxd-OH",
+      "https://lh3.google.com/u/0/d/1VACPTIWsy9z5yb3cXRW5mT39cmFxd-OH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1TCYgSmuoidMIhtn9NqSvKamyMrMOF0kG",
+      "https://lh3.google.com/u/0/d/1TCYgSmuoidMIhtn9NqSvKamyMrMOF0kG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2411,9 +2411,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/AXgYUXh5gGw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VmxN1vId8FAdQ1ftcccrvkU5j9JPfepC",
+      "https://lh3.google.com/u/0/d/1VmxN1vId8FAdQ1ftcccrvkU5j9JPfepC=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VmkwldgV247-3DtWRjUTD83t2GnLtwqt",
+      "https://lh3.google.com/u/0/d/1VmkwldgV247-3DtWRjUTD83t2GnLtwqt=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2425,9 +2425,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/GghXE3kuwAE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1GoguidFZawoL--ChleXrUZYb0xSrQkEZ",
+      "https://lh3.google.com/u/0/d/1GoguidFZawoL--ChleXrUZYb0xSrQkEZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1GrID7bEgxdN24Kw6y9BgXZNtl9mqfPTF",
+      "https://lh3.google.com/u/0/d/1GrID7bEgxdN24Kw6y9BgXZNtl9mqfPTF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2439,9 +2439,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/RIaUK5DmBww",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ICxFR-mBGPNqz0bh0jPXo8XX-CPXAlJ3",
+      "https://lh3.google.com/u/0/d/1ICxFR-mBGPNqz0bh0jPXo8XX-CPXAlJ3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1I419tU2aO9raCuslj2A8LpBe1dGwqdgU",
+      "https://lh3.google.com/u/0/d/1I419tU2aO9raCuslj2A8LpBe1dGwqdgU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2453,9 +2453,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/fzDu3oVEQ0E",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BC6NAJL52oAMj4K-mNqbOK4KVlDSFARP",
+      "https://lh3.google.com/u/0/d/1BC6NAJL52oAMj4K-mNqbOK4KVlDSFARP=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1BDjDsR0N8M8dyU0yFTPkHVuPsorxTb08",
+      "https://lh3.google.com/u/0/d/1BDjDsR0N8M8dyU0yFTPkHVuPsorxTb08=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2467,9 +2467,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/FEuQ_3SzY08",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1BHkJHXp-FyjUosKkpz_Hds9s7TEHx9YO",
+      "https://lh3.google.com/u/0/d/1BHkJHXp-FyjUosKkpz_Hds9s7TEHx9YO=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1BPe6rbLQe3YHwprcfHqg75rdrBI0fPQ4",
+      "https://lh3.google.com/u/0/d/1BPe6rbLQe3YHwprcfHqg75rdrBI0fPQ4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2481,9 +2481,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/7yzD3uMZGdk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1AdEvJdB7aozU0bboT7IloJX7cfozuqHH",
+      "https://lh3.google.com/u/0/d/1AdEvJdB7aozU0bboT7IloJX7cfozuqHH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Ae-dQbjTvaCMvCvMIYRD1X8A-3kaABtl",
+      "https://lh3.google.com/u/0/d/1Ae-dQbjTvaCMvCvMIYRD1X8A-3kaABtl=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2495,9 +2495,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/gbRKmnF_oM4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=199sdGQeiH9PjUn8gwNj0K91pM6mcGhZ3",
+      "https://lh3.google.com/u/0/d/199sdGQeiH9PjUn8gwNj0K91pM6mcGhZ3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=195Efa9OEIB2qHvFnpscmJ0w9fAqnaL7w",
+      "https://lh3.google.com/u/0/d/195Efa9OEIB2qHvFnpscmJ0w9fAqnaL7w=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
@@ -2509,9 +2509,9 @@ const filmsArray = [
     Subtítulo: "Sarampo",
     YouTube: "https://youtu.be/mwxQtfxZT2I",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=135lNeJewaHMHL3uUy8-GQMIQtq_i9EOA",
+      "https://lh3.google.com/u/0/d/135lNeJewaHMHL3uUy8-GQMIQtq_i9EOA=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=135gmu5QNZ454mEth7lLADX8DwSK8VSte",
+      "https://lh3.google.com/u/0/d/135gmu5QNZ454mEth7lLADX8DwSK8VSte=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2523,9 +2523,9 @@ const filmsArray = [
     Subtítulo: "HPV",
     YouTube: "https://youtube.com/shorts/n_CV_gu4q4I",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=136OoB_4rO5sI4EPEMPvCsz4tkdC-zz7o",
+      "https://lh3.google.com/u/0/d/136OoB_4rO5sI4EPEMPvCsz4tkdC-zz7o=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13AIUOPW25B-cesOm2bnIYIbI6r31wNsw",
+      "https://lh3.google.com/u/0/d/13AIUOPW25B-cesOm2bnIYIbI6r31wNsw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2537,9 +2537,9 @@ const filmsArray = [
     Subtítulo: "Poliomielite",
     YouTube: "https://youtube.com/shorts/_BQOQr46qaI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13DKt4bPQHlIkUwc-8miWW1sggbWc6coP",
+      "https://lh3.google.com/u/0/d/13DKt4bPQHlIkUwc-8miWW1sggbWc6coP=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13DJeU40vh2B45G31qH6b6rAN8a284oG3",
+      "https://lh3.google.com/u/0/d/13DJeU40vh2B45G31qH6b6rAN8a284oG3=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2551,9 +2551,9 @@ const filmsArray = [
     Subtítulo: "Caxumba",
     YouTube: "https://youtube.com/shorts/f8WfbCGA_8k",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13EFA2vEHElWO2ohS51ktE9Qggp62qaPT",
+      "https://lh3.google.com/u/0/d/13EFA2vEHElWO2ohS51ktE9Qggp62qaPT=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13EslE_1D-zG2h7OeuVOk7qj3kQ2yi9WU",
+      "https://lh3.google.com/u/0/d/13EslE_1D-zG2h7OeuVOk7qj3kQ2yi9WU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2566,9 +2566,9 @@ const filmsArray = [
     Subtítulo: "Você conhece o Cadastro Único?",
     YouTube: "https://youtu.be/WNmHP1f3LFY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU",
+      "https://lh3.google.com/u/0/d/1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4",
+      "https://lh3.google.com/u/0/d/1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2581,9 +2581,9 @@ const filmsArray = [
     Subtítulo: "Você conhece o Cadastro Único? 9x16",
     YouTube: "https://youtube.com/shorts/nrA_XJX4ovo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU",
+      "https://lh3.google.com/u/0/d/1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4",
+      "https://lh3.google.com/u/0/d/1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2596,9 +2596,9 @@ const filmsArray = [
     Subtítulo: "Como é feito o cadastramento?",
     YouTube: "https://youtu.be/Le6sdflOQlo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1X7Q6kyzp6tLP4lQQtAVWJtq1PFF8LJxJ",
+      "https://lh3.google.com/u/0/d/1X7Q6kyzp6tLP4lQQtAVWJtq1PFF8LJxJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1X0Ya7kPRxAhpsRCO_eXCqVHbzy-XD6cX",
+      "https://lh3.google.com/u/0/d/1X0Ya7kPRxAhpsRCO_eXCqVHbzy-XD6cX=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2611,9 +2611,9 @@ const filmsArray = [
     Subtítulo: "Como é feito o cadastramento? 9x16",
     YouTube: "https://youtube.com/shorts/_MipRzDabQU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1X7Q6kyzp6tLP4lQQtAVWJtq1PFF8LJxJ",
+      "https://lh3.google.com/u/0/d/1X7Q6kyzp6tLP4lQQtAVWJtq1PFF8LJxJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1X0Ya7kPRxAhpsRCO_eXCqVHbzy-XD6cX",
+      "https://lh3.google.com/u/0/d/1X0Ya7kPRxAhpsRCO_eXCqVHbzy-XD6cX=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2627,9 +2627,9 @@ const filmsArray = [
       "Por que o governo está avaliando os cadastros de quem mora sozinho?",
     YouTube: "https://youtu.be/pQ5fYneVoiQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WztYQJYB0057kLX5oE2AkyxJuHK5UX0I",
+      "https://lh3.google.com/u/0/d/1WztYQJYB0057kLX5oE2AkyxJuHK5UX0I=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Wz2RspIzx2SSJ9PdP1odbyF_ct1Abg8d",
+      "https://lh3.google.com/u/0/d/1Wz2RspIzx2SSJ9PdP1odbyF_ct1Abg8d=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2643,9 +2643,9 @@ const filmsArray = [
       "Por que o governo está avaliando os cadastros de quem mora sozinho? 9x16",
     YouTube: "https://youtube.com/shorts/n_rIv_OEOrI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WztYQJYB0057kLX5oE2AkyxJuHK5UX0I",
+      "https://lh3.google.com/u/0/d/1WztYQJYB0057kLX5oE2AkyxJuHK5UX0I=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Wz2RspIzx2SSJ9PdP1odbyF_ct1Abg8d",
+      "https://lh3.google.com/u/0/d/1Wz2RspIzx2SSJ9PdP1odbyF_ct1Abg8d=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2658,9 +2658,9 @@ const filmsArray = [
     Subtítulo: "Como manter o cadastro atualizado?",
     YouTube: "https://youtu.be/J-HGHqMJCwM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WyMsCYVpzfPZq9z3g7h80zcBT1zXIgX1",
+      "https://lh3.google.com/u/0/d/1WyMsCYVpzfPZq9z3g7h80zcBT1zXIgX1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Wwhw9o2yzeKq-ZcpOpC9diPjlJz1ayZU",
+      "https://lh3.google.com/u/0/d/1Wwhw9o2yzeKq-ZcpOpC9diPjlJz1ayZU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2673,9 +2673,9 @@ const filmsArray = [
     Subtítulo: "Como manter o cadastro atualizado? 9x16",
     YouTube: "https://youtube.com/shorts/Y2ZDux56j4c",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1WyMsCYVpzfPZq9z3g7h80zcBT1zXIgX1",
+      "https://lh3.google.com/u/0/d/1WyMsCYVpzfPZq9z3g7h80zcBT1zXIgX1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Wwhw9o2yzeKq-ZcpOpC9diPjlJz1ayZU",
+      "https://lh3.google.com/u/0/d/1Wwhw9o2yzeKq-ZcpOpC9diPjlJz1ayZU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2687,9 +2687,9 @@ const filmsArray = [
     Subtítulo: "Agora você tem Pediatria na Atenção Primária",
     YouTube: "https://youtu.be/uYJHh4A_aRk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IsjzKPK7wFm35XULqJHzvnwmAjLRztwm",
+      "https://lh3.google.com/u/0/d/1IsjzKPK7wFm35XULqJHzvnwmAjLRztwm=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IqqN6gVubtGBj4fVO68RosQOCLWyDZ3q",
+      "https://lh3.google.com/u/0/d/1IqqN6gVubtGBj4fVO68RosQOCLWyDZ3q=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2701,9 +2701,9 @@ const filmsArray = [
     Subtítulo: "O que é a Atenção Primária a Saúde",
     YouTube: "https://youtube.com/shorts/uTHy_upHLHI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IpaA19uGknSrKSGyZesBqWcw66jaS39-",
+      "https://lh3.google.com/u/0/d/1IpaA19uGknSrKSGyZesBqWcw66jaS39-=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ImJ61kXRarKxPumA9DIEpPa7i1en8dyZ",
+      "https://lh3.google.com/u/0/d/1ImJ61kXRarKxPumA9DIEpPa7i1en8dyZ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2715,9 +2715,9 @@ const filmsArray = [
     Subtítulo: "Como funciona a Atenção Primária a Saúde",
     YouTube: "https://youtu.be/QIhJHldrlbI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Il9VaAmQFDJZT_3AYAM-zc1r3qeYuvhu",
+      "https://lh3.google.com/u/0/d/1Il9VaAmQFDJZT_3AYAM-zc1r3qeYuvhu=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IhqLb5405CanIlTg8DZJXhsYfDpyeXGh",
+      "https://lh3.google.com/u/0/d/1IhqLb5405CanIlTg8DZJXhsYfDpyeXGh=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2729,9 +2729,9 @@ const filmsArray = [
     Subtítulo: "Quais as diferenças entre Atenção Primária e Especializada",
     YouTube: "https://youtu.be/xrNZQlNVywg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1If2dvTvk8VW0Fy66pBDfPkH_kwrXac-H",
+      "https://lh3.google.com/u/0/d/1If2dvTvk8VW0Fy66pBDfPkH_kwrXac-H=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Idzkla_X8Uz4pjqIQj-0kH9K8IB_iQm1",
+      "https://lh3.google.com/u/0/d/1Idzkla_X8Uz4pjqIQj-0kH9K8IB_iQm1=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2743,9 +2743,9 @@ const filmsArray = [
     Subtítulo: "Como funciona o consórcio?",
     YouTube: "https://youtu.be/tCGQGFQGze8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1419-Et95huH6KguJXyOpalrPfLN05XAH",
+      "https://lh3.google.com/u/0/d/1419-Et95huH6KguJXyOpalrPfLN05XAH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14urW2G7joFkkfAGFrDAVwRFVvtNnBnK3",
+      "https://lh3.google.com/u/0/d/14urW2G7joFkkfAGFrDAVwRFVvtNnBnK3=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2757,9 +2757,9 @@ const filmsArray = [
     Subtítulo: "O que é grupo de consórcio?",
     YouTube: "https://youtu.be/mQn14e2YtNU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14rr7HnYm495IxyHwiGOqMRtMJoLrA9h5",
+      "https://lh3.google.com/u/0/d/14rr7HnYm495IxyHwiGOqMRtMJoLrA9h5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14ppsK7NhdfYJjk5jVz3MPeXij_q_a6Hq",
+      "https://lh3.google.com/u/0/d/14ppsK7NhdfYJjk5jVz3MPeXij_q_a6Hq=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2771,9 +2771,9 @@ const filmsArray = [
     Subtítulo: "Por que ler o contrato é importante?",
     YouTube: "https://youtu.be/Ed77aLHVoPM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14obNBHir2WmPT3BZ0DNgwOtd3a4KdySG",
+      "https://lh3.google.com/u/0/d/14obNBHir2WmPT3BZ0DNgwOtd3a4KdySG=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14oHW5KV6RA_sTOTLL-cNSWg1mma9wjp1",
+      "https://lh3.google.com/u/0/d/14oHW5KV6RA_sTOTLL-cNSWg1mma9wjp1=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2785,9 +2785,9 @@ const filmsArray = [
     Subtítulo: "Como funcionam as assembléias?",
     YouTube: "https://youtu.be/eVcPXSQCWGU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14lGLnY3NSl_79QphxL5NmrYRcuZs9o43",
+      "https://lh3.google.com/u/0/d/14lGLnY3NSl_79QphxL5NmrYRcuZs9o43=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14Zs8RP1uYUgGDYGhsCiuoSp4Vgtmrybd",
+      "https://lh3.google.com/u/0/d/14Zs8RP1uYUgGDYGhsCiuoSp4Vgtmrybd=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2799,9 +2799,9 @@ const filmsArray = [
     Subtítulo: "Quais as formas de contemplação?",
     YouTube: "https://youtu.be/U9MpkudI20I",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14O9Sn3RB8c2Eaw0T3kX3OWxQXEhMaz8z",
+      "https://lh3.google.com/u/0/d/14O9Sn3RB8c2Eaw0T3kX3OWxQXEhMaz8z=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14Mg84sHAERPjVZS87qgounyXmhCyZG0c",
+      "https://lh3.google.com/u/0/d/14Mg84sHAERPjVZS87qgounyXmhCyZG0c=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2813,9 +2813,9 @@ const filmsArray = [
     Subtítulo: "O que é lance embutido?",
     YouTube: "https://youtu.be/XjbrcBCuLDI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14KbJwGx12Q0RX8ED3bVvvdPOxKNVOuZR",
+      "https://lh3.google.com/u/0/d/14KbJwGx12Q0RX8ED3bVvvdPOxKNVOuZR=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=14I6uK7zQwSet9V-AkpwFxzAsp5FoHyI8",
+      "https://lh3.google.com/u/0/d/14I6uK7zQwSet9V-AkpwFxzAsp5FoHyI8=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2827,9 +2827,9 @@ const filmsArray = [
     Subtítulo: "Para que servem as garantias?",
     YouTube: "https://youtu.be/g5s-r3BB8Us",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14DkUx1J7HX9ulaIZnegyEGN2NmLk7-C_",
+      "https://lh3.google.com/u/0/d/14DkUx1J7HX9ulaIZnegyEGN2NmLk7-C_=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=148_3iFFkwHNHh5wDwA3VpLO_xW7A0xLI",
+      "https://lh3.google.com/u/0/d/148_3iFFkwHNHh5wDwA3VpLO_xW7A0xLI=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2841,9 +2841,9 @@ const filmsArray = [
     Subtítulo: "É possível comprar o que quiser com o crédito?",
     YouTube: "https://youtu.be/r4Y1Lsl3j3w",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=143RlTVcrifEkF0RRzlddrgov7eg1YNhe",
+      "https://lh3.google.com/u/0/d/143RlTVcrifEkF0RRzlddrgov7eg1YNhe=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=142awM7g055ARxVevofUvOAJN3G4cuj6A",
+      "https://lh3.google.com/u/0/d/142awM7g055ARxVevofUvOAJN3G4cuj6A=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2855,9 +2855,9 @@ const filmsArray = [
     Subtítulo: "Comprar bem de menor valor",
     YouTube: "https://youtu.be/xYl-rU8V-IA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15j2kI6eZ4kpcr3iEmQHfXvCiraak5QIM",
+      "https://lh3.google.com/u/0/d/15j2kI6eZ4kpcr3iEmQHfXvCiraak5QIM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15d_YPNQfuI7149G4Y_O7KBmIsUhewbzF",
+      "https://lh3.google.com/u/0/d/15d_YPNQfuI7149G4Y_O7KBmIsUhewbzF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2869,9 +2869,9 @@ const filmsArray = [
     Subtítulo: "O que é taxa de admnistração?",
     YouTube: "https://youtu.be/cChO8Iypd2k",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15SDuPXMMuUoZ_TF16ETUYR6DqWUDA-kJ",
+      "https://lh3.google.com/u/0/d/15SDuPXMMuUoZ_TF16ETUYR6DqWUDA-kJ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15MZkdD4WdhV0BFf-E1Kh2H8McUjQZ4IJ",
+      "https://lh3.google.com/u/0/d/15MZkdD4WdhV0BFf-E1Kh2H8McUjQZ4IJ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2883,9 +2883,9 @@ const filmsArray = [
     Subtítulo: "O que é fundo de reserva?",
     YouTube: "https://youtu.be/9065MTYf1bQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5",
+      "https://lh3.google.com/u/0/d/15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5",
+      "https://lh3.google.com/u/0/d/15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2897,9 +2897,9 @@ const filmsArray = [
     Subtítulo: "Parcela do consórcio",
     YouTube: "https://youtu.be/qBZSMHS4x44",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15L6o_6jVez5Q_9R3K7Liv6WXx91kPU5p",
+      "https://lh3.google.com/u/0/d/15L6o_6jVez5Q_9R3K7Liv6WXx91kPU5p=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15ISJxBPYTCEJ6u5STNQlnKpUKdvL78qX",
+      "https://lh3.google.com/u/0/d/15ISJxBPYTCEJ6u5STNQlnKpUKdvL78qX=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2911,9 +2911,9 @@ const filmsArray = [
     Subtítulo: "O valor do crédito e das parcelas muda?",
     YouTube: "https://youtu.be/Upb1Lw25bjc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=15BDvzxTkjxQggMZWJhvdq8LRNNEioc_2",
+      "https://lh3.google.com/u/0/d/15BDvzxTkjxQggMZWJhvdq8LRNNEioc_2=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=15AbY3y50dHbvEOE6a9jWG2w5XUyjmsw7",
+      "https://lh3.google.com/u/0/d/15AbY3y50dHbvEOE6a9jWG2w5XUyjmsw7=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2925,9 +2925,9 @@ const filmsArray = [
     Subtítulo: "O que acontece ao antecipar o pagamento?",
     YouTube: "https://youtu.be/jmhMuM1bkZ8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=156x0vHukZpQGfwFu0_octTsRdKJb62VP",
+      "https://lh3.google.com/u/0/d/156x0vHukZpQGfwFu0_octTsRdKJb62VP=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=16tM8YfkCIwHEc2u_FySTGDmP2Wx7MObc",
+      "https://lh3.google.com/u/0/d/16tM8YfkCIwHEc2u_FySTGDmP2Wx7MObc=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2939,9 +2939,9 @@ const filmsArray = [
     Subtítulo: "É permitido receber o crédito em dinheiro?",
     YouTube: "https://youtu.be/q9sok_z8xHs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=14z2MFPEItnV5yLUgUEpi3wFj5exRpr2K",
+      "https://lh3.google.com/u/0/d/14z2MFPEItnV5yLUgUEpi3wFj5exRpr2K=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=16fhadSi2tl7WHZRDqoV504GkV13SveGG",
+      "https://lh3.google.com/u/0/d/16fhadSi2tl7WHZRDqoV504GkV13SveGG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2953,9 +2953,9 @@ const filmsArray = [
     Subtítulo: "E se atrasar o pagamento da parcela?",
     YouTube: "https://youtu.be/1l0AxoqoLc8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=16fDaqZg74FGTngEYWk_59deKjzMwzI-F",
+      "https://lh3.google.com/u/0/d/16fDaqZg74FGTngEYWk_59deKjzMwzI-F=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18MG9Cku6osMk_PB5jDbMAXbS3rVO_wd8",
+      "https://lh3.google.com/u/0/d/18MG9Cku6osMk_PB5jDbMAXbS3rVO_wd8=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2967,9 +2967,9 @@ const filmsArray = [
     Subtítulo: "Desistência",
     YouTube: "https://youtu.be/Yl90NgXy-iE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=18J0dFfExOOlaR9szLZmEfZiQ-6uoSXEc",
+      "https://lh3.google.com/u/0/d/18J0dFfExOOlaR9szLZmEfZiQ-6uoSXEc=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=18HayUmuPjDlsrA5E1L2wEJoerEptqHOw",
+      "https://lh3.google.com/u/0/d/18HayUmuPjDlsrA5E1L2wEJoerEptqHOw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2981,9 +2981,9 @@ const filmsArray = [
     Subtítulo: "Transferência",
     YouTube: "https://youtu.be/x21HfmDhB6M",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=180A67E1P7RjnvCPxTJMRbf3X9hmwho5U",
+      "https://lh3.google.com/u/0/d/180A67E1P7RjnvCPxTJMRbf3X9hmwho5U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=17xJkAHufmr1ewcKKRS7j1VQRlYef_Pip",
+      "https://lh3.google.com/u/0/d/17xJkAHufmr1ewcKKRS7j1VQRlYef_Pip=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -2995,9 +2995,9 @@ const filmsArray = [
     Subtítulo: "Cota contemplada",
     YouTube: "https://youtu.be/9eAF4p1aElE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=17wADbMm8ychD0nHYzOo173apYn9-SDoF",
+      "https://lh3.google.com/u/0/d/17wADbMm8ychD0nHYzOo173apYn9-SDoF=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=17usUSs9-HODsJIrQbmkfVEIpIj2fGUGG",
+      "https://lh3.google.com/u/0/d/17usUSs9-HODsJIrQbmkfVEIpIj2fGUGG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3009,9 +3009,9 @@ const filmsArray = [
     Subtítulo: "Posso voltar a pagar meu consórcio?",
     YouTube: "https://youtu.be/8sPHxR5_XuM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=17aEXJr3svESS4IJ-dhP0ojzXahNexF-T",
+      "https://lh3.google.com/u/0/d/17aEXJr3svESS4IJ-dhP0ojzXahNexF-T=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=17ZnTk8z_nKhcHjo6gcnHxSzm0OxWZARL",
+      "https://lh3.google.com/u/0/d/17ZnTk8z_nKhcHjo6gcnHxSzm0OxWZARL=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3023,9 +3023,9 @@ const filmsArray = [
     Subtítulo: "Video 1",
     YouTube: "https://youtu.be/kphdJaCtSq8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1AVqN7acoerr6Wcfq6VmHCT4P9ZDYF0e5",
+      "https://lh3.google.com/u/0/d/1AVqN7acoerr6Wcfq6VmHCT4P9ZDYF0e5=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ATHMYtDB-D5SmlL7f5uuOFhNDLRFrL0p",
+      "https://lh3.google.com/u/0/d/1ATHMYtDB-D5SmlL7f5uuOFhNDLRFrL0p=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3037,9 +3037,9 @@ const filmsArray = [
     Subtítulo: "Video 2",
     YouTube: "https://youtu.be/IOAmhOGRWj0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ARf2xc5exJLT38POZN7AJl9JMRl-B62G",
+      "https://lh3.google.com/u/0/d/1ARf2xc5exJLT38POZN7AJl9JMRl-B62G=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1AO_dVuWj4EV2tRy9Qk7qRIe7OdbWHR4k",
+      "https://lh3.google.com/u/0/d/1AO_dVuWj4EV2tRy9Qk7qRIe7OdbWHR4k=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3051,9 +3051,9 @@ const filmsArray = [
     Subtítulo: "Video 3",
     YouTube: "https://youtu.be/FNx-wJaOcbA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1AK-ZKFGc1AHNsxE_UNuU32hTyaB6awjV",
+      "https://lh3.google.com/u/0/d/1AK-ZKFGc1AHNsxE_UNuU32hTyaB6awjV=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1AJPUiVeYPyVd5-rvowzYryf0sLIvszjW",
+      "https://lh3.google.com/u/0/d/1AJPUiVeYPyVd5-rvowzYryf0sLIvszjW=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3065,9 +3065,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/d_XhBGyxoIo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13SBsXHPMpK3uUfbM6k0xT3bTfApJWyxv",
+      "https://lh3.google.com/u/0/d/13SBsXHPMpK3uUfbM6k0xT3bTfApJWyxv=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13SvYvMxaPDFAxLAGZrESpT_qxxYFU0qf",
+      "https://lh3.google.com/u/0/d/13SvYvMxaPDFAxLAGZrESpT_qxxYFU0qf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3079,9 +3079,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/KKwTswlMn5w",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13WxMo61YHyH-udiVeYKJh1CbOckLkCbH",
+      "https://lh3.google.com/u/0/d/13WxMo61YHyH-udiVeYKJh1CbOckLkCbH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13VYwPQRjkWu7rhYV2FBjUsvAzBB7Nzoq",
+      "https://lh3.google.com/u/0/d/13VYwPQRjkWu7rhYV2FBjUsvAzBB7Nzoq=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3093,9 +3093,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/OrAfiGEwQAU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13b2lOBgxVDPATkYU6rO6KyrmfT7N0jM1",
+      "https://lh3.google.com/u/0/d/13b2lOBgxVDPATkYU6rO6KyrmfT7N0jM1=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13YG-ycDJQnXCCxngxvcUnIu1Bdsh6fOr",
+      "https://lh3.google.com/u/0/d/13YG-ycDJQnXCCxngxvcUnIu1Bdsh6fOr=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3107,9 +3107,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/z2Stw81RhKg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13iYXX7q_s-xlTHH1E0HhtRILqTQiRSmn",
+      "https://lh3.google.com/u/0/d/13iYXX7q_s-xlTHH1E0HhtRILqTQiRSmn=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13blVlQvLpc9BeG_gFG487kLltWxODdC9",
+      "https://lh3.google.com/u/0/d/13blVlQvLpc9BeG_gFG487kLltWxODdC9=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3121,9 +3121,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/32mwdUP6AJQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ZgF7wfONkaVfWGkRtqlUqy9DqtwNEIma",
+      "https://lh3.google.com/u/0/d/1ZgF7wfONkaVfWGkRtqlUqy9DqtwNEIma=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1wwat5-3vo39Htn8WGmD3mtlQ-eCpQ1_4",
+      "https://lh3.google.com/u/0/d/1wwat5-3vo39Htn8WGmD3mtlQ-eCpQ1_4=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3135,9 +3135,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/ytfCfKe9T1A",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=13PX6NCYhx6B7TywbiceperXcnIloxOGI",
+      "https://lh3.google.com/u/0/d/13PX6NCYhx6B7TywbiceperXcnIloxOGI=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=13Lk7SupYJQpfza9gGPzJgWH3gD64jNCG",
+      "https://lh3.google.com/u/0/d/13Lk7SupYJQpfza9gGPzJgWH3gD64jNCG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3149,9 +3149,9 @@ const filmsArray = [
     Subtítulo: "Como reforçar o caixa da empresa?",
     YouTube: "https://youtu.be/RkhcBsmRB0M",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1M5ijcbP63CqCWH6t4BhEpE4UwFOKde_o",
+      "https://lh3.google.com/u/0/d/1M5ijcbP63CqCWH6t4BhEpE4UwFOKde_o=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1LyROFXoiSi0D8qYEnKp5T0GjZmirFLCB",
+      "https://lh3.google.com/u/0/d/1LyROFXoiSi0D8qYEnKp5T0GjZmirFLCB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3163,9 +3163,9 @@ const filmsArray = [
     Subtítulo: "Como vender pelo whatsapp e redes sociais?",
     YouTube: "https://youtu.be/CRuHnwvWhoo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1LvSFOgj2j9G8AmT76skDafSmBWfW7D95",
+      "https://lh3.google.com/u/0/d/1LvSFOgj2j9G8AmT76skDafSmBWfW7D95=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Lm3bQ6rdioi0Y_6Y1B5L9pKZJZihncc5",
+      "https://lh3.google.com/u/0/d/1Lm3bQ6rdioi0Y_6Y1B5L9pKZJZihncc5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3177,9 +3177,9 @@ const filmsArray = [
     Subtítulo: "Como diminuir custos?",
     YouTube: "https://youtu.be/NC-mrDbmTEU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1MMvMz-fuxFBUpRPzEPv7RKyGebTYQ-R2",
+      "https://lh3.google.com/u/0/d/1MMvMz-fuxFBUpRPzEPv7RKyGebTYQ-R2=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MMtvWeynqTUBpxE7uLJGXfxEpEmV-Ktj",
+      "https://lh3.google.com/u/0/d/1MMtvWeynqTUBpxE7uLJGXfxEpEmV-Ktj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3191,9 +3191,9 @@ const filmsArray = [
     Subtítulo: "Como impulsionar suas vendas?",
     YouTube: "https://youtu.be/aIEnXczUQzQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1MITqhpPNpTPz1ZhPMNEWC6KWL8-EPBzp",
+      "https://lh3.google.com/u/0/d/1MITqhpPNpTPz1ZhPMNEWC6KWL8-EPBzp=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MEyXsZy9f4h4yFdt6Enh0G60F1NYAISg",
+      "https://lh3.google.com/u/0/d/1MEyXsZy9f4h4yFdt6Enh0G60F1NYAISg=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3205,9 +3205,9 @@ const filmsArray = [
     Subtítulo: "O que são canais de venda?",
     YouTube: "https://youtu.be/obifSlFi1dY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1M8u7KJlV-YV5Pl06dnT9xy02HU2nwYix",
+      "https://lh3.google.com/u/0/d/1M8u7KJlV-YV5Pl06dnT9xy02HU2nwYix=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1M8qTN8pd9tNxFckSgoAf2PHBehMlzNmo",
+      "https://lh3.google.com/u/0/d/1M8qTN8pd9tNxFckSgoAf2PHBehMlzNmo=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3219,9 +3219,9 @@ const filmsArray = [
     Subtítulo: "Como expandir uma pequena empresa e faturar mais?",
     YouTube: "https://youtu.be/KiXc8-seOtI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1MEBFIBJ4EMW_3afz-aHBnvXgZ7HgdnSY",
+      "https://lh3.google.com/u/0/d/1MEBFIBJ4EMW_3afz-aHBnvXgZ7HgdnSY=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MCGNj382pr7D5VqvhPsY0PPPSCIqfuuf",
+      "https://lh3.google.com/u/0/d/1MCGNj382pr7D5VqvhPsY0PPPSCIqfuuf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3233,9 +3233,9 @@ const filmsArray = [
     Subtítulo: "Como usar a tecnologia a favor da sua empresa?",
     YouTube: "https://youtu.be/SlliV8vVR58",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1LjyvUwiObht6iSXVtEaL_U3JoOTv-HUQ",
+      "https://lh3.google.com/u/0/d/1LjyvUwiObht6iSXVtEaL_U3JoOTv-HUQ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1IU6yUdxA4j3PPOZy2pR4i0empowxBso2",
+      "https://lh3.google.com/u/0/d/1IU6yUdxA4j3PPOZy2pR4i0empowxBso2=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3247,9 +3247,9 @@ const filmsArray = [
     Subtítulo: "Pra quem é o crédito?",
     YouTube: "https://youtu.be/0hGhFCLvjsA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-66hNw8HORWvd3KXwZTd5E5G7SmEiNiF",
+      "https://lh3.google.com/u/0/d/1-66hNw8HORWvd3KXwZTd5E5G7SmEiNiF=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-9IqllTifD96zS2piJnHf7k7-Md-8qKW",
+      "https://lh3.google.com/u/0/d/1-9IqllTifD96zS2piJnHf7k7-Md-8qKW=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3261,9 +3261,9 @@ const filmsArray = [
     Subtítulo: "Meu Caixa Tem bloqueou, o que fazer?",
     YouTube: "https://youtu.be/vpBLSu3ip4o",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=10LwYoWdqnmFWyc16r_p8VZ1P_AwS07Bs",
+      "https://lh3.google.com/u/0/d/10LwYoWdqnmFWyc16r_p8VZ1P_AwS07Bs=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=10K7VroV8qfVFPShidNSXf48M8ifxf_As",
+      "https://lh3.google.com/u/0/d/10K7VroV8qfVFPShidNSXf48M8ifxf_As=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3275,9 +3275,9 @@ const filmsArray = [
     Subtítulo: "Condições e documentação para Pessoa Física",
     YouTube: "https://youtu.be/OVgqmSOk5ag",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=108wiyD_leOoFUkKs38sjuHbnTXSuG6i0",
+      "https://lh3.google.com/u/0/d/108wiyD_leOoFUkKs38sjuHbnTXSuG6i0=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=108HT7_3Y1xMcSTYaQPWFpt4osMdROgBP",
+      "https://lh3.google.com/u/0/d/108HT7_3Y1xMcSTYaQPWFpt4osMdROgBP=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3289,9 +3289,9 @@ const filmsArray = [
     Subtítulo: "Condições e documentação para MEI",
     YouTube: "https://youtu.be/MR7o_sL_vpI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=107ZZVAX82-Qoz0MKEmHkGyguJpJu6Udx",
+      "https://lh3.google.com/u/0/d/107ZZVAX82-Qoz0MKEmHkGyguJpJu6Udx=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-yyZWyas6WXplUp6eKq1MsfexMwGePF1",
+      "https://lh3.google.com/u/0/d/1-yyZWyas6WXplUp6eKq1MsfexMwGePF1=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3303,9 +3303,9 @@ const filmsArray = [
     Subtítulo: "Redefinição de senha",
     YouTube: "https://youtu.be/-gRuT3IEVac",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-uzwyX9VWa3OrL5JJ9K9nPp2Fw4TYRUv",
+      "https://lh3.google.com/u/0/d/1-uzwyX9VWa3OrL5JJ9K9nPp2Fw4TYRUv=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-qHWGf88vKcIBpa9aMxJSoi5Rk60XbCG",
+      "https://lh3.google.com/u/0/d/1-qHWGf88vKcIBpa9aMxJSoi5Rk60XbCG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3317,9 +3317,9 @@ const filmsArray = [
     Subtítulo: "Dicas para envio da documentação cadastral",
     YouTube: "https://youtu.be/TmLhi9gDtN4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-q1x9FbQFCXBGkt--irHmol4lABmI8Bj",
+      "https://lh3.google.com/u/0/d/1-q1x9FbQFCXBGkt--irHmol4lABmI8Bj=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-nXXe0AEbk0t5LvVvCPZrIYWBZlLQZCb",
+      "https://lh3.google.com/u/0/d/1-nXXe0AEbk0t5LvVvCPZrIYWBZlLQZCb=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3331,9 +3331,9 @@ const filmsArray = [
     Subtítulo: "Informe de renda no Caixa Tem",
     YouTube: "https://youtu.be/MdkoJPeyV2w",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-jNtR_l0iJNnwv4pj3CJpTf17518eJch",
+      "https://lh3.google.com/u/0/d/1-jNtR_l0iJNnwv4pj3CJpTf17518eJch=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-ir0OhhggZZQ4fXmBxkdTt4XyfH90not",
+      "https://lh3.google.com/u/0/d/1-ir0OhhggZZQ4fXmBxkdTt4XyfH90not=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3345,9 +3345,9 @@ const filmsArray = [
     Subtítulo: "Confirmação da atualização cadastral",
     YouTube: "https://youtu.be/-l2XqOL2igo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-Yc56e7PhXgAcYCtwnGB-p75P68LSdGG",
+      "https://lh3.google.com/u/0/d/1-Yc56e7PhXgAcYCtwnGB-p75P68LSdGG=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-T6qbyiMbeVPtmqU9QA272Ygh3Rv2TRs",
+      "https://lh3.google.com/u/0/d/1-T6qbyiMbeVPtmqU9QA272Ygh3Rv2TRs=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3359,9 +3359,9 @@ const filmsArray = [
     Subtítulo: "Como solicitar o empréstimo?",
     YouTube: "https://youtu.be/fw9w2_CFjbA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-SDAMA_JvL4Og5yG-Ltfnk3gmWWiwL69",
+      "https://lh3.google.com/u/0/d/1-SDAMA_JvL4Og5yG-Ltfnk3gmWWiwL69=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-RV-dueMJ1EUVafMVnufqWF_toEWmY4d",
+      "https://lh3.google.com/u/0/d/1-RV-dueMJ1EUVafMVnufqWF_toEWmY4d=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3373,9 +3373,9 @@ const filmsArray = [
     Subtítulo: "Status da solicitação de crédito",
     YouTube: "https://youtu.be/a-Mg1L-ke3s",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1-HaJJsZmAawC3YdbGytiBNYadvstkDKs",
+      "https://lh3.google.com/u/0/d/1-HaJJsZmAawC3YdbGytiBNYadvstkDKs=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1-ALG8U7bK9JuzEHfo3aQuWab4XOBiRYF",
+      "https://lh3.google.com/u/0/d/1-ALG8U7bK9JuzEHfo3aQuWab4XOBiRYF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3387,9 +3387,9 @@ const filmsArray = [
     Subtítulo: "Atenção Primária à Saúde",
     YouTube: "https://youtu.be/jBfsAszS_gQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12ANLBMlblktXWwg4a9dJ1-HgwrrHj3we",
+      "https://lh3.google.com/u/0/d/12ANLBMlblktXWwg4a9dJ1-HgwrrHj3we=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=120f5dybJU-ADmB8SukA-j04bE9Vm3e1U",
+      "https://lh3.google.com/u/0/d/120f5dybJU-ADmB8SukA-j04bE9Vm3e1U=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3401,9 +3401,9 @@ const filmsArray = [
     Subtítulo: "Câncer",
     YouTube: "https://youtu.be/QTxpSC5IWQs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12xN0YLcLe35sl7EINO1bG1K1UfBa3Udc",
+      "https://lh3.google.com/u/0/d/12xN0YLcLe35sl7EINO1bG1K1UfBa3Udc=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12vkbbgAJrWAEsj3V6jJDQLvcLzu-Pi3y",
+      "https://lh3.google.com/u/0/d/12vkbbgAJrWAEsj3V6jJDQLvcLzu-Pi3y=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3415,9 +3415,9 @@ const filmsArray = [
     Subtítulo: "Pré-natal",
     YouTube: "https://youtu.be/w_JjyFjwM4w",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12tTmmoe2pkfy3odvxDxXXopCv-hhVEWK",
+      "https://lh3.google.com/u/0/d/12tTmmoe2pkfy3odvxDxXXopCv-hhVEWK=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12lwoZUZdy_dp0UkDU0A8LzM73WkApejw",
+      "https://lh3.google.com/u/0/d/12lwoZUZdy_dp0UkDU0A8LzM73WkApejw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3429,9 +3429,9 @@ const filmsArray = [
     Subtítulo: "Sexualidade e planejamento familiar",
     YouTube: "https://youtu.be/IB-xoIJYXpQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12eV9UFLdeNNa32y-hV0WPLnD7dQh1fTl",
+      "https://lh3.google.com/u/0/d/12eV9UFLdeNNa32y-hV0WPLnD7dQh1fTl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12gkpJVbjx912InVCOBXlgh6Tauk7K1JB",
+      "https://lh3.google.com/u/0/d/12gkpJVbjx912InVCOBXlgh6Tauk7K1JB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3443,9 +3443,9 @@ const filmsArray = [
     Subtítulo: "ISTs",
     YouTube: "https://youtu.be/eoDVaRUcnrA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12OGn-ng7HIuMnSsQjYve5YDvxOrPoQM3",
+      "https://lh3.google.com/u/0/d/12OGn-ng7HIuMnSsQjYve5YDvxOrPoQM3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12OfyiKv_uSFmIdASt-_PcOvWyhya_TQB",
+      "https://lh3.google.com/u/0/d/12OfyiKv_uSFmIdASt-_PcOvWyhya_TQB=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3457,9 +3457,9 @@ const filmsArray = [
     Subtítulo: "Pré-natal odontológico",
     YouTube: "https://youtu.be/3Vy70mMTozw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12EnatW7jO6guI1SDfS0K0pX7w5yMsOWf",
+      "https://lh3.google.com/u/0/d/12EnatW7jO6guI1SDfS0K0pX7w5yMsOWf=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12NECpUYpACzRuGq7wxtJDsubwSUCv6lC",
+      "https://lh3.google.com/u/0/d/12NECpUYpACzRuGq7wxtJDsubwSUCv6lC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3471,9 +3471,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/nf1-4crRp40",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ZI_GQ7NLH9wIzxDistjNzmol4cfeuGIh",
+      "https://lh3.google.com/u/0/d/1ZI_GQ7NLH9wIzxDistjNzmol4cfeuGIh=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ZJHFSnYZ9NGUnVvQr2pDq1ed_-9EylXu",
+      "https://lh3.google.com/u/0/d/1ZJHFSnYZ9NGUnVvQr2pDq1ed_-9EylXu=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3485,9 +3485,9 @@ const filmsArray = [
     Subtítulo: "Segurança para o paciente",
     YouTube: "https://youtu.be/cl9SvhrSO_I",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DN8kMtLjhcfp28xP83EY31U7XWa8zLHC",
+      "https://lh3.google.com/u/0/d/1DN8kMtLjhcfp28xP83EY31U7XWa8zLHC=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1DKkUsQ5BZq56A3CC4nPVLlTpSbrPiujs",
+      "https://lh3.google.com/u/0/d/1DKkUsQ5BZq56A3CC4nPVLlTpSbrPiujs=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3499,9 +3499,9 @@ const filmsArray = [
     Subtítulo: "Farmacovigilância na terapia biológica",
     YouTube: "https://youtu.be/-cYCJsVG5J0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DgXeob7I5VthpcqDN0HvJLQASzxkLi4x",
+      "https://lh3.google.com/u/0/d/1DgXeob7I5VthpcqDN0HvJLQASzxkLi4x=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1DgDk6SY1uofoDil6IWMitpr458HWNcW5",
+      "https://lh3.google.com/u/0/d/1DgDk6SY1uofoDil6IWMitpr458HWNcW5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3513,9 +3513,9 @@ const filmsArray = [
     Subtítulo: "Transporte e armazenamento",
     YouTube: "https://youtu.be/ZVdqE22Q9O8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DQyIS1kMaervZPQYKWyw7cnOcQqTNxBU",
+      "https://lh3.google.com/u/0/d/1DQyIS1kMaervZPQYKWyw7cnOcQqTNxBU=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1DPn1RNIhzVI3A37L8650hcXnTIEFZVy8",
+      "https://lh3.google.com/u/0/d/1DPn1RNIhzVI3A37L8650hcXnTIEFZVy8=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3527,9 +3527,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/nRgBxOfIlY4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1So35ZEuco2HFY7gQcNFeLcvejj0pAJZ8",
+      "https://lh3.google.com/u/0/d/1So35ZEuco2HFY7gQcNFeLcvejj0pAJZ8=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Sj7K9aT9bJH7whFFiimxjHUIyQBytJdf",
+      "https://lh3.google.com/u/0/d/1Sj7K9aT9bJH7whFFiimxjHUIyQBytJdf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3541,9 +3541,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtube.com/shorts/eXWLjP_o5lg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ElYDRtulxgP_QliP3uPTfEO35cYljOht",
+      "https://lh3.google.com/u/0/d/1ElYDRtulxgP_QliP3uPTfEO35cYljOht=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Eq0iuB182lAWBptkjxaYpRrYPjjztQxd",
+      "https://lh3.google.com/u/0/d/1Eq0iuB182lAWBptkjxaYpRrYPjjztQxd=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3555,9 +3555,9 @@ const filmsArray = [
     Subtítulo: "Parte 1",
     YouTube: "https://youtube.com/shorts/mEkDrrGJw4g",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U",
+      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC",
+      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3569,9 +3569,9 @@ const filmsArray = [
     Subtítulo: "Parte 2",
     YouTube: "https://youtube.com/shorts/8xM6s64ckmo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U",
+      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC",
+      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3583,9 +3583,9 @@ const filmsArray = [
     Subtítulo: "Parte 3",
     YouTube: "https://youtube.com/shorts/hBJHLsjCxNU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U",
+      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC",
+      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3597,9 +3597,9 @@ const filmsArray = [
     Subtítulo: "Parte 4",
     YouTube: "https://youtube.com/shorts/MNjIHkmqkBg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U",
+      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC",
+      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3611,9 +3611,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/53dGdk68sgc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1jSfNgKhXHsUJbs1Tm7p_IN1Un6ss8-iW",
+      "https://lh3.google.com/u/0/d/1jSfNgKhXHsUJbs1Tm7p_IN1Un6ss8-iW=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MNfPoPtBxdf006hkSS01n_t-tYs4lht8",
+      "https://lh3.google.com/u/0/d/1MNfPoPtBxdf006hkSS01n_t-tYs4lht8=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3625,9 +3625,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/la_nkAORFtc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1NSlUVvsztNymGkKCnespUiOZzKvaZ5W7",
+      "https://lh3.google.com/u/0/d/1NSlUVvsztNymGkKCnespUiOZzKvaZ5W7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1NPszr9j2ZWxqrV2YbyiqZqs-dt-jyT2M",
+      "https://lh3.google.com/u/0/d/1NPszr9j2ZWxqrV2YbyiqZqs-dt-jyT2M=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3639,9 +3639,9 @@ const filmsArray = [
     Subtítulo: "Campanha",
     YouTube: "https://youtu.be/wFaMHZtoNiQ",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1F1TrIfUoaNJVAODy0vSlSn9dWmlOw3JR",
+      "https://lh3.google.com/u/0/d/1F1TrIfUoaNJVAODy0vSlSn9dWmlOw3JR=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1F0iVVxt3nbZUM2XCePvBq8Mcr07HJxAs",
+      "https://lh3.google.com/u/0/d/1F0iVVxt3nbZUM2XCePvBq8Mcr07HJxAs=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3653,9 +3653,9 @@ const filmsArray = [
     Subtítulo: "Segunda-Feira",
     YouTube: "https://youtu.be/R4YmOVAXwmE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1F4RnQjSHZ1ledl0b4UJ6tPr7bi60yHJW",
+      "https://lh3.google.com/u/0/d/1F4RnQjSHZ1ledl0b4UJ6tPr7bi60yHJW=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1F7Dm1PhT2cFad6yOSAKnHL3dAn0b5Yie",
+      "https://lh3.google.com/u/0/d/1F7Dm1PhT2cFad6yOSAKnHL3dAn0b5Yie=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3667,9 +3667,9 @@ const filmsArray = [
     Subtítulo: "Terça-Feira",
     YouTube: "https://youtu.be/mmcy2_64k94",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1FTXICcxNzkc0tfHNqxb4FQct_Y6pL94U",
+      "https://lh3.google.com/u/0/d/1FTXICcxNzkc0tfHNqxb4FQct_Y6pL94U=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1FO2QNbb7cmHDCLMkduiaLcAJ5uzmQDQ7",
+      "https://lh3.google.com/u/0/d/1FO2QNbb7cmHDCLMkduiaLcAJ5uzmQDQ7=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3681,9 +3681,9 @@ const filmsArray = [
     Subtítulo: "Quarta-Feira",
     YouTube: "https://youtu.be/WQAhIsPQ82Y",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1FUym21QcGTTdiZKXgRgcMy3xBGYsCSd8",
+      "https://lh3.google.com/u/0/d/1FUym21QcGTTdiZKXgRgcMy3xBGYsCSd8=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1FUrFleS82hpNk0Wac6PyBKoHUEpq07Or",
+      "https://lh3.google.com/u/0/d/1FUrFleS82hpNk0Wac6PyBKoHUEpq07Or=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3695,9 +3695,9 @@ const filmsArray = [
     Subtítulo: "Quinta-Feira",
     YouTube: "https://youtu.be/41hYMCzUmzM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Fsw6FPGCbc0AD3wAvlcopeSsdFXHhf9u",
+      "https://lh3.google.com/u/0/d/1Fsw6FPGCbc0AD3wAvlcopeSsdFXHhf9u=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Fr7s6XV2m89ZEwjdrbv8d6V39nByZs6I",
+      "https://lh3.google.com/u/0/d/1Fr7s6XV2m89ZEwjdrbv8d6V39nByZs6I=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3709,9 +3709,9 @@ const filmsArray = [
     Subtítulo: "Sexta-Feira",
     YouTube: "https://youtu.be/2fxnXoz3hAc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ffzn56whDFrRaZq2EPlOId6zogX4JmO_",
+      "https://lh3.google.com/u/0/d/1Ffzn56whDFrRaZq2EPlOId6zogX4JmO_=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1FcRNrUVnMUB-LRBQ5tSb6hw0sRw2xJrf",
+      "https://lh3.google.com/u/0/d/1FcRNrUVnMUB-LRBQ5tSb6hw0sRw2xJrf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3723,9 +3723,9 @@ const filmsArray = [
     Subtítulo: "Fim de Semana",
     YouTube: "https://youtu.be/wLwy-a08gB4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1FbncrMFOpSY-n6YI4QtbYR86S89-QrZt",
+      "https://lh3.google.com/u/0/d/1FbncrMFOpSY-n6YI4QtbYR86S89-QrZt=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1FY7gRzOQ52OTQB190x0oGIKzzUoW6RJA",
+      "https://lh3.google.com/u/0/d/1FY7gRzOQ52OTQB190x0oGIKzzUoW6RJA=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3737,9 +3737,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/4eJ_gCYk6d4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1JdZd21r2r6RffQOYoA8AHMSD8iGAyAlz",
+      "https://lh3.google.com/u/0/d/1JdZd21r2r6RffQOYoA8AHMSD8iGAyAlz=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1JFpfz5OVlvAh5QeFRpbqiCGYIw4xKZnw",
+      "https://lh3.google.com/u/0/d/1JFpfz5OVlvAh5QeFRpbqiCGYIw4xKZnw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3751,9 +3751,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/vCTBEtMoUWY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1G0Gps3ZQHe-HYhVSwEmNTnjztShJ1TQM",
+      "https://lh3.google.com/u/0/d/1G0Gps3ZQHe-HYhVSwEmNTnjztShJ1TQM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1G6aR2EjmX4HjdAL55efVslLDnN9tFjf5",
+      "https://lh3.google.com/u/0/d/1G6aR2EjmX4HjdAL55efVslLDnN9tFjf5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3765,9 +3765,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Fs_CgAiTT4M",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1G71Rs-rEKuVPvMcUO8GTxof9-amFvd6E",
+      "https://lh3.google.com/u/0/d/1G71Rs-rEKuVPvMcUO8GTxof9-amFvd6E=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1G7HpgkkXYfBPIdg74KRWORKxDefs7577",
+      "https://lh3.google.com/u/0/d/1G7HpgkkXYfBPIdg74KRWORKxDefs7577=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3779,9 +3779,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/E54WkAJdj7c",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1G9IAjPQJuhyO5Ax3k7Pki4-jUt6RWRNZ",
+      "https://lh3.google.com/u/0/d/1G9IAjPQJuhyO5Ax3k7Pki4-jUt6RWRNZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1GALgX15g2AhNZJqDapw1oiy26SpDZQaL",
+      "https://lh3.google.com/u/0/d/1GALgX15g2AhNZJqDapw1oiy26SpDZQaL=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3793,9 +3793,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/yMFKkcZ7IB4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1HP-uxnl6-W_YVnbS2kxTVTZT1d9T4ev2",
+      "https://lh3.google.com/u/0/d/1HP-uxnl6-W_YVnbS2kxTVTZT1d9T4ev2=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1HKB4tWeIweE4oZfK7ZExVjmZcuiVaomm",
+      "https://lh3.google.com/u/0/d/1HKB4tWeIweE4oZfK7ZExVjmZcuiVaomm=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3807,9 +3807,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/y-1sn6IhjOM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1H2oiVmHeID3rgMtAXT9rZlUuK_9_lKFH",
+      "https://lh3.google.com/u/0/d/1H2oiVmHeID3rgMtAXT9rZlUuK_9_lKFH=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1H1sxy5qgdB3DqZy67EovUc2uuTgzue_u",
+      "https://lh3.google.com/u/0/d/1H1sxy5qgdB3DqZy67EovUc2uuTgzue_u=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3821,9 +3821,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/L37alrJUdNU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1H0h8X6ziLr_7AvRYuCprIKW8c4FuzZ26",
+      "https://lh3.google.com/u/0/d/1H0h8X6ziLr_7AvRYuCprIKW8c4FuzZ26=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Gtorc-DztK2BNSDWHvyZR5WwtoZOuQAI",
+      "https://lh3.google.com/u/0/d/1Gtorc-DztK2BNSDWHvyZR5WwtoZOuQAI=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3835,9 +3835,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/E33POXhgClI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DwjecPaa3ot8wpiTxbRMevO_D_yuCVu7",
+      "https://lh3.google.com/u/0/d/1DwjecPaa3ot8wpiTxbRMevO_D_yuCVu7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Dv5jEKSSOAyLtdLvAyQ6eCep9AFkDkc5",
+      "https://lh3.google.com/u/0/d/1Dv5jEKSSOAyLtdLvAyQ6eCep9AFkDkc5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3849,9 +3849,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/I0u9mCtw2X4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DxzjfsDFCxcasmlAGzaAfDGKgdLAupEL",
+      "https://lh3.google.com/u/0/d/1DxzjfsDFCxcasmlAGzaAfDGKgdLAupEL=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1E3x5m47_-TcPwsRmPx21B8RHC3GttB7g",
+      "https://lh3.google.com/u/0/d/1E3x5m47_-TcPwsRmPx21B8RHC3GttB7g=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3863,9 +3863,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/7wS2uC0saZI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1E549WYPO_0CGFg6fSR6CB5xmwd-PSd8r",
+      "https://lh3.google.com/u/0/d/1E549WYPO_0CGFg6fSR6CB5xmwd-PSd8r=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1E7kiF58Aoyb8P5Sp7PkkNeDfa_OrHKLw",
+      "https://lh3.google.com/u/0/d/1E7kiF58Aoyb8P5Sp7PkkNeDfa_OrHKLw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3877,9 +3877,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/QWkp332MrRE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1DCnNoI2U1rcVKy_2gnR4kefvOZfNsbLK",
+      "https://lh3.google.com/u/0/d/1DCnNoI2U1rcVKy_2gnR4kefvOZfNsbLK=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1D4EqQqj_kyv25vBcKi6YWgZvEubz0VDf",
+      "https://lh3.google.com/u/0/d/1D4EqQqj_kyv25vBcKi6YWgZvEubz0VDf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3891,9 +3891,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/2uG6x4lXXq8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1USvwu6P-X3DMgPLCdw_CksABCcEf_qUl",
+      "https://lh3.google.com/u/0/d/1USvwu6P-X3DMgPLCdw_CksABCcEf_qUl=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1UBmiZ0xJo8Qq3OwsDcqxyW_EMa0KA7ww",
+      "https://lh3.google.com/u/0/d/1UBmiZ0xJo8Qq3OwsDcqxyW_EMa0KA7ww=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3905,9 +3905,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/J5Ix4dkujAA",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1UAc2pQn5d7J2rZaOHGdeEXLadITmxSXc",
+      "https://lh3.google.com/u/0/d/1UAc2pQn5d7J2rZaOHGdeEXLadITmxSXc=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1UAbaqy5lESapoGCyv-H3Oka3eAEb1Q-R",
+      "https://lh3.google.com/u/0/d/1UAbaqy5lESapoGCyv-H3Oka3eAEb1Q-R=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3919,9 +3919,9 @@ const filmsArray = [
     Subtítulo: "TIPOS DE MÁQUINA",
     YouTube: "https://youtu.be/vPQ3Cn8wpWo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1YOI8lTT8MQOTaPh-u_RnuFkWVapGUSWb",
+      "https://lh3.google.com/u/0/d/1YOI8lTT8MQOTaPh-u_RnuFkWVapGUSWb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YW4KHdMy7e3JnRdQvKe3dK-2mWw0dPXG",
+      "https://lh3.google.com/u/0/d/1YW4KHdMy7e3JnRdQvKe3dK-2mWw0dPXG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3933,9 +3933,9 @@ const filmsArray = [
     Subtítulo: "MÁQUINA BLUETOOTH E APP SAFRAPAY",
     YouTube: "https://youtu.be/_RAodw87-g8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Z3RQOWFRBbs2qMPb0UENioJ9bUz6mfMg",
+      "https://lh3.google.com/u/0/d/1Z3RQOWFRBbs2qMPb0UENioJ9bUz6mfMg=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Z1yAmz2RvKpDdkyMmw0VOxv5MdpvEYyP",
+      "https://lh3.google.com/u/0/d/1Z1yAmz2RvKpDdkyMmw0VOxv5MdpvEYyP=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3947,9 +3947,9 @@ const filmsArray = [
     Subtítulo: "MÁQUINA COM BOBINA",
     YouTube: "https://youtu.be/CgMIgcHNpD4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Z1JeuPcMFeCH0ICb00Y_6mJl_Y42EYJ7",
+      "https://lh3.google.com/u/0/d/1Z1JeuPcMFeCH0ICb00Y_6mJl_Y42EYJ7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Z0b3gBu7TzSWIZyFRRUIbk80N0DOor-X",
+      "https://lh3.google.com/u/0/d/1Z0b3gBu7TzSWIZyFRRUIbk80N0DOor-X=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3961,9 +3961,9 @@ const filmsArray = [
     Subtítulo: "MÁQUINA MÓVEL SEM BOBINA GPRS",
     YouTube: "https://youtu.be/gqEECE64rGk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1YzI75NPiW8wgtwNFtp2IRq_bMU5dCPhm",
+      "https://lh3.google.com/u/0/d/1YzI75NPiW8wgtwNFtp2IRq_bMU5dCPhm=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YxUyP62rqc7tnJ_242btnGZ9cN3X-xGX",
+      "https://lh3.google.com/u/0/d/1YxUyP62rqc7tnJ_242btnGZ9cN3X-xGX=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3975,9 +3975,9 @@ const filmsArray = [
     Subtítulo: "MÁQUINA SEM BOBINA",
     YouTube: "https://youtu.be/RmwrqexiRYk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ydp0VHjhoXZntQuM4vZBAcpZlCwHq4gB",
+      "https://lh3.google.com/u/0/d/1Ydp0VHjhoXZntQuM4vZBAcpZlCwHq4gB=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YcIRfeeVissD7jPp-59ETn43dLKGvPIf",
+      "https://lh3.google.com/u/0/d/1YcIRfeeVissD7jPp-59ETn43dLKGvPIf=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -3989,9 +3989,9 @@ const filmsArray = [
     Subtítulo: "CONHEÇA NOSSAS MÁQUINAS",
     YouTube: "https://youtu.be/4LQA6yM_fN4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1YbFIbwJALejAnfHSumuazH4lgQUDPAyP",
+      "https://lh3.google.com/u/0/d/1YbFIbwJALejAnfHSumuazH4lgQUDPAyP=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YbANNYrYaBE60Ct5bxQLt-mExepp71nL",
+      "https://lh3.google.com/u/0/d/1YbANNYrYaBE60Ct5bxQLt-mExepp71nL=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4003,9 +4003,9 @@ const filmsArray = [
     Subtítulo: "TUTORIAL SMART",
     YouTube: "https://youtu.be/03bmYeabOOs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1YZQT-cFK_ItFdQMXSRSlGhCY48YwuixK",
+      "https://lh3.google.com/u/0/d/1YZQT-cFK_ItFdQMXSRSlGhCY48YwuixK=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1YYBO_3LFZ8Q03t7-lc5IFm7EIBkPIobM",
+      "https://lh3.google.com/u/0/d/1YYBO_3LFZ8Q03t7-lc5IFm7EIBkPIobM=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4017,9 +4017,9 @@ const filmsArray = [
     Subtítulo: "Video 1",
     YouTube: "https://youtu.be/D6qubBVopxI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Tj0VMRu22fkpY0Ei2CPK9e3CzjXKNhwg",
+      "https://lh3.google.com/u/0/d/1Tj0VMRu22fkpY0Ei2CPK9e3CzjXKNhwg=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VR4I7kumfDQMYqGiwxop79pL6MGEcV-G",
+      "https://lh3.google.com/u/0/d/1VR4I7kumfDQMYqGiwxop79pL6MGEcV-G=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4031,9 +4031,9 @@ const filmsArray = [
     Subtítulo: "Video 2",
     YouTube: "https://youtu.be/GVjkKfn5dGM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VO8DMlM9bes-Oog_XUX_VH9sWvCE57ni",
+      "https://lh3.google.com/u/0/d/1VO8DMlM9bes-Oog_XUX_VH9sWvCE57ni=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VNnHWnlualxgHn4z_pkcY7Wt70ohFpSH",
+      "https://lh3.google.com/u/0/d/1VNnHWnlualxgHn4z_pkcY7Wt70ohFpSH=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4045,9 +4045,9 @@ const filmsArray = [
     Subtítulo: "Video 3",
     YouTube: "https://youtu.be/Dx-djMWXI1s",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VJprtXqLUMqjmrPOAs3lvrMnO4vz0gGb",
+      "https://lh3.google.com/u/0/d/1VJprtXqLUMqjmrPOAs3lvrMnO4vz0gGb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VFuuTcPWXrBd3GL9N2ZbDHMve7lA7jJD",
+      "https://lh3.google.com/u/0/d/1VFuuTcPWXrBd3GL9N2ZbDHMve7lA7jJD=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4059,9 +4059,9 @@ const filmsArray = [
     Subtítulo: "Video 4",
     YouTube: "https://youtu.be/rFmcmmYmay8",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1VF_Sru6iZw0zHYkOtpDgGMZketyDDe9N",
+      "https://lh3.google.com/u/0/d/1VF_Sru6iZw0zHYkOtpDgGMZketyDDe9N=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1VDo48kzsg9wgEurvTO2630uPdyJdJCFn",
+      "https://lh3.google.com/u/0/d/1VDo48kzsg9wgEurvTO2630uPdyJdJCFn=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4073,9 +4073,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/tV_EHu6z7Bs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1JEbq4nRTTgjrsAdU1v7FrE_j9yZ6uZYy",
+      "https://lh3.google.com/u/0/d/1JEbq4nRTTgjrsAdU1v7FrE_j9yZ6uZYy=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1JEXfFWNWiTiEr2OoJTKEAOSLB_soxX7t",
+      "https://lh3.google.com/u/0/d/1JEXfFWNWiTiEr2OoJTKEAOSLB_soxX7t=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4087,9 +4087,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/R0rHKngDG14",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1IzYnc11ZmN8Yj7WIpgh6psKx-YP4YKw7",
+      "https://lh3.google.com/u/0/d/1IzYnc11ZmN8Yj7WIpgh6psKx-YP4YKw7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1KZdbzjdYkSLehXucQ4CLKyMpzMbGlzSw",
+      "https://lh3.google.com/u/0/d/1KZdbzjdYkSLehXucQ4CLKyMpzMbGlzSw=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4101,9 +4101,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/cYslQsG9MZs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1JvX7sJXOQ8HSxuHT-9PAJZ5LIdJxrGtG",
+      "https://lh3.google.com/u/0/d/1JvX7sJXOQ8HSxuHT-9PAJZ5LIdJxrGtG=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1JvHicDJmQ9FPGBcyOl2N9WsyX47KKqQU",
+      "https://lh3.google.com/u/0/d/1JvHicDJmQ9FPGBcyOl2N9WsyX47KKqQU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4115,9 +4115,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/3xu9DV1aHik",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ju7F_5DLX7pyAAG24QF9xMlIFM6ItBo3",
+      "https://lh3.google.com/u/0/d/1Ju7F_5DLX7pyAAG24QF9xMlIFM6ItBo3=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Jrul0W8T4K_gWJ7WNI8e42OfnEKp5ZF7",
+      "https://lh3.google.com/u/0/d/1Jrul0W8T4K_gWJ7WNI8e42OfnEKp5ZF7=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4129,9 +4129,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/qrdorGCG2kI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1MZ9h9JgCnefMujpcElAioc4hQgROP64t",
+      "https://lh3.google.com/u/0/d/1MZ9h9JgCnefMujpcElAioc4hQgROP64t=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1MXUWXsH0IvbcqlS9OSlEshsHzxhP1mmI",
+      "https://lh3.google.com/u/0/d/1MXUWXsH0IvbcqlS9OSlEshsHzxhP1mmI=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4143,9 +4143,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtube.com/shorts/oVdaEbWNex0",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Ph9mYC4y1FU-HqjgQjoF4fTKz1WeWuqZ",
+      "https://lh3.google.com/u/0/d/1Ph9mYC4y1FU-HqjgQjoF4fTKz1WeWuqZ=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Peg1_uIO9AD-cVEKEiZikTRI3u5fcCtq",
+      "https://lh3.google.com/u/0/d/1Peg1_uIO9AD-cVEKEiZikTRI3u5fcCtq=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4157,9 +4157,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtube.com/shorts/4njLIHIQgwc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1PrYGltZfV385rv5rwh2aoT3pEObF6v9f",
+      "https://lh3.google.com/u/0/d/1PrYGltZfV385rv5rwh2aoT3pEObF6v9f=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PjNkN6iP8LprSREBhF9eIwLVna1wIPLQ",
+      "https://lh3.google.com/u/0/d/1PjNkN6iP8LprSREBhF9eIwLVna1wIPLQ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4171,9 +4171,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/8fHJV-BHSzY",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ShrN23icV6-SWvFnkjm2HXg5aMkj3tVf",
+      "https://lh3.google.com/u/0/d/1ShrN23icV6-SWvFnkjm2HXg5aMkj3tVf=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Sft8Kz9z5BkEIJJiV0hQj3Uradzb0HRS",
+      "https://lh3.google.com/u/0/d/1Sft8Kz9z5BkEIJJiV0hQj3Uradzb0HRS=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4185,9 +4185,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/5ZgBHZxfxqk",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1Sb3AbBVdPzIFrNnrwH6uxjfxLm7B6DTS",
+      "https://lh3.google.com/u/0/d/1Sb3AbBVdPzIFrNnrwH6uxjfxLm7B6DTS=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1SFMAoORtq30cD-mkLyQDVXSD9UwPw22k",
+      "https://lh3.google.com/u/0/d/1SFMAoORtq30cD-mkLyQDVXSD9UwPw22k=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4199,9 +4199,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/9Wpahnm-GsU",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1SF6rQ5ZcYhCfr_oLACxj5YwsEbd2SHLM",
+      "https://lh3.google.com/u/0/d/1SF6rQ5ZcYhCfr_oLACxj5YwsEbd2SHLM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1S4Eofc6Ove80c_rrKLSbDTG0IWTNpFb0",
+      "https://lh3.google.com/u/0/d/1S4Eofc6Ove80c_rrKLSbDTG0IWTNpFb0=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4213,9 +4213,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/TU97HK_0jrg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1S3oLzQ4ql-wTwQ-H9Yp17UkTHEFNcUrz",
+      "https://lh3.google.com/u/0/d/1S3oLzQ4ql-wTwQ-H9Yp17UkTHEFNcUrz=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Rzm20h_zC8qKzkM98q-SnTvPICBc5yHU",
+      "https://lh3.google.com/u/0/d/1Rzm20h_zC8qKzkM98q-SnTvPICBc5yHU=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4227,9 +4227,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/DlFYwNQBPSE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RuagUUITjkXhRry8iUt94zzGm-DhfTFb",
+      "https://lh3.google.com/u/0/d/1RuagUUITjkXhRry8iUt94zzGm-DhfTFb=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1PUZlDd32am0obuNmuZqjzQ-x9tFIweKg",
+      "https://lh3.google.com/u/0/d/1PUZlDd32am0obuNmuZqjzQ-x9tFIweKg=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4241,9 +4241,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/-o4QOuxl6Sc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1UvVFMsQ6OtrksPNWJqxUJECg1MkJnYs-",
+      "https://lh3.google.com/u/0/d/1UvVFMsQ6OtrksPNWJqxUJECg1MkJnYs-=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1UuHzym4kMa6Tlhh-_Ft_O0M6wrSzPPo5",
+      "https://lh3.google.com/u/0/d/1UuHzym4kMa6Tlhh-_Ft_O0M6wrSzPPo5=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4255,9 +4255,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/4zBoJaYFztg",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1EItgBK5vf7Hvg1T-AKdX0NrTMbMw8WNy",
+      "https://lh3.google.com/u/0/d/1EItgBK5vf7Hvg1T-AKdX0NrTMbMw8WNy=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1EO5adVe1qC0ZE2E475SKx2pQfScVTvlG",
+      "https://lh3.google.com/u/0/d/1EO5adVe1qC0ZE2E475SKx2pQfScVTvlG=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4269,9 +4269,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Q_eROVm9HmI",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1EV_v2TwLmKBrtUVwLHkuJ7Et5tANddcL",
+      "https://lh3.google.com/u/0/d/1EV_v2TwLmKBrtUVwLHkuJ7Et5tANddcL=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1EZji2_uPBzZEfWh2B1EFsnnxHISGzHeL",
+      "https://lh3.google.com/u/0/d/1EZji2_uPBzZEfWh2B1EFsnnxHISGzHeL=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4283,9 +4283,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/TDNvvWlPJeE",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1EZtpME_lNpY5K3K1b_SxXSmI7Eql8yK7",
+      "https://lh3.google.com/u/0/d/1EZtpME_lNpY5K3K1b_SxXSmI7Eql8yK7=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1EjEgpjTVlBzc6O9AI0aFwwA2Z_BY8MqN",
+      "https://lh3.google.com/u/0/d/1EjEgpjTVlBzc6O9AI0aFwwA2Z_BY8MqN=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4297,9 +4297,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/sUPHEyWKxQM",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1XaWBKUy2ZQcvzmS_j3-R4z8hcm9GbsGx",
+      "https://lh3.google.com/u/0/d/1XaWBKUy2ZQcvzmS_j3-R4z8hcm9GbsGx=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Xc6K5F6sl9Bo3BteWJUKRO-UY9yBYhIl",
+      "https://lh3.google.com/u/0/d/1Xc6K5F6sl9Bo3BteWJUKRO-UY9yBYhIl=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4311,9 +4311,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/Jx-yd8jrrY4",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1ZLDsEEthE6GtBfxDoHRoEvWtisMy1637",
+      "https://lh3.google.com/u/0/d/1ZLDsEEthE6GtBfxDoHRoEvWtisMy1637=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1ZZEZHuXk-_tI4zizPy5HhckxH2qBvJpQ",
+      "https://lh3.google.com/u/0/d/1ZZEZHuXk-_tI4zizPy5HhckxH2qBvJpQ=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Motion 2d/3d",
@@ -4325,9 +4325,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/iwIus7Z3GTo",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=12vLZ-QckNNZBjZ7KUKFQxs31GRaNiKg_",
+      "https://lh3.google.com/u/0/d/12vLZ-QckNNZBjZ7KUKFQxs31GRaNiKg_=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=12ssuk9i4W1JsGYcJauK1AXZZfrqL9qRE",
+      "https://lh3.google.com/u/0/d/12ssuk9i4W1JsGYcJauK1AXZZfrqL9qRE=k",
     Texto:
       "https://docs.google.com/document/d/1ouM7DkUA5Xg_LxnLdmfC3NQdEzU3j15feQnKOuEG0yE/edit?usp=drive_link",
     Diretor: "Kahue Rozzi",
@@ -4340,9 +4340,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/ju3iwtluAmw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RAoYtYccRRhE2ngMO53SDVDM2tRWiczM",
+      "https://lh3.google.com/u/0/d/1RAoYtYccRRhE2ngMO53SDVDM2tRWiczM=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RATJ10_wUkAcbqJSJ-50faGxOurO5MyM",
+      "https://lh3.google.com/u/0/d/1RATJ10_wUkAcbqJSJ-50faGxOurO5MyM=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Clipes de Música",
@@ -4354,9 +4354,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/1Jb1NKfdzfw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1R9lBdAbK9N0yi2JwYvlaWrHdV2G3E0xC",
+      "https://lh3.google.com/u/0/d/1R9lBdAbK9N0yi2JwYvlaWrHdV2G3E0xC=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1R6RrOrNnfbsPGTAa_i6hIrXYcB2aSF55",
+      "https://lh3.google.com/u/0/d/1R6RrOrNnfbsPGTAa_i6hIrXYcB2aSF55=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Clipes de Música",
@@ -4368,9 +4368,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/eWkaCqpXAPc",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1QvGihAHGf3HwDcycSByIuFI6GUhQ8o_k",
+      "https://lh3.google.com/u/0/d/1QvGihAHGf3HwDcycSByIuFI6GUhQ8o_k=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1Qula4dLk-O7PC4cLcqhgJeP-if8Mkpok",
+      "https://lh3.google.com/u/0/d/1Qula4dLk-O7PC4cLcqhgJeP-if8Mkpok=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Clipes de Música",
@@ -4382,9 +4382,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/xTg14JSAWiw",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=1RDylXTStJVIKkCrS28lJA2h7YxtDRFn4",
+      "https://lh3.google.com/u/0/d/1RDylXTStJVIKkCrS28lJA2h7YxtDRFn4=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=1RCXKfj_Cb3MRkXIsCB-HdYRIMkFVaWmj",
+      "https://lh3.google.com/u/0/d/1RCXKfj_Cb3MRkXIsCB-HdYRIMkFVaWmj=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Clipes de Música",
@@ -4396,9 +4396,9 @@ const filmsArray = [
     Subtítulo: "",
     YouTube: "https://youtu.be/pgqAaXO9lIs",
     "Thumb miniatura":
-      "https://drive.google.com/uc?export=view&id=132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq",
+      "https://lh3.google.com/u/0/d/132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq=k",
     "Thumb principal":
-      "https://drive.google.com/uc?export=view&id=135Dkjxgae5o5jcmwVml4h_8FfNCjvuwR",
+      "https://lh3.google.com/u/0/d/135Dkjxgae5o5jcmwVml4h_8FfNCjvuwR=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Entretenimento",

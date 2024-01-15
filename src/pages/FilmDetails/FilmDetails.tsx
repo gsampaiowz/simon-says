@@ -7,12 +7,6 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
-import imagemPadraoMiniatura from "@/assets/img/imagem-padrao-miniatura.png";
-// Importando Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 
 const FilmDetails = () => {
   const navigate = useNavigate();
@@ -67,7 +61,7 @@ const FilmDetails = () => {
         <div
           onClick={() => setInVideo(true)}
           style={{
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${imagemPadraoMiniatura}")`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${film?.["Thumb principal"]}")`,
           }}
           className="film-thumb-principal"
         >
@@ -83,41 +77,18 @@ const FilmDetails = () => {
       )}
       {filmsRelacionados.length > 1 && (
         <div className="filmes-relacionados">
-          <Swiper
-            breakpoints={{
-              992: {
-                slidesPerView: 3,
-              },
-              640: {
-                slidesPerView: 2,
-              },
-              320: {
-                slidesPerView: 2,
-              },
-            }}
-            spaceBetween={0}
-            pagination={{
-              dynamicBullets: true,
-              clickable: true,
-            }}
-            modules={[Pagination]}
-            className="mySwiper"
-          >
             {filmsRelacionados.map((filme) => (
-              <SwiperSlide key={filme.FilmId}>
-                <div onClick={() => navigate(`/trabalho/${filme.FilmId}`)} className="film-relacionado-info">
+                <div key={filme.FilmId} onClick={() => navigate(`/trabalho/${filme.FilmId}`)} className="film-relacionado-info">
                   <div
                     style={{
-                      backgroundImage: `url("${imagemPadraoMiniatura}"`,
+                      backgroundImage: `url("${filme["Thumb miniatura"]}"`,
                     }}
                     className="film-relacionado"
                   ></div>
                   <h1>{filme.Título}</h1>
                   <h2>{filme.Subtítulo}</h2>
                 </div>
-              </SwiperSlide>
             ))}
-          </Swiper>
         </div>
       )}
       <Container additionalClass="film-details-info">
