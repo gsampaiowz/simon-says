@@ -8,10 +8,10 @@ type FilmItemProps = {
     onclick?: () => void;
 }
 
-const FilmItem = ({ onclick, title, subtitle, image } : FilmItemProps) => {
+const FilmItem = ({ onclick, title, subtitle, image = imagemPadraoMiniatura } : FilmItemProps) => {
     return (
         <div onClick={onclick} className="film-item">
-            <div className="film-item__image" style={{backgroundImage: `url(${imagemPadraoMiniatura || image})`}} ></div>
+            <div className="film-item__image" style={{backgroundImage: `url(${image})`}} ></div>
             <h1 className="film-item__title">{title}</h1>
             <h2 className="film-item__subtitle">{subtitle}</h2>
         </div>

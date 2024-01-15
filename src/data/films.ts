@@ -1,4 +1,4 @@
-﻿import { v4 as uuid  } from "uuid";
+﻿import { v4 as uuid } from "uuid";
 
 const filmsArray = [
   {
@@ -4406,19 +4406,17 @@ const filmsArray = [
 ];
 
 filmsArray.forEach((film, index) => {
- // Verifica se já temos um UUID armazenado para este filme
- let storedUuid = localStorage.getItem(`film-${index}-uuid`);
+  let uuidExistente = localStorage.getItem(`film-${index}-uuid`);
 
- // Se não temos um UUID armazenado, gera um novo
- if (!storedUuid) {
-   storedUuid = uuid();
-   // Armazena o UUID no localStorage
-   localStorage.setItem(`film-${index}-uuid`, storedUuid);
- }
 
- // Atualiza o campo FilmId do filme com o UUID
- film.FilmId = storedUuid;
+  if (!uuidExistente) {
+    uuidExistente = uuid();
+
+    localStorage.setItem(`film-${index}-uuid`, uuidExistente);
+  }
+
+
+  film.FilmId = uuidExistente;
 });
-
 
 export default filmsArray;
