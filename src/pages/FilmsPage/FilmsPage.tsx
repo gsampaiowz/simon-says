@@ -7,7 +7,7 @@ import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import Container from "./../../components/Container/Container";
 // import axios from "axios";
-// import { google } from "googleapis";
+import { google } from "googleapis";
 
 const FilmsPage = () => {
   const navigate = useNavigate();
@@ -44,6 +44,8 @@ const FilmsPage = () => {
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
   }, []);
+
+  //LÓGICA PARA OBTER TOKEN DE ACESSO
 
   // interface TokenResponse {
   //   access_token: string;
@@ -85,48 +87,50 @@ const FilmsPage = () => {
   //     console.error(error);
   //   });
 
-  // const oauth2Client = new google.auth.OAuth2(
-  //   "926802541024-2pkc341j1er8fgdbpgrt4qedv75irfd5.apps.googleusercontent.com",
-  //   "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",
-  //   "https://simon-says-mu.vercel.app"
-  // );
+  //LÓGICA PARA OBTER URL DA IMAGEM
 
-  // let refreshToken =
-  //   "1//0hD0xBIzz7L1iCgYIARAAGBESNwF-L9IrOrc9RFFCZJppSJOiypyvrbKv5TmIYcRutgRpSEh2vjzClvBmtZYitj9vEn9A1ZNGeHY";
+  const oauth2Client = new google.auth.OAuth2(
+    "926802541024-2pkc341j1er8fgdbpgrt4qedv75irfd5.apps.googleusercontent.com",
+    "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",
+    "https://simon-says-mu.vercel.app"
+  );
 
-  // oauth2Client.setCredentials({
-  //   refresh_token: refreshToken,
-  // });
+  let refreshToken =
+    "1//0hD0xBIzz7L1iCgYIARAAGBESNwF-L9IrOrc9RFFCZJppSJOiypyvrbKv5TmIYcRutgRpSEh2vjzClvBmtZYitj9vEn9A1ZNGeHY";
 
-  // const drive = google.drive({ version: "v3", auth: oauth2Client });
+  oauth2Client.setCredentials({
+    refresh_token: refreshToken,
+  });
 
-  // async function getImageUrl(fileId: string): Promise<string> {
-  //   const res = await drive.files.get({
-  //     fileId: fileId,
-  //     fields: "webViewLink",
-  //   });
-  //   return res.data.webViewLink!;
-  // }
+  const drive = google.drive({ version: "v3", auth: oauth2Client });
 
-  // // Função para atualizar o token de acesso
-  // async function refreshAccessToken(): Promise<void> {
-  //   try {
-  //     const credentials = await oauth2Client.refreshAccessToken();
-  //     oauth2Client.setCredentials(credentials.credentials);
-  //   } catch (error) {
-  //     console.error(error);
-  //     throw error;
-  //   }
-  // }
+  async function getImageUrl(fileId: string): Promise<string> {
+    const res = await drive.files.get({
+      fileId: fileId,
+      fields: "webViewLink",
+    });
+    return res.data.webViewLink!;
+  }
 
-  // // Chamar a função refreshAccessToken quando o token de acesso expirar
-  // refreshAccessToken()
-  //   .then(() => {
-  //     console.log("Access token refreshed");
-  //   })
-  //   .catch((error) => {
-  //     console.error(error);
-  //   });
+  // Função para atualizar o token de acesso
+  async function refreshAccessToken(): Promise<void> {
+    try {
+      const credentials = await oauth2Client.refreshAccessToken();
+      oauth2Client.setCredentials(credentials.credentials);
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  }
+
+  // Chamar a função refreshAccessToken quando o token de acesso expirar
+  refreshAccessToken()
+    .then(() => {
+      console.log("Access token refreshed");
+    })
+    .catch((error) => {
+      console.error(error);
+    });
 
   //LÓGICA PARA OBTER CODIGO DE AUTORIZAÇÃO
 
@@ -161,7 +165,7 @@ const FilmsPage = () => {
       <div className="films-list">
         {currentItems.map((film) => (
           <FilmItem
-            // image={getImageUrl("168aC9jpU9N0X8Y7LatOVquBKsy2v3kur").toString()}
+            image={getImageUrl("168aC9jpU9N0X8Y7LatOVquBKsy2v3kur").toString()}
             onclick={() => navigate(`/trabalho/${film.FilmId}`)}
             key={film.FilmId}
             title={film["Título"]}
