@@ -1,6 +1,6 @@
 .films-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
 }
 
 .films-page {
@@ -27,6 +27,7 @@
 
 .filter-description{
   font-size: 20px;
+  max-width: 940px;
   color: #666666;
 }
 
@@ -34,4 +35,10 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (max-width: 1400px) {
+  .films-list{
+    grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  }
 }

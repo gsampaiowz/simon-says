@@ -49,8 +49,6 @@
 
 .film-thumb-principal {
   aspect-ratio: 16 / 9;
-  max-width: 1920px;
-  max-height: 1080px;
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
@@ -125,6 +123,7 @@
 
 .film-details-text {
   font-size: 20px;
+  white-space: pre-line;
 }
 
 .film-player-background {

@@ -12,7 +12,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn=k",
     Texto:
-      "https://docs.google.com/document/d/1kkYtCKIxMlT-TIyTOI9TdRDl7ON7v4lsRGo2vY3ouLU/edit?usp=drive_link",
+      "A campanha de CLDF Bandeira foi filmada em Brasília, Kahue Rozzi nosso diretor que pilotou este filme com 3 diárias, 70 pessoas no elenco e grande equipe.      ",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -83,7 +83,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY=k",
     Texto:
-      "https://docs.google.com/document/d/1yfIn5GlDsUDRrLOuxTyGZKzJqzO-90BKtOO4rMq1JwM/edit?usp=drive_link",
+      "Em tempos sombrios de guerra, nada como a poesia e a arte para nos fazer ver uma versão de como ter paz com um simples gesto. A *@rebornyourself_* criou esta campanha para a AudioNova e tivemos a sorte de ser quem produziu.\n*Direção: @kahue Rozzi\nFotografía: @cellobarillari*",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -98,7 +98,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF=k",
     Texto:
-      "https://docs.google.com/document/d/1wl_JYL5OD7bHq_lEJG7G__GrkhkdRluScPSYLT8hmRY/edit?usp=drive_link",
+      "A SimonSays Filmes produziu um filme incrível, dirigida pelo *@Kahuê Campion Rozzi* e concebido pela equipe talentosa da *@ReBorn*, liderada por *@Jaderrosseto*.\nNesta história poderosa, dois estranhos, um judeu e um árabe, se chocam pelas ruas da cidade. No início, a discordância prevalece, mas à medida que a narrativa se desenrola, eles encontram uma conexão genuína e compartilham um sorriso, encerrando com a mensagem \"OUÇA MAIS COM O CORAÇÃO\".\nEste filme nos lembra que, independentemente de nossas diferenças, somos todos humanos. É um exemplo de como o cinema pode unir, criar entendimento e promover empatia.\nParabéns à equipe da SimonSays Filmes e à visão criativa da ReBorn. Continuemos usando nossa arte para inspirar e unir.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -183,7 +183,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly=k",
     Texto:
-      "https://docs.google.com/document/d/1DlQMqNeFa9iXlJ9JdO9Rn5b6MQhm_oMx4BWLt-cXFbo/edit?usp=drive_link",
+      "Enquanto a gente produz montanhas de lixo, a Universo transforma esses resíduos em produtos de longa duração para o nosso dia a dia. E nada melhor que divulgar esses produtos tecnológicos e biodegradáveis com vários filmes para as redes sociais, como YouTube e Instagram. A atriz Larissa Manuela é a estrela dessa campanha, gravada na própria loja da marca, em São Paulo/SP. De um dia de gravações, mais de 80 pílulas e filmetes foram finalizados, além do filme principal. A SimonSays foi responsável pela produção, captação, apoio de roteiro, direção Kahue, Fotografia Cello Barillari, sonorização e finalização dos filmes.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -534,7 +534,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj=k",
     Texto:
-      "https://docs.google.com/document/d/1jQH80tluOtoNoRNWxmu-PLrwNAIXEAbSObsfPvaP-QI/edit?usp=drive_link",
+      "Vídeo exclusivo de Lançamento do novo Tiggo 7 Pro , totalmente produzido pela Simonsays Filmes. Além do vídeo de lançamento explicando todas as características do carro produzimos também 35 pílulas para as redes sociais.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -563,7 +563,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/146fohX2XvEJiRpfFEtKCDyYnknokAIWj=k",
     Texto:
-      "https://docs.google.com/document/d/1GKP3-h_Wgt46plE5LUPGBl7Q-RP89kldu02UsbnZLcU/edit?usp=drive_link",
+      "Campanha de 2 filmes gravados na pista de provas da Goodyear, um filme para pneus de alta performance e outro para pneus de lama. Usamos: drones, camera car, grua. Gravamos em pista seca, molhada, terra e pedras.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -578,7 +578,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ=k",
     Texto:
-      "https://docs.google.com/document/d/1OPKJPDSZTHFLFNk25ISER5MbuiPra6k_nrFAGEsPV_o/edit?usp=drive_link",
+      "Campanha de 2 filmes gravados na pista de provas da Goodyear, um filme para pneus de alta performance e outro para pneus de lama. Usamos: drones, camera car, grua. Gravamos em pista seca, molhada, terra e pedras.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -747,7 +747,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/14xJ3PYKrwLc76UytUhd5c43ooVWPijth=k",
     Texto:
-      "https://docs.google.com/document/d/1BxJYdUKqk5nlP5Wd81U1g-ITIZ41M6k9-b7Hz9Hgl1I/edit?usp=drive_link",
+      "Fundo Municipal dos Direitos da Criança e do Adolescente (FUMCAD) da Prefeitura de São Paulo busca beneficiar projetos de entidades aprovados pelo Conselho Municipal dos Direitos da Criança e Adolescente (CMDCA). São muitos projetos de assistência, educação e etc visando o desenvolvimento da criança e do adolescente. A SimonSays teve a oportunidade de produzir um vídeo para o Fumcad Osasco conscientizar e solicitar doações ao projeto.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -1238,7 +1238,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/156VT8RsIdeexcKOtYKSPw2cDKpovHMfu=k",
     Texto:
-      "https://docs.google.com/document/d/10X6xb3gugEaBN94aqAIkK6_DhJwn0uZu3YSohO40V38/edit?usp=drive_link",
+      "Campanha do Mini Connected composta por 02 filmes, sendo eles 60″e 30″, mais filme completo de 80 segundos para internet no formato 16:9 e mais 07 filmes para redes sociais com formato 9:16.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -2021,8 +2021,7 @@ const filmsArray = [
     "Thumb miniatura": "https://youtu.be/bgRoj0I_F_o=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1Ob-3aY1ZD7Q0hxOlGA65iGyvXEXGV7rV=k",
-    Texto:
-      "https://lh3.google.com/u/0/d/1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m",
+    Texto: "https://lh3.google.com/u/0/d/1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m",
     Diretor: "",
     Categorias: "Kahue Rozzi",
   },
@@ -4329,7 +4328,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/12ssuk9i4W1JsGYcJauK1AXZZfrqL9qRE=k",
     Texto:
-      "https://docs.google.com/document/d/1ouM7DkUA5Xg_LxnLdmfC3NQdEzU3j15feQnKOuEG0yE/edit?usp=drive_link",
+      "O videoclipe de “S.O.S.” da banda brasileira de Metal Progressivo ARMORED DAWN foi dirigido por Kahue Rozzi, da SimonSays Filmes. O vídeo mostra o encontro de diferentes facetas e personalidades de uma criança interior, uma personagem solitária e depressiva que é tanto a heroína quanto a vilã de sua própria história.\nMixado por Chris Lord Alge (Muse, Green Day, Nickelback) e masterizado por Ted Jensen (Bring Me The Horizon, Evanescence, Metallica).\nA formação atual do Armored Dawn, que inclui Eduardo Parras (vocal), Tiago de Moura e Timo Kaarkoski (guitarras), Heros Trench (baixo), Rafael Agostino (teclados) e Chris Oliveira (bateria).\nA musica “S.O.S.” foi escrita por Carolina Angeli e pelo ex-baterista do grupo, Rodrigo Oliveira.",
     Diretor: "Kahue Rozzi",
     Categorias: "Clipes de Música",
   },
@@ -4407,7 +4406,6 @@ const filmsArray = [
 
 filmsArray.forEach((film, index) => {
   let uuidExistente = localStorage.getItem(`film-${index}-uuid`);
-
 
   if (!uuidExistente) {
     uuidExistente = uuid();

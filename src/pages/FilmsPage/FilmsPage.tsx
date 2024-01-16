@@ -20,9 +20,11 @@ const FilmsPage = () => {
 
   const seenClientes = new Set();
   filmsArray.forEach((film) => {
-    if (!seenClientes.has(film.Cliente)) {
-      films.push(film);
-      seenClientes.add(film.Cliente);
+    if (!seenClientes.has(film.Título)) {
+      atualFilter === "Todos"
+        ? films.push(film)
+        : atualFilter === film.Categorias && films.push(film);
+      seenClientes.add(film.Título);
     }
   });
 
@@ -30,12 +32,7 @@ const FilmsPage = () => {
   const itemsPerPage = 20;
 
   const indexOfLastItem = currentPage * itemsPerPage;
-  const currentItems =
-    atualFilter === "Todos"
-      ? films.slice(0, indexOfLastItem)
-      : films
-          .filter((film) => film.Categorias === atualFilter)
-          .slice(0, indexOfLastItem);
+  const currentItems = films.slice(0, indexOfLastItem);
 
   const verMais = () => {
     setCurrentPage(currentPage + 1);
@@ -43,16 +40,23 @@ const FilmsPage = () => {
 
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
+    setCurrentPage(1);
 
     switch (atualFilter) {
       case "Publicidade":
-        setFilterDescription("A publicidade é a essência da SimonSays Filmes. Comerciais, videoclipes, institucionais, parcerias com agências e talentos, convergem para criar ideias e oportunidades.")
+        setFilterDescription(
+          "A publicidade é a essência da SimonSays Filmes. Comerciais, videoclipes, institucionais, parcerias com agências e talentos, convergem para criar ideias e oportunidades."
+        );
         break;
       case "Entretenimento":
-        setFilterDescription("Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil.")
+        setFilterDescription(
+          "Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
+        );
         break;
       case "Motion 2d/3d":
-        setFilterDescription("Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas.")
+        setFilterDescription(
+          "Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas."
+        );
         break;
       default:
         setFilterDescription("Sem frase");
@@ -68,9 +72,7 @@ const FilmsPage = () => {
           setAtualFilter={setAtualFilter}
           windowWidthParam={1400}
         />
-        <p className="filter-description">
-          {filterDescription}
-        </p>
+        <p className="filter-description">{filterDescription}</p>
       </Container>
       <div className="films-list">
         {currentItems.map((film) => (

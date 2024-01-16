@@ -20,12 +20,11 @@ const FilmDetails = () => {
   const film = filmsArray.find((film) => film.FilmId === idFilme);
 
   const filmsRelacionados = filmsArray.filter(
-    (f) => f.Cliente === film?.Cliente && f.FilmId !== film?.FilmId
+    (f) => f.Título === film?.Título && f.FilmId !== film?.FilmId
   );
 
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
-    console.log(filmsRelacionados);
   }, []);
 
   return (
@@ -76,26 +75,35 @@ const FilmDetails = () => {
         </div>
       )}
       {filmsRelacionados.length > 1 && (
-          <div className="filmes-relacionados">
-            {filmsRelacionados.map((filme) => (
+        <div className="filmes-relacionados">
+          {filmsRelacionados.map((filme) => (
+            <div
+              key={filme.FilmId}
+              onClick={() => navigate(`/trabalho/${filme.FilmId}`)}
+              className="film-relacionado-info"
+            >
               <div
-                key={filme.FilmId}
-                onClick={() => navigate(`/trabalho/${filme.FilmId}`)}
-                className="film-relacionado-info"
-              >
-                <div
-                  style={{
-                    backgroundImage: `url("${filme["Thumb miniatura"]}"`,
-                  }}
-                  className="film-relacionado"
-                ></div>
-                <h2>{filme.Subtítulo}</h2>
-              </div>
-            ))}
-          </div>
+                style={{
+                  backgroundImage: `url("${filme["Thumb miniatura"]}"`,
+                }}
+                className="film-relacionado"
+              ></div>
+              <h2>{filme.Subtítulo}</h2>
+            </div>
+          ))}
+        </div>
       )}
-      <div style={{justifyContent: film?.Texto ? "space-between" : "center"}} className="film-details-info">
-        {film?.Texto && <p className="film-details-text">{"film?.Texto"}</p>}
+      <div
+        style={{ justifyContent: film?.Texto ? "space-between" : "center" }}
+        className="film-details-info"
+      >
+        {film?.Texto && (
+          <p className="film-details-text">
+            {film?.Texto.split("*").map((text, index) => 
+              index % 2 === 0 ? <span>{text}</span> : <b>{text}</b>
+            )}
+          </p>
+        )}
         <div className="film-details-credits">
           <p className="film-details-director">{film?.Diretor}</p>
           <p className="film-details-cliente">{film?.Cliente}</p>
