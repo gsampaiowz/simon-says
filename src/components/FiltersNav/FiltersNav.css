@@ -41,7 +41,7 @@
   line-height: 22px;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1400px) {
   .films-page-filters {
     opacity: 0;
     height: 0;
@@ -55,6 +55,7 @@
     overflow: hidden;
     display: flex;
     width: 280px;
+    z-index: 2;
     padding: 0;
     background-color: var(--color-white);
     gap: 0;

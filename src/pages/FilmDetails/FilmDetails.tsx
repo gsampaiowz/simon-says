@@ -76,29 +76,32 @@ const FilmDetails = () => {
         </div>
       )}
       {filmsRelacionados.length > 1 && (
-        <div className="filmes-relacionados">
+          <div className="filmes-relacionados">
             {filmsRelacionados.map((filme) => (
-                <div key={filme.FilmId} onClick={() => navigate(`/trabalho/${filme.FilmId}`)} className="film-relacionado-info">
-                  <div
-                    style={{
-                      backgroundImage: `url("${filme["Thumb miniatura"]}"`,
-                    }}
-                    className="film-relacionado"
-                  ></div>
-                  <h1>{filme.Título}</h1>
-                  <h2>{filme.Subtítulo}</h2>
-                </div>
+              <div
+                key={filme.FilmId}
+                onClick={() => navigate(`/trabalho/${filme.FilmId}`)}
+                className="film-relacionado-info"
+              >
+                <div
+                  style={{
+                    backgroundImage: `url("${filme["Thumb miniatura"]}"`,
+                  }}
+                  className="film-relacionado"
+                ></div>
+                <h2>{filme.Subtítulo}</h2>
+              </div>
             ))}
-        </div>
+          </div>
       )}
-      <Container additionalClass="film-details-info">
+      <div style={{justifyContent: film?.Texto ? "space-between" : "center"}} className="film-details-info">
         {film?.Texto && <p className="film-details-text">{"film?.Texto"}</p>}
         <div className="film-details-credits">
           <p className="film-details-director">{film?.Diretor}</p>
           <p className="film-details-cliente">{film?.Cliente}</p>
           <p className="film-details-categoria">{film?.Categorias}</p>
         </div>
-      </Container>
+      </div>
     </MainContent>
   );
 };

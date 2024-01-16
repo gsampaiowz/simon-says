@@ -6,13 +6,6 @@
     gap: 20px;
 }
 
-.home-page-welcome{
-    font-size: 90px;
-    font-family: Poppins-ExtraBold;
-    text-align: center;
-    line-height: 90px;
-}
-
 .home-down-arrow-icon:hover{
     cursor: pointer;
     color: var(--color-gray) !important;

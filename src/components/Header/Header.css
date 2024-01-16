@@ -1,8 +1,5 @@
 .header {
   padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 92px;
   position: fixed;
   background-color: var(--color-white);
@@ -11,6 +8,12 @@
   width: 100%;
   border-bottom: 0px solid transparent;
   transition-duration: 0.5s;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-header {
@@ -24,7 +27,7 @@
   filter: brightness(0) invert(1);
 }
 
-.logo-hover{
+.logo-hover {
   display: flex;
   transition-duration: 0.5s;
 }

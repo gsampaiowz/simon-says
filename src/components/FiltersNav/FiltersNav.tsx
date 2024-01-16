@@ -56,18 +56,18 @@ const FiltersNav = ({
           Publicidade
         </NavLink>
         <NavLink
-          onClick={() => mudarFiltro("Social Media")}
-          className="films-filters-link"
-          to={"/trabalhos/social-media"}
-        >
-          Social Media
-        </NavLink>
-        <NavLink
           onClick={() => mudarFiltro("Motion 2d/3d")}
           className="films-filters-link"
           to={"/trabalhos/animacao"}
         >
           Animação 2D e 3D
+        </NavLink>
+        <NavLink
+          onClick={() => mudarFiltro("Entretenimento")}
+          className="films-filters-link"
+          to={"/trabalhos/entretenimento"}
+        >
+          Entretenimento
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Institucional")}
@@ -81,14 +81,7 @@ const FiltersNav = ({
           className="films-filters-link"
           to={"/trabalhos/clipes-musica"}
         >
-          Clipes de Música
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Série/Doc")}
-          className="films-filters-link"
-          to={"/trabalhos/series-documentarios"}
-        >
-          Séries/Docs
+          Video Clipes
         </NavLink>
       </div>
 

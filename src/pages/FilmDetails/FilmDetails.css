@@ -115,14 +115,16 @@
 
 .film-details-info {
   max-width: 900px;
+  width: 100%;
   display: flex;
-  gap: 120px;
+  justify-content: center;
+  gap: 50px;
   padding: 50px 20px;
+  flex-wrap: wrap;
 }
 
 .film-details-text {
   font-size: 20px;
-  word-wrap: wrap;
 }
 
 .film-player-background {
@@ -173,16 +175,13 @@
 .filmes-relacionados {
   width: 100%;
   margin-top: -21px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .film-relacionado-info {
   aspect-ratio: 16 / 9;
   display: flex;
-  flex: 1;
-  max-width: 480px;
   flex-direction: column;
   justify-content: end;
   padding: 20px;
@@ -207,25 +206,18 @@
   background-size: 110% 110%;
 }
 
-.film-relacionado-info > h1 {
-  font-size: 28px;
-  z-index: 1;
-  color: var(--color-white);
-  text-shadow: 0 0 20px var(--color-black);
-}
-
 .film-relacionado-info > h2 {
-  font-size: 20px;
+  font-size: 16px;
   z-index: 1;
   color: var(--color-white);
   text-shadow: 0 0 20px var(--color-black);
 }
 
 @media (max-width: 768px) {
-  .film-details-info {
+  /* .film-details-info {
     flex-direction: column;
     gap: 20px;
-  }
+  } */
 
   .film-thumb-title {
     display: none;
@@ -246,13 +238,13 @@
     margin: 0 20px;
   }
 
-  .film-relacionado > h1 {
-    font-size: 16px;
-    color: var(--color-white);
-    text-shadow: 0 0 20px var(--color-black);
+  .film-relacionado-info {
+    padding: 10px;
+    min-width: 160px;
+    height: auto;
   }
 
-  .film-relacionado > h2 {
+  .film-relacionado-info > h2 {
     font-size: 12px;
     color: var(--color-white);
     text-shadow: 0 0 20px var(--color-black);

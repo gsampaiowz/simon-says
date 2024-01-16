@@ -20,9 +20,9 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   };
 
   const linkClick = () => {
-    setExibeNav(false);
     navbarRef.current?.scrollTo(0, 0);
     window.scrollTo(0, 0);
+    setExibeNav(false);
   }
 
   return (
@@ -31,7 +31,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       className={`navbar-header ${exibeNav ? "navbar-header-active" : ""}`}
     >
       <NavLink
-        onClick={() => linkClick}
+        onClick={() => linkClick()}
         to={"/sobre"}
       >
         Sobre
@@ -49,35 +49,41 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
         Animação 2D e 3D
       </NavLink>
       <NavLink
+        onClick={() => mudarFiltro("Entretenimento")}
+        to={"/trabalhos/entretenimento"}
+      >
+        Entretenimento
+      </NavLink>
+      <NavLink
         onClick={() => mudarFiltro("Institucional")}
         to={"/trabalhos/institucional"}
       >
         Institucional
       </NavLink>
       <NavLink
-        onClick={() => mudarFiltro("Video Clipes")}
-        to={"/trabalhos/video-clipes"}
+        onClick={() => mudarFiltro("Clipes de Música")}
+        to={"/trabalhos/clipes-musica"}
       >
         Video Clipes
       </NavLink>
-      <NavLink
+      {/* <NavLink
         onClick={() => mudarFiltro("Séries/Doc")}
         to={"/trabalhos/series-documentarios"}
       >
         Séries e Documentários
-      </NavLink>
-      <NavLink onClick={() => linkClick} to={"/servicos-producao"}>
+      </NavLink> */}
+      <NavLink onClick={() => linkClick()} to={"/servicos-producao"}>
         Serviços de Produção
       </NavLink>
-      <NavLink onClick={() => linkClick} to={"/diretores"}>
+      <NavLink onClick={() => linkClick()} to={"/diretores"}>
         Diretores
       </NavLink>
-      <NavLink onClick={() => linkClick} to={"/contato"}>
+      <NavLink onClick={() => linkClick()} to={"/contato"}>
         Contato
       </NavLink>
-      <NavLink onClick={() => linkClick} to={"/search"}>
+      {/* <NavLink onClick={() => linkClick()} to={"/search"}>
         Pesquisar
-      </NavLink>
+      </NavLink> */}
     </nav>
   );
 };

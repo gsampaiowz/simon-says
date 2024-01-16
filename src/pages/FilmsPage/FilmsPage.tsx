@@ -12,6 +12,8 @@ const FilmsPage = () => {
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
+  const [filterDescription, setFilterDescription] = useState<string>("");
+
   type Film = (typeof filmsArray)[0];
 
   const films: Film[] = [];
@@ -41,7 +43,22 @@ const FilmsPage = () => {
 
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
-  }, []);
+
+    switch (atualFilter) {
+      case "Publicidade":
+        setFilterDescription("A publicidade é a essência da SimonSays Filmes. Comerciais, videoclipes, institucionais, parcerias com agências e talentos, convergem para criar ideias e oportunidades.")
+        break;
+      case "Entretenimento":
+        setFilterDescription("Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil.")
+        break;
+      case "Motion 2d/3d":
+        setFilterDescription("Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas.")
+        break;
+      default:
+        setFilterDescription("Sem frase");
+        break;
+    }
+  }, [atualFilter]);
 
   return (
     <MainContent additionalClass="films-page">
@@ -49,15 +66,10 @@ const FilmsPage = () => {
         <FiltersNav
           atualFilter={atualFilter || "Todos"}
           setAtualFilter={setAtualFilter}
-          windowWidthParam={1800}
+          windowWidthParam={1400}
         />
         <p className="filter-description">
-          Advertising is where it all began for Radical. We are one of the most
-          iconic, prolific and celebrated producers of commercials in the world.
-          Commercials, music videos, agencies, emerging and established
-          directorial talent – they all lead to brilliant ideas and
-          opportunities, unexpected collaborations and trusted relationships
-          that we believe are once again becoming an economic imperative.
+          {filterDescription}
         </p>
       </Container>
       <div className="films-list">
@@ -71,9 +83,11 @@ const FilmsPage = () => {
           />
         ))}
       </div>
-      <button className="films-list-ver-mais" onClick={verMais}>
-        Ver mais
-      </button>
+      {currentItems.length === films.length ? null : (
+        <button className="films-list-ver-mais" onClick={verMais}>
+          Ver mais
+        </button>
+      )}
     </MainContent>
   );
 };
