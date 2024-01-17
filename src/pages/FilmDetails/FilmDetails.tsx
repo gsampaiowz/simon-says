@@ -7,8 +7,11 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
+import FilmItem from "@/components/FilmItem/FilmItem";
 
 const FilmDetails = () => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
   const navigate = useNavigate();
 
   const { idFilme } = useParams();
@@ -26,6 +29,17 @@ const FilmDetails = () => {
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter"));
   }, []);
+
+  const changeFilm = (id: string) => {
+    navigate(`/trabalho/${id}`);
+    setInVideo(true);
+  };
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = film?.["Thumb principal"]!;
+    img.onload = () => setIsLoaded(true);
+  }, [film?.["Thumb principal"]]);
 
   return (
     <MainContent additionalClass="film-details">
@@ -60,6 +74,8 @@ const FilmDetails = () => {
         <div
           onClick={() => setInVideo(true)}
           style={{
+            transform: isLoaded ? "scale(1)" : "scale(0.8)",
+            opacity: isLoaded ? "1" : "0",
             backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${film?.["Thumb principal"]}")`,
           }}
           className="film-thumb-principal"
@@ -77,19 +93,13 @@ const FilmDetails = () => {
       {filmsRelacionados.length > 1 && (
         <div className="filmes-relacionados">
           {filmsRelacionados.map((filme) => (
-            <div
+            <FilmItem
+              style={{ padding: 20 }}
+              image={filme["Thumb miniatura"]}
+              subtitle={filme.Subtítulo}
               key={filme.FilmId}
-              onClick={() => navigate(`/trabalho/${filme.FilmId}`)}
-              className="film-relacionado-info"
-            >
-              <div
-                style={{
-                  backgroundImage: `url("${filme["Thumb miniatura"]}"`,
-                }}
-                className="film-relacionado"
-              ></div>
-              <h2>{filme.Subtítulo}</h2>
-            </div>
+              onclick={() => changeFilm(filme.FilmId)}
+            />
           ))}
         </div>
       )}
@@ -99,7 +109,7 @@ const FilmDetails = () => {
       >
         {film?.Texto && (
           <p className="film-details-text">
-            {film?.Texto.split("*").map((text, index) => 
+            {film?.Texto.split("*").map((text, index) =>
               index % 2 === 0 ? <span>{text}</span> : <b>{text}</b>
             )}
           </p>

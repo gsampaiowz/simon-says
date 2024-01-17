@@ -1,20 +1,51 @@
-import "./FilmItem.css"
-import imagemPadraoMiniatura from "@/assets/img/imagem-padrao-miniatura.png";
+import React, { useEffect, useState } from "react";
+import "./FilmItem.css";
+import { useInView } from "react-intersection-observer";
 
 type FilmItemProps = {
-    title: string;
-    subtitle: string;
-    image?: string;
-    onclick?: () => void;
-}
+  title?: string;
+  subtitle?: string;
+  image?: string;
+  style?: React.CSSProperties;
+  onclick?: () => void;
+};
 
-const FilmItem = ({ onclick, title, subtitle, image = imagemPadraoMiniatura } : FilmItemProps) => {
-    return (
-        <div onClick={onclick} className="film-item">
-            <div className="film-item__image" style={{backgroundImage: `url(${image})`}} ></div>
-            <h1 className="film-item__title">{title}</h1>
-            <h2 className="film-item__subtitle">{subtitle}</h2>
-        </div>
-    );
+const FilmItem = ({
+  onclick,
+  title,
+  subtitle,
+  style,
+  image,
+}: FilmItemProps) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = image!;
+    img.onload = () => setIsLoaded(true);
+  }, [image]);
+
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  return (
+    <div
+      ref={ref}
+      onClick={onclick}
+      style={{ transform: isLoaded && inView ? "scale(1)" : "scale(0.8)",
+         opacity: isLoaded && inView ? "1" : "0", ...style }}
+      className="film-item"
+    >
+      <div
+        className="film-item__image"
+        style={{
+          backgroundImage: `url(${image})`,
+        }}
+      ></div>
+      <h1 className="film-item__title">{title}</h1>
+      <h2 className="film-item__subtitle">{subtitle}</h2>
+    </div>
+  );
 };
 export default FilmItem;
