@@ -1,8 +1,24 @@
 ﻿import { v4 as uuid } from "uuid";
 
+//Função VBA para pegar o link do hiperlink
+
+// Function GetHyperlink(cell As Range) As String
+//     On Error Resume Next ' Continua a execução em caso de erro
+//     ' Verifica se há um hiperlink na célula
+//     If cell.Hyperlinks.Count Then
+//         GetHyperlink = cell.Hyperlinks(1).Address ' Retorna o endereço do hiperlink
+//     Else
+//         GetHyperlink = "" ' Retorna uma string vazia se não houver hiperlink
+//     End If
+//     On Error GoTo 0 ' Reseta o tratamento de erro
+// End Function
+
 const filmsArray = [
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "CLDF",
     Título: "CLDF Bandeiras",
     Subtítulo: "Por Cada um por todos nós",
@@ -18,6 +34,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Cereser",
     Título: "Promoção Vem Brindar com Cereser",
     Subtítulo: "",
@@ -32,6 +51,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Guerra",
@@ -47,6 +69,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Religião",
@@ -62,6 +86,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Família",
@@ -76,6 +102,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Casal",
@@ -90,6 +118,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Senhor",
@@ -104,6 +134,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Larissa Manoela conta o que é a Universo",
@@ -119,6 +151,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Apresentação",
@@ -133,6 +167,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Álcool Ecológico",
@@ -147,6 +183,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Biocápsulas",
@@ -161,6 +199,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Biombo",
@@ -175,6 +215,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Condicionador",
@@ -189,6 +231,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Ecosolo",
@@ -203,6 +247,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Luminária 3D",
@@ -217,6 +263,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Luminárias",
@@ -231,6 +279,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Macacão",
@@ -245,6 +295,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Mesa de Cabeceira",
@@ -259,6 +311,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Obsolescência",
@@ -273,6 +327,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Plástico Bolha",
@@ -287,6 +343,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Sabonete",
@@ -301,6 +359,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Shampoo",
@@ -315,6 +375,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBF",
     Título: "CBF Ídolos 1970 Copa do Mundo",
     Subtítulo: "",
@@ -329,6 +391,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBF ",
     Título: "CBF Sub-17",
     Subtítulo: "",
@@ -343,6 +407,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Colégio Fereguetti",
     Título: "Colégio Fereguetti",
     Subtítulo: "",
@@ -357,6 +423,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sonda",
     Título: "Sonda Supermercados Nova Loja",
     Subtítulo: "",
@@ -371,6 +439,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "FTD Educação",
     Título: "Campanha FTD Sistema de Ensino",
     Subtítulo: "",
@@ -385,6 +455,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "DogDoll",
     Subtítulo: "",
@@ -400,6 +472,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Lama",
     Subtítulo: "",
@@ -415,6 +489,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Perfomance",
     Subtítulo: "",
@@ -429,6 +505,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Vazamento",
@@ -443,6 +521,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Rede de Esgoto",
@@ -457,6 +537,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Construção",
@@ -471,6 +553,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Uso Correto",
@@ -485,20 +569,25 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "FTD Educação",
     Título: "Lançamento FTD Sistema de Ensino",
     Subtítulo: "",
     YouTube: "https://www.youtube.com/watch?v=6jovYBPkfSg",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/15IfodJgvXC2AHoYh5B6l1XyMo95nHCVb/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/15IfodJgvXC2AHoYh5B6l1XyMo95nHCVb=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/15BVOo4NEdlJ2lhfxvxznjMM9oDGieYUA/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/15BVOo4NEdlJ2lhfxvxznjMM9oDGieYUA=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 1",
@@ -513,6 +602,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 2",
@@ -527,6 +618,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 3",
@@ -541,6 +634,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 4",
@@ -555,6 +650,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mini",
     Título: "Mini Connected",
     Subtítulo: "",
@@ -570,6 +667,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mini",
     Título: "Mini Connected",
     Subtítulo: "Redes Sociais",
@@ -584,6 +683,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBF",
     Título: "Seleção Solidária",
     Subtítulo: "",
@@ -598,6 +699,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Carreto",
@@ -612,6 +715,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Uber",
@@ -626,6 +731,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Lolla",
@@ -640,6 +747,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Bira",
@@ -654,6 +763,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Peruas",
@@ -668,6 +779,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Vampiro",
@@ -682,6 +795,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Osasco",
     Título: "Osasco 58 anos",
     Subtítulo: "",
@@ -696,6 +811,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Osasco",
     Título: "Participa Osasco",
     Subtítulo: "",
@@ -710,6 +827,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Fumcad",
     Título: "Reflexo",
     Subtítulo: "",
@@ -724,6 +843,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Fumcad",
     Título: "Dragão",
     Subtítulo: "",
@@ -739,6 +860,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Zeiss",
     Título: "Zeiss UV Protect",
     Subtítulo: "",
@@ -753,6 +876,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Starbucks",
     Título: "Starbucks Refreshers",
     Subtítulo: "",
@@ -767,6 +892,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "ESPM",
     Título: "ESPM Transforma o seu Mundo",
     Subtítulo: "",
@@ -781,6 +908,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Melhores Condições",
@@ -795,6 +924,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Atendimento Personalizado",
@@ -809,6 +940,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Pagar Menos",
@@ -823,6 +956,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Central Farma",
     Título: "Central Farma - Central Nutrition",
     Subtítulo: "",
@@ -837,6 +972,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Corona Abraço",
     Subtítulo: "",
@@ -851,6 +988,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa ",
     Título: "Dia Mundial da Água",
     Subtítulo: "",
@@ -865,6 +1004,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Saúde",
@@ -879,6 +1020,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Cidadania",
@@ -893,6 +1036,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Mobilidade Urbana",
@@ -907,6 +1052,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Educaçao",
@@ -921,6 +1068,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Investimento",
@@ -935,6 +1084,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Mãe Cotiana",
@@ -949,6 +1100,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CFM",
     Título: "Saúde no Brasil",
     Subtítulo: "",
@@ -963,6 +1116,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "FMU ",
     Título: "Vestibular FMU",
     Subtítulo: "",
@@ -977,6 +1132,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Imposto de Renda do Pequeno",
@@ -991,6 +1148,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Declaração anual do MEI",
@@ -1005,6 +1164,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "O empreendedor é obrigado a emitir a nota fiscal eletrônica?",
@@ -1019,6 +1180,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Direitos e deveres do MEI",
@@ -1033,6 +1196,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Batata Inglesa",
     Título: "Batata Inglesa",
     Subtítulo: "",
@@ -1047,6 +1212,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Di Pollini",
     Título: "Di Pollini Artesão",
     Subtítulo: "",
@@ -1061,6 +1228,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Guarani",
     Título: "Independência",
     Subtítulo: "",
@@ -1075,6 +1244,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Tecnhos",
     Título: "Technos Skydiver",
     Subtítulo: "",
@@ -1089,6 +1260,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Lifan",
     Título: "Vendas Lifan",
     Subtítulo: "",
@@ -1103,6 +1276,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Pfizer",
     Título: "Geração Z",
     Subtítulo: "",
@@ -1117,6 +1292,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Gou Odonto",
     Título: "Gou odonto | Clínicas de Odontologia",
     Subtítulo: "",
@@ -1131,6 +1308,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "BMW",
     Título: "BMW Motorrad R1200",
     Subtítulo: "",
@@ -1145,6 +1324,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Forma",
     Título: "Camp Experience",
     Subtítulo: "",
@@ -1159,6 +1340,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Rio Branco",
     Título: "Construtora Rio Branco",
     Subtítulo: "",
@@ -1173,6 +1356,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Dailus",
     Título: "Dailus Colors",
     Subtítulo: '"',
@@ -1180,13 +1365,14 @@ const filmsArray = [
     "Thumb miniatura": "https://youtu.be/bgRoj0I_F_o",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1Ob-3aY1ZD7Q0hxOlGA65iGyvXEXGV7rV=k",
-    Texto:
-      "https://lh3.google.com/u/0/d/1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m=k",
+    Texto: "https://lh3.google.com/u/0/d/1OQfFqI5eId70VE4K4g2SmtLVHo9hdV2m=k",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Yamaha",
     Título: "Mega Feirão Yamaha",
     Subtítulo: "",
@@ -1201,6 +1387,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Forma",
     Título: "Viajem da sua vida",
     Subtítulo: "",
@@ -1215,6 +1403,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Agaxtur",
     Título: "Viajar é Preciso",
     Subtítulo: "",
@@ -1229,6 +1419,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Café Brasileiro",
     Título: "Café Brasileiro",
     Subtítulo: "",
@@ -1243,6 +1435,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Yamaha",
     Título: "Sonhos",
     Subtítulo: "",
@@ -1257,6 +1451,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Educaçào",
     Título: "OBMEP | Olimpíadas de Matemática",
     Subtítulo: "",
@@ -1271,6 +1467,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Colégio Marista",
     Título: "Colégio Marista",
     Subtítulo: "",
@@ -1285,6 +1483,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Pastelândia",
     Título: "Pastelândia",
     Subtítulo: "",
@@ -1299,6 +1499,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Boas Festas",
     Subtítulo: "",
@@ -1313,6 +1515,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Institucional 96 Anos",
     Subtítulo: "",
@@ -1327,6 +1532,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Protege",
     Título: "Institucional Protege 50 Anos",
     Subtítulo: "",
@@ -1341,6 +1549,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBF",
     Título: "CBF Academy",
     Subtítulo: "",
@@ -1355,6 +1565,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Eucatex",
     Título: "MDP Perfect",
     Subtítulo: "",
@@ -1369,6 +1581,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Vtex",
     Título: "Vtex Live Shopping",
     Subtítulo: "",
@@ -1383,6 +1597,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Fidelidade",
     Subtítulo: "",
@@ -1397,6 +1613,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cabos Cordeiro",
     Título: "Institucional Cabos Cordeiro",
     Subtítulo: "",
@@ -1411,6 +1629,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Institucional Sanasa",
     Subtítulo: "",
@@ -1425,6 +1645,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caoa Chery",
     Título: "Lançamento Tiggo 7 Pro",
     Subtítulo: "",
@@ -1440,6 +1662,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cosmotec",
     Título: "Institucional Cosmotec",
     Subtítulo: "",
@@ -1454,6 +1678,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Du Pond",
     Título: "Kevlar Du Pond",
     Subtítulo: "",
@@ -1468,6 +1694,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Oxiteno",
     Título: "Oxiteno",
     Subtítulo: "",
@@ -1482,6 +1710,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Humanizar",
     Subtítulo: "",
@@ -1496,6 +1726,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "Caixa Mastercard Promoção de Casa Cheia",
     Subtítulo: "",
@@ -1510,6 +1742,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Retocolite Ulcerativa",
     Subtítulo: "",
@@ -1524,6 +1758,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "Caixa Mastercard Afluent",
     Subtítulo: "",
@@ -1538,6 +1774,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Petronas",
     Título: "Institucional Petronas",
     Subtítulo: "",
@@ -1552,6 +1790,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mccain",
     Título: "Mccain Chef SureCrisp",
     Subtítulo: "",
@@ -1566,6 +1806,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Enxuto",
     Título: "Enxuto 60 anos",
     Subtítulo: "",
@@ -1580,6 +1822,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Jeep",
     Título: "Jeep Experience",
     Subtítulo: "Curitiba",
@@ -1594,6 +1838,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Jeep",
     Título: "Jeep Experience",
     Subtítulo: "Belo Horizonte",
@@ -1608,6 +1854,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas",
@@ -1622,6 +1870,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 30s",
@@ -1636,6 +1886,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 9x16",
@@ -1650,6 +1902,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 30s 9x16",
@@ -1664,6 +1918,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "XP Investimentos",
     Título: "Investir Juntos",
     Subtítulo: "",
@@ -1678,6 +1934,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida",
@@ -1692,6 +1950,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 9x16",
@@ -1706,6 +1966,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 30s",
@@ -1720,6 +1982,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 30sd 9x16",
@@ -1734,6 +1998,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Travel Rock",
     Título: "Travel Rock",
     Subtítulo: "",
@@ -1748,6 +2014,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 1",
@@ -1762,6 +2030,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 2",
@@ -1776,6 +2046,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 3",
@@ -1790,6 +2062,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Novas Armas CBC by Khan",
     Subtítulo: "",
@@ -1804,6 +2078,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Review Munição NTA",
     Subtítulo: "",
@@ -1818,6 +2094,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Taurus",
     Título: "Review TS9",
     Subtítulo: "",
@@ -1832,6 +2110,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Happiness",
     Título: "Curso de formação Happiness",
     Subtítulo: "",
@@ -1846,6 +2126,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Happiness",
     Título: "Apresentação Método Happiness",
     Subtítulo: "",
@@ -1860,6 +2142,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Fernandez Mera",
     Título: "Fernandez Mera | Dia do Corretor",
     Subtítulo: "",
@@ -1874,6 +2158,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Credpago",
     Título: "Credpago",
     Subtítulo: "",
@@ -1888,6 +2174,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "SinChronia",
     Subtítulo: "",
@@ -1902,6 +2190,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "FACSP",
     Título: "Institucional FACSP",
     Subtítulo: "",
@@ -1916,6 +2206,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Cielo",
     Título: "Empresas Cielo",
     Subtítulo: "",
@@ -1930,6 +2222,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Longevidade",
     Subtítulo: "Video 1",
@@ -1944,6 +2238,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Longevidade",
     Subtítulo: "Video 2",
@@ -1958,6 +2254,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 1",
@@ -1972,6 +2270,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 2",
@@ -1986,6 +2286,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 3",
@@ -2000,6 +2302,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 4",
@@ -2014,6 +2318,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 5",
@@ -2028,6 +2334,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia 166 Anos",
     Subtítulo: "Video 1",
@@ -2042,6 +2350,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia 166 Anos",
     Subtítulo: "Video 2",
@@ -2056,6 +2366,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Solução Mais",
     Título: "Institucional Solução Mais",
     Subtítulo: "",
@@ -2070,6 +2382,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Solução Mais ",
     Título: "Solução Mais Manifesto",
     Subtítulo: "",
@@ -2084,6 +2398,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "D-Flame",
     Subtítulo: "",
@@ -2098,6 +2414,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "Dynamis | Gasifire",
     Subtítulo: "",
@@ -2112,6 +2430,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "Institucional Dynamis",
     Subtítulo: "",
@@ -2126,6 +2446,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Phoenix Tower International",
     Título: "PTI Stronger Institutional",
     Subtítulo: "",
@@ -2140,6 +2462,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "PayGo",
     Título: "PayGo Manifesto",
     Subtítulo: "",
@@ -2154,6 +2478,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Secret Running Society",
     Subtítulo: "",
@@ -2168,6 +2494,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Forever Fast",
     Subtítulo: "",
@@ -2182,6 +2510,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Forever Faster Making of",
     Subtítulo: "",
@@ -2196,6 +2526,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Nova Empresa",
     Subtítulo: "",
@@ -2210,6 +2542,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "New IT",
     Título: "New//It Manifesto",
     Subtítulo: "",
@@ -2224,6 +2558,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Labbyes",
     Título: "Labbyes",
     Subtítulo: "",
@@ -2238,6 +2574,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Zemplar ",
     Título: "Zemplar Hemodiálise",
     Subtítulo: "",
@@ -2252,6 +2590,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Viação Amarelinho",
     Título: "Prevenção Covid 19",
     Subtítulo: "",
@@ -2266,6 +2606,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Colégio Santana",
     Título: "Viemos para Servir | Ação Social",
     Subtítulo: "",
@@ -2280,6 +2622,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Grupo Cometa",
     Título: "Institucional Grupo Cometa",
     Subtítulo: "",
@@ -2294,6 +2638,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Z11 Group",
     Título: "z11 Group",
     Subtítulo: "",
@@ -2308,6 +2654,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Sarampo",
@@ -2322,6 +2670,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "HPV",
@@ -2336,6 +2686,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Poliomielite",
@@ -2350,6 +2702,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Caxumba",
@@ -2364,6 +2718,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2379,6 +2736,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2394,6 +2753,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2409,6 +2770,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2424,6 +2787,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2440,6 +2805,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2456,6 +2823,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2471,6 +2840,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2486,6 +2857,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Agora você tem Pediatria na Atenção Primária",
@@ -2500,6 +2873,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "O que é a Atenção Primária a Saúde",
@@ -2514,6 +2889,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Como funciona a Atenção Primária a Saúde",
@@ -2528,6 +2905,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Quais as diferenças entre Atenção Primária e Especializada",
@@ -2542,6 +2921,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Pra quem é o crédito?",
@@ -2556,6 +2938,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Meu Caixa Tem bloqueou, o que fazer?",
@@ -2570,6 +2954,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Condições e documentação para Pessoa Física",
@@ -2584,6 +2970,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Condições e documentação para MEI",
@@ -2598,6 +2986,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Redefinição de senha",
@@ -2612,6 +3002,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Dicas para envio da documentação cadastral",
@@ -2626,6 +3018,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Informe de renda no Caixa Tem",
@@ -2640,6 +3034,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Confirmação da atualização cadastral",
@@ -2654,6 +3050,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Como solicitar o empréstimo?",
@@ -2668,6 +3066,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Status da solicitação de crédito",
@@ -2682,6 +3082,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 1",
@@ -2696,6 +3098,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 2",
@@ -2710,6 +3114,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 3",
@@ -2724,6 +3130,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Vida em Grupo",
     Subtítulo: "",
@@ -2738,6 +3146,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Residencial",
     Subtítulo: "",
@@ -2752,6 +3162,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Responsabilidade Cívil",
     Subtítulo: "",
@@ -2766,6 +3179,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Zika e Dengue",
     Subtítulo: "",
@@ -2780,6 +3196,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Auto",
     Subtítulo: "",
@@ -2794,6 +3212,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Danos e Riscos PJ",
     Subtítulo: "",
@@ -2808,6 +3228,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Moura",
     Título: "Nova Bateria Moura",
     Subtítulo: "",
@@ -2822,6 +3244,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Atenção Primária à Saúde",
@@ -2836,6 +3260,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Câncer",
@@ -2850,6 +3276,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Pré-natal",
@@ -2864,6 +3292,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Sexualidade e planejamento familiar",
@@ -2878,6 +3308,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "ISTs",
@@ -2892,6 +3324,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Pré-natal odontológico",
@@ -2906,6 +3340,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é grupo de consórcio?",
@@ -2920,6 +3356,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Como funciona o consórcio?",
@@ -2934,6 +3372,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Por que ler o contrato é importante?",
@@ -2948,6 +3388,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Como funcionam as assembléias?",
@@ -2962,6 +3404,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Quais as formas de contemplação?",
@@ -2976,6 +3420,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é lance embutido?",
@@ -2990,6 +3436,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Para que servem as garantias?",
@@ -3004,6 +3452,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "É possível comprar o que quiser com o crédito?",
@@ -3018,6 +3468,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Comprar bem de menor valor",
@@ -3032,6 +3484,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é taxa de admnistração?",
@@ -3046,6 +3500,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é fundo de reserva?",
@@ -3060,6 +3516,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Parcela do consórcio",
@@ -3074,6 +3532,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O valor do crédito e das parcelas muda?",
@@ -3088,6 +3548,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que acontece ao antecipar o pagamento?",
@@ -3102,6 +3564,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "É permitido receber o crédito em dinheiro?",
@@ -3116,6 +3580,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "E se atrasar o pagamento da parcela?",
@@ -3130,6 +3596,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Desistência",
@@ -3144,6 +3612,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Transferência",
@@ -3158,6 +3628,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Cota contemplada",
@@ -3172,6 +3644,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Posso voltar a pagar meu consórcio?",
@@ -3186,6 +3660,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Smiles",
     Título: "Novo Cartão Smiles",
     Subtítulo: "",
@@ -3200,6 +3676,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Lactulona",
     Título: "Lactulona",
     Subtítulo: "",
@@ -3214,6 +3692,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Lactulona",
     Título: "Lactulona Casa",
     Subtítulo: "",
@@ -3228,6 +3708,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Semp Toshiba",
     Título: "4k SEMP Lançamento",
     Subtítulo: "",
@@ -3242,6 +3724,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como reforçar o caixa da empresa?",
@@ -3256,6 +3740,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como vender pelo whatsapp e redes sociais?",
@@ -3270,6 +3756,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como diminuir custos?",
@@ -3284,6 +3772,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como impulsionar suas vendas?",
@@ -3298,6 +3788,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "O que são canais de venda?",
@@ -3312,6 +3804,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como expandir uma pequena empresa e faturar mais?",
@@ -3326,6 +3820,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como usar a tecnologia a favor da sua empresa?",
@@ -3340,6 +3836,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "A Culpa não é dos Macacos",
     Subtítulo: "",
@@ -3354,6 +3852,25 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
+    Cliente: "Ministério da Saúde",
+    Título: "Combate Aedes/Dengue",
+    Subtítulo: "Vídeo 1",
+    YouTube: "https://youtu.be/kAy0DVQy94Y",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/10jBDDsMxqBkKvZcECNPLphAkje1qER0f=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/1zvlyhxkxfld2hmotOgfPUwMACTTrfIOj=k",
+    Texto: "",
+    Diretor: "Kahue Rozzi",
+    Categorias: "Motion 2d/3d",
+  },
+  {
+    FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Segurança para o paciente",
@@ -3368,6 +3885,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Farmacovigilância na terapia biológica",
@@ -3382,6 +3901,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Transporte e armazenamento",
@@ -3396,6 +3917,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "C&A",
     Título: "C&A & Vc",
     Subtítulo: "",
@@ -3410,6 +3933,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Elma Chips",
     Título: "Guia de Exibição Controlada",
     Subtítulo: "",
@@ -3424,6 +3949,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Coca-Cola",
     Título: "John Pembertton | Coca-Cola 3d",
     Subtítulo: "",
@@ -3438,6 +3965,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "FTD Educação ",
     Título: "FTD 120 Anos",
     Subtítulo: "",
@@ -3452,6 +3981,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Incentivo ao comércio local",
     Subtítulo: "",
@@ -3466,6 +3997,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Campanha",
@@ -3480,6 +4013,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Segunda-Feira",
@@ -3494,6 +4029,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Terça-Feira",
@@ -3508,6 +4045,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Quarta-Feira",
@@ -3522,6 +4061,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Quinta-Feira",
@@ -3536,6 +4077,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Sexta-Feira",
@@ -3550,6 +4093,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Fim de Semana",
@@ -3564,6 +4109,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA BLUETOOTH E APP SAFRAPAY",
@@ -3578,6 +4125,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA COM BOBINA",
@@ -3592,6 +4141,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA MÓVEL SEM BOBINA GPRS",
@@ -3606,6 +4157,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA SEM BOBINA",
@@ -3620,6 +4173,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "CONHEÇA NOSSAS MÁQUINAS",
@@ -3634,6 +4189,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "TUTORIAL SMART",
@@ -3648,6 +4205,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Stopmatic",
     Título: "Stopmatic",
     Subtítulo: "",
@@ -3662,6 +4221,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Artrite Reumatoide",
     Subtítulo: "",
@@ -3676,6 +4237,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Safra Crédito Consignado",
     Subtítulo: "",
@@ -3690,6 +4253,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Nakata",
     Título: "Amortecedores Nakata",
     Subtítulo: "",
@@ -3704,6 +4269,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Formalização Digital Safra Financeira",
     Subtítulo: "",
@@ -3718,6 +4285,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Unipar",
     Título: "Unipar",
     Subtítulo: "",
@@ -3732,6 +4301,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Uso do Survanta",
     Subtítulo: "",
@@ -3746,6 +4317,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Biossimilares",
     Subtítulo: "",
@@ -3760,6 +4333,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbive",
     Título: "Biológicos",
     Subtítulo: "",
@@ -3774,6 +4349,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Nova Jornada de Pagamento Safra Financeira",
     Subtítulo: "",
@@ -3788,6 +4365,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Suvinil",
     Título: "Sou Mais",
     Subtítulo: "",
@@ -3802,6 +4381,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "TIPOS DE MÁQUINA",
@@ -3816,6 +4397,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 1",
@@ -3830,6 +4413,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 2",
@@ -3844,6 +4429,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 3",
@@ -3858,6 +4445,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 4",
@@ -3872,6 +4461,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Pedidos Já",
     Título: "Pedidos Já",
     Subtítulo: "",
@@ -3886,6 +4477,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Eucatex",
     Título: "Formobile Eucatex",
     Subtítulo: "",
@@ -3900,6 +4493,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Unilever",
     Título: "Unilever Missões",
     Subtítulo: "",
@@ -3914,6 +4509,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Spartan",
     Título: "Spartan Brasil",
     Subtítulo: "",
@@ -3928,6 +4525,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Itaú",
     Título: "Portal Vitrine Rede",
     Subtítulo: "",
@@ -3942,6 +4541,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "St. Marche",
     Título: "Promoção Mini St Marche",
     Subtítulo: "",
@@ -3956,6 +4557,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Semp Toshiba",
     Título: "SEMP GO",
     Subtítulo: "",
@@ -3970,6 +4573,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Omron",
     Título: "Omron Nebulizadores",
     Subtítulo: "",
@@ -3984,6 +4589,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Rádio Disney",
     Título: "Rádio Disney",
     Subtítulo: "",
@@ -3998,6 +4605,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "CNN",
     Título: "CNN | 3D",
     Subtítulo: "",
@@ -4012,6 +4621,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Teva",
     Título: "Teva | Farmacovigilância",
     Subtítulo: "",
@@ -4026,6 +4637,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Teva",
     Título: "This is Teva",
     Subtítulo: "",
@@ -4040,6 +4653,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Projeto Doors",
     Subtítulo: "",
@@ -4054,6 +4669,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Humira Pen - Guia de Aplicação",
     Subtítulo: "",
@@ -4068,6 +4685,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Moderna",
     Título: "Set Brasil | Ed. Moderna",
     Subtítulo: "",
@@ -4082,6 +4701,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "ABAC",
     Título: "ABAC",
     Subtítulo: "",
@@ -4096,6 +4717,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Smiles",
     Título: "SMILES & SHELL",
     Subtítulo: "",
@@ -4110,6 +4733,9 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+
+    ExibeDiretor: false,
     Cliente: "Armored Dawn",
     Título: "Clipe S.O.S",
     Subtítulo: "",
@@ -4125,6 +4751,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Rodhanna",
     Título: "Disco Rodhanna",
     Subtítulo: "",
@@ -4139,6 +4767,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Acústicos & Valvulados",
     Título: "Cinco Frases",
     Subtítulo: "",
@@ -4153,6 +4783,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "Acústicos & Valvulados",
     Título: "Deus Quis",
     Subtítulo: "",
@@ -4167,6 +4799,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: false,
+    ExibeDiretor: false,
     Cliente: "AACC",
     Título: "Capital Inicial - Ajudar crianças com Cancer faz bem ao coração!",
     Subtítulo: "",
@@ -4181,6 +4815,8 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Home: true,
+    ExibeDiretor: false,
     Cliente: "DOC",
     Título: "Teaser Dalva de Oliveira",
     Subtítulo: "",
@@ -4195,23 +4831,27 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
-    Cliente: "SERIE",
-    Título: "FABRICA DE SONHOS",
+    Home: false,
+    ExibeDiretor: false,
+    Cliente: "Série",
+    Título: "Fábrica de Sonhos",
     Subtítulo: "",
     YouTube: "https://youtu.be/ikSQsYlxqkk",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/17RnuL6w84QFWzyrsZGY75zQ92FTQSwim/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/17RnuL6w84QFWzyrsZGY75zQ92FTQSwim=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6/view?usp=sharing",
+      "https://lh3.google.com/u/0/d/1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Entretenimento",
   },
   {
     FilmId: uuid(),
-    Cliente: "Longa",
-    Título: "MAMONAS",
-    Subtítulo: "serviço de produção",
+    Home: true,
+    ExibeDiretor: false,
+    Cliente: "Total Filmes",
+    Título: "Mamonas Assassinas - O Filme",
+    Subtítulo: "Serviço de Produção",
     YouTube: "https://youtu.be/n_TmFQ5XfHc",
     "Thumb miniatura":
       "https://lh3.google.com/u/0/d/161SjIv61fApwDnEvJMJCIlN5vM6W6IdZ=k",
@@ -4223,21 +4863,11 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
-    Cliente: "SERIE",
-    Título: "MAMONAS",
-    Subtítulo: "",
-    YouTube: "",
-    "Thumb miniatura": "",
-    "Thumb principal": "",
-    Texto: "",
-    Diretor: "",
-    Categorias: "",
-  },
-  {
-    FilmId: uuid(),
-    Cliente: "SERIE",
+    Home: false,
+    ExibeDiretor: false,
+    Cliente: "Série",
     Título: "C11 - DISNEY",
-    Subtítulo: "College 11 - serrviço de produção",
+    Subtítulo: "College 11 - Serviço de Produção",
     YouTube: "https://youtu.be/NLEAVgq2WzE",
     "Thumb miniatura":
       "https://lh3.google.com/u/0/d/1zRwyQ6TJHqXN4XvmXDRPOenQJG9XjYbJ=k",

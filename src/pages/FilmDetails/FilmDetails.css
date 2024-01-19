@@ -80,6 +80,12 @@
   padding-bottom: 20px;
 }
 
+.film-down-icon{
+  position: absolute;
+  right: calc(50% - 22.5px);
+  bottom: -10px;
+}
+
 .film-player {
   display: flex;
   justify-content: center;
@@ -195,6 +201,12 @@
     justify-content: center;
   }
 
+  .film-details-director,
+.film-details-cliente,
+.film-details-categoria{
+  flex-direction: row;
+}
+
   .film-thumb-principal {
     margin: 0 20px;
   }
@@ -212,6 +224,10 @@
   }
 
   .film-detail-title::before {
+    display: none;
+  }
+
+  .film-down-icon{
     display: none;
   }
 }

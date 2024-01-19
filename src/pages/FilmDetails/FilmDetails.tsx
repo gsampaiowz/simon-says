@@ -8,6 +8,7 @@ import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useEffect, useState } from "react";
 import FilmItem from "@/components/FilmItem/FilmItem";
+import { IoMdArrowDropdown } from "react-icons/io";
 
 const FilmDetails = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -88,6 +89,7 @@ const FilmDetails = () => {
           <Container additionalClass="film-thumb-flex">
             <h1 className="film-thumb-title">{film?.Título}</h1>
           </Container>
+          <IoMdArrowDropdown color="var(--color-white)" size={45} className="film-down-icon" />
         </div>
       )}
       {filmsRelacionados.length > 1 && (

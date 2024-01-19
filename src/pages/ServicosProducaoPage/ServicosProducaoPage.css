@@ -1,0 +1,19 @@
+.servicos-container{
+    background-color: var(--color-black);
+    padding: 80px 25vw;
+}
+
+.servicos-container p, .servicos-container h1{
+    color: var(--color-white);
+}
+
+.servicos-container h1{
+    line-height: 60px;
+    font-family: Poppins-ExtraBold;
+}
+
+@media (max-width: 768px) {
+    .servicos-container{
+        padding: 80px 5vw;
+    }
+}

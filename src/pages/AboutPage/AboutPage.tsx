@@ -6,22 +6,28 @@ const AboutPage = () => {
   return (
     <MainContent additionalClass={"about-page-main"}>
       <Container additionalClass={"about-page"}>
-        <h1 className="about-page-title">
-          <span className="about-page-title-destaque">SIMON SAYS</span> FILMES
-        </h1>
-        <h2 className="about-page-subtitle">PRODUTORA DE FILMES EM SÃO PAULO</h2>
+        <h1 className="about-page-title">QUEM SOMOS?</h1>
+        <hr className="about-page-divider" />
         <p>
-          <b>Quem somos?</b>
-          <br />Bem-vindo à SimonSays Filmes, onde nos últimos 15 anos, não apenas produzimos filmes – construímos histórias.
+          Bem-vindo à SimonSays Filmes, onde nos últimos 15 anos, não apenas
+          produzimos filmes – construímos histórias.
         </p>
         <p>
-        Na SimonSays, somos contadores de histórias com uma paixão por criar algo verdadeiramente extraordinário. Asseguramos não apenas entregas pontuais, mas oferecemos opções que ultrapassam o convencional.
+          Na SimonSays, somos contadores de histórias com uma paixão por criar
+          algo verdadeiramente extraordinário. Asseguramos não apenas entregas
+          pontuais, mas oferecemos opções que ultrapassam o convencional.
         </p>
         <p>
-        Com sedes estratégicas em Miami e Brasília, não nos limitamos a filmes publicitários; exploramos a criação de personagens em 3D, narrativas envolventes em 3D, motion graphics que ganham vida, além de documentários e séries que cativam.
+          Com sedes estratégicas em Miami e Brasília, não nos limitamos a filmes
+          publicitários; exploramos a criação de personagens em 3D, narrativas
+          envolventes em 3D, motion graphics que ganham vida, além de
+          documentários e séries que cativam.
         </p>
         <p>
-        Equipados com tecnologia de última geração, convidamos você a explorar nosso site e descobrir o poder da SimonSays Filmes. Descubra como podemos colaborar para criar algo que vai além do comum, algo que captura a essência da sua visão.
+          Equipados com tecnologia de última geração, convidamos você a explorar
+          nosso site e descobrir o poder da SimonSays Filmes. Descubra como
+          podemos colaborar para criar algo que vai além do comum, algo que
+          captura a essência da sua visão.
         </p>
       </Container>
     </MainContent>

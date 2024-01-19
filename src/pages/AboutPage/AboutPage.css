@@ -3,12 +3,18 @@
 }
 
 .about-page {
-  background: #e4e4e4;
-  padding: 80px 30px;
+  padding: 60px 25vw;
   display: flex;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
+}
+
+.about-page p {
+  font-family: Poppins-SemiBold;
+  font-size: 22px;
 }
 
 .about-page-title {
@@ -16,30 +22,18 @@
   font-family: Poppins-ExtraBold;
 }
 
-.about-page-title-destaque {
-  transition-duration: 0.5s;
-  color: var(--color-orange);
-}
-
-.about-page-title-destaque:hover {
-  color: var(--color-white);
-}
-
-.about-page-subtitle {
-  font-size: 20px;
-  font-family: Poppins-SemiBold;
+.about-page-divider {
+  width: 91px;
+  border: 2px solid var(--color-black);
 }
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 30px 20px;
+    padding: 30px 5vw;
     align-items: center;
     text-align: center;
   }
   .about-page-title {
     font-size: 24px;
-  }
-  .about-page-subtitle {
-    font-size: 18px;
   }
 }
