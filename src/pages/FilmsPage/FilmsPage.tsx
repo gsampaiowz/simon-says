@@ -1,20 +1,22 @@
 import "./FilmsPage.css";
 import FilmItem from "@/components/FilmItem/FilmItem";
-import filmsArray from "@/data/films";
-import { useNavigate } from "react-router-dom";
+import filmsArray, { categorias } from "@/data/films";
+import { NavLink, useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MainContent from "@/components/MainContent/MainContent";
-import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import Container from "./../../components/Container/Container";
+import FiltersNav from "@/components/FiltersNav/FiltersNav";
 
 const FilmsPage = () => {
   const navigate = useNavigate();
 
-  const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
+  const [atualFilter, setAtualFilter] = useState<string>("Todos");
 
   const [filterDescription, setFilterDescription] = useState<string>("");
 
   type Film = (typeof filmsArray)[0];
+
+  const { categoria } = useParams();
 
   const films: Film[] = [];
 
@@ -28,6 +30,14 @@ const FilmsPage = () => {
     }
   });
 
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const mudarFiltro = (filtro: string) => {
+    setAtualFilter(filtro);
+    localStorage.setItem("atualFilter", filtro || "Todos");
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20;
 
@@ -39,7 +49,8 @@ const FilmsPage = () => {
   };
 
   useEffect(() => {
-    setAtualFilter(localStorage.getItem("atualFilter"));
+    setIsDropdownOpen(localStorage.getItem("isDropdownOpen") === "true");
+    setAtualFilter(localStorage.getItem("atualFilter")!);
     setCurrentPage(1);
 
     switch (atualFilter) {
@@ -62,16 +73,28 @@ const FilmsPage = () => {
         setFilterDescription("Sem frase");
         break;
     }
-  }, [atualFilter]);
+
+  }, [atualFilter, isDropdownOpen]);
 
   return (
     <MainContent additionalClass="films-page">
       <Container additionalClass={"films-page-filter-section"}>
         <FiltersNav
+          map={categorias.map((categoria: string) => (
+            <NavLink
+              key={categoria}
+              onClick={() => mudarFiltro(categoria)}
+              className="films-filters-link"
+              to={`/trabalhos/${categoria.replace("Motion 2d/3d", "animacao")}`}
+            >
+              {categoria}
+            </NavLink>
+          ))}
           atualFilter={atualFilter || "Todos"}
           setAtualFilter={setAtualFilter}
           windowWidthParam={1400}
         />
+
         <p className="filter-description">{filterDescription}</p>
       </Container>
       <div className="films-list">

@@ -4891,4 +4891,12 @@ filmsArray.forEach((film, index) => {
   film.FilmId = uuidExistente;
 });
 
+const categoriasSet : Set<string> = new Set();
+categoriasSet.add("Todos");
+filmsArray.forEach((film) => {
+  categoriasSet.add(film.Categorias);
+});
+
+export const categorias : string[] = Array.from(categoriasSet)
+
 export default filmsArray;

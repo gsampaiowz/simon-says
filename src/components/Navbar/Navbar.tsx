@@ -44,7 +44,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Motion 2d/3d")}
-        to={"/trabalhos/animacao"}
+        to={"/trabalhos/motion 2d/3d"}
       >
         Animação 2D e 3D
       </NavLink>

@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import "./FiltersNav.css";
 import { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
@@ -7,14 +6,22 @@ type FiltersNavProps = {
   windowWidthParam: number;
   atualFilter: string;
   setAtualFilter: (value: string) => void;
+  map: JSX.Element[];
 };
 
 const FiltersNav = ({
   windowWidthParam,
   atualFilter,
   setAtualFilter,
+  map,
 }: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const mudarFiltro = (filtro: string) => {
+    setAtualFilter(filtro);
+    localStorage.setItem("atualFilter", filtro || "Todos");
+    setIsDropdownOpen(!isDropdownOpen);
+  };
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -26,13 +33,8 @@ const FiltersNav = ({
 
   useEffect(() => {
     setAtualFilter(localStorage.getItem("atualFilter") || "Todos");
-  }, [localStorage.getItem("atualFilter")]);
-
-  const mudarFiltro = (filtro: string) => {
-    setAtualFilter(filtro);
-    localStorage.setItem("atualFilter", filtro || "Todos");
-    setIsDropdownOpen(!isDropdownOpen);
-  };
+    setIsDropdownOpen(localStorage.getItem("isDropdownOpen") === "true");
+  }, [localStorage.getItem("atualFilter"), localStorage.getItem("isDropdownOpen")]);
 
   return (
     <>
@@ -41,7 +43,8 @@ const FiltersNav = ({
           isDropdownOpen ? "exibe-films-filters" : ""
         }`}
       >
-        <NavLink
+        {map}
+        {/* <NavLink
           onClick={() => mudarFiltro("Todos")}
           className="films-filters-link"
           to={"/trabalhos/todos"}
@@ -82,7 +85,7 @@ const FiltersNav = ({
           to={"/trabalhos/clipes-musica"}
         >
           Video Clipes
-        </NavLink>
+        </NavLink> */}
       </div>
 
       {windowWidth <= windowWidthParam && (
