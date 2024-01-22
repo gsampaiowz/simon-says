@@ -17,12 +17,6 @@ const FiltersNav = ({
 }: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
-  const mudarFiltro = (filtro: string) => {
-    setAtualFilter(filtro);
-    sessionStorage.setItem("atualFilter", filtro || "Todos");
-    setIsDropdownOpen(!isDropdownOpen);
-  };
-
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
