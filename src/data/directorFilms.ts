@@ -9,9 +9,9 @@ const directors = [
         Título: "Marcelo Presotto | Clipe Repertório",
         Youtube: "https://youtu.be/GRc0J01DO2Y",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1imFlvTH1rGcqADc03ymW0yNYrGXyEZte&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1imFlvTH1rGcqADc03ymW0yNYrGXyEZte=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1ioZspS4IriA3zTi9BsV6v1rNm2AnfzRV&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1ioZspS4IriA3zTi9BsV6v1rNm2AnfzRV=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -19,9 +19,9 @@ const directors = [
         Título: "Safra - Terra Mãe",
         Youtube: "https://youtu.be/XPilkbMqDYM",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1izQH3_RjmvGNNpzjNx62JZYuMhBm2ukv&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1izQH3_RjmvGNNpzjNx62JZYuMhBm2ukv=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1iwZ55fr_zGxeUvuAK_3CqLBgcCt4xXsc&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1iwZ55fr_zGxeUvuAK_3CqLBgcCt4xXsc=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -29,9 +29,9 @@ const directors = [
         Título: "Flores",
         Youtube: "https://youtu.be/hgGHU8iNQU8",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1j1LGiY4RiAawvvv30BYIVjYTAsaOghjH&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1j1LGiY4RiAawvvv30BYIVjYTAsaOghjH=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1izcKn6KeczGHW3PWngw9gg4dVVrCcjhu&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1izcKn6KeczGHW3PWngw9gg4dVVrCcjhu=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -39,9 +39,9 @@ const directors = [
         Título: "Engov Manifesto",
         Youtube: "https://youtu.be/krLKVAvwY5w",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1j3dczoE_91RPLtqr8Ws38jt1pz3kNq7c&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1j3dczoE_91RPLtqr8Ws38jt1pz3kNq7c=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1j5JwRwX3IQ76CoqyCzJsAbrRx7SrY0zb&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1j5JwRwX3IQ76CoqyCzJsAbrRx7SrY0zb=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -49,9 +49,9 @@ const directors = [
         Título: "Retratos Portraits",
         Youtube: "https://youtu.be/dGeA8-IV2_Y",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1jHGi_oNFUxXWHLoa6rkNQc6r7gkx7BA6&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jHGi_oNFUxXWHLoa6rkNQc6r7gkx7BA6=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1jDETs8574SzCrEhypef3YAi2z-9Ntbvc&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jDETs8574SzCrEhypef3YAi2z-9Ntbvc=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -59,9 +59,9 @@ const directors = [
         Título: "Happy New Year",
         Youtube: "https://youtu.be/rLwBXZNI6L4",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1jZgFJto4rXMmNV3wr4EO9kxEXSTLRaNW&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jZgFJto4rXMmNV3wr4EO9kxEXSTLRaNW=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1jLvnyBARZeT42UTkHiKnvT1gvrYRmxHR&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jLvnyBARZeT42UTkHiKnvT1gvrYRmxHR=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -75,9 +75,9 @@ const directors = [
         Título: "Warner Páscoa",
         Youtube: "https://youtu.be/tFwmV8Wp0oY",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1jv_yEx75bsHZ422vaC6R8k6ma_sPgWMx&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jv_yEx75bsHZ422vaC6R8k6ma_sPgWMx=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1jiK3JjFAyw8JrK63FeDxppThvZXxPIK_&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jiK3JjFAyw8JrK63FeDxppThvZXxPIK_=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -86,9 +86,9 @@ const directors = [
         Título: "Leader | Dia dos pais",
         Youtube: "https://youtu.be/DQauOH2QXoU",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1k1FnpArEUx-C0FEJ2u1DZb7-3fj6dFuY&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1k1FnpArEUx-C0FEJ2u1DZb7-3fj6dFuY=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1jyQbwXQWR7rykEBB_SCJdeFeyQ0bGdXh&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1jyQbwXQWR7rykEBB_SCJdeFeyQ0bGdXh=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -97,9 +97,9 @@ const directors = [
         Título: "DIGIO",
         Youtube: "https://youtu.be/yD2N5UdXFFc",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1k7toP9fLhptBXVFGKPy4oG0roa2UJhPe&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1k7toP9fLhptBXVFGKPy4oG0roa2UJhPe=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1kD_3Zl3lWuyxpY551YFkc3vKg6_ZbL0O&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kD_3Zl3lWuyxpY551YFkc3vKg6_ZbL0O=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -108,9 +108,9 @@ const directors = [
         Título: "Odonto Company",
         Youtube: "https://youtu.be/Vefm8VG69I8",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1kPC_T9ilDygwgtygiMqKmZH6-OIFvcXe&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kPC_T9ilDygwgtygiMqKmZH6-OIFvcXe=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1kJHT5HHM8s8YTMARbvwePLbBd0eCqGBm&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kJHT5HHM8s8YTMARbvwePLbBd0eCqGBm=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -119,9 +119,9 @@ const directors = [
         Título: "Primeiro Imortal",
         Youtube: "https://youtu.be/ijIDOh3P6_A",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1k_DJGC8YKFl4uHlrmUH4tUE_GGt1ViHw&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1k_DJGC8YKFl4uHlrmUH4tUE_GGt1ViHw=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1kSEPhXZ2dSplJCj5Jw-rAlS2UwH7jyln&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kSEPhXZ2dSplJCj5Jw-rAlS2UwH7jyln=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -130,9 +130,9 @@ const directors = [
         Título: "Sandella Tempero",
         Youtube: "https://youtu.be/6RU2UwNvrTA",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1kbOQjEe4bE1sJa0_7HUgcoL0GIFH3d4j&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kbOQjEe4bE1sJa0_7HUgcoL0GIFH3d4j=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1kb7lIkBVKjB3qeeJYtdgWPigYfZulUF9&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kb7lIkBVKjB3qeeJYtdgWPigYfZulUF9=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -141,9 +141,9 @@ const directors = [
         Título: "Bate Bola na Cozinha",
         Youtube: "https://youtu.be/OXq6ZWyX6Lk",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1kmdazldTxGMQXGvETkDhGU03FNH6wzKh&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kmdazldTxGMQXGvETkDhGU03FNH6wzKh=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1kjiklMkDgLQB1T9a4R_To1CFqaKpuZqG&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1kjiklMkDgLQB1T9a4R_To1CFqaKpuZqG=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -153,7 +153,7 @@ const directors = [
         Youtube: "https://youtu.be/l88_wNeLo1A",
         "Thumb Miniatura": "",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS=k",
 
         FilmId: uuid(),
         Subtítulo: "",
@@ -168,9 +168,9 @@ const directors = [
         Título: "Marcelo Barillari | Clipe Repertório",
         Youtube: "https://youtu.be/_QoIsthCxaI",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1lGgz3hyYLG6qnoddrYCibq7v7wRPwjMR&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lGgz3hyYLG6qnoddrYCibq7v7wRPwjMR=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1l8g7YJZFozrAWnzsuPQ_pDKmgbOUvXxu&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1l8g7YJZFozrAWnzsuPQ_pDKmgbOUvXxu=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -178,9 +178,9 @@ const directors = [
         Título: "Como cortar cebolas - Nossa Cozinha",
         Youtube: "https://www.youtube.com/watch?v=11TWiU8Vxxo)",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1lFDWMh1HtK8Mp_qTpHybagbCqPQ7ZQ7Q&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lFDWMh1HtK8Mp_qTpHybagbCqPQ7ZQ7Q=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1lA6GKXj8Jjq1ubscI0Oo_cUck_Wln2lH&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lA6GKXj8Jjq1ubscI0Oo_cUck_Wln2lH=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -188,9 +188,9 @@ const directors = [
         Título: "Muros pintados - Temos Muros Patrocinados Também!",
         Youtube: "https://youtu.be/THcbqPYJCtQ",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1la4FPWf7_4M1BhNR7POXCxrv2_LGFMtj&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1la4FPWf7_4M1BhNR7POXCxrv2_LGFMtj=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1lTyviOAZZBdEk5indpCDl3Y5OxzHCGVs&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lTyviOAZZBdEk5indpCDl3Y5OxzHCGVs=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -198,9 +198,9 @@ const directors = [
         Título: "MORPH - Olivia Lambiasi",
         Youtube: "https://youtu.be/bBQ846Ay_Rw",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1lcgdC0Y0RRmxP8Xxn514cb3c3l_OqLrb&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lcgdC0Y0RRmxP8Xxn514cb3c3l_OqLrb=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1lcHQjDhv_0Q6AJX63kzwCs2RLoTasTA3&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lcHQjDhv_0Q6AJX63kzwCs2RLoTasTA3=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -208,9 +208,9 @@ const directors = [
         Título: "Óticas Carol | Sua Idade - Pão",
         Youtube: "https://youtu.be/jqVcivMWWcA",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1leEAt-25l2H6yxFvbTQRN1T5vEmNX40h&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1leEAt-25l2H6yxFvbTQRN1T5vEmNX40h=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1li6z6pneqxPFt-006TwJzeINDiTJXE4S&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1li6z6pneqxPFt-006TwJzeINDiTJXE4S=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -218,9 +218,9 @@ const directors = [
         Título: "As Seguidoras | Trailer Oficial | Paramount Plus Brasil",
         Youtube: "https://youtu.be/L37zIl8n8wA",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1ljjqTPmihKFVq0yCmymCSnq1wZITRKQV&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1ljjqTPmihKFVq0yCmymCSnq1wZITRKQV=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1lnh1YD02N2q4VB_ic0AgecVSGZ4R7SeT&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1lnh1YD02N2q4VB_ic0AgecVSGZ4R7SeT=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -250,9 +250,9 @@ const directors = [
         Título: "Clipe S.O.S",
         Youtube: "https://youtu.be/iwIus7Z3GTo",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=12vLZ-QckNNZBjZ7KUKFQxs31GRaNiKg_&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/12vLZ-QckNNZBjZ7KUKFQxs31GRaNiKg_=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=12ssuk9i4W1JsGYcJauK1AXZZfrqL9qRE&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/12ssuk9i4W1JsGYcJauK1AXZZfrqL9qRE=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -260,9 +260,9 @@ const directors = [
         Título: "Lançamento Tiggo 7 Pro",
         Youtube: "https://youtu.be/XNMQb7M8G6g?si=e4jIlZchDVQO4-Z1",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -270,9 +270,9 @@ const directors = [
         Título: "Ouça mais com o coração",
         Youtube: "https://youtu.be/fIQRZxDXjMk",
         "Thumb Miniatura":
-          "https://drive.google.com/file/d/1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz=k",
         "Thumb Principal":
-          "https://drive.google.com/file/d/1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY=k",
         FilmId: uuid(),
         Subtítulo: "Guerra",
       },
@@ -280,9 +280,9 @@ const directors = [
         Título: "Ouça mais com o coração",
         Youtube: "https://youtu.be/olJRbx13aZw",
         "Thumb Miniatura":
-          "https://drive.google.com/file/d/1mP3euStYgY1hFD6I7oF3yPzPTd5p7R4j/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1mP3euStYgY1hFD6I7oF3yPzPTd5p7R4j=k",
         "Thumb Principal":
-          "https://drive.google.com/file/d/1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF=k",
         FilmId: uuid(),
         Subtítulo: "Religião",
       },
@@ -290,9 +290,9 @@ const directors = [
         Título: "Doutor Gotinha Responde",
         Youtube: "https://youtube.com/shorts/mEkDrrGJw4g",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
         FilmId: uuid(),
         Subtítulo: "Parte 1",
       },
@@ -300,9 +300,9 @@ const directors = [
         Título: "Goodyear",
         Youtube: "https://youtu.be/VECwYo9c8Vg",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1487WUajGV9wnetBkT4WHdkEwF4ceJOM0&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1487WUajGV9wnetBkT4WHdkEwF4ceJOM0=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ=k",
         FilmId: uuid(),
         Subtítulo: "Lama",
       },
@@ -310,9 +310,9 @@ const directors = [
         Título: "Goodyear",
         Youtube: "https://youtu.be/rcL684GaVZs",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2=k",
         FilmId: uuid(),
         Subtítulo: "Perfomance",
       },
@@ -320,9 +320,9 @@ const directors = [
         Título: "Cadastro Único",
         Youtube: "https://youtu.be/WNmHP1f3LFY",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4=k",
         FilmId: uuid(),
         Subtítulo: "Você conhece o Cadastro Único?",
       },
@@ -330,9 +330,9 @@ const directors = [
         Título: "Universo Ambipar",
         Youtube: "https://youtu.be/VbJLzXdw7PE",
         "Thumb Miniatura":
-          "https://drive.google.com/file/d/1e8gR_bpCcEpJ72zPfiZCD9gkVRB27sRp/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1e8gR_bpCcEpJ72zPfiZCD9gkVRB27sRp=k",
         "Thumb Principal":
-          "https://drive.google.com/file/d/1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly/view?usp=drive_link",
+          "https://lh3.google.com/u/0/d/1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly=k",
         FilmId: uuid(),
         Subtítulo: "Larissa Manoela conta o que é a Universo",
       },
@@ -340,9 +340,9 @@ const directors = [
         Título: "Campanha de Vacinação contra a Poliomielite",
         Youtube: "https://youtu.be/C27yywlol2o",
         "Thumb Miniatura":
-          "https://drive.google.com/open?id=1mCntw9cv3lpF86lAk9YMugfjZCHDhvjW&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1mCntw9cv3lpF86lAk9YMugfjZCHDhvjW=k",
         "Thumb Principal":
-          "https://drive.google.com/open?id=1mCnLYQPQUBWnEfNTHryhD05FoAizh_Xd&usp=drive_fs",
+          "https://lh3.google.com/u/0/d/1mCnLYQPQUBWnEfNTHryhD05FoAizh_Xd=k",
         FilmId: uuid(),
         Subtítulo: "Video Casa",
       },
@@ -352,12 +352,12 @@ const directors = [
 
 directors.forEach((d) => {
   d.Films.forEach((film, index) => {
-    let uuidExistente = localStorage.getItem(`director-film-${index}-uuid`);
+    let uuidExistente = sessionStorage.getItem(`director-film-${index}-uuid`);
 
     if (!uuidExistente) {
       uuidExistente = uuid();
 
-      localStorage.setItem(`director-film-${index}-uuid`, uuidExistente);
+      sessionStorage.setItem(`director-film-${index}-uuid`, uuidExistente);
     }
 
     film.FilmId = uuidExistente;

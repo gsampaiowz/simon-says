@@ -5,39 +5,48 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
 
 const ContatoPage = () => {
-
   return (
     <MainContent additionalClass={"contato-page-main"}>
       <Container additionalClass={"contato-page"}>
-        <h1 className="contato-page-title">
-          <span className="contato-page-title-destaque">SIMON SAYS</span> FILMES
-        </h1>
-        <h2 className="contato-page-subtitle">CANAIS DE CONTATO</h2>
-        <div className="contato-page-canais-contato">
-          <p>
-            <HiOutlineMailOpen size={25} /> contato@simonsaysfilmes.com.br
-          </p>
-          <p>
-            <FaWhatsapp size={25} />
-            +55 11 9.5555-6971
-          </p>
+        <h2>
+          <hr />
+          CANAIS DE CONTATO
+        </h2>
+        <div className="contatos-locais">
+          <div className="contato">
+            <h4>SÃO PAULO</h4>
+            <p>
+              Rua Juventus, 92 <br />
+              Mooca – São Paulo/SP
+            </p>
+          </div>
+          <div className="contato">
+            <h4>BRASÍLIA</h4>
+            <p>
+              SHN Quadra 1 Bloco A Conjunto A <br /> Sala 104 Brasília/DF <br />
+              CEP: 70.701-000
+            </p>
+          </div>
+          <div className="contato">
+            <h4>MIAMI</h4>
+            <p>
+              101 SE 3rd Avenue <br />
+              Suite 301 <br />
+              Dania Beach FL 33004 <br />
+              USA
+            </p>
+          </div>
         </div>
-        <p className="contato-page-text-upper">ONDE ESTAMOS</p>
-        <p className="contato-page-text-upper contato-page-text-orange">
-          SÃO PAULO
-        </p>
-        <p className="contato-page-text-normal">
-          Rua Juventus, 92 <br />
-          Mooca – São Paulo/SP
-        </p>
-        <p className="contato-page-text-upper text-orange">BRASÍLIA</p>
-        <p className="contato-page-text-upper text-orange">MIAMI</p>
-        <p className="contato-page-text-normal">
-          101 SE 3rd Avenue <br />
-          Suite 301 <br />
-          Dania Beach FL 33004 <br />
-          USA
-        </p>
+        <div className="contato-flex">
+          <small className="contato-info">
+            <HiOutlineMailOpen color={"white"} size={25} />
+            contato@simonsaysfilmes.com.br
+          </small>
+          <small className="contato-info">
+            <FaWhatsapp color={"white"} size={25} />
+            +55 11 9.5555-6971
+          </small>
+        </div>
       </Container>
     </MainContent>
   );

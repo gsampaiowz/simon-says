@@ -6,6 +6,7 @@ type HomeFilmProps = {
   subtitle: string;
   image: string;
   style?: React.CSSProperties;
+  onclick?: () => void;
 };
 
 const HomeFilm = ({
@@ -14,11 +15,13 @@ const HomeFilm = ({
   subtitle,
   image,
   style,
+  onclick,
 }: HomeFilmProps) => {
   return (
     <article
       style={style}
       className={`home-film-article${isLarge ? " large-home-film" : ""}`}
+      onClick={onclick}
     >
       <img src={image} />
       <div className="home-film-text">

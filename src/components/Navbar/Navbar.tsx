@@ -16,7 +16,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     navbarRef.current?.scrollTo(0, 0);
     setExibeNav(false);
     setAtualFilter(filtro);
-    localStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro || "Todos");
   };
 
   const linkClick = () => {
@@ -38,37 +38,37 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Publicidade")}
-        to={"/trabalhos/publicidade"}
+        to={"/filmes/publicidade"}
       >
         Publicidade
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Motion 2d/3d")}
-        to={"/trabalhos/motion 2d/3d"}
+        to={"/filmes/motion 2d/3d"}
       >
         Animação 2D e 3D
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Entretenimento")}
-        to={"/trabalhos/entretenimento"}
+        to={"/filmes/entretenimento"}
       >
         Entretenimento
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Institucional")}
-        to={"/trabalhos/institucional"}
+        to={"/filmes/institucional"}
       >
         Institucional
       </NavLink>
       <NavLink
         onClick={() => mudarFiltro("Clipes de Música")}
-        to={"/trabalhos/clipes-musica"}
+        to={"/filmes/clipes-musica"}
       >
         Video Clipes
       </NavLink>
       {/* <NavLink
         onClick={() => mudarFiltro("Séries/Doc")}
-        to={"/trabalhos/series-documentarios"}
+        to={"/filmes/series-documentarios"}
       >
         Séries e Documentários
       </NavLink> */}

@@ -61,6 +61,7 @@
   .menu-nav-header {
     min-width: 40px;
     max-width: 40px;
-    aspect-ratio: 1/1;
+    max-height: 40px;
+    min-height: 40px;
   }
 }

@@ -1,7 +1,7 @@
 import "./FilmsPage.css";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import filmsArray, { categorias } from "@/data/films";
-import { NavLink, useNavigate, useParams } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MainContent from "@/components/MainContent/MainContent";
 import Container from "./../../components/Container/Container";
@@ -15,8 +15,6 @@ const FilmsPage = () => {
   const [filterDescription, setFilterDescription] = useState<string>("");
 
   type Film = (typeof filmsArray)[0];
-
-  const { categoria } = useParams();
 
   const films: Film[] = [];
 
@@ -34,7 +32,7 @@ const FilmsPage = () => {
 
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
-    localStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro || "Todos");
     setIsDropdownOpen(!isDropdownOpen);
   };
 
@@ -49,8 +47,8 @@ const FilmsPage = () => {
   };
 
   useEffect(() => {
-    setIsDropdownOpen(localStorage.getItem("isDropdownOpen") === "true");
-    setAtualFilter(localStorage.getItem("atualFilter")!);
+    setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
+    setAtualFilter(sessionStorage.getItem("atualFilter")!);
     setCurrentPage(1);
 
     switch (atualFilter) {
@@ -73,21 +71,30 @@ const FilmsPage = () => {
         setFilterDescription("Sem frase");
         break;
     }
-
   }, [atualFilter, isDropdownOpen]);
+
+  window.onscroll = function() {
+    var d = document.documentElement;
+    var offset = d.scrollTop + window.innerHeight;
+    var height = d.offsetHeight;
+
+    if (offset >= height) {
+        verMais();
+    }
+};
 
   return (
     <MainContent additionalClass="films-page">
       <Container additionalClass={"films-page-filter-section"}>
         <FiltersNav
-          map={categorias.map((categoria: string) => (
+          map={categorias.map((c: string) => (
             <NavLink
-              key={categoria}
-              onClick={() => mudarFiltro(categoria)}
+              key={c}
+              onClick={() => mudarFiltro(c)}
               className="films-filters-link"
-              to={`/trabalhos/${categoria.replace("Motion 2d/3d", "animacao")}`}
+              to={`/filmes/${c.replace("Motion 2d/3d", "animacao")}`}
             >
-              {categoria}
+              {c}
             </NavLink>
           ))}
           atualFilter={atualFilter || "Todos"}
@@ -101,18 +108,13 @@ const FilmsPage = () => {
         {currentItems.map((film) => (
           <FilmItem
             image={film["Thumb miniatura"]}
-            onclick={() => navigate(`/trabalho/${film.FilmId}`)}
+            onclick={() => navigate(`/filme/${film.FilmId}`)}
             key={film.FilmId}
             title={film["Título"]}
             subtitle={film["Subtítulo"]}
           />
         ))}
       </div>
-      {currentItems.length === films.length ? null : (
-        <button className="films-list-ver-mais" onClick={verMais}>
-          Ver mais
-        </button>
-      )}
     </MainContent>
   );
 };

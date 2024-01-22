@@ -4880,12 +4880,12 @@ const filmsArray = [
 ];
 
 filmsArray.forEach((film, index) => {
-  let uuidExistente = localStorage.getItem(`film-${index}-uuid`);
+  let uuidExistente = sessionStorage.getItem(`film-${index}-uuid`);
 
   if (!uuidExistente) {
     uuidExistente = uuid();
 
-    localStorage.setItem(`film-${index}-uuid`, uuidExistente);
+    sessionStorage.setItem(`film-${index}-uuid`, uuidExistente);
   }
 
   film.FilmId = uuidExistente;

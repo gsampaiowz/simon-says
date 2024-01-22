@@ -25,16 +25,19 @@ const FilmItem = ({
     img.onload = () => setIsLoaded(true);
   }, [image]);
 
-  const [ref, inView] = useInView({
+  const [viewRef, inView] = useInView({
     triggerOnce: true,
   });
 
   return (
     <div
-      ref={ref}
+      ref={viewRef}
       onClick={onclick}
-      style={{ transform: isLoaded && inView ? "scale(1)" : "scale(0.8)",
-         opacity: isLoaded && inView ? "1" : "0", ...style }}
+      style={{
+        transform: isLoaded && inView ? "scale(1)" : "scale(0.8)",
+        opacity: isLoaded && inView ? "1" : "0",
+        ...style,
+      }}
       className="film-item"
     >
       <div

@@ -42,7 +42,10 @@ const Header = () => {
       <div className="header-flex">
         <div className="logo-hover">
           <img
-            onClick={() => navigate("/")}
+            onClick={() => {
+              navigate("/");
+              setExibeNav(false);
+            }}
             className="logo-header"
             src={logoHeader}
             alt="Logotipo Simon Says"

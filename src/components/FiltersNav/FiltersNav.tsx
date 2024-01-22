@@ -19,7 +19,7 @@ const FiltersNav = ({
 
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
-    localStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro || "Todos");
     setIsDropdownOpen(!isDropdownOpen);
   };
 
@@ -32,9 +32,9 @@ const FiltersNav = ({
   }, []);
 
   useEffect(() => {
-    setAtualFilter(localStorage.getItem("atualFilter") || "Todos");
-    setIsDropdownOpen(localStorage.getItem("isDropdownOpen") === "true");
-  }, [localStorage.getItem("atualFilter"), localStorage.getItem("isDropdownOpen")]);
+    setAtualFilter(sessionStorage.getItem("atualFilter") || "Todos");
+    setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
+  }, [sessionStorage.getItem("atualFilter"), sessionStorage.getItem("isDropdownOpen")]);
 
   return (
     <>
@@ -47,42 +47,42 @@ const FiltersNav = ({
         {/* <NavLink
           onClick={() => mudarFiltro("Todos")}
           className="films-filters-link"
-          to={"/trabalhos/todos"}
+          to={"/filmes/todos"}
         >
           Todos
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Publicidade")}
           className="films-filters-link"
-          to={"/trabalhos/publicidade"}
+          to={"/filmes/publicidade"}
         >
           Publicidade
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Motion 2d/3d")}
           className="films-filters-link"
-          to={"/trabalhos/animacao"}
+          to={"/filmes/animacao"}
         >
           Animação 2D e 3D
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Entretenimento")}
           className="films-filters-link"
-          to={"/trabalhos/entretenimento"}
+          to={"/filmes/entretenimento"}
         >
           Entretenimento
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Institucional")}
           className="films-filters-link"
-          to={"/trabalhos/institucional"}
+          to={"/filmes/institucional"}
         >
           Institucional
         </NavLink>
         <NavLink
           onClick={() => mudarFiltro("Clipes de Música")}
           className="films-filters-link"
-          to={"/trabalhos/clipes-musica"}
+          to={"/filmes/clipes-musica"}
         >
           Video Clipes
         </NavLink> */}

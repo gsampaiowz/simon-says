@@ -1,0 +1,32 @@
+.diretores-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  min-height: calc(100vh - 200px);
+}
+
+.diretores-title {
+  font-size: 24px;
+  font-family: Poppins-SemiBold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.diretor-link {
+  font-size: 24px;
+  font-family: Poppins-SemiBold;
+  display: flex;
+  max-width: 320px;
+  width: 100%;
+  padding: 10px 5px;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+}
+
+.diretor-link:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
