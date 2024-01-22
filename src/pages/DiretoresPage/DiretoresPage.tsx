@@ -2,7 +2,7 @@ import MainContent from "@/components/MainContent/MainContent";
 import "./DiretoresPage.css";
 import Container from "./../../components/Container/Container";
 import directors from "@/data/directorFilms";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 const DiretoresPage = () => {
 //   const [isLoaded, setIsLoaded] = useState(false);
