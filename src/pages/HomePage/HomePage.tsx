@@ -6,14 +6,17 @@ import clipe from "@/assets/videos/clipe-homepage.mp4";
 import filmsArray from "@/data/films";
 import HomeFilm from "@/components/HomeFilm/HomeFilm";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const HomePage = () => {
   const filmsHome = filmsArray.filter((film) => film.Home);
 
   const navigate = useNavigate();
 
-  console.log(filmsHome);
-  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    sessionStorage.setItem("atualFilter", "Todos");
+  }, []);
 
   return (
     <MainContent>
@@ -29,20 +32,20 @@ const HomePage = () => {
           className="home-down-arrow-icon"
           size={60}
           onClick={() => {
-            scrollTo({ top: window.innerHeight, behavior: "smooth" });
+            window.scrollTo(0, window.innerHeight);
           }}
           color="var(--color-black)"
         />
         <div className="home-page-films">
           <HomeFilm
             style={{ gridArea: "1 / 1" }}
-            onclick={() => navigate(`/filme/${filmsHome.at(0)!.FilmId}`)}
+            onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${filmsHome.at(0)!.FilmId}`)}
             image={filmsHome.at(0)!["Thumb miniatura"]}
             title={filmsHome.at(0)!.Título}
             subtitle={filmsHome.at(0)!.Subtítulo}
           />
           <HomeFilm
-            onclick={() => navigate(`/filme/${filmsHome.at(1)!.FilmId}`)}
+            onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${filmsHome.at(1)!.FilmId}`)}
             style={{ gridArea: "1 / 1", marginTop: "15vw" }}
             image={filmsHome.at(1)!["Thumb miniatura"]}
             title={filmsHome.at(1)!.Título}
@@ -50,7 +53,7 @@ const HomePage = () => {
           />
           {filmsHome.slice(2, 7).map((film) => (
             <HomeFilm
-              onclick={() => navigate(`/filme/${film.FilmId}`)}
+              onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${film.FilmId}`)}
               isLarge
               key={film.FilmId}
               image={film["Thumb miniatura"]}
@@ -59,20 +62,20 @@ const HomePage = () => {
             />
           ))}
           <HomeFilm
-            onclick={() => navigate(`/filme/${filmsHome.at(7)!.FilmId}`)}
+            onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${filmsHome.at(7)!.FilmId}`)}
             image={filmsHome.at(7)!["Thumb miniatura"]}
             title={filmsHome.at(7)!.Título}
             subtitle={filmsHome.at(7)!.Subtítulo}
           />
           <HomeFilm
-            onclick={() => navigate(`/filme/${filmsHome.at(8)!.FilmId}`)}
+            onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${filmsHome.at(8)!.FilmId}`)}
             image={filmsHome.at(8)!["Thumb miniatura"]}
             title={filmsHome.at(8)!.Título}
             subtitle={filmsHome.at(8)!.Subtítulo}
           />
           {filmsHome.slice(9).map((film) => (
             <HomeFilm
-              onclick={() => navigate(`/filme/${film.FilmId}`)}
+              onclick={() => navigate(`/filmes/${sessionStorage.getItem("atualFilter")}/${film.FilmId}`)}
               isLarge
               key={film.FilmId}
               image={film["Thumb miniatura"]}
