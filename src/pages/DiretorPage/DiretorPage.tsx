@@ -30,7 +30,7 @@ const DiretorPage = () => {
   const film = director?.Films.find((f) => f.FilmId === idFilme);
 
   const changeFilm = (id: string) => {
-    navigate(`/filme/${id}`);
+    navigate(`/diretores/${nome}/${id}`);
     setInVideo(true);
   };
 
