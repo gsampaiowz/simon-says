@@ -5,6 +5,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  z-index: 3;
+  position: relative;
   gap: 20px;
 }
 

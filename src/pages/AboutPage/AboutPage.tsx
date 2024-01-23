@@ -20,8 +20,8 @@ const AboutPage = () => {
         <p>
           Com sedes estratégicas em Miami e Brasília, não nos limitamos a filmes
           publicitários; exploramos a criação de personagens em 3D, narrativas
-          envolventes em 3D, motion graphics que ganham vida, além de
-          documentários e séries que cativam.
+          envolventes em motion graphics que ganham vida, além de produzir
+          filmes institucionais, documentários e séries que cativam.
         </p>
         <p>
           Equipados com tecnologia de última geração, convidamos você a explorar

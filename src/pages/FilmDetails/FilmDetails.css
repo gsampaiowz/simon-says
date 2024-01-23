@@ -8,8 +8,10 @@
 .film-details .films-page-filters {
   opacity: 0;
   height: 0;
+  align-items: start;
   position: absolute;
-  top: 130px;
+  top: 30px;
+  left: 0;
   flex-direction: column;
 }
 
@@ -25,6 +27,7 @@
 
 .film-details .films-filters-link {
   width: 100%;
+  text-align: left;
 }
 
 .filter-and-title {
@@ -80,7 +83,7 @@
   padding-bottom: 20px;
 }
 
-.film-down-icon{
+.film-down-icon {
   position: absolute;
   right: calc(50% - 22.5px);
   bottom: -10px;
@@ -190,7 +193,7 @@
     display: none;
   }
 
-  .film-play-icon{
+  .film-play-icon {
     width: 40px;
     height: 40px;
     right: calc(50% - 20px);
@@ -202,10 +205,10 @@
   }
 
   .film-details-director,
-.film-details-cliente,
-.film-details-categoria{
-  flex-direction: row;
-}
+  .film-details-cliente,
+  .film-details-categoria {
+    flex-direction: row;
+  }
 
   .film-thumb-principal {
     margin: 0 20px;
@@ -227,7 +230,7 @@
     display: none;
   }
 
-  .film-down-icon{
+  .film-down-icon {
     display: none;
   }
 }

@@ -1,6 +1,6 @@
 import { NavLink, useNavigate, useParams } from "react-router-dom";
-import "./FilmDetails.css";
-import filmsArray, { categorias } from "@/data/films";
+import "./DiretorPage.css";
+import directors from "@/data/directorFilms";
 import Container from "./../../components/Container/Container";
 import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
@@ -10,26 +10,24 @@ import { useEffect, useState } from "react";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
 
-const FilmDetails = () => {
+const DiretorPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const navigate = useNavigate();
 
-  const { idFilme } = useParams();
+  const { nome, idFilme } = useParams();
 
   const [inVideo, setInVideo] = useState(false);
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
-  const film = filmsArray.find((film) => film.FilmId === idFilme);
-
-  const filmsRelacionados = filmsArray.filter(
-    (f) => f.Título === film?.Título && f.FilmId !== film?.FilmId
+  const director = directors.find(
+    (d) => d.Nome.split("")[0] === nome?.split("")[0]
   );
 
-  useEffect(() => {
-    setAtualFilter(sessionStorage.getItem("atualFilter"));
-  }, []);
+  const filmsRelacionados = director?.Films.filter((f) => f.FilmId !== idFilme);
+
+  const film = director?.Films.find((f) => f.FilmId === idFilme);
 
   const changeFilm = (id: string) => {
     navigate(`/filme/${id}`);
@@ -48,38 +46,43 @@ const FilmDetails = () => {
     window.scrollTo(0, 0);
 
     const img = new Image();
-    img.src = film?.["Thumb principal"]!;
+    img.src = film?.["Thumb Principal"]!;
     img.onload = () => setIsLoaded(true);
+  }, [film?.["Thumb Principal"]]);
 
-    
-  }, [film?.["Thumb principal"]]);
+  useEffect(() => {
+    if (sessionStorage.getItem("atualFilter")) {
+      setAtualFilter(sessionStorage.getItem("atualFilter"));
+    }
+  }, []);
 
   return (
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>
+        <h2 className="film-detail-title">Diretores</h2>
         <FiltersNav
-          map={categorias.map((categoria: string) => (
+          additionalClass="director-filters"
+          map={directors.map((director) => (
             <NavLink
-              key={categoria}
-              onClick={() => mudarFiltro(categoria)}
+              key={director.Nome}
+              onClick={() => mudarFiltro(director.Nome)}
               className="films-filters-link"
-              to={`/filmes/${categoria.replace("Motion 2d/3d", "animacao")}`}
+              to={`/diretores/${director.Nome}/${director.Films[0].FilmId}`}
             >
-              {categoria}
+              {director.Nome}
             </NavLink>
           ))}
           atualFilter={atualFilter || "Todos"}
           setAtualFilter={setAtualFilter}
           windowWidthParam={Number.POSITIVE_INFINITY}
         />
-        <h2 className="film-detail-title">{film?.Título}</h2>
       </Container>
       {inVideo ? (
         <>
           <div className="film-player-background"></div>
           <div className="film-player">
             <ReactPlayer
-              url={film?.YouTube}
+              url={film?.Youtube}
               className={"film-player-react-player"}
               controls
               width={"100%"}
@@ -99,7 +102,7 @@ const FilmDetails = () => {
           style={{
             transform: isLoaded ? "scale(1)" : "scale(0.8)",
             opacity: isLoaded ? "1" : "0",
-            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${film?.["Thumb principal"]}")`,
+            backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("${film?.["Thumb Principal"]}")`,
           }}
           className="film-thumb-principal"
         >
@@ -118,12 +121,12 @@ const FilmDetails = () => {
           />
         </div>
       )}
-      {filmsRelacionados.length > 1 && (
+      {filmsRelacionados!.length > 1 && (
         <div className="filmes-relacionados">
-          {filmsRelacionados.map((filme) => (
+          {filmsRelacionados!.map((filme) => (
             <FilmItem
               style={{ padding: 20 }}
-              image={filme["Thumb miniatura"]}
+              image={filme["Thumb Miniatura"]}
               subtitle={filme.Subtítulo}
               key={filme.FilmId}
               onclick={() => changeFilm(filme.FilmId)}
@@ -132,12 +135,14 @@ const FilmDetails = () => {
         </div>
       )}
       <div
-        style={{ justifyContent: film?.Texto ? "space-between" : "center" }}
+        style={{
+          justifyContent: director?.Biografia ? "space-between" : "center",
+        }}
         className="film-details-info"
       >
-        {film?.Texto && (
+        {director?.Biografia && (
           <p className="film-details-text">
-            {film?.Texto.split("*").map((text, index) =>
+            {director.Biografia.split("*").map((text, index) =>
               index % 2 === 0 ? (
                 <span key={index}>{text}</span>
               ) : (
@@ -146,14 +151,19 @@ const FilmDetails = () => {
             )}
           </p>
         )}
-        <div className="film-details-credits">
-          <p className="film-details-director">{film?.Diretor}</p>
-          <p className="film-details-cliente">{film?.Cliente}</p>
-          <p className="film-details-categoria">{film?.Categorias}</p>
-        </div>
       </div>
+      {director?.Premios && (
+        <div className="diretor-premios">
+          <h2>Prêmios</h2>
+          <div className="lista-premios">
+            {director.Premios.map((premio) => (
+              <p>{premio}</p>
+            ))}
+          </div>
+        </div>
+      )}
     </MainContent>
   );
 };
 
-export default FilmDetails;
+export default DiretorPage;

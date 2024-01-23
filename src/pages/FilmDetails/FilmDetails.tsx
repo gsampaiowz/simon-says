@@ -32,7 +32,7 @@ const FilmDetails = () => {
   }, []);
 
   const changeFilm = (id: string) => {
-    navigate(`/filme/${id}`);
+    navigate(`/filmes/${encodeURIComponent(atualFilter as string)}/${id}`);
     setInVideo(true);
   };
 

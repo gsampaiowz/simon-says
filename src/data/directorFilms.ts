@@ -3,7 +3,9 @@ import { v4 as uuid } from "uuid";
 const directors = [
   {
     Nome: "Marcelo Presotto",
-    Biografia: "Marcelo Presotto, pioneiro do Motion Graphics no Brasil, fundiu sua experiência em edição e finalização com sua paixão pela Direção de Arte, solidificando sua carreira como diretor. Além disso, seu histórico como ator e sua afinidade pela narrativa o levaram a agregar à sua trajetória a expertise na concepção visual, habilidade para dirigir atores e escrita de roteiros de ficção. Atualmente, expandiu seus horizontes para criar imagens utilizando inteligência artificial.",
+    Biografia:
+      "Marcelo Presotto, pioneiro do Motion Graphics no Brasil, fundiu sua experiência em edição e finalização com sua paixão pela Direção de Arte, solidificando sua carreira como diretor. Além disso, seu histórico como ator e sua afinidade pela narrativa o levaram a agregar à sua trajetória a expertise na concepção visual, habilidade para dirigir atores e escrita de roteiros de ficção. Atualmente, expandiu seus horizontes para criar imagens utilizando inteligência artificial.",
+    Frame: "https://lh3.google.com/u/0/d/1oTLusPRFl3Hbnr-VA8azPeIIPGOyTW37=k",
     Films: [
       {
         Título: "Marcelo Presotto | Clipe Repertório",
@@ -69,7 +71,9 @@ const directors = [
   },
   {
     Nome: "Filé Frota",
-    Biografia: "Felipe Filé Frota, com 25 anos de expertise em sets de filmagem, destaca-se como diretor versátil que se renova diariamente. Sua atuação abrange todas as exigências do mercado atual, liderando projetos de referência e premiados internacionalmente em publicidade, varejo e conteúdo para uma variedade de clientes, agências e emissoras.",
+    Biografia:
+      "Felipe Filé Frota, com 25 anos de expertise em sets de filmagem, destaca-se como diretor versátil que se renova diariamente. Sua atuação abrange todas as exigências do mercado atual, liderando projetos de referência e premiados internacionalmente em publicidade, varejo e conteúdo para uma variedade de clientes, agências e emissoras.",
+    Frame: "https://lh3.google.com/u/0/d/1Zc8JmB9d4OGTGRm7XDc2fkaOOT6QwcAL=k",
     Films: [
       {
         Título: "Warner Páscoa",
@@ -162,7 +166,9 @@ const directors = [
   },
   {
     Nome: "Marcelo Barillari",
-    Biografia: "Com formação em cinema, trilho minha jornada no mercado audiovisual desde 2007. Durante esses 17 anos, concentrei grande parte da minha atuação no cenário publicitário, desempenhando diversas funções, desde assistente de câmera até diretor de fotografia, editor e colorista. Contribuí para mais de 1000 produções publicitárias. Destaco também minha habilidade como excelente diretor de fotografia de séries e filmes. Como Diretor de Cena/Criativo, conduzi programas de televisão, séries de ficção, canais no YouTube, projetos institucionais e clipes musicais. Com a expertise adquirida, venho atendendo à crescente demanda por profissionais versáteis no setor audiovisual",
+    Biografia:
+      "Com formação em cinema, trilho minha jornada no mercado audiovisual desde 2007. Durante esses 17 anos, concentrei grande parte da minha atuação no cenário publicitário, desempenhando diversas funções, desde assistente de câmera até diretor de fotografia, editor e colorista. Contribuí para mais de 1000 produções publicitárias. Destaco também minha habilidade como excelente diretor de fotografia de séries e filmes. Como Diretor de Cena/Criativo, conduzi programas de televisão, séries de ficção, canais no YouTube, projetos institucionais e clipes musicais. Com a expertise adquirida, venho atendendo à crescente demanda por profissionais versáteis no setor audiovisual.",
+    Frame: "https://lh3.google.com/u/0/d/18Y89VI_9HA787LN0Yn3gZDVY5MUNFtq_=k",
     Films: [
       {
         Título: "Marcelo Barillari | Clipe Repertório",
@@ -236,7 +242,18 @@ const directors = [
   },
   {
     Nome: "Kahue Rozzi",
-    Biografia: "Kahue Rozzi, profissional do audiovisual com mais de duas décadas de experiência, destaca-se como Diretor de Cena, Produtor Executivo, Motion Designer, Montador e Diretor de Pós-Produção. Iniciou em 1995, especializando-se em After Effects, Photoshop e Smoke. Seu percurso inclui direção internacional a partir de 2003. Dirigiu e produziu para clientes como VTEX, Ministério da Saúde e SECOM, com notáveis documentários e séries, como \"Mamonas Assassinas\". Fundador das empresas SimonSays Filmes e Videalize, implementou conceitos visuais na TV Brasil e liderou projetos inovadores, como \"Mundo da Nina\". Agraciado com prêmios, sua expertise abrange animação 3D e produções para marcas e órgãos governamentais.",
+    Biografia:
+      'Kahue Rozzi, profissional do audiovisual com mais de duas décadas de experiência, destaca-se como Diretor de Cena, Produtor Executivo, Motion Designer, Montador e Diretor de Pós-Produção. Iniciou em 1995, especializando-se em After Effects, Photoshop e Smoke. Seu percurso inclui direção internacional a partir de 2003. Dirigiu e produziu para clientes como VTEX, Ministério da Saúde e SECOM, com notáveis documentários e séries, como "Mamonas Assassinas". Fundador das empresas SimonSays Filmes e Videalize, implementou conceitos visuais na TV Brasil e liderou projetos inovadores, como "Mundo da Nina". Agraciado com prêmios, sua expertise abrange animação 3D e produções para marcas e órgãos governamentais.',
+    Frame: "https://lh3.google.com/u/0/d/1HPEzldH9sPz_DZ-fB7TustUXh-h3QALT=k",
+    Premios: [
+      "• Menção Honrosa no Festival do minuto",
+      "• Festival de Nova York",
+      "• Prata no Voto Popular - Correios",
+      "• Bronze no Voto Popular - Ministério da Saúde",
+      "• Bronze no Voto Popular - Fisk",
+      "• Cannes Predictions",
+      "• 31º prêmio Profissionais do Ano Paraná",
+    ],
     Films: [
       {
         Título: "Kahue Rozzi | Clipe Repertório",
@@ -363,5 +380,37 @@ directors.forEach((d) => {
     film.FilmId = uuidExistente;
   });
 });
+
+export const bgImagesLoop = [
+  "https://lh3.google.com/u/0/d/117WSU71fZOHth-ifJrq9ff26HdqEq9i_=k",
+  "https://lh3.google.com/u/0/d/1vlc-IOZt2VvHeWlZRjjpL4T2OVmz-IKs=k",
+  "https://lh3.google.com/u/0/d/1zDZSwep1Pmt3_Vfj2LfytsS3bIfNgo39=k",
+  "https://lh3.google.com/u/0/d/1FXqRzpNkzErKbBlNPuEH27Hx4M3ZmMGr=k",
+  "https://lh3.google.com/u/0/d/1cuku_RL2nx5meRvtc5X8x5IUdJY8MfZr=k",
+  "https://lh3.google.com/u/0/d/1NAWcK-3MHVe3BbuM33mb1FiR_X8c4RmU=k",
+  "https://lh3.google.com/u/0/d/1bMRJ6lu9FTTkVJ-ukztL9CzWhwkd6enM=k",
+  "https://lh3.google.com/u/0/d/1ysaBk_694d-6BY2sL2tKnDLnI6CAKswx=k",
+  "https://lh3.google.com/u/0/d/1BSwBjO2vtZRcxC0ERr6Pzmz7OeU8nLZa=k",
+  "https://lh3.google.com/u/0/d/1pGRZD4jiti4f6sl-FujDdc3pT30atLaH=k",
+  "https://lh3.google.com/u/0/d/1M3xz-NE5jiPOLIz0AkoiXAbzk7DsQM9q=k",
+  "https://lh3.google.com/u/0/d/1oi8-hg6jge81acxNMX72mhkzyc4x78IH=k",
+  "https://lh3.google.com/u/0/d/1xOcewQ168pCW_ezWZoMGWX8FGsDyG2Bi=k",
+  "https://lh3.google.com/u/0/d/1r9Es2DA2IDaekTZnXgfeUjGSMOyZ1lqD=k",
+  "https://lh3.google.com/u/0/d/1zV6HMSmAjpT3p7IpMP_g21RDoPW8JFuS=k",
+  "https://lh3.google.com/u/0/d/1hHNh2jS7XG6TzqT5LuNbu2dxfw46Q8_b=k",
+  "https://lh3.google.com/u/0/d/1w5zUWk_pFGUqgsK3EhKzNUpLJJI-Gng2=k",
+  "https://lh3.google.com/u/0/d/1aWihJ10-sDj9hQ2aT35TLS5SxZsb2KIK=k",
+  "https://lh3.google.com/u/0/d/1O4Y6R6tj4ZbqEVU8P3q56bWfBsGe1n1D=k",
+  "https://lh3.google.com/u/0/d/1QraE_-QzwUlgZEo1WCMWRnHc4lc8L4Ww=k",
+  "https://lh3.google.com/u/0/d/1XR7gUoC1r4TyI0-6YjfURe1MgV_pEHdJ=k",
+  "https://lh3.google.com/u/0/d/1W_1IXXspT9TA8LXGK2Suaznm26D33TJq=k",
+  "https://lh3.google.com/u/0/d/1WZt-a4kTvJYdsSBvzUzifiBwRVOKMPnd=k",
+  "https://lh3.google.com/u/0/d/1AjyUR_fEGtiwb5Jz0_2EZSvELtlUnLeR=k",
+  "https://lh3.google.com/u/0/d/1AFUMf85XI2SRLv1qIuPTt_KJbKulE5jd=k",
+  "https://lh3.google.com/u/0/d/1Idybu_SnJWWtAOyxCy_m8H56WHC4Wti7=k",
+  "https://lh3.google.com/u/0/d/13RNsEgg8TN-b5qmBHUHtjuM7Ark3uAWK=k",
+  "https://lh3.google.com/u/0/d/1L4UGT71KkVAqDDRPI-ISA261Ql3eegiu=k",
+  "https://lh3.google.com/u/0/d/1Eqo6II6sDvBH9B-yCbk4FZzo__sLf9_S=k",
+];
 
 export default directors;

@@ -7,6 +7,7 @@ type FiltersNavProps = {
   atualFilter: string;
   setAtualFilter: (value: string) => void;
   map: JSX.Element[];
+  additionalClass?: string;
 };
 
 const FiltersNav = ({
@@ -14,6 +15,7 @@ const FiltersNav = ({
   atualFilter,
   setAtualFilter,
   map,
+  additionalClass,
 }: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -28,68 +30,36 @@ const FiltersNav = ({
   useEffect(() => {
     setAtualFilter(sessionStorage.getItem("atualFilter") || "Todos");
     setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
-  }, [sessionStorage.getItem("atualFilter"), sessionStorage.getItem("isDropdownOpen")]);
+  }, [
+    sessionStorage.getItem("atualFilter"),
+    sessionStorage.getItem("isDropdownOpen"),
+  ]);
 
   return (
     <>
-      <div
-        className={`films-page-filters ${
-          isDropdownOpen ? "exibe-films-filters" : ""
-        }`}
-      >
-        {map}
-        {/* <NavLink
-          onClick={() => mudarFiltro("Todos")}
-          className="films-filters-link"
-          to={"/filmes/todos"}
-        >
-          Todos
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Publicidade")}
-          className="films-filters-link"
-          to={"/filmes/publicidade"}
-        >
-          Publicidade
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Motion 2d/3d")}
-          className="films-filters-link"
-          to={"/filmes/animacao"}
-        >
-          Animação 2D e 3D
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Entretenimento")}
-          className="films-filters-link"
-          to={"/filmes/entretenimento"}
-        >
-          Entretenimento
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Institucional")}
-          className="films-filters-link"
-          to={"/filmes/institucional"}
-        >
-          Institucional
-        </NavLink>
-        <NavLink
-          onClick={() => mudarFiltro("Clipes de Música")}
-          className="films-filters-link"
-          to={"/filmes/clipes-musica"}
-        >
-          Video Clipes
-        </NavLink> */}
-      </div>
-
-      {windowWidth <= windowWidthParam && (
+      {windowWidth <= windowWidthParam ? (
         <button
           onClick={() => setIsDropdownOpen(!isDropdownOpen)}
           className="films-filter-dropdown"
         >
-          <span className="films-filter-drop-text">{atualFilter}</span>{" "}
+          <div
+            className={`films-page-filters ${
+              isDropdownOpen ? "exibe-films-filters " : ""
+            }${additionalClass}`}
+          >
+            {map}
+          </div>
+          <span className="films-filter-drop-text">{atualFilter}</span>
           <FaChevronDown />
         </button>
+      ) : (
+        <div
+          className={`films-page-filters ${
+            isDropdownOpen ? "exibe-films-filters " : ""
+          }${additionalClass}`}
+        >
+          {map}
+        </div>
       )}
     </>
   );

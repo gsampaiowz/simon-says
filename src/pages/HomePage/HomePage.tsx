@@ -12,6 +12,9 @@ const HomePage = () => {
 
   const navigate = useNavigate();
 
+  console.log(filmsHome);
+  
+
   return (
     <MainContent>
       <Container additionalClass="home-page-flex">
@@ -25,6 +28,9 @@ const HomePage = () => {
         <IoArrowDownSharp
           className="home-down-arrow-icon"
           size={60}
+          onClick={() => {
+            scrollTo({ top: window.innerHeight, behavior: "smooth" });
+          }}
           color="var(--color-black)"
         />
         <div className="home-page-films">
@@ -34,17 +40,17 @@ const HomePage = () => {
             image={filmsHome.at(0)!["Thumb miniatura"]}
             title={filmsHome.at(0)!.Título}
             subtitle={filmsHome.at(0)!.Subtítulo}
-            />
+          />
           <HomeFilm
             onclick={() => navigate(`/filme/${filmsHome.at(1)!.FilmId}`)}
-            style={{ gridArea: "1 / 1", marginTop: "25vh" }}
+            style={{ gridArea: "1 / 1", marginTop: "15vw" }}
             image={filmsHome.at(1)!["Thumb miniatura"]}
             title={filmsHome.at(1)!.Título}
             subtitle={filmsHome.at(1)!.Subtítulo}
-            />
-          {filmsHome.slice(2, 6).map((film) => (
+          />
+          {filmsHome.slice(2, 7).map((film) => (
             <HomeFilm
-            onclick={() => navigate(`/filme/${film.FilmId}`)}
+              onclick={() => navigate(`/filme/${film.FilmId}`)}
               isLarge
               key={film.FilmId}
               image={film["Thumb miniatura"]}
@@ -63,10 +69,10 @@ const HomePage = () => {
             image={filmsHome.at(8)!["Thumb miniatura"]}
             title={filmsHome.at(8)!.Título}
             subtitle={filmsHome.at(8)!.Subtítulo}
-            />
+          />
           {filmsHome.slice(9).map((film) => (
             <HomeFilm
-            onclick={() => navigate(`/filme/${film.FilmId}`)}
+              onclick={() => navigate(`/filme/${film.FilmId}`)}
               isLarge
               key={film.FilmId}
               image={film["Thumb miniatura"]}

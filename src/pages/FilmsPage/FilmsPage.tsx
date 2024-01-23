@@ -108,7 +108,7 @@ const FilmsPage = () => {
         {currentItems.map((film) => (
           <FilmItem
             image={film["Thumb miniatura"]}
-            onclick={() => navigate(`/filme/${film.FilmId}`)}
+            onclick={() => navigate(`/filmes/${encodeURIComponent(atualFilter as string)}/${film.FilmId}`)}
             key={film.FilmId}
             title={film["Título"]}
             subtitle={film["Subtítulo"]}

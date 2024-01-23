@@ -4874,7 +4874,7 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1G-_7fR4_3eaC5_A3Vvizm03wLj_MUqeC=k",
     Texto: "",
-    Diretor: "Kahue Rozzi",
+    Diretor: "",
     Categorias: "Entretenimento",
   },
 ];

@@ -8,8 +8,7 @@ const ContatoPage = () => {
   return (
     <MainContent additionalClass={"contato-page-main"}>
       <Container additionalClass={"contato-page"}>
-        <h2>
-          <hr />
+        <h2 className="contato-page-title">
           CANAIS DE CONTATO
         </h2>
         <div className="contatos-locais">
@@ -17,7 +16,8 @@ const ContatoPage = () => {
             <h4>SÃO PAULO</h4>
             <p>
               Rua Juventus, 92 <br />
-              Mooca – São Paulo/SP
+              Mooca – São Paulo/SP <br />
+              CEP: 03124-020
             </p>
           </div>
           <div className="contato">

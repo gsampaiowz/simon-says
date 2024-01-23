@@ -6,6 +6,9 @@
   gap: 20px;
 }
 
+.home-down-arrow-icon {
+  margin-top: 25px;
+}
 .home-down-arrow-icon:hover {
   cursor: pointer;
   color: var(--color-gray) !important;
@@ -17,13 +20,14 @@
 
 .home-page-films {
   display: grid;
-  gap: 30px;
+  width: 100%;
   margin-bottom: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 1200px) {
   .home-page-films {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }

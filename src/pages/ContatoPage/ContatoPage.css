@@ -6,10 +6,10 @@
   background: var(--color-black);
   padding: 100px 40px;
   display: flex;
-  min-height: 90vh;
+  min-height: calc(100vh - 190px);
   flex-direction: column;
-  justify-content: space-between;
-  gap: 50px;
+  justify-content: center;
+  gap: 25px;
   color: var(--color-white);
   font-family: Poppins-SemiBold;
 }
@@ -24,6 +24,11 @@
   display: flex;
   gap: 50px;
   flex-wrap: wrap;
+}
+
+.contato-page-title{
+  color: #999999;
+  border-top: 2px solid #999999;
 }
 
 .contato-info{

@@ -1,48 +1,79 @@
 import MainContent from "@/components/MainContent/MainContent";
 import "./DiretoresPage.css";
 import Container from "./../../components/Container/Container";
-import directors from "@/data/directorFilms";
-// import { useEffect, useState } from "react";
+import directors, { bgImagesLoop } from "@/data/directorFilms";
+import { useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 
 const DiretoresPage = () => {
-//   const [isLoaded, setIsLoaded] = useState(false);
+  const navigate = useNavigate();
 
-//   useEffect(() => {
-//     const img = new Image();
-//     img.src = image!;
-//     img.onload = () => setIsLoaded(true);
-//   }, [image]);
+  directors.sort((a, b) => a.Nome.localeCompare(b.Nome));
 
-//   const images: string[] = [];
+  let currentIndex = 1;
 
-//   directors.forEach((director) => {
-//     images.push(director.Films[1]["Thumb Principal"]);
-//   });
+  let fundo: HTMLDivElement | null;
 
-//   console.log(images);
+  const fundoRef = useRef(null);
 
-//   let currentIndex = 0;
-//   const body: HTMLElement = document.body;
+  function changeBackground() {
+    let img = new Image();
+    img.onload = function () {
+      fundo!.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${img.src})`;
+    };
+    img.src = bgImagesLoop[currentIndex];
+    currentIndex++;
 
-//   function changeBackground() {
-//     body.style.backgroundImage = `url(${images[currentIndex]})`;
-//     currentIndex++;
-//     if (currentIndex >= images.length) {
-//       currentIndex = 0; // reset index after reaching the last image
-//     }
-//     console.log("mudou");
-//   }
+    if (currentIndex >= bgImagesLoop.length) {
+      currentIndex = 0;
+    }
+  }
 
-//   // Change background every 3 seconds
-//   setInterval(changeBackground, 5000);
+  useEffect(() => {
+    fundo = fundoRef.current;
+
+    let img = new Image();
+    img.onload = function () {
+      fundo!.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${img.src})`;
+      fundo!.style.opacity = "1";
+    };
+    img.src = bgImagesLoop[0];
+    const timer = setInterval(changeBackground, 5000);
+    return () => {
+      clearInterval(timer);
+    };
+  }, [fundo!]);
+
+  const mudarBg = (img: string) => {
+    let image = new Image();
+    image.onload = function () {
+      fundo!.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${image.src})`;
+    };
+    image.src = img;
+  };
 
   return (
     <MainContent>
       <Container additionalClass={"diretores-container"}>
+        <div
+          ref={fundoRef}
+          id="diretores-fundo"
+          className="diretores-fundo"
+        ></div>
         <h2 className="diretores-title">Diretores</h2>
         <div className="diretores-links">
           {directors.map((director) => (
-            <h2 key={director.Nome} className="diretor-link">
+            <h2
+              onMouseEnter={() => mudarBg(director.Frame)}
+              key={director.Nome}
+              onClick={() => {
+                navigate(
+                  `/diretores/${director.Nome}/${director.Films[0].FilmId}`
+                );
+                sessionStorage.setItem("atualFilter", director.Nome);
+              }}
+              className="diretor-link"
+            >
               {director.Nome}
             </h2>
           ))}
