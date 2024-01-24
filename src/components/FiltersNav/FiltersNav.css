@@ -59,7 +59,8 @@
     opacity: 1;
     overflow: hidden;
     display: flex;
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     z-index: 2;
     padding: 0;
     background-color: var(--color-white);

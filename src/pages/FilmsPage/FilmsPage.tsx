@@ -73,15 +73,15 @@ const FilmsPage = () => {
     }
   }, [atualFilter, isDropdownOpen]);
 
-  window.onscroll = function() {
+  window.onscroll = function () {
     var d = document.documentElement;
     var offset = d.scrollTop + window.innerHeight;
     var height = d.offsetHeight;
 
-    if (offset >= height) {
-        verMais();
+    if (offset >= height - 50) {
+      setTimeout(verMais, 250); ;
     }
-};
+  };
 
   return (
     <MainContent additionalClass="films-page">
@@ -108,7 +108,13 @@ const FilmsPage = () => {
         {currentItems.map((film) => (
           <FilmItem
             image={film["Thumb miniatura"]}
-            onclick={() => navigate(`/filmes/${encodeURIComponent(atualFilter as string)}/${film.FilmId}`)}
+            onclick={() =>
+              navigate(
+                `/filmes/${encodeURIComponent(atualFilter as string)}/${
+                  film.FilmId
+                }`
+              )
+            }
             key={film.FilmId}
             title={film["Título"]}
             subtitle={film["Subtítulo"]}

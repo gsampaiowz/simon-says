@@ -18,7 +18,8 @@
 .film-details .exibe-films-filters {
   opacity: 1;
   display: flex;
-  width: 280px;
+  max-width: 280px;
+  width: 100%;
   padding: 0;
   background-color: var(--color-white);
   gap: 0;

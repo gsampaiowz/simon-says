@@ -18,7 +18,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "CLDF",
     Título: "CLDF Bandeiras",
     Subtítulo: "Por Cada um por todos nós",
@@ -28,23 +27,34 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn=k",
     Texto:
-      "A campanha de CLDF Bandeira foi filmada em Brasília, Kahue Rozzi nosso diretor que pilotou este filme com 3 diárias, 70 pessoas no elenco e grande equipe.",
+      'A campanha "Bandeira" da CLDF foi realizada nos cenários icônicos de Brasília, com direção de Kahue Rozzi. O filme foi cuidadosamente produzido em 3 dias, envolvendo mais de 35 membros da equipe, com equipes de São Paulo e Brasília trabalhando em conjunto. Além de contar com um elenco de 70 membros, a produção destacou-se pela colaboração eficiente entre as equipes e pela captura da essência única da capital brasileira.',
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
-    Home: true,
-
-    ExibeDiretor: false,
-    Cliente: "Cereser",
-    Título: "Promoção Vem Brindar com Cereser",
-    Subtítulo: "",
-    YouTube: "https://youtu.be/nMD3m_bd2aU",
+    Cliente: "CLDF",
+    Título: "CLDF Bandeiras",
+    Subtítulo: "Por Cada um por todos nós | 30s",
+    YouTube: "https://youtu.be/zYROSHwZYQw",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/1Vo0ELtrT5xJqe9QsT-uyJM-8zklVQ3bT=k",
+      "https://lh3.google.com/u/0/d/1li1P1KSHWRLuXkIxGWNUr6COcjISh-Rf=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/1Vr4jzgwm3L3kw_Rf0kNhjs1ZaGe0JVAt=k",
+      "https://lh3.google.com/u/0/d/1nInlf6bXispn84wvGXClVfRujE7olDSs=k",
+    Texto: "",
+    Diretor: "Kahue Rozzi",
+    Categorias: "Publicidade",
+  },
+  {
+    FilmId: uuid(),
+    Cliente: "CLDF",
+    Título: "CLDF Bandeiras",
+    Subtítulo: "Por Cada um por todos nós | Stories",
+    YouTube: "https://youtube.com/shorts/s5rK9fchTQM",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1UpXYN4QZj9Odp2B7ntOjPlOsGHK7CNEN=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/1Lq5P1hTPTP4IzvB9-0P-n3NrFPWQLBqz=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -53,7 +63,23 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
+    Cliente: "Cereser",
+    Título: "Promoção Vem Brindar com Cereser",
+    Subtítulo: "",
+    YouTube: "https://youtu.be/nMD3m_bd2aU",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1Vo0ELtrT5xJqe9QsT-uyJM-8zklVQ3bT=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/1Vr4jzgwm3L3kw_Rf0kNhjs1ZaGe0JVAt=k",
+    Texto:
+      'Conheça a magia por trás da produção da campanha "Vem Brindar" da Cereser com a SimonSays Filmes. Um filme encantador que foi concebido em apenas 1 dia, com uma equipe de renomados profissionais liderada pelo talentoso diretor Kahue Rozzi. Contando com a presença carismática de Celso Portiolli, o filme foi capturado em formato cinema 6K, garantindo uma qualidade visual excepcional.\n\nA produção não se limitou apenas à filmagem, mas incluiu cuidadosa finalização, color grading e uma trilha sonora composta sob medida. Ao participar da Promoção Vem Brindar com Cereser 2023, você não apenas concorre a incríveis R$350 mil em prêmios, mas também se conecta a uma experiência cinematográfica única, repleta de emoção e qualidade técnica. Vem brindar conosco!',
+    Diretor: "Kahue Rozzi",
+    Categorias: "Publicidade",
+  },
+  {
+    FilmId: uuid(),
+    Home: true,
+
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Guerra",
@@ -70,7 +96,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Religião",
@@ -80,14 +105,13 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1TcyU0CuBlcyR_gWVKPpJZWZW_ouIhCUF=k",
     Texto:
-      '"A SimonSays Filmes produziu um filme incrível, dirigida pelo *@Kahuê Campion Rozzi* e concebido pela equipe talentosa da *@ReBorn*, liderada por *@Jaderrosseto*.\nNesta história poderosa, dois estranhos, um judeu e um árabe, se chocam pelas ruas da cidade. No início, a discordância prevalece, mas à medida que a narrativa se desenrola, eles encontram uma conexão genuína e compartilham um sorriso, encerrando com a mensagem \\""OUÇA MAIS COM O CORAÇÃO\\"".\nEste filme nos lembra que, independentemente de nossas diferenças, somos todos humanos. É um exemplo de como o cinema pode unir, criar entendimento e promover empatia.\nParabéns à equipe da SimonSays Filmes e à visão criativa da ReBorn. Continuemos usando nossa arte para inspirar e unir."',
+      'Este poderoso filme conta a história envolvente de dois indivíduos de mundos distintos: um judeu e um árabe. Encontrando-se nas ruas pulsantes da cidade, suas vidas se cruzam inicialmente sob um véu de discordância. No entanto, conforme a narrativa se desenrola, uma conexão inesperada e genuína se forma entre eles, culminando em um momento de compreensão mútua e um sorriso compartilhado.\n\nEste momento simbólico traz consigo uma mensagem profunda: "Ouça Mais com o Coração". O filme é um lembrete pungente de que, além das nossas diferenças culturais ou religiosas, reside uma humanidade comum que nos une. Ele exemplifica o poder do cinema não apenas como uma forma de arte, mas como um meio de fomentar a compreensão, o respeito e a empatia entre as pessoas.',
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Família",
@@ -103,7 +127,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Casal",
@@ -119,7 +142,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Audionova",
     Título: "Ouça mais com o coração",
     Subtítulo: "Senhor",
@@ -135,7 +157,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Larissa Manoela conta o que é a Universo",
@@ -145,14 +166,13 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1Rxlu9GCnE0p6AopFq4_6V6ExTiRMz5ly=k",
     Texto:
-      "Enquanto a gente produz montanhas de lixo, a Universo transforma esses resíduos em produtos de longa duração para o nosso dia a dia. E nada melhor que divulgar esses produtos tecnológicos e biodegradáveis com vários filmes para as redes sociais, como YouTube e Instagram. A atriz Larissa Manuela é a estrela dessa campanha, gravada na própria loja da marca, em São Paulo/SP. De um dia de gravações, mais de 80 pílulas e filmetes foram finalizados, além do filme principal. A SimonSays foi responsável pela produção, captação, apoio de roteiro, direção Kahue, Fotografia Cello Barillari, sonorização e finalização dos filmes.",
+      "A Universo se destaca por transformar resíduos em produtos biodegradáveis inovadores, e para destacar essa iniciativa, a SimonSays Filmes produziu uma série de filmes para redes sociais, estrelando a carismática Larissa Manoela. Filmada na loja da Universo em São Paulo, a campanha resultou em mais de 80 pílulas e um filme principal, destacando a importância da sustentabilidade. A essência da mensagem da Universo, combinando talento, criatividade e compromisso ambiental.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Apresentação",
@@ -168,7 +188,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Álcool Ecológico",
@@ -184,7 +203,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Biocápsulas",
@@ -200,7 +218,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Biombo",
@@ -216,7 +233,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Condicionador",
@@ -232,7 +248,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Ecosolo",
@@ -248,7 +263,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Luminária 3D",
@@ -264,7 +278,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Luminárias",
@@ -280,7 +293,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Macacão",
@@ -296,7 +308,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Mesa de Cabeceira",
@@ -312,7 +323,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Obsolescência",
@@ -328,7 +338,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Plástico Bolha",
@@ -344,7 +353,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Sabonete",
@@ -360,7 +368,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Universo Ambipar",
     Título: "Universo Ambipar",
     Subtítulo: "Shampoo",
@@ -376,7 +383,22 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
+    Cliente: "CBF",
+    Título: "Seleção Solidária",
+    Subtítulo: "",
+    YouTube: "https://youtu.be/HZNBeWBg4yo",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1CYBP_c2LcPaL4Wb7lI7Ig-Bgcpc5AXHt=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/1CUsB82BrRdKxJBXrA7OvMwiv60LAYw2c=k",
+    Texto:
+      'O filme "Movimento Seleção Solidária", uma produção da SimonSays Filmes, é uma representação cinematográfica poderosa da resposta solidária do futebol brasileiro durante a pandemia. Enquanto a produção, direção e realização técnica foram conduzidas pela nossa equipe, o roteiro foi habilmente desenvolvido para capturar a essência da campanha, a qual uniu jogadores de renome e a CBF em um esforço conjunto para ajudar as famílias afetadas pela crise. O filme retrata de forma emocionante a união, a solidariedade e a esperança, refletindo o espírito de colaboração que surgiu em um período desafiador. A campanha não apenas alcançou sua meta financeira, mas também fortaleceu a conexão entre o esporte e a ação social, evidenciando como o futebol pode ser uma força positiva para mudanças na sociedade.',
+    Diretor: "Kahue Rozzi",
+    Categorias: "Publicidade",
+  },
+  {
+    FilmId: uuid(),
+    Home: false,
     Cliente: "CBF",
     Título: "CBF Ídolos 1970 Copa do Mundo",
     Subtítulo: "",
@@ -385,14 +407,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1A5bpRg_qa5-4Zh2lnc6Vbrn9kW8xK8N1=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1A6A1UdtcI8ScXKBVKylDfzp9hjwv9_Bu=k",
-    Texto: "",
+    Texto:
+      "Para a CBF, a SimonSays Filmes produziu um emocionante filme em homenagem à seleção brasileira de 1970 e sua conquista do título mundial. Este projeto envolveu uma pesquisa detalhada de imagens, uma edição cuidadosa, e o desenvolvimento de uma linguagem visual única. Realizamos tratamento de imagens e incluímos motion graphics para trazer as cenas históricas à vida moderna. A produção foi enriquecida com uma trilha sonora impactante e uma locução envolvente, capturando a essência e o espírito triunfante daquela equipe lendária.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CBF ",
     Título: "CBF Sub-17",
     Subtítulo: "",
@@ -401,14 +423,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1A8F2OQh_XVg1CXoC31Gsn2SL0SKecZtP=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1A6Z227ZNmBJ6EaPte8N6Khmfl61UDMNV=k",
-    Texto: "",
+    Texto:
+      "Em uma colaboração única com a Rede Globo, a SimonSays Filmes teve a oportunidade de produzir uma campanha vibrante e inspiradora para o Campeonato Sub-17 da FIFA. Graças ao acesso exclusivo a um acervo de imagens de alta qualidade fornecidas pela Rede Globo, conseguimos criar uma narrativa visual impactante que captura a energia e o talento emergente deste emocionante torneio de futebol juvenil. Esta campanha não só destaca os jovens talentos do futebol mundial, mas também celebra o espírito do esporte em sua forma mais pura e promissora.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Colégio Fereguetti",
     Título: "Colégio Fereguetti",
     Subtítulo: "",
@@ -417,14 +439,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1Ms44cYkMjOrTPN9OC8-dwC2Nb9CNmYy7=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1OL_PkSEHp6NzzKAJZac1_FZa-EvrPorE=k",
-    Texto: "",
+    Texto:
+      "Realizada pela SimonSays Filmes, foi um projeto que destacou a excelência em storytelling e habilidades técnicas. Com duas diárias intensas de filmagem, a equipe da SimonSays conseguiu captar a essência e os valores do colégio. O conceito e roteiro, criados internamente pela SimonSays, refletiram a missão educacional do colégio e sua abordagem inovadora. A atenção aos detalhes na produção, desde a escolha dos locais até a edição final, garantiu que cada cena transmitisse a mensagem de crescimento, comunidade e tecnologia no contexto educacional.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sonda",
     Título: "Sonda Supermercados Nova Loja",
     Subtítulo: "",
@@ -440,7 +462,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "FTD Educação",
     Título: "Campanha FTD Sistema de Ensino",
     Subtítulo: "",
@@ -449,14 +470,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/13en0y9PYCJo06vj4H--6ppDqj5y2zVUl=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/13sS6XIoM33L8vZuPRo16YDElBbSiLcXB=k",
-    Texto: "",
+    Texto:
+      "A SimonSays Filmes teve o privilégio de trabalhar com Felipe Castanhari em um projeto inovador. Para atender à agenda movimentada de Castanhari, montamos um estúdio dentro de um resort e fechamos um autódromo, criando cenas espetaculares de carros em alta velocidade. Empregamos tecnologias avançadas, como drones, microcâmeras e câmeras de cinema, complementadas por motion graphics sofisticados. O roteiro, tanto inovador quanto cativante, juntamente com a presença magnética de Castanhari, culminou em uma campanha bem-sucedida que harmonizou educação, entretenimento e excelência técnica.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "DogDoll",
     Subtítulo: "",
@@ -466,14 +487,13 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/146fohX2XvEJiRpfFEtKCDyYnknokAIWj=k",
     Texto:
-      "Campanha de 2 filmes gravados na pista de provas da Goodyear, um filme para pneus de alta performance e outro para pneus de lama. Usamos: drones, camera car, grua. Gravamos em pista seca, molhada, terra e pedras.",
+      "Apresentamos com orgulho três filmes distintos, produzidos para a Goodyear, na sua pista de provas. Cada filme é uma ode à excelência da Goodyear em diferentes categorias de pneus: alta performance, off-road e um inovador filme que combina velocidade com efeitos em 3D. Utilizamos drones, camera car e grua para capturar cenas vibrantes em pistas secas, molhadas e em terrenos desafiadores como terra e pedras. Esta trilogia não só demonstra a qualidade superior dos pneus Goodyear, mas também a habilidade da SimonSays Filmes em criar experiências visuais imersivas e dinâmicas, ressaltando a fusão entre alta tecnologia e design inovador dos produtos Goodyear.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Lama",
     Subtítulo: "",
@@ -483,14 +503,13 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ=k",
     Texto:
-      "Campanha de 2 filmes gravados na pista de provas da Goodyear, um filme para pneus de alta performance e outro para pneus de lama. Usamos: drones, camera car, grua. Gravamos em pista seca, molhada, terra e pedras.",
+      "Apresentamos com orgulho três filmes distintos, produzidos para a Goodyear, na sua pista de provas. Cada filme é uma ode à excelência da Goodyear em diferentes categorias de pneus: alta performance, off-road e um inovador filme que combina velocidade com efeitos em 3D. Utilizamos drones, camera car e grua para capturar cenas vibrantes em pistas secas, molhadas e em terrenos desafiadores como terra e pedras. Esta trilogia não só demonstra a qualidade superior dos pneus Goodyear, mas também a habilidade da SimonSays Filmes em criar experiências visuais imersivas e dinâmicas, ressaltando a fusão entre alta tecnologia e design inovador dos produtos Goodyear.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Perfomance",
     Subtítulo: "",
@@ -499,14 +518,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2=k",
-    Texto: "",
+    Texto:
+      "Apresentamos com orgulho três filmes distintos, produzidos para a Goodyear, na sua pista de provas. Cada filme é uma ode à excelência da Goodyear em diferentes categorias de pneus: alta performance, off-road e um inovador filme que combina velocidade com efeitos em 3D. Utilizamos drones, camera car e grua para capturar cenas vibrantes em pistas secas, molhadas e em terrenos desafiadores como terra e pedras. Esta trilogia não só demonstra a qualidade superior dos pneus Goodyear, mas também a habilidade da SimonSays Filmes em criar experiências visuais imersivas e dinâmicas, ressaltando a fusão entre alta tecnologia e design inovador dos produtos Goodyear.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Vazamento",
@@ -522,7 +541,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Rede de Esgoto",
@@ -538,7 +556,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Construção",
@@ -554,7 +571,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Uso Consciente da Água",
     Subtítulo: "Uso Correto",
@@ -570,7 +586,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "FTD Educação",
     Título: "Lançamento FTD Sistema de Ensino",
     Subtítulo: "",
@@ -579,7 +594,8 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/15IfodJgvXC2AHoYh5B6l1XyMo95nHCVb=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/15BVOo4NEdlJ2lhfxvxznjMM9oDGieYUA=k",
-    Texto: "",
+    Texto:
+      "A SimonSays Filmes teve o privilégio de trabalhar com Felipe Castanhari em um projeto inovador. Para atender à agenda movimentada de Castanhari, montamos um estúdio dentro de um resort e fechamos um autódromo, criando cenas espetaculares de carros em alta velocidade. Empregamos tecnologias avançadas, como drones, microcâmeras e câmeras de cinema, complementadas por motion graphics sofisticados. O roteiro, tanto inovador quanto cativante, juntamente com a presença magnética de Castanhari, culminou em uma campanha bem-sucedida que harmonizou educação, entretenimento e excelência técnica.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
@@ -587,7 +603,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 1",
@@ -596,22 +611,22 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
-    Texto: "",
+    Texto:
+      'Para a campanha "Dr. Gotinha Responde" do Ministério da Saúde, a SimonSays Filmes desenvolveu quatro filmes distintos, filmados em 4K para garantir a mais alta qualidade visual. A produção contou com a participação de um elenco real, adicionando autenticidade e impacto às mensagens sobre a importância da vacinação. Utilizando tecnologias de ponta como motion graphics e animação 3D, a equipe trouxe o Zé Gotinha à vida, criando um ambiente educativo e cativante. Essa série, eficientemente produzida em uma única diária, exemplifica a capacidade da SimonSays Filmes de combinar conteúdo relevante com excelência técnica, ',
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 2",
     YouTube: "https://youtube.com/shorts/8xM6s64ckmo",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
+      "https://lh3.google.com/u/0/d/1ZfgWRWgm0PsaM0vc_E1w27Tir35oDt3b=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
+      "https://lh3.google.com/u/0/d/1N_vM6Yx1jEoFvQMAU1T6_NfCEV5QzesF=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -619,15 +634,14 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 3",
     YouTube: "https://youtube.com/shorts/hBJHLsjCxNU",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
+      "https://lh3.google.com/u/0/d/1NkQVBWmByFSNvvhGV19EXgtByvlN4MdA=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
+      "https://lh3.google.com/u/0/d/1hdsVXakE_HVVI9uAb1DAGMg_O4jWiWVr=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -635,15 +649,14 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Doutor Gotinha Responde",
     Subtítulo: "Parte 4",
     YouTube: "https://youtube.com/shorts/MNjIHkmqkBg",
     "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U=k",
+      "https://lh3.google.com/u/0/d/1V6HU74gyBi1IA2iQPAWFHjKUJsvUzFCK=k",
     "Thumb principal":
-      "https://lh3.google.com/u/0/d/1--N84fqSicrhERQfZWzvwvOpcQw5nXuC=k",
+      "https://lh3.google.com/u/0/d/1G8iqWRlpBNyJa3pdlY2RKuCOIhrkmkyM=k",
     Texto: "",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
@@ -651,7 +664,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mini",
     Título: "Mini Connected",
     Subtítulo: "",
@@ -661,14 +673,13 @@ const filmsArray = [
     "Thumb principal":
       "https://lh3.google.com/u/0/d/156VT8RsIdeexcKOtYKSPw2cDKpovHMfu=k",
     Texto:
-      "Campanha do Mini Connected composta por 02 filmes, sendo eles 60″e 30″, mais filme completo de 80 segundos para internet no formato 16:9 e mais 07 filmes para redes sociais com formato 9:16.",
+      "Para a campanha do Mini Connected, a SimonSays Filmes produziu uma série de filmes que incluem dois principais de 60 e 30 segundos, juntamente com versões estendidas de 80 segundos para a internet, além de sete filmes específicos para redes sociais. A produção ocorreu em um estúdio espaçoso, equipado com recursos como grua, dolly e iluminação especial, garantindo que o Mini Connected fosse o destaque.\n\nNa pós-produção, houve um foco dedicado à edição de alta qualidade, gráficos e efeitos visuais, garantindo um resultado final impressionante.\n\nAlém disso, a campanha contou com um elenco diversificado composto por mais de 10 pessoas. A produção meticulosa de acessórios, como relógios, anéis e paletós, foi essencial para personificar o usuário do Mini Connected. Esses detalhes adicionaram autenticidade e sofisticação à produção, destacando a precisão e o requinte do trabalho realizado.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mini",
     Título: "Mini Connected",
     Subtítulo: "Redes Sociais",
@@ -684,23 +695,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
-    Cliente: "CBF",
-    Título: "Seleção Solidária",
-    Subtítulo: "",
-    YouTube: "https://youtu.be/HZNBeWBg4yo",
-    "Thumb miniatura":
-      "https://lh3.google.com/u/0/d/1CYBP_c2LcPaL4Wb7lI7Ig-Bgcpc5AXHt=k",
-    "Thumb principal":
-      "https://lh3.google.com/u/0/d/1CUsB82BrRdKxJBXrA7OvMwiv60LAYw2c=k",
-    Texto: "",
-    Diretor: "Kahue Rozzi",
-    Categorias: "Publicidade",
-  },
-  {
-    FilmId: uuid(),
-    Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Carreto",
@@ -709,14 +703,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/18oEM10Ux6g9byl4-6IDTQIcutAtVKuRz=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/18pEa5E9IGWVhwf1Ybul_mz5fHqEcarPc=k",
-    Texto: "",
+    Texto:
+      "Para a campanha da Localiza Rent a Car, a SimonSays Filmes produziu uma série de sete filmes, cada um com 30 segundos de duração para a internet no formato 16:9. A produção foi realizada em um estúdio especialmente preparado para filmar dentro de um carro, proporcionando uma experiência única. Com um grande elenco e roteiros variados, cada filme destacou diferentes aspectos dos serviços e acomodações da Localiza. A produção incluiu iluminação especial para realçar a qualidade dos carros e serviços da Localiza, além de pós-produção de alta qualidade para garantir mensagens claras e envolventes.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Uber",
@@ -732,7 +726,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Lolla",
@@ -748,7 +741,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Bira",
@@ -764,7 +756,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Peruas",
@@ -780,7 +771,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Localiza e você na mesma direção",
     Subtítulo: "Vampiro",
@@ -796,7 +786,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Osasco",
     Título: "Osasco 58 anos",
     Subtítulo: "",
@@ -805,14 +794,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1IQQ8rD56CNAztlP0d_TrBBvXtWQKIR39=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1IPKrO4Q7170jnrgQyHOcJqqmXp7ZNgzt=k",
-    Texto: "",
+    Texto:
+      "A produção de um filme especial para comemorar os 58 anos da cidade de Osasco foi uma celebração da identidade e comunidade local. O filme contou com um elenco composto exclusivamente por cidadãos osasquenses, destacando a autenticidade da cidade. Locações icônicas de Osasco foram escolhidas como cenários, permitindo que os espectadores se reconhecessem na paisagem. Além disso, a colaboração ativa da comunidade enriqueceu a narrativa, refletindo o espírito comunitário que define Osasco.\n\nEssa produção representa o compromisso da SimonSays Filmes em criar conteúdo que conecta e celebra comunidades, destacando a identidade única de Osasco e seu compromisso com a autenticidade e a colaboração.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Osasco",
     Título: "Participa Osasco",
     Subtítulo: "",
@@ -821,14 +810,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1COr_wBD_w2YuZz_cAFpN2-iZawGTz30a=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1CJ0DT2qTBawFGdJrzHCsAWfTk5H7ey43=k",
-    Texto: "",
+    Texto:
+      "A SimonSays Filmes criou uma série de quatro filmes para o programa PARTICIPA OSASCO. Cada filme é como uma peça de um quebra-cabeça que revela a imagem completa da comunidade osasquense, destacando programas-chave da prefeitura, como saúde, habitação, educação e segurança. Com meticulosidade na montagem das peças, esses filmes ressaltam a importância desses programas na vida da comunidade. A produção exemplifica o compromisso da SimonSays Filmes em criar conteúdo envolvente e de qualidade.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Fumcad",
     Título: "Reflexo",
     Subtítulo: "",
@@ -837,14 +826,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/12yvIaSWQMdzVHZqkvroDRr6GVxyCNw8V=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/12yILVSDNB502WnwwJv9-MuCjKnyFuL8W=k",
-    Texto: "",
+    Texto:
+      "Filme encomendado pela Prefeitura de Osasco é uma produção de alta qualidade, filmado em locações cuidadosamente selecionadas, com um elenco e figurinos bem escolhidos. Além disso, a produção incluiu a produção de objetos especiais para enriquecer a narrativa, demonstrando o compromisso com a excelência.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Fumcad",
     Título: "Dragão",
     Subtítulo: "",
@@ -861,7 +850,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Zeiss",
     Título: "Zeiss UV Protect",
     Subtítulo: "",
@@ -870,14 +858,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1B78B7rJoIVgJsvnOKiDB-dUh7Dz1VQe_=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1B0xHvj_440unXT3DI82tAlrSe2loS0Zj=k",
-    Texto: "",
+    Texto:
+      "Nossa produção para a Campanha Zeiss | UV Protect é uma perfeita harmonia entre tecnologia e criatividade. Utilizando técnicas avançadas de chroma-key e a eficaz ferramenta NUKE, transportamos nosso elenco para cenários deslumbrantes a partir de imagens reais de banco de imagens. Cada cena é uma obra-prima visual que destaca a importância da proteção UV.",
     Diretor: "Kahue Rozzi",
     Categorias: "Publicidade",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Starbucks",
     Título: "Starbucks Refreshers",
     Subtítulo: "",
@@ -893,7 +881,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "ESPM",
     Título: "ESPM Transforma o seu Mundo",
     Subtítulo: "",
@@ -909,7 +896,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Melhores Condições",
@@ -925,7 +911,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Atendimento Personalizado",
@@ -941,7 +926,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Eu Escolhi",
     Subtítulo: "Pagar Menos",
@@ -957,7 +941,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Central Farma",
     Título: "Central Farma - Central Nutrition",
     Subtítulo: "",
@@ -973,7 +956,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Corona Abraço",
     Subtítulo: "",
@@ -989,7 +971,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa ",
     Título: "Dia Mundial da Água",
     Subtítulo: "",
@@ -1005,7 +986,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Saúde",
@@ -1021,7 +1001,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Cidadania",
@@ -1037,7 +1016,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Mobilidade Urbana",
@@ -1053,7 +1031,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Educaçao",
@@ -1069,7 +1046,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Investimento",
@@ -1085,7 +1061,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia como você nunca viu!",
     Subtítulo: "Mãe Cotiana",
@@ -1101,7 +1076,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CFM",
     Título: "Saúde no Brasil",
     Subtítulo: "",
@@ -1117,7 +1091,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "FMU ",
     Título: "Vestibular FMU",
     Subtítulo: "",
@@ -1133,7 +1106,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Imposto de Renda do Pequeno",
@@ -1149,7 +1121,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Declaração anual do MEI",
@@ -1165,7 +1136,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "O empreendedor é obrigado a emitir a nota fiscal eletrônica?",
@@ -1181,7 +1151,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Ajuda o Dono",
     Subtítulo: "Direitos e deveres do MEI",
@@ -1197,7 +1166,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Batata Inglesa",
     Título: "Batata Inglesa",
     Subtítulo: "",
@@ -1213,7 +1181,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Di Pollini",
     Título: "Di Pollini Artesão",
     Subtítulo: "",
@@ -1229,7 +1196,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Guarani",
     Título: "Independência",
     Subtítulo: "",
@@ -1245,7 +1211,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Tecnhos",
     Título: "Technos Skydiver",
     Subtítulo: "",
@@ -1261,7 +1226,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Lifan",
     Título: "Vendas Lifan",
     Subtítulo: "",
@@ -1277,7 +1241,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Pfizer",
     Título: "Geração Z",
     Subtítulo: "",
@@ -1293,7 +1256,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Gou Odonto",
     Título: "Gou odonto | Clínicas de Odontologia",
     Subtítulo: "",
@@ -1309,7 +1271,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "BMW",
     Título: "BMW Motorrad R1200",
     Subtítulo: "",
@@ -1325,7 +1286,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Forma",
     Título: "Camp Experience",
     Subtítulo: "",
@@ -1341,7 +1301,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Rio Branco",
     Título: "Construtora Rio Branco",
     Subtítulo: "",
@@ -1357,7 +1316,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Dailus",
     Título: "Dailus Colors",
     Subtítulo: '"',
@@ -1372,7 +1330,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Yamaha",
     Título: "Mega Feirão Yamaha",
     Subtítulo: "",
@@ -1388,7 +1345,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Forma",
     Título: "Viajem da sua vida",
     Subtítulo: "",
@@ -1404,7 +1360,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Agaxtur",
     Título: "Viajar é Preciso",
     Subtítulo: "",
@@ -1420,7 +1375,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Café Brasileiro",
     Título: "Café Brasileiro",
     Subtítulo: "",
@@ -1436,7 +1390,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Yamaha",
     Título: "Sonhos",
     Subtítulo: "",
@@ -1452,7 +1405,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Educaçào",
     Título: "OBMEP | Olimpíadas de Matemática",
     Subtítulo: "",
@@ -1468,7 +1420,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Colégio Marista",
     Título: "Colégio Marista",
     Subtítulo: "",
@@ -1484,7 +1435,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Pastelândia",
     Título: "Pastelândia",
     Subtítulo: "",
@@ -1500,7 +1450,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Goodyear",
     Título: "Boas Festas",
     Subtítulo: "",
@@ -1517,7 +1466,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Institucional 96 Anos",
     Subtítulo: "",
@@ -1526,7 +1474,8 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/13WDZ4Ag-bQS3JMsmFvG1UIPeCC4AllO8=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/13Y3Gmm1rm4tXw8pgodsYN8dQTH16OFk2=k",
-    Texto: "",
+    Texto:
+      "Uma produção notável da SimonSays Filmes, criada para celebrar os 96 anos de história e excelência da CBC - Companhia Brasileira de Cartuchos. Realizado em locações impressionantes em São Paulo, Ribeirão Pires e Porto Alegre, este projeto de quatro dias capturou a essência e o legado da CBC através de cenas aéreas espetaculares e cinematografia de alta qualidade.\n\nO roteiro, desenvolvido por nossa equipe interna, foi meticulosamente criado para destacar a força, precisão e confiabilidade dos produtos da CBC, refletindo seu compromisso com a inovação e segurança. Além disso, visando alcançar uma audiência global, produzimos versões do filme em inglês e espanhol. Esta iniciativa sublinha o compromisso da SimonSays Filmes com a criação de conteúdos audiovisuais que combinam qualidade, criatividade e apelo internacional.",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
   },
@@ -1534,7 +1483,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Protege",
     Título: "Institucional Protege 50 Anos",
     Subtítulo: "",
@@ -1543,14 +1491,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1AxQPnmkx8j6NCG5mrhPkDyUQQwZJai_e=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1Af3QOfV0jGG6-vvZJ35EjizFLFEn2kk9=k",
-    Texto: "",
+    Texto:
+      "Criada para celebrar cinco décadas de história e excelência do Grupo Protege. Filmado nas impressionantes locações da sede da Protege em São Paulo, esse projeto de tres dias capturou a essência e o legado da Protege com cenas aéreas espetaculares e cinematografia de alta qualidade.\n\nNosso roteiro, meticulosamente elaborado por nossa equipe interna, destaca o compromisso da Protege com segurança e logística.",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CBF",
     Título: "CBF Academy",
     Subtítulo: "",
@@ -1559,14 +1507,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/11ssLV_gOyod9H5acyEioCcGoqAoC_9jM=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/11vtc78bhLZRsWTVRdS0T1xwCNgYzjuNb=k",
-    Texto: "",
+    Texto:
+      "Produzido para a CBC Academy, que reúne jogadores, juízes e líderes da CBC. Filmamos nas impressionantes locações da sede da CBC no Rio de Janeiro, esse projeto de quatro dias capturou a essência e o legado da CBC Academy com cenas aéreas espetaculares e cinematografia de alta qualidade.\n\nNosso roteiro, meticulosamente elaborado por nossa equipe interna, destaca o compromisso da CBC Academy com o desenvolvimento esportivo. Cada quadro reflete a dedicação em promover o esporte e a formação de novos talentos, reforçando que, para nós, não se trata apenas de uma produção, mas sim de uma parceria dedicada ao sucesso no esporte.",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Eucatex",
     Título: "MDP Perfect",
     Subtítulo: "",
@@ -1582,7 +1530,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Vtex",
     Título: "Vtex Live Shopping",
     Subtítulo: "",
@@ -1591,14 +1538,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1T68gBE6cHMUauEpo4JVBAOWFHoS_hsbX=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1TiUWdQdmp7OuF1G2yn2umfwdlnrUVx81=k",
-    Texto: "",
+    Texto:
+      "O VTEX Live Shopping App é a solução nativa de experiências de compras ao vivo que está revolucionando o mercado global, e a SimonSays teve o privilégio de produzir um vídeo promocional para a plataforma em inglês, que também foi traduzido para o português, croata, francês e espanhol. Além disso, conduzimos uma transmissão ao vivo completa em inglês sobre a plataforma, com tradução simultânea para o português.\n\nAtualmente, mais de 100 empresas de 10 países já adotaram a ferramenta da VTEX, demonstrando a expansão global e o impacto dessa plataforma inovadora.",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Localiza",
     Título: "Fidelidade",
     Subtítulo: "",
@@ -1614,7 +1561,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cabos Cordeiro",
     Título: "Institucional Cabos Cordeiro",
     Subtítulo: "",
@@ -1630,7 +1576,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Sanasa",
     Título: "Institucional Sanasa",
     Subtítulo: "",
@@ -1639,14 +1584,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1KxVwJMY3WrY6EolpWIikJFm60vehFKWH=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1KwPhwMYrUM7FjyVf_zwj-Fj9qz2NZuja=k",
-    Texto: "",
+    Texto:
+      "Neste projeto, mergulhamos nas operações da SANASA para desvendar o processo de purificação da água que abastece a cidade.\n\nForam três dias de intensa filmagem, durante os quais capturamos cada etapa do complexo processo de tratamento da água, desde a captação até a distribuição segura para a população.",
     Diretor: "Kahue Rozzi",
     Categorias: "Institucional",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caoa Chery",
     Título: "Lançamento Tiggo 7 Pro",
     Subtítulo: "",
@@ -1663,7 +1608,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cosmotec",
     Título: "Institucional Cosmotec",
     Subtítulo: "",
@@ -1679,7 +1623,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Du Pond",
     Título: "Kevlar Du Pond",
     Subtítulo: "",
@@ -1695,7 +1638,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Oxiteno",
     Título: "Oxiteno",
     Subtítulo: "",
@@ -1711,7 +1653,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Humanizar",
     Subtítulo: "",
@@ -1727,7 +1668,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "Caixa Mastercard Promoção de Casa Cheia",
     Subtítulo: "",
@@ -1743,7 +1683,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Retocolite Ulcerativa",
     Subtítulo: "",
@@ -1759,7 +1698,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "Caixa Mastercard Afluent",
     Subtítulo: "",
@@ -1775,7 +1713,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Petronas",
     Título: "Institucional Petronas",
     Subtítulo: "",
@@ -1791,7 +1728,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mccain",
     Título: "Mccain Chef SureCrisp",
     Subtítulo: "",
@@ -1807,7 +1743,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Enxuto",
     Título: "Enxuto 60 anos",
     Subtítulo: "",
@@ -1823,7 +1758,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Jeep",
     Título: "Jeep Experience",
     Subtítulo: "Curitiba",
@@ -1839,7 +1773,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Jeep",
     Título: "Jeep Experience",
     Subtítulo: "Belo Horizonte",
@@ -1855,7 +1788,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas",
@@ -1871,7 +1803,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 30s",
@@ -1887,7 +1818,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 9x16",
@@ -1903,7 +1833,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Cidade Jardim Playpen",
     Subtítulo: "Matrículas Abertas 30s 9x16",
@@ -1919,7 +1848,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "XP Investimentos",
     Título: "Investir Juntos",
     Subtítulo: "",
@@ -1935,7 +1863,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida",
@@ -1951,7 +1878,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 9x16",
@@ -1967,7 +1893,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 30s",
@@ -1983,7 +1908,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cognita",
     Título: "Colégio Villares",
     Subtítulo: "Escolha para a Vida 30sd 9x16",
@@ -1999,7 +1923,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Travel Rock",
     Título: "Travel Rock",
     Subtítulo: "",
@@ -2015,7 +1938,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 1",
@@ -2031,7 +1953,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 2",
@@ -2047,7 +1968,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Osasco Depoimentos Coronavírus",
     Subtítulo: "Video 3",
@@ -2063,7 +1983,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Novas Armas CBC by Khan",
     Subtítulo: "",
@@ -2079,7 +1998,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CBC",
     Título: "Review Munição NTA",
     Subtítulo: "",
@@ -2095,7 +2013,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Taurus",
     Título: "Review TS9",
     Subtítulo: "",
@@ -2111,7 +2028,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Happiness",
     Título: "Curso de formação Happiness",
     Subtítulo: "",
@@ -2127,7 +2043,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Happiness",
     Título: "Apresentação Método Happiness",
     Subtítulo: "",
@@ -2143,7 +2058,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Fernandez Mera",
     Título: "Fernandez Mera | Dia do Corretor",
     Subtítulo: "",
@@ -2159,7 +2073,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Credpago",
     Título: "Credpago",
     Subtítulo: "",
@@ -2175,7 +2088,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "SinChronia",
     Subtítulo: "",
@@ -2191,7 +2103,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "FACSP",
     Título: "Institucional FACSP",
     Subtítulo: "",
@@ -2207,7 +2118,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Cielo",
     Título: "Empresas Cielo",
     Subtítulo: "",
@@ -2223,7 +2133,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Longevidade",
     Subtítulo: "Video 1",
@@ -2239,7 +2148,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Longevidade",
     Subtítulo: "Video 2",
@@ -2255,7 +2163,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 1",
@@ -2271,7 +2178,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 2",
@@ -2287,7 +2193,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 3",
@@ -2303,7 +2208,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 4",
@@ -2319,7 +2223,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Inspirali",
     Título: "O que te inspira na medicina?",
     Subtítulo: "Episódio 5",
@@ -2335,7 +2238,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia 166 Anos",
     Subtítulo: "Video 1",
@@ -2351,7 +2253,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Prefeitura de Cotia",
     Título: "Cotia 166 Anos",
     Subtítulo: "Video 2",
@@ -2367,7 +2268,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Solução Mais",
     Título: "Institucional Solução Mais",
     Subtítulo: "",
@@ -2383,7 +2283,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Solução Mais ",
     Título: "Solução Mais Manifesto",
     Subtítulo: "",
@@ -2399,7 +2298,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "D-Flame",
     Subtítulo: "",
@@ -2415,7 +2313,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "Dynamis | Gasifire",
     Subtítulo: "",
@@ -2431,7 +2328,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Dynamis",
     Título: "Institucional Dynamis",
     Subtítulo: "",
@@ -2447,7 +2343,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Phoenix Tower International",
     Título: "PTI Stronger Institutional",
     Subtítulo: "",
@@ -2463,7 +2358,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "PayGo",
     Título: "PayGo Manifesto",
     Subtítulo: "",
@@ -2479,7 +2373,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Secret Running Society",
     Subtítulo: "",
@@ -2495,7 +2388,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Forever Fast",
     Subtítulo: "",
@@ -2511,7 +2403,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Puma ",
     Título: "Forever Faster Making of",
     Subtítulo: "",
@@ -2527,7 +2418,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Nova Empresa",
     Subtítulo: "",
@@ -2543,7 +2433,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "New IT",
     Título: "New//It Manifesto",
     Subtítulo: "",
@@ -2559,7 +2448,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Labbyes",
     Título: "Labbyes",
     Subtítulo: "",
@@ -2575,7 +2463,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Zemplar ",
     Título: "Zemplar Hemodiálise",
     Subtítulo: "",
@@ -2591,7 +2478,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Viação Amarelinho",
     Título: "Prevenção Covid 19",
     Subtítulo: "",
@@ -2607,7 +2493,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Colégio Santana",
     Título: "Viemos para Servir | Ação Social",
     Subtítulo: "",
@@ -2623,7 +2508,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Grupo Cometa",
     Título: "Institucional Grupo Cometa",
     Subtítulo: "",
@@ -2639,7 +2523,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Z11 Group",
     Título: "z11 Group",
     Subtítulo: "",
@@ -2655,7 +2538,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Sarampo",
@@ -2671,7 +2553,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "HPV",
@@ -2687,7 +2568,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Poliomielite",
@@ -2703,7 +2583,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Movimento Vacina Brasil",
     Subtítulo: "Caxumba",
@@ -2720,7 +2599,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2737,7 +2615,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2754,7 +2631,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2771,7 +2647,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2788,7 +2663,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2806,7 +2680,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2824,7 +2697,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2841,7 +2713,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente:
       "Ministério do Desenvolvimento e Assistência Social, Família e Combate à fome",
     Título: "Cadastro Único",
@@ -2858,7 +2729,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Agora você tem Pediatria na Atenção Primária",
@@ -2874,7 +2744,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "O que é a Atenção Primária a Saúde",
@@ -2890,7 +2759,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Como funciona a Atenção Primária a Saúde",
@@ -2906,7 +2774,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Cuida Mais Brasil",
     Subtítulo: "Quais as diferenças entre Atenção Primária e Especializada",
@@ -2923,7 +2790,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Pra quem é o crédito?",
@@ -2939,7 +2805,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Meu Caixa Tem bloqueou, o que fazer?",
@@ -2955,7 +2820,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Condições e documentação para Pessoa Física",
@@ -2971,7 +2835,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Condições e documentação para MEI",
@@ -2987,7 +2850,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Redefinição de senha",
@@ -3003,7 +2865,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Dicas para envio da documentação cadastral",
@@ -3019,7 +2880,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Informe de renda no Caixa Tem",
@@ -3035,7 +2895,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Confirmação da atualização cadastral",
@@ -3051,7 +2910,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Como solicitar o empréstimo?",
@@ -3067,7 +2925,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Caixa",
     Título: "SIM Digital Crédito Caixa Tem",
     Subtítulo: "Status da solicitação de crédito",
@@ -3083,7 +2940,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 1",
@@ -3099,7 +2955,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 2",
@@ -3115,7 +2970,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Mnistério da Cidadania",
     Título: "Brasil Fraterno - Comida no Prato",
     Subtítulo: "Video 3",
@@ -3131,7 +2985,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Vida em Grupo",
     Subtítulo: "",
@@ -3147,7 +3000,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Residencial",
     Subtítulo: "",
@@ -3164,7 +3016,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Responsabilidade Cívil",
     Subtítulo: "",
@@ -3181,7 +3032,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Zika e Dengue",
     Subtítulo: "",
@@ -3197,7 +3047,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Auto",
     Subtítulo: "",
@@ -3213,7 +3062,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Tokio Marine",
     Título: "Danos e Riscos PJ",
     Subtítulo: "",
@@ -3229,7 +3077,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Moura",
     Título: "Nova Bateria Moura",
     Subtítulo: "",
@@ -3245,7 +3092,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Atenção Primária à Saúde",
@@ -3261,7 +3107,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Câncer",
@@ -3277,7 +3122,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Pré-natal",
@@ -3293,7 +3137,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Sexualidade e planejamento familiar",
@@ -3309,7 +3152,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "ISTs",
@@ -3325,7 +3167,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Saúde da Mulher",
     Subtítulo: "Pré-natal odontológico",
@@ -3341,7 +3182,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é grupo de consórcio?",
@@ -3357,7 +3197,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Como funciona o consórcio?",
@@ -3373,7 +3212,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Por que ler o contrato é importante?",
@@ -3389,7 +3227,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Como funcionam as assembléias?",
@@ -3405,7 +3242,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Quais as formas de contemplação?",
@@ -3421,7 +3257,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é lance embutido?",
@@ -3437,7 +3272,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Para que servem as garantias?",
@@ -3453,7 +3287,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "É possível comprar o que quiser com o crédito?",
@@ -3469,7 +3302,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Comprar bem de menor valor",
@@ -3485,7 +3317,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é taxa de admnistração?",
@@ -3501,7 +3332,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que é fundo de reserva?",
@@ -3517,7 +3347,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Parcela do consórcio",
@@ -3533,7 +3362,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O valor do crédito e das parcelas muda?",
@@ -3549,7 +3377,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "O que acontece ao antecipar o pagamento?",
@@ -3565,7 +3392,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "É permitido receber o crédito em dinheiro?",
@@ -3581,7 +3407,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "E se atrasar o pagamento da parcela?",
@@ -3597,7 +3422,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Desistência",
@@ -3613,7 +3437,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Transferência",
@@ -3629,7 +3452,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Cota contemplada",
@@ -3645,7 +3467,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abac",
     Título: "Consórcio de A a Z",
     Subtítulo: "Posso voltar a pagar meu consórcio?",
@@ -3661,7 +3482,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Smiles",
     Título: "Novo Cartão Smiles",
     Subtítulo: "",
@@ -3677,7 +3497,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Lactulona",
     Título: "Lactulona",
     Subtítulo: "",
@@ -3693,7 +3512,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Lactulona",
     Título: "Lactulona Casa",
     Subtítulo: "",
@@ -3709,7 +3527,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Semp Toshiba",
     Título: "4k SEMP Lançamento",
     Subtítulo: "",
@@ -3725,7 +3542,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como reforçar o caixa da empresa?",
@@ -3741,7 +3557,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como vender pelo whatsapp e redes sociais?",
@@ -3757,7 +3572,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como diminuir custos?",
@@ -3773,7 +3587,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como impulsionar suas vendas?",
@@ -3789,7 +3602,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "O que são canais de venda?",
@@ -3805,7 +3617,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como expandir uma pequena empresa e faturar mais?",
@@ -3821,7 +3632,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "SafraPay Te Conta",
     Subtítulo: "Como usar a tecnologia a favor da sua empresa?",
@@ -3837,7 +3647,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "A Culpa não é dos Macacos",
     Subtítulo: "",
@@ -3854,7 +3663,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Ministério da Saúde",
     Título: "Combate Aedes/Dengue",
     Subtítulo: "Vídeo 1",
@@ -3870,7 +3678,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Segurança para o paciente",
@@ -3886,7 +3693,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Farmacovigilância na terapia biológica",
@@ -3902,7 +3708,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Farmacovigilância",
     Subtítulo: "Transporte e armazenamento",
@@ -3918,7 +3723,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "C&A",
     Título: "C&A & Vc",
     Subtítulo: "",
@@ -3934,7 +3738,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Elma Chips",
     Título: "Guia de Exibição Controlada",
     Subtítulo: "",
@@ -3950,7 +3753,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Coca-Cola",
     Título: "John Pembertton | Coca-Cola 3d",
     Subtítulo: "",
@@ -3966,7 +3768,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "FTD Educação ",
     Título: "FTD 120 Anos",
     Subtítulo: "",
@@ -3982,7 +3783,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Osasco",
     Título: "Incentivo ao comércio local",
     Subtítulo: "",
@@ -3998,7 +3798,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Campanha",
@@ -4014,7 +3813,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Segunda-Feira",
@@ -4030,7 +3828,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Terça-Feira",
@@ -4046,7 +3843,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Quarta-Feira",
@@ -4062,7 +3858,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Quinta-Feira",
@@ -4078,7 +3873,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Sexta-Feira",
@@ -4094,7 +3888,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "TecBan",
     Título: "Todo dia é dia",
     Subtítulo: "Fim de Semana",
@@ -4110,7 +3903,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA BLUETOOTH E APP SAFRAPAY",
@@ -4126,7 +3918,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA COM BOBINA",
@@ -4142,7 +3933,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA MÓVEL SEM BOBINA GPRS",
@@ -4158,7 +3948,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "MÁQUINA SEM BOBINA",
@@ -4174,7 +3963,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "CONHEÇA NOSSAS MÁQUINAS",
@@ -4190,7 +3978,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "TUTORIAL SMART",
@@ -4206,7 +3993,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Stopmatic",
     Título: "Stopmatic",
     Subtítulo: "",
@@ -4222,7 +4008,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Artrite Reumatoide",
     Subtítulo: "",
@@ -4238,7 +4023,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Safra Crédito Consignado",
     Subtítulo: "",
@@ -4254,7 +4038,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Nakata",
     Título: "Amortecedores Nakata",
     Subtítulo: "",
@@ -4270,7 +4053,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Formalização Digital Safra Financeira",
     Subtítulo: "",
@@ -4286,7 +4068,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Unipar",
     Título: "Unipar",
     Subtítulo: "",
@@ -4302,7 +4083,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Uso do Survanta",
     Subtítulo: "",
@@ -4318,7 +4098,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Biossimilares",
     Subtítulo: "",
@@ -4334,7 +4113,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbive",
     Título: "Biológicos",
     Subtítulo: "",
@@ -4350,7 +4128,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Nova Jornada de Pagamento Safra Financeira",
     Subtítulo: "",
@@ -4366,7 +4143,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Suvinil",
     Título: "Sou Mais",
     Subtítulo: "",
@@ -4382,7 +4158,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Tutorial SafraPay",
     Subtítulo: "TIPOS DE MÁQUINA",
@@ -4398,7 +4173,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 1",
@@ -4414,7 +4188,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 2",
@@ -4430,7 +4203,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 3",
@@ -4446,7 +4218,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Safra",
     Título: "Autônomos",
     Subtítulo: "Video 4",
@@ -4462,7 +4233,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Pedidos Já",
     Título: "Pedidos Já",
     Subtítulo: "",
@@ -4478,7 +4248,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Eucatex",
     Título: "Formobile Eucatex",
     Subtítulo: "",
@@ -4494,7 +4263,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Unilever",
     Título: "Unilever Missões",
     Subtítulo: "",
@@ -4510,7 +4278,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Spartan",
     Título: "Spartan Brasil",
     Subtítulo: "",
@@ -4526,7 +4293,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Itaú",
     Título: "Portal Vitrine Rede",
     Subtítulo: "",
@@ -4542,7 +4308,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "St. Marche",
     Título: "Promoção Mini St Marche",
     Subtítulo: "",
@@ -4558,7 +4323,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Semp Toshiba",
     Título: "SEMP GO",
     Subtítulo: "",
@@ -4574,7 +4338,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Omron",
     Título: "Omron Nebulizadores",
     Subtítulo: "",
@@ -4590,7 +4353,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Rádio Disney",
     Título: "Rádio Disney",
     Subtítulo: "",
@@ -4606,7 +4368,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "CNN",
     Título: "CNN | 3D",
     Subtítulo: "",
@@ -4622,7 +4383,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Teva",
     Título: "Teva | Farmacovigilância",
     Subtítulo: "",
@@ -4638,7 +4398,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Teva",
     Título: "This is Teva",
     Subtítulo: "",
@@ -4654,7 +4413,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Projeto Doors",
     Subtítulo: "",
@@ -4670,7 +4428,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Abbvie",
     Título: "Humira Pen - Guia de Aplicação",
     Subtítulo: "",
@@ -4686,7 +4443,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Moderna",
     Título: "Set Brasil | Ed. Moderna",
     Subtítulo: "",
@@ -4702,7 +4458,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "ABAC",
     Título: "ABAC",
     Subtítulo: "",
@@ -4718,7 +4473,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Smiles",
     Título: "SMILES & SHELL",
     Subtítulo: "",
@@ -4735,7 +4489,6 @@ const filmsArray = [
     FilmId: uuid(),
     Home: true,
 
-    ExibeDiretor: false,
     Cliente: "Armored Dawn",
     Título: "Clipe S.O.S",
     Subtítulo: "",
@@ -4752,7 +4505,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Rodhanna",
     Título: "Disco Rodhanna",
     Subtítulo: "",
@@ -4768,7 +4520,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Acústicos & Valvulados",
     Título: "Cinco Frases",
     Subtítulo: "",
@@ -4784,7 +4535,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "Acústicos & Valvulados",
     Título: "Deus Quis",
     Subtítulo: "",
@@ -4800,7 +4550,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
     Cliente: "AACC",
     Título: "Capital Inicial - Ajudar crianças com Cancer faz bem ao coração!",
     Subtítulo: "",
@@ -4816,7 +4565,6 @@ const filmsArray = [
   {
     FilmId: uuid(),
     Home: true,
-    ExibeDiretor: false,
     Cliente: "DOC",
     Título: "Teaser Dalva de Oliveira",
     Subtítulo: "",
@@ -4825,15 +4573,15 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/135Dkjxgae5o5jcmwVml4h_8FfNCjvuwR=k",
-    Texto: "",
+    Texto:
+      'Estamos empolgados em compartilhar com todos vocês o nosso documentário em fase final de montagem sobre a vida e carreira da inesquecível Dalva de Oliveira. Este projeto é uma colaboração brilhante entre o diretor Bernardo Martins, neto da artista, e Kahue Campion Rozzi da SimonSays Filmes.\n\nNossa equipe teve a honra de entrevistar personalidades icônicas da cultura brasileira, incluindo a renomada Maria Bethânia, pessoas que compartilharam momentos preciosos com Dalva, e até mesmo figuras como Agnaldo Timóteo. Cada depoimento traz uma perspectiva única sobre a influência e legado de Dalva de Oliveira.\n\nMais do que apenas um registro histórico, este filme é uma celebração do impacto duradouro da "Rainha do Rádio" e de como sua música transcende gerações. Fiquem atentos para o lançamento, pois esta produção promete emocionar e inspirar a todos.\n\nAguardem! Em breve, vocês serão convidados a fazer parte desta jornada através das telas.',
     Diretor: "Kahue Rozzi",
     Categorias: "Entretenimento",
   },
   {
     FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
-    Cliente: "Série",
+    Cliente: "Séries",
     Título: "Fábrica de Sonhos",
     Subtítulo: "",
     YouTube: "https://youtu.be/ikSQsYlxqkk",
@@ -4841,14 +4589,14 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/17RnuL6w84QFWzyrsZGY75zQ92FTQSwim=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6=k",
-    Texto: "",
+    Texto:
+      "Prepare-se para mergulhar na fascinante história do design de móveis no Brasil nesta série de 10 episódios, com 55 minutos cada, que é uma co-produção entre a SimonSays Filmes e a Total Filmes. Destaque nos Episódios: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult e Maurício Azeredo. Cada episódio mergulhará profundamente na vida, obra e legado desses designers, revelando como eles moldaram a história do design de móveis no Brasil em um contexto de adaptação à economia e política da época. Descubra como a escolha de materiais e as abordagens criativas desses designers refletiram as transformações sociais e econômicas do país. Prepare-se para uma jornada fascinante por meio de imagens de arquivo, entrevistas e narrativas envolventes enquanto exploramos a rica herança do design brasileiro",
     Diretor: "Kahue Rozzi",
     Categorias: "Entretenimento",
   },
   {
     FilmId: uuid(),
     Home: true,
-    ExibeDiretor: false,
     Cliente: "Total Filmes",
     Título: "Mamonas Assassinas - O Filme",
     Subtítulo: "Serviço de Produção",
@@ -4863,8 +4611,39 @@ const filmsArray = [
   },
   {
     FilmId: uuid(),
+    Cliente: "Total Filmes",
+    Título: "Mamonas Assassinas - A Série",
+    Subtítulo: "Em Produção",
+    YouTube: "https://youtu.be/_8G5VT4Z4G8",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1Nv5XC5sCCf5HCLXfpF_Mve2IWmW9GLJn=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/13T5K98MIgxuhDrVJl81raaTrhKSdDGTo=k",
+    Texto:
+      'Mamonas Assassinas: A Série - Uma Parceria de Sucesso entre SimonSays Filmes e Total Filmes\n\nA SimonSays Filmes e a Total Filmes se uniram mais uma vez para criar uma experiência audiovisual verdadeiramente excepcional. Nossa parceria não apenas incluiu a produção das vinhetas de abertura e as passagens em motion graphics, mas também se estendeu para além, abrangendo toda a produção da série.\n\nSomos responsáveis por uma série de aspectos cruciais da série, incluindo a montagem cuidadosa de cada episódio, a trilha sonora que envolve e emociona, a finalização impecável que garante qualidade e coesão, além da pós-produção que eleva o nível do projeto. Nossa equipe também desempenhou um papel fundamental na correção de cor e masterização, garantindo que cada detalhe visual e auditivo seja perfeito.\n\n"Mamonas Assassinas: A Série" promete cativar o público em cinco emocionantes episódios que celebram a trajetória única da banda que conquistou o coração de todos. É uma honra fazer parte deste projeto e contribuir com nossa experiência para criar uma série que será lembrada.\n\nA SimonSays Filmes agradece à Total Filmes pela parceria duradoura e pela confiança em nossa capacidade de entregar excelência em cada etapa da produção. Esperamos ansiosamente que esta série seja mais um marco em nossa colaboração frutífera.',
+    Diretor: "",
+    Categorias: "Entretenimento",
+  },
+  {
+    FilmId: uuid(),
     Home: false,
-    ExibeDiretor: false,
+    Cliente: "",
+    Título: "Mundo da Nina",
+    Subtítulo: "",
+    YouTube:
+      "https://www.youtube.com/watch?v=kBrN-pTKonc&list=PLfpbyDuHNTPknb7yiNDRzV2h0SL-2zEPm",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1DLaewd1Bq1iEGPzmJMUTzj4GqZScDijG=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/11RVYlylJnhZjKsgZS6leZUQi1dr867Zh=k",
+    Texto:
+      'O Mundo da Nina - Uma Produção Especial da SimonSays Filmes\n\nEm "O Mundo da Nina", a SimonSays Filmes teve a honra de criar uma série animada infantil e musical que cativa crianças e suas famílias. Nossa equipe dedicada trabalhou arduamente para desenvolver todos os personagens, animações e músicas que dão vida a este mundo encantador.\n\nAs incríveis músicas que você ouve são criações do talentoso Rodrigo Água, enquanto as ilustrações espetaculares ficaram a cargo do renomado Sergio Gaiolas. A ideia brilhante e a direção criativa que guiam a série são cortesia de Kahue Rozzi.\n\nAtualmente, você pode encontrar "O Mundo da Nina" no YouTube e no canal VIVAX, onde oferecemos conteúdo que visa proporcionar entretenimento e educação. Nosso canal apresenta músicas infantis e animações que estimulam todos os sentidos das crianças, encorajando-as a dançar, cantar e interagir!\n\nOs adoráveis personagens - Momô, Duuk, Dona Tuur, Unik e Ripa - viajam por todos os lugares, trazendo diversão para todas as crianças. "O Mundo da Nina" é o seu novo destino para música infantil e entretenimento familiar de alta qualidade.\n\nConvidamos você a se juntar ao "Mundo da Nina", onde a magia da música e da diversão nunca termina.',
+    Diretor: "Kahue Rozzi",
+    Categorias: "Entretenimento",
+  },
+  {
+    FilmId: uuid(),
+    Home: false,
     Cliente: "Série",
     Título: "C11 - DISNEY",
     Subtítulo: "College 11 - Serviço de Produção",
@@ -4873,6 +4652,22 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/1zRwyQ6TJHqXN4XvmXDRPOenQJG9XjYbJ=k",
     "Thumb principal":
       "https://lh3.google.com/u/0/d/1G-_7fR4_3eaC5_A3Vvizm03wLj_MUqeC=k",
+    Texto:
+      'A SimonSays Filmes teve a honra de realizar seu primeiro serviço de produção para outra produtora parceira no projeto "Que Talento!" do Disney Channel. Kahue desempenhou um papel fundamental no desenvolvimento da linguagem, na direção de arte e na edição de todos os 26 episódios, incluindo as versões em espanhol. Este trabalho marcou nosso compromisso com a qualidade e criatividade em produções audiovisuais.',
+    Diretor: "",
+    Categorias: "Entretenimento",
+  },
+  {
+    FilmId: uuid(),
+    Home: true,
+    Cliente: "",
+    Título: "Sexo Sem Medo",
+    Subtítulo: "",
+    YouTube: "https://www.youtube.com/watch?v=VUEWs9UVO5Q",
+    "Thumb miniatura":
+      "https://lh3.google.com/u/0/d/1PjQqBPyiO8E7XUfN6AQezZs_H6fIqeUP=k",
+    "Thumb principal":
+      "https://lh3.google.com/u/0/d/1XUi_z_z0F_yLL-9Ulodb2HhwqPrjugnF=k",
     Texto: "",
     Diretor: "",
     Categorias: "Entretenimento",
@@ -4880,23 +4675,15 @@ const filmsArray = [
 ];
 
 filmsArray.forEach((film, index) => {
-  let uuidExistente = sessionStorage.getItem(`film-${index}-uuid`);
-
-  if (!uuidExistente) {
-    uuidExistente = uuid();
-
-    sessionStorage.setItem(`film-${index}-uuid`, uuidExistente);
-  }
-
-  film.FilmId = uuidExistente;
+  film.FilmId = (index + 1).toString();
 });
 
-const categoriasSet : Set<string> = new Set();
+const categoriasSet: Set<string> = new Set();
 categoriasSet.add("Todos");
 filmsArray.forEach((film) => {
   categoriasSet.add(film.Categorias);
 });
 
-export const categorias : string[] = Array.from(categoriasSet)
+export const categorias: string[] = Array.from(categoriasSet);
 
 export default filmsArray;
