@@ -19,7 +19,10 @@ const Footer = () => {
           <a target="blank" href="https://www.instagram.com/simonsaysfilmes/">
             <IoLogoInstagram size={18} color="var(--color-gray)" />
           </a>
-          <a target="blank" href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br"
+          >
             <FaLinkedinIn size={16} color="var(--color-gray)" />
           </a>
         </div>
