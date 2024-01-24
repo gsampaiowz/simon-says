@@ -16,15 +16,13 @@ const Footer = () => {
 
       <div className="footer-options">
         <div className="footer__redes-sociais">
-          <a target="blank" href="https://www.instagram.com/simonsaysfilmes/">
-            <IoLogoInstagram size={18} color="var(--color-gray)" />
-          </a>
-          <a
-            target="blank"
-            href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br"
-          >
-            <FaLinkedinIn size={16} color="var(--color-gray)" />
-          </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/simonsaysfilmes/">
+ <IoLogoInstagram size={18} color="var(--color-gray)" />
+</a>
+<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br">
+ <FaLinkedinIn size={16} color="var(--color-gray)" />
+</a>
+
         </div>
 
         <div className="footer-links">
