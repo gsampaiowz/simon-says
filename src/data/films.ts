@@ -4575,7 +4575,7 @@ const filmsArray = [
       "https://lh3.google.com/u/0/d/135Dkjxgae5o5jcmwVml4h_8FfNCjvuwR=k",
     Texto:
       'Estamos empolgados em compartilhar com todos vocês o nosso documentário em fase final de montagem sobre a vida e carreira da inesquecível Dalva de Oliveira. Este projeto é uma colaboração brilhante entre o diretor Bernardo Martins, neto da artista, e Kahue Campion Rozzi da SimonSays Filmes.\n\nNossa equipe teve a honra de entrevistar personalidades icônicas da cultura brasileira, incluindo a renomada Maria Bethânia, pessoas que compartilharam momentos preciosos com Dalva, e até mesmo figuras como Agnaldo Timóteo. Cada depoimento traz uma perspectiva única sobre a influência e legado de Dalva de Oliveira.\n\nMais do que apenas um registro histórico, este filme é uma celebração do impacto duradouro da "Rainha do Rádio" e de como sua música transcende gerações. Fiquem atentos para o lançamento, pois esta produção promete emocionar e inspirar a todos.\n\nAguardem! Em breve, vocês serão convidados a fazer parte desta jornada através das telas.',
-    Diretor: "Kahue Rozzi",
+    Diretor: "Bernardo Martins, Kahue Rozzi",
     Categorias: "Entretenimento",
   },
   {
