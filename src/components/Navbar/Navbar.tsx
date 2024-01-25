@@ -43,7 +43,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
         Publicidade
       </NavLink>
       <NavLink
-        onClick={() => mudarFiltro("Motion 2d/3d")}
+        onClick={() => mudarFiltro("Motion 2D/3D")}
         to={"/filmes/animacao"}
       >
         Animação 2D e 3D

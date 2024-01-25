@@ -22,7 +22,7 @@ const DiretorPage = () => {
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
   const director = directors.find(
-    (d) => d.Nome.split("")[0] === nome?.split("")[0]
+    (d) => d.Nome === nome
   );
 
   const filmsRelacionados = director?.Films.filter((f) => f.FilmId !== idFilme);

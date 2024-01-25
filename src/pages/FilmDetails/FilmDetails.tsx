@@ -63,7 +63,7 @@ const FilmDetails = () => {
               key={categoria}
               onClick={() => mudarFiltro(categoria)}
               className="films-filters-link"
-              to={`/filmes/${categoria.replace("Motion 2d/3d", "animacao")}`}
+              to={`/filmes/${categoria.replace("Motion 2D/3D", "animacao")}`}
             >
               {categoria}
             </NavLink>

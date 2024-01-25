@@ -62,7 +62,7 @@ const FilmsPage = () => {
           "Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
         );
         break;
-      case "Motion 2d/3d":
+      case "Motion 2D/3D":
         setFilterDescription(
           "Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas."
         );
@@ -92,7 +92,7 @@ const FilmsPage = () => {
               key={c}
               onClick={() => mudarFiltro(c)}
               className="films-filters-link"
-              to={`/filmes/${c.replace("Motion 2d/3d", "animacao")}`}
+              to={`/filmes/${c.replace("Motion 2D/3D", "animacao")}`}
             >
               {c}
             </NavLink>

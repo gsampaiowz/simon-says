@@ -13,6 +13,12 @@
     text-align: center;
 }
 
+.servicos-container hr{
+    width: 80px;
+    border: 2px solid var(--color-white);
+    margin: 20px 0;
+}
+
 .servicos-container h1{
     line-height: 60px;
     font-family: Poppins-ExtraBold;

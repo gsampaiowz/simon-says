@@ -7,6 +7,7 @@ const ServicosProducaoPage = () => {
     <MainContent>
       <Container additionalClass="servicos-container">
         <h1>Simon Says</h1>
+        <hr />
         <p>
           A SimonSays Filmes é uma produtora com 14 anos de história,
           trabalhamos para as mais importantes marcas e agências do mercado,
