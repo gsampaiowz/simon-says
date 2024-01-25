@@ -3,10 +3,23 @@ import logoFooter from "@/assets/img/logo-footer.png";
 import { IoLogoInstagram } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa"; // Import the necessary package
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  useEffect(() => {
+
+    const footer = document.getElementById("footer");
+    if (footer) {
+      location.pathname === "/diretores"
+        ? (footer.style.backgroundColor = "transparent")
+        : (footer.style.backgroundColor = "black");
+    }
+  }, [location.pathname]);
+
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <img
         className="footer-logo"
         width={250}
@@ -16,13 +29,20 @@ const Footer = () => {
 
       <div className="footer-options">
         <div className="footer__redes-sociais">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/simonsaysfilmes/">
- <IoLogoInstagram size={18} color="var(--color-gray)" />
-</a>
-<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br">
- <FaLinkedinIn size={16} color="var(--color-gray)" />
-</a>
-
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.instagram.com/simonsaysfilmes/"
+          >
+            <IoLogoInstagram size={18} color="var(--color-gray)" />
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/company/simonsays-filmes/?originalSubdomain=br"
+          >
+            <FaLinkedinIn size={16} color="var(--color-gray)" />
+          </a>
         </div>
 
         <div className="footer-links">

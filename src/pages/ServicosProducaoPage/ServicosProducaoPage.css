@@ -13,8 +13,13 @@
     text-align: center;
 }
 
+.servicos-container p{
+    font-size: 22px;
+    font-family: Poppins-SemiBold;
+}
+
 .servicos-container hr{
-    width: 80px;
+    width: 150px;
     border: 2px solid var(--color-white);
     margin: 20px 0;
 }

@@ -68,7 +68,6 @@ const FilmsPage = () => {
         );
         break;
       default:
-        setFilterDescription("Sem frase");
         break;
     }
   }, [atualFilter, isDropdownOpen]);
@@ -102,7 +101,7 @@ const FilmsPage = () => {
           windowWidthParam={1400}
         />
 
-        <p className="filter-description">{filterDescription}</p>
+        { filterDescription && <p className="filter-description">{filterDescription}</p>}
       </Container>
       <div className="films-list">
         {currentItems.map((film) => (
