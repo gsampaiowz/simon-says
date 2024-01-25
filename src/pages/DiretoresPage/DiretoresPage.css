@@ -1,8 +1,7 @@
 .diretores-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  align-items: center;
+  gap: 20px;
   padding: 20px 30px;
   min-height: calc(100vh - 191px);
 }
@@ -24,8 +23,9 @@
   filter: invert(1);
 }
 
-/* .diretores-links{
-} */
+.diretores-links{
+  padding-left: 150px;
+}
 
 .diretor-link {
   text-shadow: 0px 0px 10px black;  
