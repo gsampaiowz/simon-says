@@ -1,1 +1,20 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>http://simon-says-mu.vercel.app/</loc></url><url><loc>http://simon-says-mu.vercel.app/filmes/</loc></url><url><loc>http://simon-says-mu.vercel.app/filmes/:categoria</loc></url><url><loc>http://simon-says-mu.vercel.app/filmes/:categoria/:idFilme</loc></url><url><loc>http://simon-says-mu.vercel.app/sobre</loc></url><url><loc>http://simon-says-mu.vercel.app/servicos-producao</loc></url><url><loc>http://simon-says-mu.vercel.app/diretores</loc></url><url><loc>http://simon-says-mu.vercel.app/diretores/:nome/:idFilme</loc></url><url><loc>http://simon-says-mu.vercel.app/contato</loc></url><url><loc>http://simon-says-mu.vercel.app/search</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://simon-says-mu.vercel.app/</loc>
+    </url>
+    <url>
+        <loc>http://simon-says-mu.vercel.app/filmes/</loc>
+    </url>
+    <url>
+        <loc>http://simon-says-mu.vercel.app/sobre</loc>
+    </url>
+    <url>
+        <loc>http://simon-says-mu.vercel.app/servicos-producao</loc>
+    </url>
+    <url>
+        <loc>http://simon-says-mu.vercel.app/diretores</loc>
+    </url>
+    <url>
+        <loc>http://simon-says-mu.vercel.app/contato</loc>
+    </url>
+</urlset>
