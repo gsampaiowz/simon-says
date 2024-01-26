@@ -233,8 +233,8 @@ const directors = [
       {
         Título: "NAGE Segundo Round feat QUARTER | Clipe Oficial",
         Youtube: "https://youtu.be/EvsgtFfWzrE",
-        "Thumb Miniatura": "",
-        "Thumb Principal": "",
+        "Thumb Miniatura": "https://lh3.google.com/u/0/d/1R3ckTk3eQl5A_6ZzDl8LN6-ydb8k-kGy=k",
+        "Thumb Principal": "https://lh3.google.com/u/0/d/11eidrcbzf9qQjLCSFYOxJ2DtDEF1xIEr=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
@@ -258,8 +258,8 @@ const directors = [
       {
         Título: "Kahue Rozzi | Clipe Repertório",
         Youtube: "https://www.youtube.com/watch?v=ziXZ7dC0A0o",
-        "Thumb Miniatura": "",
-        "Thumb Principal": "",
+        "Thumb Miniatura": "https://lh3.google.com/u/0/d/1yjkVdT5VePgqf4aGPx-tni6SLdGXg5ff=k",
+        "Thumb Principal": "https://lh3.google.com/u/0/d/148feEj8NPf7b8x0wEPS1NTF9e7V6Oucw=k",
         FilmId: uuid(),
         Subtítulo: "",
       },
