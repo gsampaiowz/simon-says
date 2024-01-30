@@ -12,6 +12,7 @@
   padding: 8px;
   color: var(--color-black);
   font-size: 28px;
+  text-align-last: left;
   font-family: Poppins-SemiBold;
   text-wrap: nowrap;
 }
@@ -33,6 +34,7 @@
   padding: 4px;
   border: none;
   cursor: pointer;
+  z-index: 5;
   display: flex;
   font-size: 22px;
   align-items: center;

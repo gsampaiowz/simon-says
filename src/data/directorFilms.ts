@@ -369,15 +369,7 @@ const directors = [
 
 directors.forEach((d) => {
   d.Films.forEach((film, index) => {
-    let uuidExistente = sessionStorage.getItem(`director-film-${index}-uuid`);
-
-    if (!uuidExistente) {
-      uuidExistente = uuid();
-
-      sessionStorage.setItem(`director-film-${index}-uuid`, uuidExistente);
-    }
-
-    film.FilmId = uuidExistente;
+    film.FilmId = (index + 1).toString();
   });
 });
 

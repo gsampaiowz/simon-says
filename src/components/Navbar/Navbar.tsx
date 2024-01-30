@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import { useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { LanguageContext } from "@/App";
 
 type NavbarProps = {
   navbarRef: React.RefObject<HTMLElement>;
@@ -23,20 +24,80 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     navbarRef.current?.scrollTo(0, 0);
     window.scrollTo(0, 0);
     setExibeNav(false);
-  }
+  };
+
+  const { changeLanguage, language } = useContext(LanguageContext) || {};
+
+  useEffect(() => {
+    setExibeNav(false);
+  }, [language]);
+
+  let categoriasLinks = [
+    {
+      categoria:
+        language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
+      link: "",
+    },
+    {
+      categoria:
+        language === "BR"
+          ? "Publicidade"
+          : language === "EN"
+          ? "Advertising"
+          : "Publicidad",
+      link: "publicidade",
+    },
+    {
+      categoria:
+        language === "BR"
+          ? "Institucional"
+          : language === "EN"
+          ? "Institutional"
+          : "Institucional",
+      link: "institucional",
+    },
+    {
+      categoria:
+        language === "BR"
+          ? "Motion 2D/3D"
+          : language === "EN"
+          ? "Motion 2D/3D"
+          : "Motion 2D/3D",
+      link: "motion 2D/3D",
+    },
+    {
+      categoria:
+        language === "BR"
+          ? "Clipes de Música"
+          : language === "EN"
+          ? "Music Clips"
+          : "Clipes de música",
+      link: "clipes de música",
+    },
+    {
+      categoria:
+        language === "BR"
+          ? "Entretenimento"
+          : language === "EN"
+          ? "Entertainment"
+          : "Entretenimiento",
+      link: "entretenimento",
+    },
+  ];
+
+  const categoriasNav = categoriasLinks.filter(
+    (categoria) => categoria.categoria !== "Todos" && categoria.categoria !== "All"
+  );
 
   return (
     <nav
       ref={navbarRef}
       className={`navbar-header ${exibeNav ? "navbar-header-active" : ""}`}
     >
-      <NavLink
-        onClick={() => linkClick()}
-        to={"/sobre"}
-      >
+      <NavLink onClick={() => linkClick()} to={"/sobre"}>
         Sobre
       </NavLink>
-      <NavLink
+      {/* <NavLink
         onClick={() => mudarFiltro("Publicidade")}
         to={"/filmes/publicidade"}
       >
@@ -65,7 +126,16 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
         to={"/filmes/clipes-musica"}
       >
         Video Clipes
-      </NavLink>
+      </NavLink> */}
+      {categoriasNav.map((categoria) => (
+        <NavLink
+          onClick={() => mudarFiltro(categoria.categoria)}
+          to={`/filmes/${categoria.link.replace("motion 2D/3D", "animacao")}`}
+          key={categoria.categoria}
+        >
+          {categoria.categoria}
+        </NavLink>
+      ))}
       {/* <NavLink
         onClick={() => mudarFiltro("Séries/Doc")}
         to={"/filmes/series-documentarios"}
@@ -84,6 +154,9 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       {/* <NavLink onClick={() => linkClick()} to={"/search"}>
         Pesquisar
       </NavLink> */}
+      <button onClick={() => changeLanguage!("EN")}>Inglês</button>
+      <button onClick={() => changeLanguage!("BR")}>Português</button>
+      <button onClick={() => changeLanguage!("ESP")}>Espanhol</button>
     </nav>
   );
 };
