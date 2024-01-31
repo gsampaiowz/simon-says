@@ -34,20 +34,28 @@
 }
 
 .home-film-article:hover {
-    cursor: pointer;
-    background-color: var(--color-black);
-    color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
 
 @media (max-width: 1200px) {
-    .home-film-article {
-        flex-direction: column;
-        gap: 10px;
-        grid-area: auto !important;
-        margin: 0 !important;
-    }
-    
-    .home-film-article img {
-        max-width: 100%;
-    }
+  .home-film-article {
+    flex-direction: column;
+    gap: 10px;
+    grid-area: auto !important;
+    margin: 0 !important;
+  }
+  .home-film-article h1 {
+    font-size: 20px;
+  }
+
+  .home-film-article img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .home-film-article h1 {
+    font-size: 16px;
+  }
 }

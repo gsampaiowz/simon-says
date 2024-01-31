@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  //LÓGICA PARA MUDAR A COR DO FOOTER DE ACORDO COM A PÁGINA
   const location = useLocation();
   useEffect(() => {
 

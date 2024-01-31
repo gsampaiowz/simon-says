@@ -2,13 +2,18 @@ import MainContent from "@/components/MainContent/MainContent";
 import "./DiretoresPage.css";
 import Container from "./../../components/Container/Container";
 import directors, { bgImagesLoop } from "@/data/directorFilms";
-import { useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { LanguageContext } from "@/App";
 
 const DiretoresPage = () => {
   const navigate = useNavigate();
 
-  directors.sort((a, b) => a.Nome.localeCompare(b.Nome));
+  const { language } = useContext(LanguageContext)!;
+
+  const diretores = directors.find((d) => d.Idioma === language)!.Diretores;
+
+  diretores.sort((a, b) => a.Nome.localeCompare(b.Nome));
 
   let currentIndex = 1;
 
@@ -62,7 +67,7 @@ const DiretoresPage = () => {
         ></div>
         <h2 className="diretores-title">Diretores</h2>
         <div className="diretores-links">
-          {directors.map((director) => (
+          {diretores.map((director) => (
             <h2
               onMouseEnter={() => mudarBg(director.Frame)}
               key={director.Nome}

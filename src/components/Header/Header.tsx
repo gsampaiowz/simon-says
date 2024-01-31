@@ -13,6 +13,8 @@ const Header = () => {
 
   const headerRef = useRef<HTMLElement | null>(null);
 
+//LÓGICA PARA ADICIONAR BORDER AO HEADER DE ACORDO COM O SCROLL
+
   useEffect(() => {
     const handleScroll = () => {
       if (headerRef.current && navbarRef.current) {

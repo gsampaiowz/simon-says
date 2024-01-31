@@ -24,7 +24,7 @@
 }
 
 .diretores-links{
-  padding-left: 150px;
+  margin-left: 150px;
 }
 
 .diretor-link {
@@ -81,6 +81,9 @@
     position: absolute;
     z-index: 1;
     animation: fadeIn 1s;
+  }
+  .diretores-links{
+    margin-left: 0;
   }
 }
 

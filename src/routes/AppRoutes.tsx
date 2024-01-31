@@ -16,7 +16,6 @@ const AppRoutes = () => {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route element={<FilmsPage/>} path="/filmes/" />
         <Route element={<FilmsPage/>} path="/filmes/:categoria" />
         <Route element={<FilmDetails/>} path="/filmes/:categoria/:idFilme" />
         <Route element={<HomePage/>} path="/" />

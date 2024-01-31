@@ -3,14 +3,22 @@ import "./ContatoPage.css";
 import Container from "@/components/Container/Container";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { FaWhatsapp } from "react-icons/fa";
+import { LanguageContext } from "@/App";
+import { useContext } from "react";
 
 const ContatoPage = () => {
+  const { language } = useContext(LanguageContext) || {};
+
   return (
     <MainContent additionalClass={"contato-page-main"}>
       <Container additionalClass={"contato-page"}>
-        <h2 className="contato-page-title">
-          CANAIS DE CONTATO
-        </h2>
+        {language === "BR" ? (
+          <h2 className="contato-page-title">CANAIS DE CONTATO</h2>
+        ) : language === "EN" ? (
+          <h2 className="contato-page-title">CONTACT CHANNELS</h2>
+        ) : (
+          <h2 className="contato-page-title">CANALES DE CONTACTO</h2>
+        )}
         <div className="contatos-locais">
           <div className="contato">
             <h4>SÃO PAULO</h4>
@@ -23,7 +31,7 @@ const ContatoPage = () => {
           <div className="contato">
             <h4>BRASÍLIA</h4>
             <p>
-              SHN Quadra 1 Bloco A Conjunto A <br /> Sala 104 Brasília/DF <br />
+              SHN Quadra 1 Bloco A<br/> Conjunto A <br /> Sala 104 Brasília/DF <br />
               CEP: 70.701-000
             </p>
           </div>
