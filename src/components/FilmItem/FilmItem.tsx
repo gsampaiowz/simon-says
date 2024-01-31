@@ -19,12 +19,14 @@ const FilmItem = ({
 }: FilmItemProps) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
+  //LÓGICA PARA CARREGAR A IMAGEM POR INTEIRO ANTES DE EXIBIR
   useEffect(() => {
     const img = new Image();
     img.src = image!;
     img.onload = () => setIsLoaded(true);
   }, [image]);
 
+  //LÓGICA PARA EXIBIR OS ITENS CONFORME O SCROLL
   const [viewRef, inView] = useInView({
     triggerOnce: true,
   });

@@ -12,14 +12,17 @@ type NavbarProps = {
 const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   const [, setAtualFilter] = useState("");
 
+  //LÓGICA PARA MUDAR O FILTRO DE FILMES, SCROLL, E SALVAR NO SESSION STORAGE
+
   const mudarFiltro = (filtro: string) => {
     window.scrollTo(0, 0);
     navbarRef.current?.scrollTo(0, 0);
     setExibeNav(false);
     setAtualFilter(filtro);
-    sessionStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro);
   };
 
+  //LÓGICA PARA SCROLLAR PARA O TOPO QUANDO CLICAR EM UM LINK
   const linkClick = () => {
     navbarRef.current?.scrollTo(0, 0);
     window.scrollTo(0, 0);
@@ -28,6 +31,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
 
   const { changeLanguage, language } = useContext(LanguageContext) || {};
 
+  //LÓGICA PARA ESCONDER O NAVBAR QUANDO MUDAR DE IDIOMA
   useEffect(() => {
     setExibeNav(false);
   }, [language]);
@@ -98,36 +102,6 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       <NavLink onClick={() => linkClick()} to={"/sobre"}>
         {language === "BR" ? "Sobre" : language === "EN" ? "About" : "Sobre"}
       </NavLink>
-      {/* <NavLink
-        onClick={() => mudarFiltro("Publicidade")}
-        to={"/filmes/publicidade"}
-      >
-        Publicidade
-      </NavLink>
-      <NavLink
-        onClick={() => mudarFiltro("Motion 2D/3D")}
-        to={"/filmes/animacao"}
-      >
-        Animação 2D e 3D
-      </NavLink>
-      <NavLink
-        onClick={() => mudarFiltro("Entretenimento")}
-        to={"/filmes/entretenimento"}
-      >
-        Entretenimento
-      </NavLink>
-      <NavLink
-        onClick={() => mudarFiltro("Institucional")}
-        to={"/filmes/institucional"}
-      >
-        Institucional
-      </NavLink>
-      <NavLink
-        onClick={() => mudarFiltro("Clipes de Música")}
-        to={"/filmes/clipes-musica"}
-      >
-        Video Clipes
-      </NavLink> */}
       {categoriasNav.map((categoria) => (
         <NavLink
           onClick={() => mudarFiltro(categoria.categoria)}
@@ -137,12 +111,6 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
           {categoria.categoria}
         </NavLink>
       ))}
-      {/* <NavLink
-        onClick={() => mudarFiltro("Séries/Doc")}
-        to={"/filmes/series-documentarios"}
-      >
-        Séries e Documentários
-      </NavLink> */}
       <NavLink onClick={() => linkClick()} to={"/servicos-producao"}>
         {language === "BR"
           ? "Serviços de Produção"

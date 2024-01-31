@@ -18,7 +18,7 @@ const FiltersNav = ({
   additionalClass,
 }: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
+  //LÓGICA PAA CAPTAR A LARGUA DA TELA A TODO INSTANTE
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -26,6 +26,8 @@ const FiltersNav = ({
     window.onresize = handleResize;
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  //LÓGICA PARA SALVAR O ESTADO DO FILTRO ATUAL E DO DROPDOWN
 
   useEffect(() => {
     setAtualFilter(sessionStorage.getItem("atualFilter")!);
