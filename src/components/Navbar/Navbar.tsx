@@ -32,11 +32,11 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     setExibeNav(false);
   }, [language]);
 
-  let categoriasLinks = [
+  const categoriasLinks = [
     {
       categoria:
         language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-      link: "",
+      link: "todos",
     },
     {
       categoria:
@@ -71,8 +71,8 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
           ? "Clipes de Música"
           : language === "EN"
           ? "Music Clips"
-          : "Clipes de música",
-      link: "clipes de música",
+          : "Clips musicales",
+      link: "clipes de Música",
     },
     {
       categoria:
@@ -86,7 +86,8 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   ];
 
   const categoriasNav = categoriasLinks.filter(
-    (categoria) => categoria.categoria !== "Todos" && categoria.categoria !== "All"
+    (categoria) =>
+      categoria.categoria !== "Todos" && categoria.categoria !== "All"
   );
 
   return (
@@ -95,7 +96,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       className={`navbar-header ${exibeNav ? "navbar-header-active" : ""}`}
     >
       <NavLink onClick={() => linkClick()} to={"/sobre"}>
-        Sobre
+        {language === "BR" ? "Sobre" : language === "EN" ? "About" : "Sobre"}
       </NavLink>
       {/* <NavLink
         onClick={() => mudarFiltro("Publicidade")}
@@ -143,20 +144,34 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
         Séries e Documentários
       </NavLink> */}
       <NavLink onClick={() => linkClick()} to={"/servicos-producao"}>
-        Serviços de Produção
+        {language === "BR"
+          ? "Serviços de Produção"
+          : language === "EN"
+          ? "Production Services"
+          : "Servicios de Producción"}
       </NavLink>
       <NavLink onClick={() => linkClick()} to={"/diretores"}>
-        Diretores
+        {language === "BR"
+          ? "Diretores"
+          : language === "EN"
+          ? "Directors"
+          : "Directores"}
       </NavLink>
       <NavLink onClick={() => linkClick()} to={"/contato"}>
-        Contato
+        {language === "BR"
+          ? "Contato"
+          : language === "EN"
+          ? "Contact"
+          : "Contacto"}
       </NavLink>
       {/* <NavLink onClick={() => linkClick()} to={"/search"}>
         Pesquisar
       </NavLink> */}
-      <button onClick={() => changeLanguage!("EN")}>Inglês</button>
-      <button onClick={() => changeLanguage!("BR")}>Português</button>
-      <button onClick={() => changeLanguage!("ESP")}>Espanhol</button>
+      <div className="idiomas">
+        <button onClick={() => changeLanguage!("EN")}>Inglês</button>
+        <button onClick={() => changeLanguage!("BR")}>Português</button>
+        <button onClick={() => changeLanguage!("ESP")}>Espanhol</button>
+      </div>
     </nav>
   );
 };

@@ -16,7 +16,7 @@ const FilmDetails = () => {
 
   const navigate = useNavigate();
 
-  const { language } = useContext(LanguageContext) || {};
+  const { language } = useContext(LanguageContext)!;
 
   const { idFilme } = useParams();
 

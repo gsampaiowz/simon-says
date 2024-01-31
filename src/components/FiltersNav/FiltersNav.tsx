@@ -1,6 +1,5 @@
-import { LanguageContext } from "@/App";
 import "./FiltersNav.css";
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaChevronDown } from "react-icons/fa";
 
 type FiltersNavProps = {
@@ -29,136 +28,12 @@ const FiltersNav = ({
   }, []);
 
   useEffect(() => {
-    setAtualFilter(sessionStorage.getItem("atualFilter") || "Todos");
+    setAtualFilter(sessionStorage.getItem("atualFilter")!);
     setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
   }, [
     sessionStorage.getItem("atualFilter"),
     sessionStorage.getItem("isDropdownOpen"),
   ]);
-
-  const { language } = useContext(LanguageContext) || {};
-
-  const [, setLinks] = useState([
-    {
-      categoria:
-        language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-      link: "",
-    },
-    {
-      categoria:
-        language === "BR"
-          ? "Publicidade"
-          : language === "EN"
-          ? "Advertising"
-          : "Publicidade",
-      link: "publicidade",
-    },
-    {
-      categoria:
-        language === "BR"
-          ? "Institucional"
-          : language === "EN"
-          ? "Institutional"
-          : "Institucional",
-      link: "institucional",
-    },
-    {
-      categoria:
-        language === "BR"
-          ? "Motion 2D/3D"
-          : language === "EN"
-          ? "Motion 2D/3D"
-          : "Motion 2D/3D",
-      link: "motion 2D/3D",
-    },
-    {
-      categoria:
-        language === "BR"
-          ? "Clipes de Música"
-          : language === "EN"
-          ? "Music Videos"
-          : "Clipes de Música",
-      link: "clipes de Música",
-    },
-    {
-      categoria:
-        language === "BR"
-          ? "Entretenimento"
-          : language === "EN"
-          ? "Entertainment"
-          : "Entretenimento",
-      link: "entretenimento",
-    },
-  ]);
-
-  useEffect(() => {
-    setLinks([
-      {
-        categoria:
-          language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-        link: "",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Publicidade"
-            : language === "EN"
-            ? "Advertising"
-            : "Publicidade",
-        link: "publicidade",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Institucional"
-            : language === "EN"
-            ? "Institutional"
-            : "Institucional",
-        link: "institucional",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Motion 2D/3D"
-            : language === "EN"
-            ? "Motion 2D/3D"
-            : "Motion 2D/3D",
-        link: "motion 2D/3D",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Clipes de Música"
-            : language === "EN"
-            ? "Music Clips"
-            : "Clipes de música",
-        link: "clipes de Música",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Entretenimento"
-            : language === "EN"
-            ? "Entertainment"
-            : "Entretenimento",
-        link: "entretenimento",
-      },
-    ]);
-
-    // language === "EN" ? setAtualFilter("All") : setAtualFilter("Todos");
-    // atualFilter = language === "EN" ? "All" : "Todos";
-    // console.log(atualFilter);
-
-    
-  }, [language]);
-
-  const [, updateState] = useState({});
-  const forceUpdate = useCallback(() => updateState({}), []);
-  
-  useEffect(() => {
-   forceUpdate();
-  }, [language]);
-  
 
   return (
     <>

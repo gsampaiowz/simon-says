@@ -47,15 +47,22 @@
 @media (max-width: 768px) {
   .contato-page {
     padding: 30px 20px;
-    align-items: center;
+    align-items: start;
     text-align: center;
   }
 
   .contatos-locais{
-    justify-content: center;
+    justify-content: start;
+    align-items: start;
   }
 
   .contato-flex{
     justify-content: center;
+    gap: 20px;
+  }
+
+  .contato-page-title{
+    width: 100%;
+    text-align: left;
   }
 }

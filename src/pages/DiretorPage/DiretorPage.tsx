@@ -6,9 +6,10 @@ import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { LanguageContext } from "@/App";
 
 const DiretorPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -17,15 +18,19 @@ const DiretorPage = () => {
 
   const { nome, idFilme } = useParams();
 
+  const { language } = useContext(LanguageContext)!;
+
   const [inVideo, setInVideo] = useState(false);
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
-  const director = directors.find(
+  const diretores = directors.find((d) => d.Idioma === language)!.Diretores;
+
+  const director = diretores.find(
     (d) => d.Nome === nome
   );
 
-  const filmsRelacionados = director?.Films.filter((f) => f.FilmId !== idFilme);
+  const filmsRelacionados = director!.Films.filter((f) => f.FilmId !== idFilme);
 
   const film = director?.Films.find((f) => f.FilmId === idFilme);
 
@@ -62,7 +67,7 @@ const DiretorPage = () => {
         <h2 className="film-detail-title">Diretores</h2>
         <FiltersNav
           additionalClass="director-filters"
-          map={directors.map((director) => (
+          map={diretores.map((director) => (
             <NavLink
               key={director.Nome}
               onClick={() => mudarFiltro(director.Nome)}
@@ -121,7 +126,7 @@ const DiretorPage = () => {
           />
         </div>
       )}
-      {filmsRelacionados!.length > 1 && (
+      {filmsRelacionados!.length > 0 && (
         <div className="filmes-relacionados">
           {filmsRelacionados!.map((filme) => (
             <FilmItem
@@ -157,7 +162,7 @@ const DiretorPage = () => {
           <h2>Prêmios</h2>
           <div className="lista-premios">
             {director.Premios.map((premio) => (
-              <p>{premio}</p>
+              <p key={premio}>{premio}</p>
             ))}
           </div>
         </div>

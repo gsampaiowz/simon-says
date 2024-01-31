@@ -1,8 +1,8 @@
 import "./FilmsPage.css";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import filmsArray from "@/data/films";
-import { NavLink, useNavigate } from "react-router-dom";
-import { useCallback, useContext, useEffect, useState } from "react";
+import { NavLink, useNavigate, useParams } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
 import MainContent from "@/components/MainContent/MainContent";
 import Container from "./../../components/Container/Container";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
@@ -11,7 +11,7 @@ import { LanguageContext } from "@/App";
 const FilmsPage = () => {
   const navigate = useNavigate();
 
-  const { language } = useContext(LanguageContext) || {};
+  const { language } = useContext(LanguageContext)!;
 
   const [atualFilter, setAtualFilter] = useState<string>("Todos");
 
@@ -51,13 +51,14 @@ const FilmsPage = () => {
     setCurrentPage(currentPage + 1);
   };
 
+  const { categoria } = useParams();
   useEffect(() => {
-    setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
     setAtualFilter(sessionStorage.getItem("atualFilter")!);
+    setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
     setCurrentPage(1);
 
-    switch (atualFilter) {
-      case "Publicidade" || "Advertising":
+    switch (categoria) {
+      case "publicidade":
         language === "BR"
           ? setFilterDescription(
               "A publicidade é a essência da SimonSays Filmes. Comerciais, videoclipes, institucionais, parcerias com agências e talentos, convergem para criar ideias e oportunidades."
@@ -70,20 +71,37 @@ const FilmsPage = () => {
               "La publicidad es la esencia de SimonSays Filmes. Comerciales, videos musicales, institucionales, alianzas con agencias y talentos, convergen para crear ideas y oportunidades."
             );
         break;
-      case "Institucional" || "Institutional":
-        setFilterDescription(
-          "Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
-        );
+      case "institucional":
+        language === "BR"
+          ? setFilterDescription(
+              "Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
+            )
+          : language === "EN"
+          ? setFilterDescription(
+              "Producing entertainment for over 5 years, we have been a collaborative force as partners and co-producers of renowned producers in Brazil."
+            )
+          : setFilterDescription(
+              "Produciendo entretenimiento por más de 5 años, hemos sido una fuerza colaborativa como socios y coproductores de productoras de renombre en Brasil."
+            );
         break;
-      case "Motion 2D/3D":
-        setFilterDescription(
-          "Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas."
-        );
+      case "animacao":
+        language === "BR"
+          ? setFilterDescription(
+              "Em cada projeto, transcendemos limites, criando linguagem e ilustrações excepcionais que desafiam expectativas."
+            )
+          : language === "EN"
+          ? setFilterDescription(
+              "In each project, we transcend boundaries, creating exceptional language and illustrations that defy expectations."
+            )
+          : setFilterDescription(
+              "En cada proyecto, trascendemos límites, creando un lenguaje e ilustraciones excepcionales que desafían las expectativas."
+            );
         break;
       default:
+        setFilterDescription("");
         break;
     }
-  }, [atualFilter, isDropdownOpen]);
+  }, [atualFilter, isDropdownOpen, language]);
 
   window.onscroll = function () {
     var d = document.documentElement;
@@ -95,13 +113,11 @@ const FilmsPage = () => {
     }
   };
 
-  // let categoriasSet: Set<string> = new Set();
-
-  let categoriasLinks = [
+  const categoriasLinks = [
     {
       categoria:
         language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-      link: "",
+      link: "todos",
     },
     {
       categoria:
@@ -109,7 +125,7 @@ const FilmsPage = () => {
           ? "Publicidade"
           : language === "EN"
           ? "Advertising"
-          : "Publicidade",
+          : "Publicidad",
       link: "publicidade",
     },
     {
@@ -136,7 +152,7 @@ const FilmsPage = () => {
           ? "Clipes de Música"
           : language === "EN"
           ? "Music Clips"
-          : "Clipes de Música",
+          : "Clips musicales",
       link: "clipes de Música",
     },
     {
@@ -145,93 +161,14 @@ const FilmsPage = () => {
           ? "Entretenimento"
           : language === "EN"
           ? "Entertainment"
-          : "Entretenimento",
+          : "Entretenimiento",
       link: "entretenimento",
     },
   ];
 
   useEffect(() => {
-    categoriasLinks = [
-      {
-        categoria:
-          language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-        link: "",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Publicidade"
-            : language === "EN"
-            ? "Advertising"
-            : "Publicidade",
-        link: "publicidade",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Institucional"
-            : language === "EN"
-            ? "Institutional"
-            : "Institucional",
-        link: "institucional",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Motion 2D/3D"
-            : language === "EN"
-            ? "Motion 2D/3D"
-            : "Motion 2D/3D",
-        link: "motion 2D/3D",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Clipes de Música"
-            : language === "EN"
-            ? "Music Clips"
-            : "Clipes de Música",
-        link: "clipes de música",
-      },
-      {
-        categoria:
-          language === "BR"
-            ? "Entretenimento"
-            : language === "EN"
-            ? "Entertainment"
-            : "Entretenimento",
-        link: "entretenimento",
-      },
-    ];
-
     language === "EN" ? mudarFiltro("All") : mudarFiltro("Todos");
-    navigate(`/filmes/${atualFilter}`);
-    console.log(atualFilter);
-    
-  }, [language]);
-
-  // useEffect(() => {
-
-  //   filmsArray.find((films) => films.Idioma === language)!.Films.forEach((film) => {
-  //     categoriasSet.add(film.Categorias);
-  //   });
-
-  //   const categorias: string[] = Array.from(categoriasSet);
-
-  //   categoriasLinks = categoriasLinks.map((categoria, index) => ({
-  //     ...categoria,
-  //     categoria: categorias[index],
-  //   }));
-
-  //   console.log(categoriasLinks);
-
-  // }, [language]);
-
-  const [, updateState] = useState({});
-  const forceUpdate = useCallback(() => updateState({}), []);
-  
-  useEffect(() => {
-   forceUpdate();
+    navigate(`/filmes/todos`);
   }, [language]);
 
   return (
