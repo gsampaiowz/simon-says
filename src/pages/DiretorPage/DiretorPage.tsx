@@ -132,7 +132,7 @@ const DiretorPage = () => {
             <FilmItem
               style={{ padding: 20 }}
               image={filme["Thumb Miniatura"]}
-              subtitle={filme.Subtítulo}
+              title={filme.Título}
               key={filme.FilmId}
               onclick={() => changeFilm(filme.FilmId)}
             />
