@@ -160,7 +160,7 @@ const directors = [
           {
             Título: "Flash Ação Almoço Feliz",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "",
+            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
@@ -537,7 +537,7 @@ const directors = [
           {
             Título: "Flash Action Happy Lunch",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "",
+            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
@@ -828,7 +828,7 @@ const directors = [
         ],
       },
       {
-        Nome: "Flota de filetes",
+        Nome: "Filé Frota",
         Biografia:
           "Felipe Filé Frota, con 25 años de experiencia en decorados cinematográficos, se destaca como un director polivalente que se renueva día a día. Su trabajo abarca todas las exigencias del mercado actual, liderando proyectos referentes y premiados internacionalmente en publicidad, retail y contenidos. para una variedad de clientes, agencias y emisoras.",
         Frame:
@@ -914,7 +914,7 @@ const directors = [
           {
             Título: "Feliz almuerzo de acción flash",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "",
+            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
