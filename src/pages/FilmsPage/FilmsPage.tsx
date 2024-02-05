@@ -74,14 +74,14 @@ const FilmsPage = () => {
       case "institucional":
         language === "BR"
           ? setFilterDescription(
-              "Produzindo entretenimento há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
+              "Há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
             )
           : language === "EN"
           ? setFilterDescription(
-              "Producing entertainment for over 5 years, we have been a collaborative force as partners and co-producers of renowned producers in Brazil."
+              "For over 5 years, we have been a collaborative force as partners and co-producers of renowned producers in Brazil."
             )
           : setFilterDescription(
-              "Produciendo entretenimiento por más de 5 años, hemos sido una fuerza colaborativa como socios y coproductores de productoras de renombre en Brasil."
+              "Por más de 5 años, hemos sido una fuerza colaborativa como socios y coproductores de productoras de renombre en Brasil."
             );
         break;
       case "animacao":
