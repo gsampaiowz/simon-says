@@ -6,10 +6,11 @@ import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { LanguageContext } from "@/App";
+import screenfull from "screenfull";
 
 const DiretorPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -61,6 +62,14 @@ const DiretorPage = () => {
     }
   }, []);
 
+  const playerRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (inVideo && playerRef.current && screenfull.isEnabled) {
+      screenfull.request(playerRef.current);
+    }
+  }, [inVideo]);
+
   return (
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>
@@ -83,15 +92,17 @@ const DiretorPage = () => {
       </Container>
       {inVideo ? (
         <>
-          <div className="film-player-background"></div>
-          <div className="film-player">
+          <div onClick={() => setInVideo(false)} className="film-player-background"></div>
+          <div ref={playerRef} className="film-player">
             <ReactPlayer
               url={film?.Youtube}
               className={"film-player-react-player"}
               controls
               width={"100%"}
               height={"100%"}
+              autoPlay={true}
               playing={true}
+              style={{ objectFit: 'cover' }}
             />
             <IoCloseSharp
               className="film-close-icon"

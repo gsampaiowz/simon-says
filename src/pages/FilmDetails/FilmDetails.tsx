@@ -145,7 +145,7 @@ const FilmDetails = () => {
       </Container>
       {inVideo ? (
         <>
-          <div className="film-player-background"></div>
+          <div onClick={() => setInVideo(false)} className="film-player-background"></div>
           <div ref={playerRef} className="film-player">
             <ReactPlayer
               url={film?.YouTube}
@@ -154,6 +154,8 @@ const FilmDetails = () => {
               width={"100%"}
               height={"100%"}
               playing={true}
+              autoPlay={true}
+              style={{ objectFit: 'cover' }}
             />
             <IoCloseSharp
               className="film-close-icon"
