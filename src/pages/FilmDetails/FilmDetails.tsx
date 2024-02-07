@@ -63,7 +63,7 @@ const FilmDetails = () => {
     {
       categoria:
         language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
-      link: "",
+      link: "todos",
     },
     {
       categoria:
@@ -122,7 +122,7 @@ const FilmDetails = () => {
               onClick={() => mudarFiltro(categoria.categoria)}
               className="films-filters-link"
               to={`/filmes/${categoria.link.replace(
-                "Motion 2D/3D",
+                "motion 2D/3D",
                 "animacao"
               )}`}
             >
@@ -130,7 +130,6 @@ const FilmDetails = () => {
             </NavLink>
           ))}
           atualFilter={atualFilter || "Todos"}
-          setAtualFilter={setAtualFilter}
           windowWidthParam={Number.POSITIVE_INFINITY}
         />
         <h2 className="film-detail-title">{film?.Título}</h2>

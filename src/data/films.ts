@@ -3210,9 +3210,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O que é grupo de consórcio?",
         YouTube: "https://youtu.be/mQn14e2YtNU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14rr7HnYm495IxyHwiGOqMRtMJoLrA9h5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15pRDkoGZ9-2v7gSo1kKU_OWgmK01NQXb&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14ppsK7NhdfYJjk5jVz3MPeXij_q_a6Hq&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16deExt4jbVV89WQZipvhG-KlbBNJH4PZ&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3225,9 +3225,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Como funciona o consórcio?",
         YouTube: "https://youtu.be/tCGQGFQGze8",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1419-Et95huH6KguJXyOpalrPfLN05XAH&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Yg8x7sFmdauIeVWFXiePlaGfUpkAdZh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14urW2G7joFkkfAGFrDAVwRFVvtNnBnK3&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16YQVMOVghVjjtg6oNeMi57_407PTmIja&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3240,9 +3240,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Por que ler o contrato é importante?",
         YouTube: "https://youtu.be/Ed77aLHVoP",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14obNBHir2WmPT3BZ0DNgwOtd3a4KdySG&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16XhQfJuQMu_TVvogQV47LVEOHJj2SV_S&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14oHW5KV6RA_sTOTLL-cNSWg1mma9wjp1&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16RmNjXNgtvrGkyUkihSqoX1y-8xuC2Kg&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3255,9 +3255,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Como funcionam as assembléias?",
         YouTube: "https://youtu.be/eVcPXSQCWGU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14lGLnY3NSl_79QphxL5NmrYRcuZs9o43&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Mgytjcio74FM3-WmBpMEJN1YTqDkH4A&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Zs8RP1uYUgGDYGhsCiuoSp4Vgtmrybd&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16B5zWZP2h-oPpawp3IGPIj2fkQ_3r3Gq&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3270,9 +3270,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Quais as formas de contemplação?",
         YouTube: "https://youtu.be/U9MpkudI20I",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14O9Sn3RB8c2Eaw0T3kX3OWxQXEhMaz8z&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16AghfDhROGPCaRrGTad-TozVTv91vl4T&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Mg84sHAERPjVZS87qgounyXmhCyZG0c&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164vLsrbrjyerGN0ikRn-stvRoEqRWFgB&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3285,9 +3285,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O que é lance embutido?",
         YouTube: "https://youtu.be/XjbrcBCuLDI",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14KbJwGx12Q0RX8ED3bVvvdPOxKNVOuZR&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164FSm0q09iwkJHEp3CTrvwfTqUAR_mny&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14I6uK7zQwSet9V-AkpwFxzAsp5FoHyI8&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16432eFxqeXPfCf1kOBFdUAx1tunq5XI8&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3300,9 +3300,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Para que servem as garantias?",
         YouTube: "https://youtu.be/g5s-r3BB8Us",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14DkUx1J7HX9ulaIZnegyEGN2NmLk7-C_&sz=w10000",
+          "https://drive.google.com/thumbnail?id=161xO_Rm5pts-Xt3yxF_4Ox944lh5l8lh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=148_3iFFkwHNHh5wDwA3VpLO_xW7A0xLI&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16-bZte5AUEo57oqECF4AsexuHGJzJjBS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3315,9 +3315,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "É possível comprar o que quiser com o crédito?",
         YouTube: "https://youtu.be/r4Y1Lsl3j3w",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=143RlTVcrifEkF0RRzlddrgov7eg1YNhe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15ziFyC4c1u-3meZSascnQ64GJFq6t_-w&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=142awM7g055ARxVevofUvOAJN3G4cuj6A&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15q1VXqnsKaxPXsIB4zakKl-LJrtO0yLP&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3330,9 +3330,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Comprar bem de menor valor",
         YouTube: "https://youtu.be/xYl-rU8V-IA",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15j2kI6eZ4kpcr3iEmQHfXvCiraak5QIM&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17XLwbSAtiXlpe2Y_7X5lW41g4kMrQ7BL&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15d_YPNQfuI7149G4Y_O7KBmIsUhewbzF&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17Q2ZgKQT6EvCr8tTFl9NRDvMXNL1WEbH&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3345,9 +3345,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O que é taxa de admnistração?",
         YouTube: "https://youtu.be/cChO8Iypd2k",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15SDuPXMMuUoZ_TF16ETUYR6DqWUDA-kJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17LPAsoG4CyKviiw_NDvAWD2JY3lPnjCH&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15MZkdD4WdhV0BFf-E1Kh2H8McUjQZ4IJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17J-hetlsMn6YcUqQXFJar97GVJ-OeZIk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3360,9 +3360,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O que é fundo de reserva?",
         YouTube: "https://youtu.be/9065MTYf1bQ",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17DyV8LfimmKUWVj0AdCZIVMeckxpLDzD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=179aoRqzkkKas1bw0tt7ODVvK9uOYM0gS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3375,9 +3375,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Parcela do consórcio",
         YouTube: "https://youtu.be/qBZSMHS4x44",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15L6o_6jVez5Q_9R3K7Liv6WXx91kPU5p&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178urx0j4owbWvbCqedwmfjJOS_0qiyOu&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15ISJxBPYTCEJ6u5STNQlnKpUKdvL78qX&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178IA23kXPxl8TTUd2ppkQF91plGrIHzk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3390,9 +3390,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O valor do crédito e das parcelas muda?",
         YouTube: "https://youtu.be/Upb1Lw25bjc",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15BDvzxTkjxQggMZWJhvdq8LRNNEioc_2&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171WZc-LU8jvtCOSZAV6gW2IWMvmTt-n7&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15AbY3y50dHbvEOE6a9jWG2w5XUyjmsw7&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171Ih3tnqcVy6RcU4t3t6vhQfikyF2v6O&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -3405,7 +3405,7 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "O que acontece ao antecipar o pagamento?",
         YouTube: "https://youtu.be/jmhMuM1bkZ8",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=156x0vHukZpQGfwFu0_octTsRdKJb62VP&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16z2Vc_0GAFcOHWNokAOZgalXFh29MlWL&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=16tM8YfkCIwHEc2u_FySTGDmP2Wx7MObc&sz=w10000",
         Texto: "",
@@ -3420,7 +3420,7 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "É permitido receber o crédito em dinheiro?",
         YouTube: "https://youtu.be/q9sok_z8xHs",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14z2MFPEItnV5yLUgUEpi3wFj5exRpr2K&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16jcJCai2iQY5KriWavHbMu8CY42CLr_J&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=16fhadSi2tl7WHZRDqoV504GkV13SveGG&sz=w10000",
         Texto: "",
@@ -7879,9 +7879,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What is a consortium group?",
         YouTube: "https://youtu.be/mQn14e2YtNU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14rr7HnYm495IxyHwiGOqMRtMJoLrA9h5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15pRDkoGZ9-2v7gSo1kKU_OWgmK01NQXb&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14ppsK7NhdfYJjk5jVz3MPeXij_q_a6Hq&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16deExt4jbVV89WQZipvhG-KlbBNJH4PZ&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7894,9 +7894,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "How does the consortium work?",
         YouTube: "https://youtu.be/tCGQGFQGze8",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1419-Et95huH6KguJXyOpalrPfLN05XAH&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Yg8x7sFmdauIeVWFXiePlaGfUpkAdZh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14urW2G7joFkkfAGFrDAVwRFVvtNnBnK3&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16YQVMOVghVjjtg6oNeMi57_407PTmIja&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7909,9 +7909,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Why is reading the contract important?",
         YouTube: "https://youtu.be/Ed77aLHVoP",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14obNBHir2WmPT3BZ0DNgwOtd3a4KdySG&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16XhQfJuQMu_TVvogQV47LVEOHJj2SV_S&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14oHW5KV6RA_sTOTLL-cNSWg1mma9wjp1&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16RmNjXNgtvrGkyUkihSqoX1y-8xuC2Kg&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7924,9 +7924,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "How do assemblies work?",
         YouTube: "https://youtu.be/eVcPXSQCWGU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14lGLnY3NSl_79QphxL5NmrYRcuZs9o43&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Mgytjcio74FM3-WmBpMEJN1YTqDkH4A&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Zs8RP1uYUgGDYGhsCiuoSp4Vgtmrybd&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16B5zWZP2h-oPpawp3IGPIj2fkQ_3r3Gq&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7939,9 +7939,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What are the forms of contemplation?",
         YouTube: "https://youtu.be/U9MpkudI20I",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14O9Sn3RB8c2Eaw0T3kX3OWxQXEhMaz8z&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16AghfDhROGPCaRrGTad-TozVTv91vl4T&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Mg84sHAERPjVZS87qgounyXmhCyZG0c&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164vLsrbrjyerGN0ikRn-stvRoEqRWFgB&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7954,9 +7954,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What is embedded bidding?",
         YouTube: "https://youtu.be/XjbrcBCuLDI",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14KbJwGx12Q0RX8ED3bVvvdPOxKNVOuZR&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164FSm0q09iwkJHEp3CTrvwfTqUAR_mny&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14I6uK7zQwSet9V-AkpwFxzAsp5FoHyI8&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16432eFxqeXPfCf1kOBFdUAx1tunq5XI8&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7969,9 +7969,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What are guarantees for?",
         YouTube: "https://youtu.be/g5s-r3BB8Us",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14DkUx1J7HX9ulaIZnegyEGN2NmLk7-C_&sz=w10000",
+          "https://drive.google.com/thumbnail?id=161xO_Rm5pts-Xt3yxF_4Ox944lh5l8lh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=148_3iFFkwHNHh5wDwA3VpLO_xW7A0xLI&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16-bZte5AUEo57oqECF4AsexuHGJzJjBS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7984,9 +7984,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Is it possible to buy what you want with credit?",
         YouTube: "https://youtu.be/r4Y1Lsl3j3w",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=143RlTVcrifEkF0RRzlddrgov7eg1YNhe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15ziFyC4c1u-3meZSascnQ64GJFq6t_-w&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=142awM7g055ARxVevofUvOAJN3G4cuj6A&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15q1VXqnsKaxPXsIB4zakKl-LJrtO0yLP&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -7999,9 +7999,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Buy a good of lesser value",
         YouTube: "https://youtu.be/xYl-rU8V-IA",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15j2kI6eZ4kpcr3iEmQHfXvCiraak5QIM&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17XLwbSAtiXlpe2Y_7X5lW41g4kMrQ7BL&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15d_YPNQfuI7149G4Y_O7KBmIsUhewbzF&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17Q2ZgKQT6EvCr8tTFl9NRDvMXNL1WEbH&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -8014,9 +8014,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What is an administration fee?",
         YouTube: "https://youtu.be/cChO8Iypd2k",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15SDuPXMMuUoZ_TF16ETUYR6DqWUDA-kJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17LPAsoG4CyKviiw_NDvAWD2JY3lPnjCH&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15MZkdD4WdhV0BFf-E1Kh2H8McUjQZ4IJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17J-hetlsMn6YcUqQXFJar97GVJ-OeZIk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -8029,9 +8029,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "What is a reserve fund?",
         YouTube: "https://youtu.be/9065MTYf1bQ",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17DyV8LfimmKUWVj0AdCZIVMeckxpLDzD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=179aoRqzkkKas1bw0tt7ODVvK9uOYM0gS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -8044,9 +8044,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Consortium installment",
         YouTube: "https://youtu.be/qBZSMHS4x44",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15L6o_6jVez5Q_9R3K7Liv6WXx91kPU5p&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178urx0j4owbWvbCqedwmfjJOS_0qiyOu&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15ISJxBPYTCEJ6u5STNQlnKpUKdvL78qX&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178IA23kXPxl8TTUd2ppkQF91plGrIHzk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -8059,9 +8059,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Does the value of credit and installments change?",
         YouTube: "https://youtu.be/Upb1Lw25bjc",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15BDvzxTkjxQggMZWJhvdq8LRNNEioc_2&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171WZc-LU8jvtCOSZAV6gW2IWMvmTt-n7&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15AbY3y50dHbvEOE6a9jWG2w5XUyjmsw7&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171Ih3tnqcVy6RcU4t3t6vhQfikyF2v6O&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12547,9 +12547,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Qué es un grupo consorcio?",
         YouTube: "https://youtu.be/mQn14e2YtNU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14rr7HnYm495IxyHwiGOqMRtMJoLrA9h5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15pRDkoGZ9-2v7gSo1kKU_OWgmK01NQXb&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14ppsK7NhdfYJjk5jVz3MPeXij_q_a6Hq&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16deExt4jbVV89WQZipvhG-KlbBNJH4PZ&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12562,9 +12562,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Cómo funciona el consorcio?",
         YouTube: "https://youtu.be/tCGQGFQGze8",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1419-Et95huH6KguJXyOpalrPfLN05XAH&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Yg8x7sFmdauIeVWFXiePlaGfUpkAdZh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14urW2G7joFkkfAGFrDAVwRFVvtNnBnK3&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16YQVMOVghVjjtg6oNeMi57_407PTmIja&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12577,9 +12577,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Por qué es importante leer el contrato?",
         YouTube: "https://youtu.be/Ed77aLHVoP",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14obNBHir2WmPT3BZ0DNgwOtd3a4KdySG&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16XhQfJuQMu_TVvogQV47LVEOHJj2SV_S&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14oHW5KV6RA_sTOTLL-cNSWg1mma9wjp1&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16RmNjXNgtvrGkyUkihSqoX1y-8xuC2Kg&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12592,9 +12592,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Cómo funcionan los ensamblajes?",
         YouTube: "https://youtu.be/eVcPXSQCWGU",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14lGLnY3NSl_79QphxL5NmrYRcuZs9o43&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16Mgytjcio74FM3-WmBpMEJN1YTqDkH4A&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Zs8RP1uYUgGDYGhsCiuoSp4Vgtmrybd&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16B5zWZP2h-oPpawp3IGPIj2fkQ_3r3Gq&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12607,9 +12607,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Cuáles son las formas de contemplación?",
         YouTube: "https://youtu.be/U9MpkudI20I",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14O9Sn3RB8c2Eaw0T3kX3OWxQXEhMaz8z&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16AghfDhROGPCaRrGTad-TozVTv91vl4T&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14Mg84sHAERPjVZS87qgounyXmhCyZG0c&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164vLsrbrjyerGN0ikRn-stvRoEqRWFgB&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12622,9 +12622,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Qué son las ofertas integradas?",
         YouTube: "https://youtu.be/XjbrcBCuLDI",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14KbJwGx12Q0RX8ED3bVvvdPOxKNVOuZR&sz=w10000",
+          "https://drive.google.com/thumbnail?id=164FSm0q09iwkJHEp3CTrvwfTqUAR_mny&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=14I6uK7zQwSet9V-AkpwFxzAsp5FoHyI8&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16432eFxqeXPfCf1kOBFdUAx1tunq5XI8&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12637,9 +12637,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Para qué sirven las garantías?",
         YouTube: "https://youtu.be/g5s-r3BB8Us",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=14DkUx1J7HX9ulaIZnegyEGN2NmLk7-C_&sz=w10000",
+          "https://drive.google.com/thumbnail?id=161xO_Rm5pts-Xt3yxF_4Ox944lh5l8lh&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=148_3iFFkwHNHh5wDwA3VpLO_xW7A0xLI&sz=w10000",
+          "https://drive.google.com/thumbnail?id=16-bZte5AUEo57oqECF4AsexuHGJzJjBS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12652,9 +12652,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Es posible comprar lo que quieres con crédito?",
         YouTube: "https://youtu.be/r4Y1Lsl3j3w",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=143RlTVcrifEkF0RRzlddrgov7eg1YNhe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15ziFyC4c1u-3meZSascnQ64GJFq6t_-w&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=142awM7g055ARxVevofUvOAJN3G4cuj6A&sz=w10000",
+          "https://drive.google.com/thumbnail?id=15q1VXqnsKaxPXsIB4zakKl-LJrtO0yLP&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12667,9 +12667,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Comprar un bien de menor valor",
         YouTube: "https://youtu.be/xYl-rU8V-IA",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15j2kI6eZ4kpcr3iEmQHfXvCiraak5QIM&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17XLwbSAtiXlpe2Y_7X5lW41g4kMrQ7BL&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15d_YPNQfuI7149G4Y_O7KBmIsUhewbzF&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17Q2ZgKQT6EvCr8tTFl9NRDvMXNL1WEbH&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12682,9 +12682,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Qué es una tarifa administrativa?",
         YouTube: "https://youtu.be/cChO8Iypd2k",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15SDuPXMMuUoZ_TF16ETUYR6DqWUDA-kJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17LPAsoG4CyKviiw_NDvAWD2JY3lPnjCH&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15MZkdD4WdhV0BFf-E1Kh2H8McUjQZ4IJ&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17J-hetlsMn6YcUqQXFJar97GVJ-OeZIk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12697,9 +12697,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Qué es un fondo de reserva?",
         YouTube: "https://youtu.be/9065MTYf1bQ",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=17DyV8LfimmKUWVj0AdCZIVMeckxpLDzD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15LI7es0ZEgDb3ldGc9ZebHM7IeNJE0W5&sz=w10000",
+          "https://drive.google.com/thumbnail?id=179aoRqzkkKas1bw0tt7ODVvK9uOYM0gS&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12712,9 +12712,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "Cuota del Consorcio",
         YouTube: "https://youtu.be/qBZSMHS4x44",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15L6o_6jVez5Q_9R3K7Liv6WXx91kPU5p&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178urx0j4owbWvbCqedwmfjJOS_0qiyOu&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15ISJxBPYTCEJ6u5STNQlnKpUKdvL78qX&sz=w10000",
+          "https://drive.google.com/thumbnail?id=178IA23kXPxl8TTUd2ppkQF91plGrIHzk&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
@@ -12727,9 +12727,9 @@ const filmsArray: filmsArrayProps = [
         Subtítulo: "¿Cambia el valor del crédito y las cuotas?",
         YouTube: "https://youtu.be/Upb1Lw25bjc",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=15BDvzxTkjxQggMZWJhvdq8LRNNEioc_2&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171WZc-LU8jvtCOSZAV6gW2IWMvmTt-n7&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=15AbY3y50dHbvEOE6a9jWG2w5XUyjmsw7&sz=w10000",
+          "https://drive.google.com/thumbnail?id=171Ih3tnqcVy6RcU4t3t6vhQfikyF2v6O&sz=w10000",
         Texto: "",
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",

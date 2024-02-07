@@ -39,23 +39,6 @@
   display: none;
 }
 
-.idiomas {
-  margin-top: 25px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  width: 100%;
-}
-
-.idiomas button {
-  background-color: #fff;
-  border-radius: 8px;
-  font-family: Poppins-ExtraBold;
-  padding: 10px;
-}
-
 @media (max-width: 768px) {
   .navbar-header > a {
     font-size: 28px;

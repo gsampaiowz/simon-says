@@ -29,7 +29,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     setExibeNav(false);
   };
 
-  const { changeLanguage, language } = useContext(LanguageContext) || {};
+  const { language } = useContext(LanguageContext) || {};
 
   //LÓGICA PARA ESCONDER O NAVBAR QUANDO MUDAR DE IDIOMA
   useEffect(() => {
@@ -135,11 +135,6 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       {/* <NavLink onClick={() => linkClick()} to={"/search"}>
         Pesquisar
       </NavLink> */}
-      <div className="idiomas">
-        <button onClick={() => changeLanguage!("EN")}>Inglês</button>
-        <button onClick={() => changeLanguage!("BR")}>Português</button>
-        <button onClick={() => changeLanguage!("ESP")}>Espanhol</button>
-      </div>
     </nav>
   );
 };

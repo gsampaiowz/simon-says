@@ -65,7 +65,7 @@ const DiretoresPage = () => {
           id="diretores-fundo"
           className="diretores-fundo"
         ></div>
-        <h2 className="diretores-title">Diretores</h2>
+        <h2 className="diretores-title">{language === "BR" ? "Diretores" : language === "EN" ? "Directors" : "Directores"}</h2>
         <div className="diretores-links">
           {diretores.map((director) => (
             <h2

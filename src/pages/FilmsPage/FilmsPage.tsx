@@ -13,6 +13,8 @@ const FilmsPage = () => {
 
   const { language } = useContext(LanguageContext)!;
 
+  const [linguagemAtual, setLinguagemAtual] = useState(language);
+
   const [atualFilter, setAtualFilter] = useState<string>("Todos");
 
   const [filterDescription, setFilterDescription] = useState<string>("");
@@ -37,7 +39,7 @@ const FilmsPage = () => {
 
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
-    sessionStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro);
     setIsDropdownOpen(!isDropdownOpen);
   };
 
@@ -71,10 +73,10 @@ const FilmsPage = () => {
               "La publicidad es la esencia de SimonSays Filmes. Comerciales, videos musicales, institucionales, alianzas con agencias y talentos, convergen para crear ideas y oportunidades."
             );
         break;
-      case "institucional":
+      case "entretenimento":
         language === "BR"
           ? setFilterDescription(
-              "Há mais de 5 anos, somos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
+              "Há mais de 5 anos, temos sido uma força colaborativa como parceiros e co-produtores de renomadas produtoras no Brasil."
             )
           : language === "EN"
           ? setFilterDescription(
@@ -167,8 +169,17 @@ const FilmsPage = () => {
   ];
 
   useEffect(() => {
-    language === "EN" ? mudarFiltro("All") : mudarFiltro("Todos");
-    navigate(`/filmes/todos`);
+    if (language === linguagemAtual) {
+      return;
+    } else {
+      navigate(`/filmes/todos`);
+      language === "EN"
+        ? mudarFiltro("All")
+        : language === "ESP"
+        ? mudarFiltro("Todos")
+        : mudarFiltro("Todos");
+        setLinguagemAtual("");
+    }
   }, [language]);
 
   return (
@@ -186,7 +197,6 @@ const FilmsPage = () => {
             </NavLink>
           ))}
           atualFilter={atualFilter}
-          setAtualFilter={setAtualFilter}
           windowWidthParam={1400}
         />
 
@@ -200,7 +210,7 @@ const FilmsPage = () => {
             image={film["Thumb miniatura"]}
             onclick={() =>
               navigate(
-                `/filmes/${encodeURIComponent(atualFilter as string)}/${
+                `/filmes/${encodeURIComponent(atualFilter.replace("Motion 2D/3D", "Animacao") as string)}/${
                   film.FilmId
                 }`
               )

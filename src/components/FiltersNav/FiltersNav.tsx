@@ -5,7 +5,6 @@ import { FaChevronDown } from "react-icons/fa";
 type FiltersNavProps = {
   windowWidthParam: number;
   atualFilter: string;
-  setAtualFilter: (value: string) => void;
   map: JSX.Element[];
   additionalClass?: string;
 };
@@ -13,7 +12,6 @@ type FiltersNavProps = {
 const FiltersNav = ({
   windowWidthParam,
   atualFilter,
-  setAtualFilter,
   map,
   additionalClass,
 }: FiltersNavProps) => {
@@ -26,16 +24,6 @@ const FiltersNav = ({
     window.onresize = handleResize;
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  //LÓGICA PARA SALVAR O ESTADO DO FILTRO ATUAL E DO DROPDOWN
-
-  useEffect(() => {
-    setAtualFilter(sessionStorage.getItem("atualFilter")!);
-    setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
-  }, [
-    sessionStorage.getItem("atualFilter"),
-    sessionStorage.getItem("isDropdownOpen"),
-  ]);
 
   return (
     <>

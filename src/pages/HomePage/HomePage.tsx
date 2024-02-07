@@ -10,7 +10,7 @@ import { useContext, useEffect } from "react";
 import { LanguageContext } from "@/App";
 
 const HomePage = () => {
-  const { language } = useContext(LanguageContext) || {};
+  const { changeLanguage, language } = useContext(LanguageContext) || {};
 
   let filmsHome = filmsArray
     .find((films) => films.Idioma === language)!
@@ -26,6 +26,37 @@ const HomePage = () => {
   return (
     <MainContent>
       <Container additionalClass="home-page-flex">
+      <div className="idiomas">
+        <button onClick={() => changeLanguage!("EN")}>
+          {language === "BR"
+            ? "Inglês"
+            : language === "EN"
+            ? "English"
+            : "Inglés"}
+        </button>
+        <button onClick={() => changeLanguage!("BR")}>
+          {language === "BR"
+            ? "Português"
+            : language === "EN"
+            ? "Portuguese"
+            : "Portugués"}
+        </button>
+        <button onClick={() => changeLanguage!("ESP")}>
+          {language === "BR"
+            ? "Espanhol"
+            : language === "EN"
+            ? "Spanish"
+            : "Español"}
+        </button>
+      </div>
+        <IoArrowDownSharp
+          className="home-down-arrow-icon"
+          size={60}
+          onClick={() => {
+            window.scrollTo(0, 100);
+          }}
+          color="var(--color-black)"
+        />
         <video
           className="home-page-video-loop"
           autoPlay
