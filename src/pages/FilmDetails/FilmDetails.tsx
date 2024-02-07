@@ -36,6 +36,7 @@ const FilmDetails = () => {
     );
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setAtualFilter(sessionStorage.getItem("atualFilter"));
   }, []);
 
@@ -114,11 +115,16 @@ const FilmDetails = () => {
   ];
 
   const playerRef = useRef<HTMLDivElement | null>(null);
+  const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
     if (inVideo && playerRef.current && screenfull.isEnabled) {
       screenfull.request(playerRef.current);
     }
+
+    setTimeout(() => {
+      setIsMuted(false);
+    },  1000);
   }, [inVideo]);
 
   return (
@@ -145,7 +151,10 @@ const FilmDetails = () => {
       </Container>
       {inVideo ? (
         <>
-          <div onClick={() => setInVideo(false)} className="film-player-background"></div>
+          <div
+            onClick={() => setInVideo(false)}
+            className="film-player-background"
+          ></div>
           <div ref={playerRef} className="film-player">
             <ReactPlayer
               url={film?.YouTube}
@@ -155,7 +164,9 @@ const FilmDetails = () => {
               height={"100%"}
               playing={true}
               autoPlay={true}
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: "cover" }}
+              muted={isMuted}
+              playsInline
             />
             <IoCloseSharp
               className="film-close-icon"

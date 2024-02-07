@@ -27,9 +27,7 @@ const DiretorPage = () => {
 
   const diretores = directors.find((d) => d.Idioma === language)!.Diretores;
 
-  const director = diretores.find(
-    (d) => d.Nome === nome
-  );
+  const director = diretores.find((d) => d.Nome === nome);
 
   const filmsRelacionados = director!.Films.filter((f) => f.FilmId !== idFilme);
 
@@ -68,7 +66,13 @@ const DiretorPage = () => {
     if (inVideo && playerRef.current && screenfull.isEnabled) {
       screenfull.request(playerRef.current);
     }
+
+    setTimeout(() => {
+      setIsMuted(false);
+    },  1000);
   }, [inVideo]);
+
+  const [isMuted, setIsMuted] = useState(true);
 
   return (
     <MainContent additionalClass="film-details">
@@ -92,7 +96,10 @@ const DiretorPage = () => {
       </Container>
       {inVideo ? (
         <>
-          <div onClick={() => setInVideo(false)} className="film-player-background"></div>
+          <div
+            onClick={() => setInVideo(false)}
+            className="film-player-background"
+          ></div>
           <div ref={playerRef} className="film-player">
             <ReactPlayer
               url={film?.Youtube}
@@ -102,7 +109,9 @@ const DiretorPage = () => {
               height={"100%"}
               autoPlay={true}
               playing={true}
-              style={{ objectFit: 'cover' }}
+              style={{ objectFit: "cover" }}
+              muted={isMuted}
+              playsInline
             />
             <IoCloseSharp
               className="film-close-icon"
