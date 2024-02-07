@@ -78,7 +78,6 @@ const DiretorPage = () => {
             </NavLink>
           ))}
           atualFilter={atualFilter || "Todos"}
-          setAtualFilter={setAtualFilter}
           windowWidthParam={Number.POSITIVE_INFINITY}
         />
       </Container>
