@@ -26,7 +26,6 @@
 }
 
 .idiomas {
-  margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,5 +56,14 @@
 @media (max-width: 768px) {
   .home-down-arrow-icon {
     display: none;
+  }
+
+  .idiomas{
+    gap: 10px;
+  }
+
+  .idiomas button{
+    font-size: 12px;
+    padding: 4px;
   }
 }
