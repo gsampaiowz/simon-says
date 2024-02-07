@@ -18,8 +18,11 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     window.scrollTo(0, 0);
     navbarRef.current?.scrollTo(0, 0);
     setExibeNav(false);
+    console.log(filtro);
+    
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
+
   };
 
   //LÓGICA PARA SCROLLAR PARA O TOPO QUANDO CLICAR EM UM LINK

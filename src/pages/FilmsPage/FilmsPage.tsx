@@ -38,6 +38,8 @@ const FilmsPage = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const mudarFiltro = (filtro: string) => {
+    console.log(filtro);
+    
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
     setIsDropdownOpen(!isDropdownOpen);
@@ -103,7 +105,7 @@ const FilmsPage = () => {
         setFilterDescription("");
         break;
     }
-  }, [atualFilter, isDropdownOpen, language]);
+  }, [atualFilter, isDropdownOpen, language, window.document.URL]);
 
   window.onscroll = function () {
     var d = document.documentElement;
