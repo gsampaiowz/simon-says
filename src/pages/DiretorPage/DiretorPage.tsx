@@ -69,7 +69,7 @@ const DiretorPage = () => {
 
     setTimeout(() => {
       setIsMuted(false);
-    },  1000);
+    },  3000);
   }, [inVideo]);
 
   const [isMuted, setIsMuted] = useState(true);

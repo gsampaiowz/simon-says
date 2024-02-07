@@ -124,7 +124,7 @@ const FilmDetails = () => {
 
     setTimeout(() => {
       setIsMuted(false);
-    },  1000);
+    },  3000);
   }, [inVideo]);
 
   return (
