@@ -115,16 +115,11 @@ const FilmDetails = () => {
   ];
 
   const playerRef = useRef<HTMLDivElement | null>(null);
-  const [isMuted, setIsMuted] = useState(true);
 
   useEffect(() => {
     if (inVideo && playerRef.current && screenfull.isEnabled) {
       screenfull.request(playerRef.current);
     }
-
-    setTimeout(() => {
-      setIsMuted(false);
-    },  3000);
   }, [inVideo]);
 
   return (
@@ -164,9 +159,6 @@ const FilmDetails = () => {
               height={"100%"}
               playing={true}
               autoPlay={true}
-              style={{ objectFit: "cover" }}
-              muted={isMuted}
-              playsInline
             />
             <IoCloseSharp
               className="film-close-icon"
