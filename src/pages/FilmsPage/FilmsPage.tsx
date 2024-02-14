@@ -182,6 +182,8 @@ const FilmsPage = () => {
         : mudarFiltro("Todos");
         setLinguagemAtual("");
     }
+
+    console.log(currentItems)
   }, [language]);
 
   return (
