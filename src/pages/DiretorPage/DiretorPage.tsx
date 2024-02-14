@@ -75,7 +75,7 @@ const DiretorPage = () => {
   const [isMuted, setIsMuted] = useState(true);
 
   return (
-    <MainContent additionalClass="film-details">
+    <MainContent additionalClass="film-details diretor-page">
       <Container additionalClass={"filter-and-title"}>
         <h2 className="film-detail-title">Diretores</h2>
         <FiltersNav

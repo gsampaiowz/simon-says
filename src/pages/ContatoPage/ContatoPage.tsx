@@ -46,14 +46,14 @@ const ContatoPage = () => {
           </div>
         </div>
         <div className="contato-flex">
-          <small className="contato-info">
-            <HiOutlineMailOpen color={"white"} size={25} />
+          <a target="_blank" href="mailto:contato@simonsaysfilmes.com.br" className="contato-info">
+            <HiOutlineMailOpen size={25} />
             contato@simonsaysfilmes.com.br
-          </small>
-          <small className="contato-info">
-            <FaWhatsapp color={"white"} size={25} />
+          </a>
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=5511955556971" className="contato-info">
+            <FaWhatsapp size={25} />
             +55 11 9.5555-6971
-          </small>
+          </a>
         </div>
       </Container>
     </MainContent>

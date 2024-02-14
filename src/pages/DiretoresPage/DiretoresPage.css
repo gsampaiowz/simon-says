@@ -7,7 +7,7 @@
 }
 
 .diretores-title {
-  text-shadow: 0px 0px 10px black;  
+  text-shadow: 0px 0px 10px black;
   font-size: 24px;
   font-family: Poppins-SemiBold;
   z-index: 1;
@@ -17,18 +17,18 @@
   padding: 0 5px;
 }
 
-.diretores-title:hover{
+.diretores-title:hover {
   background-color: black;
   cursor: pointer;
   filter: invert(1);
 }
 
-.diretores-links{
+.diretores-links {
   margin-left: 150px;
 }
 
 .diretor-link {
-  text-shadow: 0px 0px 4px black;  
+  text-shadow: 0px 0px 4px black;
   font-size: 24px;
   font-family: Poppins-SemiBold;
   display: flex;
@@ -42,13 +42,13 @@
   color: white;
 }
 
-.diretor-link:hover{
+.diretor-link:hover {
   background-color: black;
-    cursor: pointer;
-    filter: invert(1);
+  cursor: pointer;
+  filter: invert(1);
 }
 
-.diretores-fundo{
+.diretores-fundo {
   top: 92px;
   background-size: cover;
   background-position: center;
@@ -58,37 +58,25 @@
   min-height: calc(100vh - 92px);
   position: absolute;
   z-index: 1;
-  animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 @media (max-width: 768px) {
   .diretores-fundo {
     top: 92px;
-
     transition-duration: 0.5s;
     right: 0;
     width: 100%;
     min-height: calc(100vh - 92px);
     position: absolute;
     z-index: 1;
-    animation: fadeIn 1s;
   }
-  .diretores-links{
+  .diretores-links {
     margin-left: 0;
   }
 }
 
 @media (max-width: 992px) {
-  .footer{
+  .footer {
     background-color: black !important;
   }
 }

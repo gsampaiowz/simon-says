@@ -187,7 +187,7 @@ const FilmsPage = () => {
   return (
     <MainContent additionalClass="films-page">
       <Container additionalClass={"films-page-filter-section"}>
-        <FiltersNav
+        <FiltersNav additionalClass="films-page-filters"
           map={categoriasLinks.map((c) => (
             <NavLink
               key={c.categoria}

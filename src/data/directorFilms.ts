@@ -160,7 +160,8 @@ const directors = [
           {
             Título: "Flash Ação Almoço Feliz",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
@@ -284,26 +285,7 @@ const directors = [
             FilmId: uuid(),
             Subtítulo: "",
           },
-          {
-            Título: "Lançamento Tiggo 7 Pro",
-            Youtube: "https://youtu.be/XNMQb7M8G6g?si=e4jIlZchDVQO4-Z1",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "",
-          },
-          {
-            Título: "Ouça mais com o coração",
-            Youtube: "https://youtu.be/fIQRZxDXjMk",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Guerra",
-          },
+
           {
             Título: "Ouça mais com o coração",
             Youtube: "https://youtu.be/olJRbx13aZw",
@@ -315,14 +297,34 @@ const directors = [
             Subtítulo: "Religião",
           },
           {
-            Título: "Doutor Gotinha Responde",
-            Youtube: "https://youtube.com/shorts/mEkDrrGJw4g",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC&sz=w10000",
             FilmId: uuid(),
-            Subtítulo: "Parte 1",
+            Título: "Sonda Supermercados Nova Loja",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Va2BAjOoWuQ",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1P0FeFokrcWYpO91pKTgi7FegLEU_WdSi&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1OtM8qMotm7hYLLkfLz_zPwA3aC0zLLIC&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Localiza e você na mesma direção",
+            Subtítulo: "Peruas",
+            YouTube: "https://youtu.be/azRulD189NA",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=18zRA2xY-zv4p7tnTVfCaT5KQyMR_VVJA&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=18yYyk3P4im4qZ6LOWpc1tyDU2MSNQMTR&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Mini Connected",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Cm6l8FyxM4Y",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=14zY_uep4BlyNwplVWPwF127W8cZdG2TV&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=156VT8RsIdeexcKOtYKSPw2cDKpovHMfu&sz=w10000",
           },
           {
             Título: "Goodyear",
@@ -333,26 +335,6 @@ const directors = [
               "https://drive.google.com/thumbnail?id=148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Lama",
-          },
-          {
-            Título: "Goodyear",
-            Youtube: "https://youtu.be/rcL684GaVZs",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Perfomance",
-          },
-          {
-            Título: "Cadastro Único",
-            Youtube: "https://youtu.be/WNmHP1f3LFY",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Você conhece o Cadastro Único?",
           },
           {
             Título: "Universo Ambipar",
@@ -373,6 +355,16 @@ const directors = [
               "https://drive.google.com/thumbnail?id=1mCnLYQPQUBWnEfNTHryhD05FoAizh_Xd&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Video Casa",
+          },
+          {
+            FilmId: uuid(),
+            Título: "CLDF Bandeiras",
+            Subtítulo: "Por Cada um por todos nós",
+            YouTube: "https://youtu.be/3vYC8VUyEOY",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=168aC9jpU9N0X8Y7LatOVquBKsy2v3kur&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn&sz=w10000",
           },
         ],
       },
@@ -537,7 +529,8 @@ const directors = [
           {
             Título: "Flash Action Happy Lunch",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
@@ -662,26 +655,6 @@ const directors = [
             Subtítulo: "",
           },
           {
-            Título: "Tiggo 7 Pro Launch",
-            Youtube: "https://youtu.be/XNMQb7M8G6g?si=e4jIlZchDVQO4-Z1",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "",
-          },
-          {
-            Título: "Listen more with your heart",
-            Youtube: "https://youtu.be/fIQRZxDXjMk",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "War",
-          },
-          {
             Título: "Listen more with your heart",
             Youtube: "https://youtu.be/olJRbx13aZw",
             "Thumb Miniatura":
@@ -692,14 +665,34 @@ const directors = [
             Subtítulo: "Religion",
           },
           {
-            Título: "Doctor Gotinha Answers",
-            Youtube: "https://youtube.com/shorts/mEkDrrGJw4g",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC&sz=w10000",
             FilmId: uuid(),
-            Subtítulo: "Part 1",
+            Título: "Sonda Supermercados Nova Loja",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Va2BAjOoWuQ",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1P0FeFokrcWYpO91pKTgi7FegLEU_WdSi&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1OtM8qMotm7hYLLkfLz_zPwA3aC0zLLIC&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Locates and you in the same direction",
+            Subtítulo: "Station wagons",
+            YouTube: "https://youtu.be/azRulD189NA",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=18zRA2xY-zv4p7tnTVfCaT5KQyMR_VVJA&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=18yYyk3P4im4qZ6LOWpc1tyDU2MSNQMTR&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Mini Connected",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Cm6l8FyxM4Y",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=14zY_uep4BlyNwplVWPwF127W8cZdG2TV&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=156VT8RsIdeexcKOtYKSPw2cDKpovHMfu&sz=w10000",
           },
           {
             Título: "Goodyear",
@@ -710,26 +703,6 @@ const directors = [
               "https://drive.google.com/thumbnail?id=148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Mud",
-          },
-          {
-            Título: "Goodyear",
-            Youtube: "https://youtu.be/rcL684GaVZs",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Performance",
-          },
-          {
-            Título: "Single Registration",
-            Youtube: "https://youtu.be/WNmHP1f3LFY",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Do you know the Single Registry?",
           },
           {
             Título: "Ambipar Universe",
@@ -750,6 +723,16 @@ const directors = [
               "https://drive.google.com/thumbnail?id=1mCnLYQPQUBWnEfNTHryhD05FoAizh_Xd&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Video Home",
+          },
+          {
+            FilmId: uuid(),
+            Título: "CLDF Flags",
+            Subtítulo: "For each one, for all of us",
+            YouTube: "https://youtu.be/3vYC8VUyEOY",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=168aC9jpU9N0X8Y7LatOVquBKsy2v3kur&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn&sz=w10000",
           },
         ],
       },
@@ -914,7 +897,8 @@ const directors = [
           {
             Título: "Feliz almuerzo de acción flash",
             Youtube: "https://youtu.be/l88_wNeLo1A",
-            "Thumb Miniatura": "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1kpg0u7WG6t3yortlaOAKbpshUUWGiDOI&sz=w10000",
             "Thumb Principal":
               "https://drive.google.com/thumbnail?id=1knYfGUZH1K_g7J9IB8Lnx7XoY5R9mhuS&sz=w10000",
 
@@ -1039,26 +1023,6 @@ const directors = [
             Subtítulo: "",
           },
           {
-            Título: "Lanzamiento de Tiggo 7 Pro",
-            Youtube: "https://youtu.be/XNMQb7M8G6g?si=e4jIlZchDVQO4-Z1",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=13azsuee5BXEiqeaJ80wEQ6GRq_5LUiaJ&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=13cYaEMxR0lOrR7JLSbAASE5CcKQbl-vj&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "",
-          },
-          {
-            Título: "Escucha más con el corazón",
-            Youtube: "https://youtu.be/fIQRZxDXjMk",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1jq7kf9a-Keb1HMHsaoJjzXIsk38JhlTz&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1S6AM48APJGeCCt1ykE28Av7o3xQQS4iY&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Guerra",
-          },
-          {
             Título: "Escucha más con el corazón",
             Youtube: "https://youtu.be/olJRbx13aZw",
             "Thumb Miniatura":
@@ -1069,14 +1033,34 @@ const directors = [
             Subtítulo: "Religión",
           },
           {
-            Título: "El doctor Gotinha responde",
-            Youtube: "https://youtube.com/shorts/mEkDrrGJw4g",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1S0x--Uvjnc2GvIOqq7ICjo26myP2X84U&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1--N84fqSicrhERQfZWzvwvOpcQw5nXuC&sz=w10000",
             FilmId: uuid(),
-            Subtítulo: "Parte 1",
+            Título: "Sonda Supermercados Nova Loja",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Va2BAjOoWuQ",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=1P0FeFokrcWYpO91pKTgi7FegLEU_WdSi&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1OtM8qMotm7hYLLkfLz_zPwA3aC0zLLIC&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Te ubica y en la misma dirección",
+            Subtítulo: "Camionetas",
+            YouTube: "https://youtu.be/azRulD189NA",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=18zRA2xY-zv4p7tnTVfCaT5KQyMR_VVJA&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=18yYyk3P4im4qZ6LOWpc1tyDU2MSNQMTR&sz=w10000",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Mini Connected",
+            Subtítulo: "",
+            YouTube: "https://youtu.be/Cm6l8FyxM4Y",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=14zY_uep4BlyNwplVWPwF127W8cZdG2TV&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=156VT8RsIdeexcKOtYKSPw2cDKpovHMfu&sz=w10000",
           },
           {
             Título: "Buen año",
@@ -1087,26 +1071,6 @@ const directors = [
               "https://drive.google.com/thumbnail?id=148h3ZWq0grwg0xI5QIn2XB7hhymZJmaJ&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Lodo",
-          },
-          {
-            Título: "Buen año",
-            Youtube: "https://youtu.be/rcL684GaVZs",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1QJ6_jOxCL3EY08Er9TNG2gvFLRlpkTRB&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1QA4yAdEkc4wMRGZqZC9FRKk5xgT7F-g2&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "Actuación",
-          },
-          {
-            Título: "Registro Único",
-            Youtube: "https://youtu.be/WNmHP1f3LFY",
-            "Thumb Miniatura":
-              "https://drive.google.com/thumbnail?id=1Ws7A1QXsaNKAjuRpVi1yJojMixQ4RlmU&sz=w10000",
-            "Thumb Principal":
-              "https://drive.google.com/thumbnail?id=1X8JQzyq1SdeYg9CWaqgFRoM7Wecgy8u4&sz=w10000",
-            FilmId: uuid(),
-            Subtítulo: "¿Conoce el Registro Único?",
           },
           {
             Título: "Universo Ambipar",
@@ -1127,6 +1091,16 @@ const directors = [
               "https://drive.google.com/thumbnail?id=1mCnLYQPQUBWnEfNTHryhD05FoAizh_Xd&sz=w10000",
             FilmId: uuid(),
             Subtítulo: "Vídeo de inicio",
+          },
+          {
+            FilmId: uuid(),
+            Título: "Banderas CLDF",
+            Subtítulo: "Para cada uno, para todos nosotros",
+            YouTube: "https://youtu.be/3vYC8VUyEOY",
+            "Thumb Miniatura":
+              "https://drive.google.com/thumbnail?id=168aC9jpU9N0X8Y7LatOVquBKsy2v3kur&sz=w10000",
+            "Thumb Principal":
+              "https://drive.google.com/thumbnail?id=1ZW593XJKCAWSLNI4ryL2DT0PF5UcD1Xn&sz=w10000",
           },
         ],
       },

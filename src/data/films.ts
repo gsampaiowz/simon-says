@@ -1751,8 +1751,8 @@ const filmsArray: filmsArrayProps = [
       {
         FilmId: uuid(),
         Home: false,
-        Cliente: "Mccain",
-        Título: "Mccain Chef SureCrisp",
+        Cliente: "McCain",
+        Título: "McCain Chef SureCrisp",
         Subtítulo: "",
         YouTube: "https://youtu.be/wJ6J0xGLPLc",
         "Thumb miniatura":
@@ -4510,6 +4510,21 @@ const filmsArray: filmsArrayProps = [
       },
       {
         FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstrução",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
+        FilmId: uuid(),
         Home: true,
 
         Cliente: "Armored Dawn",
@@ -4608,11 +4623,11 @@ const filmsArray: filmsArrayProps = [
         Cliente: "Séries",
         Título: "Fábrica de Sonhos",
         Subtítulo: "",
-        YouTube: "https://youtu.be/ikSQsYlxqkk",
+        YouTube: "https://youtu.be/mW7lzjX44y4",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=17RnuL6w84QFWzyrsZGY75zQ92FTQSwim&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
         Texto:
           "Prepare-se para mergulhar na fascinante história do design de móveis no Brasil nesta série de 10 episódios, com 55 minutos cada, que é uma co-produção entre a SimonSays Filmes e a Total Filmes. Destaque nos Episódios: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult e Maurício Azeredo. Cada episódio mergulhará profundamente na vida, obra e legado desses designers, revelando como eles moldaram a história do design de móveis no Brasil em um contexto de adaptação à economia e política da época. Descubra como a escolha de materiais e as abordagens criativas desses designers refletiram as transformações sociais e econômicas do país. Prepare-se para uma jornada fascinante por meio de imagens de arquivo, entrevistas e narrativas envolventes enquanto exploramos a rica herança do design brasileiro",
         Diretor: "Kahue Rozzi",
@@ -5136,7 +5151,7 @@ const filmsArray: filmsArrayProps = [
       {
         FilmId: uuid(),
         Home: false,
-        Cliente: "Probe",
+        Cliente: "Sonda",
         Título: "Sonda Supermercados Nova Loja",
         Subtítulo: "",
         YouTube: "https://youtu.be/Va2BAjOoWuQ",
@@ -10023,7 +10038,7 @@ const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Mini",
-        Título: "Mini Conectado",
+        Título: "Mini Connected",
         Subtítulo: "",
         YouTube: "https://youtu.be/Cm6l8FyxM4Y",
         "Thumb miniatura":

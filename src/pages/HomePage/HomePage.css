@@ -25,27 +25,6 @@
   grid-template-columns: repeat(2, 1fr);
 }
 
-.idiomas {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  list-style: none;
-  width: 100%;
-}
-
-.idiomas button {
-  background-color: #fff;
-  border-radius: 8px;
-  font-family: Poppins-ExtraBold;
-  padding: 10px;
-}
-
-.idiomas button:hover {
-  cursor: pointer;
-  background-color: #c1c1c1;
-}
-
 @media (max-width: 1200px) {
   .home-page-films {
     gap: 10px;
@@ -56,14 +35,5 @@
 @media (max-width: 768px) {
   .home-down-arrow-icon {
     display: none;
-  }
-
-  .idiomas{
-    gap: 10px;
-  }
-
-  .idiomas button{
-    font-size: 12px;
-    padding: 4px;
   }
 }

@@ -5,6 +5,7 @@
   overflow-x: auto;
   transition-duration: 1s;
   z-index: 1;
+  opacity: 1;
 }
 
 .films-filters-link {
@@ -26,7 +27,7 @@
 .films-filter-dropdown {
   background-color: var(--color-black);
   color: var(--color-white);
-  max-width: 280px;
+  max-width: 260px;
   width: 100%;
   position: relative;
   max-height: 30px;
@@ -48,26 +49,25 @@
 
 @media (max-width: 1400px) {
   .films-page-filters {
-    opacity: 0;
     height: 0;
     position: absolute;
     top: 30px;
+    background-color: var(--color-white);
     align-items: start;
     left: 0;
     flex-direction: column;
+    width: 100%;
+    max-width: 260px;
+    overflow: hidden;
   }
 
   .exibe-films-filters {
-    opacity: 1;
-    overflow: hidden;
     display: flex;
-    max-width: 280px;
     width: 100%;
     z-index: 2;
     padding: 0;
-    background-color: var(--color-white);
     gap: 0;
-    height: auto;
+    height: 348px;
   }
 
   .films-filters-link {
