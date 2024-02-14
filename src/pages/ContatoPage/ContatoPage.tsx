@@ -50,9 +50,9 @@ const ContatoPage = () => {
             <HiOutlineMailOpen size={25} />
             contato@simonsaysfilmes.com.br
           </a>
-          <a target="_blank" href="https://api.whatsapp.com/send?phone=5511955556971" className="contato-info">
+          <a target="_blank" href="https://api.whatsapp.com/send?phone=5511950806208" className="contato-info">
             <FaWhatsapp size={25} />
-            +55 11 9.5555-6971
+            +55 11 9.5080-6208
           </a>
         </div>
       </Container>
