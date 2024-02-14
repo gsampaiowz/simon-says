@@ -25,7 +25,7 @@ const FilmsPage = () => {
 
   const seenClientes = new Set();
   filmsArray
-    .find((films) => films.Idioma === language)!
+    .find((f) => f.Idioma === language)!
     ["Films"].forEach((film) => {
       if (!seenClientes.has(film.Título)) {
         atualFilter === "Todos" || atualFilter === "All"
@@ -38,7 +38,7 @@ const FilmsPage = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const mudarFiltro = (filtro: string) => {
-    console.log(filtro);
+    (filtro);
     
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
@@ -183,7 +183,7 @@ const FilmsPage = () => {
         setLinguagemAtual("");
     }
 
-    console.log(currentItems)
+    console.log(films)
   }, [language]);
 
   return (

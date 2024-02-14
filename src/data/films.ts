@@ -9194,6 +9194,21 @@ const filmsArray: filmsArrayProps = [
       },
       {
         FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstruction",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
+        FilmId: uuid(),
         Home: true,
 
         Cliente: "Armored Dawn",
@@ -10054,7 +10069,7 @@ const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Mini",
-        Título: "Mini Conectado",
+        Título: "Mini Connected",
         Subtítulo: "Redes Sociales",
         YouTube: "https://youtu.be/wwfQtI3PwTg",
         "Thumb miniatura":
@@ -13862,6 +13877,21 @@ const filmsArray: filmsArrayProps = [
       },
       {
         FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstrucción",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
+        FilmId: uuid(),
         Home: true,
         Cliente: "Amanecer Blindado",
         Título: "Clip SOS",
@@ -14052,38 +14082,15 @@ const filmsArray: filmsArrayProps = [
   },
 ];
 
-type filmsProps = {
-  FilmId: string;
-  Home: boolean;
-  Cliente: string;
-  Título: string;
-  Subtítulo: string;
-  YouTube: string;
-  "Thumb miniatura": string;
-  "Thumb principal": string;
-  Texto: string;
-  Diretor: string;
-  Categorias: string;
-}[];
-
 let categoriasSet: Set<string> = new Set();
 
-let filmsInLanguage: filmsProps = [];
-
-const arrayTranslated = filmsArray.find(
-  (films) => films.Idioma === localStorage.getItem("idioma")
-)?.Films;
-filmsInLanguage = arrayTranslated ? arrayTranslated : filmsArray[0].Films;
-
-filmsInLanguage.forEach((film, index) => {
-  film.FilmId = (index + 1).toString();
+filmsArray.forEach((f) => {
+  f.Films.forEach((film, index) => {
+    film.FilmId = (index + 1).toString()
+  });
 });
 
 categoriasSet.add("Todos");
-
-filmsInLanguage.forEach((film) => {
-  categoriasSet.add(film.Categorias);
-});
 
 export const categorias: string[] = Array.from(categoriasSet);
 

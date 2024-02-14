@@ -74,6 +74,7 @@
 
 .idiomas-open{
   opacity: 1;
+  z-index: 11;
   border: 1px solid black;
   pointer-events: auto;
   height: 110px;
