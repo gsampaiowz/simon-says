@@ -152,8 +152,9 @@ const FilmDetails = () => {
               controls
               width={"100%"}
               height={"100%"}
-              playing={true}
-              autoPlay={true}
+              playing
+              playsinline
+              autoPlay
             />
             <IoCloseSharp
               className="film-close-icon"
