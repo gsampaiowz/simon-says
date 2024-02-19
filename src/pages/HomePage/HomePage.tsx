@@ -37,6 +37,8 @@ const HomePage = () => {
         <video
           className="home-page-video-loop"
           autoPlay
+          autoFocus={false}
+          controls={false}
           loop
           muted
           src={clipe}
