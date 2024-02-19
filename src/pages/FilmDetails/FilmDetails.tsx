@@ -113,6 +113,10 @@ const FilmDetails = () => {
     },
   ];
 
+  useEffect(() => {
+    document.body.style.overflow = inVideo ? "hidden" : "auto";
+  }, [inVideo]);
+
   return (
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>

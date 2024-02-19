@@ -59,7 +59,9 @@ const DiretorPage = () => {
     }
   }, []);
 
-  const playerRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    document.body.style.overflow = inVideo ? "hidden" : "auto";
+  }, [inVideo]);
 
   return (
     <MainContent additionalClass="film-details diretor-page">
@@ -87,7 +89,7 @@ const DiretorPage = () => {
             onClick={() => setInVideo(false)}
             className="film-player-background"
           ></div>
-          <div ref={playerRef} className="film-player">
+          <div className="film-player">
           <ReactPlayer
               url={film?.Youtube}
               className={"film-player-react-player"}
