@@ -63,6 +63,12 @@ const DiretorPage = () => {
     document.body.style.overflow = inVideo ? "hidden" : "auto";
   }, [inVideo]);
 
+  function isSafari(): boolean {
+    return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  }
+
+  const [isMuted, setIsMuted] = useState(isSafari());
+
   return (
     <MainContent additionalClass="film-details diretor-page">
       <Container additionalClass={"filter-and-title"}>
@@ -90,16 +96,24 @@ const DiretorPage = () => {
             className="film-player-background"
           ></div>
           <div className="film-player">
-          <ReactPlayer
+            <ReactPlayer
               url={film?.Youtube}
               className={"film-player-react-player"}
               controls
               width={"100%"}
               height={"100%"}
+              muted={isMuted}
               playing
               playsinline
-              autoPlay
             />
+            {isMuted && (
+              <small
+                onClick={() => setIsMuted(false)}
+                className="safari-desmutar"
+              >
+                Clique para desmutar
+              </small>
+            )}
             <IoCloseSharp
               className="film-close-icon"
               size={50}

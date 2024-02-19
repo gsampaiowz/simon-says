@@ -106,6 +106,21 @@
 .film-close-icon {
   position: fixed;
   z-index: 150;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  right: 0;
+  top: 0;
+}
+
+.safari-desmutar{
+  position: fixed;
+  z-index: 150;
   cursor: pointer;
   color: white;
   background-color: black;

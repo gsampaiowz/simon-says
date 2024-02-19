@@ -117,6 +117,12 @@ const FilmDetails = () => {
     document.body.style.overflow = inVideo ? "hidden" : "auto";
   }, [inVideo]);
 
+  function isSafari(): boolean {
+    return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+  }
+
+  const [isMuted, setIsMuted] = useState(isSafari());
+
   return (
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>
@@ -152,9 +158,18 @@ const FilmDetails = () => {
               controls
               width={"100%"}
               height={"100%"}
+              muted={isMuted}
               playing
               playsinline
             />
+            {isMuted && (
+              <small
+                onClick={() => setIsMuted(false)}
+                className="safari-desmutar"
+              >
+                Clique para desmutar
+              </small>
+            )}
             <IoCloseSharp
               className="film-close-icon"
               size={50}
