@@ -99,22 +99,23 @@
 }
 
 .film-player-react-player {
-  /* padding: 0 50px; */
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
 
 .film-close-icon {
-  position: absolute;
+  position: fixed;
+  z-index: 150;
   cursor: pointer;
-  right: -50px;
+  color: white;
+  background-color: black;
+  right: 0;
   top: 0;
 }
 
 .film-close-icon:hover {
   filter: invert(1);
-  background-color: var(--color-white);
 }
 
 .film-details-info {
