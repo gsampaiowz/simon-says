@@ -41,6 +41,7 @@ const HomePage = () => {
           controls={false}
           loop
           muted
+          playsInline
           src={clipe}
         />
         <IoArrowDownSharp
