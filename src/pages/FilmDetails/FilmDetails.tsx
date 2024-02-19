@@ -128,13 +128,7 @@ const FilmDetails = () => {
       // Se o autoplay não for permitido, defina o vídeo como silenciado
       videoElement.muted = true;
       // Tente iniciar a reprodução automática
-      videoElement.play().then(function() {
-        // Se a reprodução começar com sucesso, você pode então remover o mudo
-        videoElement.muted = false;
-      }).catch(function(error) {
-        // Se a reprodução falhar, você pode lidar com o erro aqui
-        console.error('Erro ao iniciar a reprodução automática:', error);
-      });
+      videoElement.play();
     }
   });
   
