@@ -10,7 +10,6 @@ import { useContext, useEffect, useRef, useState } from "react";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { LanguageContext } from "@/App";
-import screenfull from "screenfull";
 
 const DiretorPage = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -62,18 +61,6 @@ const DiretorPage = () => {
 
   const playerRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    if (inVideo && playerRef.current && screenfull.isEnabled) {
-      screenfull.request(playerRef.current);
-    }
-
-    setTimeout(() => {
-      setIsMuted(false);
-    },  3000);
-  }, [inVideo]);
-
-  const [isMuted, setIsMuted] = useState(true);
-
   return (
     <MainContent additionalClass="film-details diretor-page">
       <Container additionalClass={"filter-and-title"}>
@@ -101,17 +88,14 @@ const DiretorPage = () => {
             className="film-player-background"
           ></div>
           <div ref={playerRef} className="film-player">
-            <ReactPlayer
+          <ReactPlayer
               url={film?.Youtube}
               className={"film-player-react-player"}
               controls
               width={"100%"}
               height={"100%"}
-              autoPlay={true}
               playing={true}
-              style={{ objectFit: "cover" }}
-              muted={isMuted}
-              playsInline
+              autoPlay={true}
             />
             <IoCloseSharp
               className="film-close-icon"
