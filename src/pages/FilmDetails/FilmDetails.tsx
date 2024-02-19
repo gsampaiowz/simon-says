@@ -117,6 +117,29 @@ const FilmDetails = () => {
     document.body.style.overflow = inVideo ? "hidden" : "auto";
   }, [inVideo]);
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var videoElement : HTMLVideoElement = document.querySelector('.film-player-react-player')!;
+  
+    // Verifique se o autoplay é permitido
+    if (videoElement.autoplay) {
+      // Tente iniciar a reprodução automática
+      videoElement.play();
+    } else {
+      // Se o autoplay não for permitido, defina o vídeo como silenciado
+      videoElement.muted = true;
+      // Tente iniciar a reprodução automática
+      videoElement.play().then(function() {
+        // Se a reprodução começar com sucesso, você pode então remover o mudo
+        videoElement.muted = false;
+      }).catch(function(error) {
+        // Se a reprodução falhar, você pode lidar com o erro aqui
+        console.error('Erro ao iniciar a reprodução automática:', error);
+      });
+    }
+  });
+  
+  
+
   return (
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>
