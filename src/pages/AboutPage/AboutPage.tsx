@@ -15,11 +15,11 @@ const AboutPage = () => {
             <h1 className="about-page-title">QUEM SOMOS?</h1>
             <hr className="about-page-divider" />
             <p>
-              Bem-vindo à SimonSays Filmes, onde nos últimos 15 anos, não apenas
+              Bem-vindo à Simon Says Filmes, onde nos últimos 15 anos, não apenas
               produzimos filmes – construímos histórias.
             </p>
             <p>
-              Na SimonSays, somos contadores de histórias com uma paixão por
+              Na Simon Says, somos contadores de histórias com uma paixão por
               criar algo verdadeiramente extraordinário. Asseguramos não apenas
               entregas pontuais, mas oferecemos opções que ultrapassam o
               convencional.
@@ -33,7 +33,7 @@ const AboutPage = () => {
             </p>
             <p>
               Equipados com tecnologia de última geração, convidamos você a
-              explorar nosso site e descobrir o poder da SimonSays Filmes.
+              explorar nosso site e descobrir o poder da Simon Says Filmes.
               Descubra como podemos colaborar para criar algo que vai além do
               comum, algo que captura a essência da sua visão.
             </p>
@@ -43,11 +43,11 @@ const AboutPage = () => {
             <h1 className="about-page-title">WHO ARE WE?</h1>
             <hr className="about-page-divider" />
             <p>
-              Welcome to SimonSays Filmes, where for the past 15 years, we
+              Welcome to Simon Says Filmes, where for the past 15 years, we
               haven’t just produced films – we’ve built stories.
             </p>
             <p>
-              At SimonSays, we are storytellers with a passion for creating
+              At Simon Says, we are storytellers with a passion for creating
               something truly extraordinary. We ensure not just timely
               deliveries, but offer options that go beyond the conventional.
             </p>
@@ -60,7 +60,7 @@ const AboutPage = () => {
             </p>
             <p>
               Equipped with state-of-the-art technology, we invite you to
-              explore our site and discover the power of SimonSays Filmes.
+              explore our site and discover the power of Simon Says Filmes.
               Discover how we can collaborate to create something that goes
               beyond the ordinary, something that captures the essence of your
               vision.
@@ -71,11 +71,11 @@ const AboutPage = () => {
             <h1 className="about-page-title">¿QUIÉNES SOMOS?</h1>
             <hr className="about-page-divider" />
             <p>
-              Bienvenido a SimonSays Filmes, donde en los últimos 15 años, no
+              Bienvenido a Simon Says Filmes, donde en los últimos 15 años, no
               solo producimos películas, sino que construimos historias.
             </p>
             <p>
-              En SimonSays, somos narradores con pasión por crear algo
+              En Simon Says, somos narradores con pasión por crear algo
               verdaderamente extraordinario. Aseguramos no solo entregas
               oportunas, sino que ofrecemos opciones que van más allá de lo
               convencional.
@@ -89,7 +89,7 @@ const AboutPage = () => {
             </p>
             <p>
               Equipados con tecnología de última generación, lo invitamos a
-              explorar nuestro sitio y descubrir el poder de SimonSays Filmes.
+              explorar nuestro sitio y descubrir el poder de Simon Says Filmes.
               Descubra cómo podemos colaborar para crear algo que va más allá de
               lo común, algo que captura la esencia de su visión.
             </p>

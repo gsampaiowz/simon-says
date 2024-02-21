@@ -173,7 +173,7 @@ const directors = [
       {
         Nome: "Marcelo Barillari",
         Biografia:
-          "Com formação em cinema, trilho minha jornada no mercado audiovisual desde 2007. Durante esses 17 anos, concentrei grande parte da minha atuação no cenário publicitário, desempenhando diversas funções, desde assistente de câmera até diretor de fotografia, editor e colorista. Contribuí para mais de 1000 produções publicitárias. Destaco também minha habilidade como excelente diretor de fotografia de séries e filmes. Como Diretor de Cena/Criativo, conduzi programas de televisão, séries de ficção, canais no YouTube, projetos institucionais e clipes musicais. Com a expertise adquirida, venho atendendo à crescente demanda por profissionais versáteis no setor audiovisual.",
+          "Com formação em cinema, ele trilha sua jornada no mercado audiovisual desde 2007. Durante esses 17 anos, concentrou grande parte de sua atuação no cenário publicitário, desempenhando diversas funções, desde assistente de câmera até diretor de fotografia, editor e colorista. Contribuiu para mais de 1000 produções publicitárias. Destaca também sua habilidade como excelente diretor de fotografia de séries e filmes. Como Diretor de Cena/Criativo, conduziu programas de televisão, séries de ficção, canais no YouTube, projetos institucionais e clipes musicais. Com a expertise adquirida, vem atendendo à crescente demanda por profissionais versáteis no setor audiovisual.",
         Frame:
           "https://drive.google.com/thumbnail?id=18Y89VI_9HA787LN0Yn3gZDVY5MUNFtq_&sz=w10000",
         Films: [
@@ -542,7 +542,7 @@ const directors = [
       {
         Nome: "Marcelo Barillari",
         Biografia:
-          "With a background in cinema, I have been following my journey in the audiovisual market since 2007. During these 17 years, I focused a large part of my work on the advertising scene, performing various roles, from camera assistant to director of photography, editor and colorist. I contributed to more of 1000 advertising productions. I also highlight my ability as an excellent director of photography for series and films. As a Stage/Creative Director, I directed television programs, fiction series, YouTube channels, institutional projects and music videos. With the expertise acquired, I have been meeting the growing demand for versatile professionals in the audiovisual sector.",
+        "With a degree in cinema, he has been paving his way in the audiovisual market since 2007. During these 17 years, he focused a large part of his work in the advertising scene, performing various roles, from camera assistant to director of photography, editor, and colorist. He contributed to more than 1000 advertising productions. He also highlights his skill as an excellent director of photography for series and films. As a Scene/Creative Director, he led television programs, fiction series, YouTube channels, institutional projects, and music clips. With the expertise acquired, he has been meeting the growing demand for versatile professionals in the audiovisual sector.",
         Frame:
           "https://drive.google.com/thumbnail?id=18Y89VI_9HA787LN0Yn3gZDVY5MUNFtq_&sz=w10000",
         Films: [
@@ -910,7 +910,7 @@ const directors = [
       {
         Nome: "Marcelo Barillari",
         Biografia:
-          "Con formación en cine, sigo mi andadura en el mercado audiovisual desde 2007. Durante estos 17 años centré gran parte de mi trabajo en el panorama publicitario, desempeñando diversos roles, desde ayudante de cámara hasta director de fotografía, editor y colorista. Contribuí en más de 1000 producciones publicitarias. Destaco también mi habilidad como excelente director de fotografía de series y películas. Como Director de Escena/Creativo, dirigí programas de televisión, series de ficción, canales de YouTube, proyectos institucionales y vídeos musicales. Con la experiencia adquirida, he ido atendiendo la creciente demanda de profesionales polivalentes en el sector audiovisual.",
+        "Con un grado en cine, ha estado abriéndose camino en el mercado audiovisual desde 2007. Durante estos 17 años, centró gran parte de su trabajo en la escena publicitaria, desempeñando diversos roles, desde asistente de cámara hasta director de fotografía, editor y colorista. Contribuyó en más de 1000 producciones publicitarias. También destaca su habilidad como un excelente director de fotografía para series y películas. Como Director de Escena/Creativo, lideró programas de televisión, series de ficción, canales de YouTube, proyectos institucionales y clips de música. Con la experiencia adquirida, ha estado satisfaciendo la creciente demanda de profesionales versátiles en el sector audiovisual.",
         Frame:
           "https://drive.google.com/thumbnail?id=18Y89VI_9HA787LN0Yn3gZDVY5MUNFtq_&sz=w10000",
         Films: [

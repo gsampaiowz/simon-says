@@ -52,7 +52,7 @@ const ContatoPage = () => {
           </a>
           <a target="_blank" href="https://api.whatsapp.com/send?phone=5511950806208" className="contato-info">
             <FaWhatsapp size={25} />
-            +55 11 9.5080-6208
+            +55 11 9 5080-6208
           </a>
         </div>
       </Container>
