@@ -4717,9 +4717,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta de Abertura",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4732,9 +4732,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1RyK6dEC0e0FY54KV5Trg71diCS9R16xg/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1RyK6dEC0e0FY54KV5Trg71diCS9R16xg&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4747,9 +4747,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1VUUR2B-al9nMzamaeeGV_nSYv898EsZF/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1VUUR2B-al9nMzamaeeGV_nSYv898EsZF&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4762,9 +4762,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Chamada do Programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
+          "https://drive.google.com/thumbnail?id=1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4777,9 +4777,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/13yxp_0MVOqRck42kPgSUGodTJN17dfmd/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=13yxp_0MVOqRck42kPgSUGodTJN17dfmd&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4792,7 +4792,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1eRkqMTTXbMphb5_gmzJViK-y9Q-gpsye&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -4807,9 +4807,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4822,9 +4822,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -4837,7 +4837,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1vpmay8hbkBp_MIsPTx2UbQt7-xioBS17&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -9699,9 +9699,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Opening Vignette",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9714,9 +9714,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1RyK6dEC0e0FY54KV5Trg71diCS9R16xg/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1RyK6dEC0e0FY54KV5Trg71diCS9R16xg&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9729,9 +9729,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1VUUR2B-al9nMzamaeeGV_nSYv898EsZF/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1VUUR2B-al9nMzamaeeGV_nSYv898EsZF&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9744,9 +9744,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Program Call",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
+          "https://drive.google.com/thumbnail?id=1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9759,9 +9759,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/13yxp_0MVOqRck42kPgSUGodTJN17dfmd/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=13yxp_0MVOqRck42kPgSUGodTJN17dfmd&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9774,7 +9774,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1eRkqMTTXbMphb5_gmzJViK-y9Q-gpsye&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -9789,9 +9789,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9804,9 +9804,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entertainment",
@@ -9819,7 +9819,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1vpmay8hbkBp_MIsPTx2UbQt7-xioBS17&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -14679,9 +14679,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Viñeta de apertura",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14694,9 +14694,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1RyK6dEC0e0FY54KV5Trg71diCS9R16xg/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1RyK6dEC0e0FY54KV5Trg71diCS9R16xg&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1ECBB4kYK_Wrz-kxp4BqeX9kRIWefRGEe&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14709,9 +14709,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Viñeta de debate",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1VUUR2B-al9nMzamaeeGV_nSYv898EsZF/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1VUUR2B-al9nMzamaeeGV_nSYv898EsZF&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1OMTYQ1Rv8YoX0hCTLEnEfCy4ZZrcXKTl&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14724,9 +14724,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Llamada al programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1qSxE2F9R9fpk8rFLhyCkAi_hBIgYx6mD&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
+          "https://drive.google.com/thumbnail?id=1pNac5nWb4fTtGnNsbJTVXXDmRh4Ey8nz/view?usp=sharing",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14739,9 +14739,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/13yxp_0MVOqRck42kPgSUGodTJN17dfmd/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=13yxp_0MVOqRck42kPgSUGodTJN17dfmd&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1dyL2T2vCSOYd3aU_qX3fASwBsTv4QPej&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14754,7 +14754,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1zv-dRJfHvVbh_oeWpn75L2oQTJYQVCiQ&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1eRkqMTTXbMphb5_gmzJViK-y9Q-gpsye&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -14769,9 +14769,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1e9N1WN57qUSJf8QSFkL8ymkTZb16PsNc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1_cvwN-hFOG58QPwEewgxE_z5xMaRbOWY&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14784,9 +14784,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ls9Z_U4VEDTx5kmcUjyNld-CNQiaNfYc&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/file/d/1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1EROwv1B9WFa7NP4J_C0rxfHMuBEBjGbK&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
@@ -14799,7 +14799,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
-          "https://drive.google.com/file/d/1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5/view?usp=drive_link",
+          "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1vpmay8hbkBp_MIsPTx2UbQt7-xioBS17&sz=w10000",
         Cliente: "EBC TV Brasil",
