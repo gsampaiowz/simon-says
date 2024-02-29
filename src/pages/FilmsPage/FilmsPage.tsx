@@ -12,11 +12,11 @@ const FilmsPage =  () => {
 
   const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
 
-  async function fetchData() {
-    const {filmsArray} = await import('@/data/films')
-      setFilmsLoaded(filmsArray);
-  }
   useEffect(() => {
+    async function fetchData() {
+      const {filmsArray} = await import('@/data/films')
+        setFilmsLoaded(filmsArray);
+    }
     fetchData();
 }, []);
 
