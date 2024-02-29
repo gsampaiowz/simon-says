@@ -4743,7 +4743,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sem Censura ",
+        Título: "Sem Censura",
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
@@ -4758,7 +4758,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sem Censura ",
+        Título: "Sem Censura",
         Subtítulo: "Chamada do Programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
