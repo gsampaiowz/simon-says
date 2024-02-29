@@ -16,6 +16,7 @@ const DiretorPage = () => {
 
   const navigate = useNavigate();
 
+  //PUXA OS PARAMETROS DA URL
   const { nome, idFilme } = useParams();
 
   const { language } = useContext(LanguageContext)!;
@@ -24,14 +25,19 @@ const DiretorPage = () => {
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
+  //FILTRA O IDIOMA
   const diretores = directors.find((d) => d.Idioma === language)!.Diretores;
 
+  //ENCONTRA O DIRETOR PELO NOME
   const director = diretores.find((d) => d.Nome === nome);
 
+  //ENCONTRA OS FILMES RELACIONADOS AO DIRETOR
   const filmsRelacionados = director!.Films.filter((f) => f.FilmId !== idFilme);
 
+  //ENCONTRA O FILME PRINCIPAL PELO ID
   const film = director?.Films.find((f) => f.FilmId === idFilme);
 
+  //FUNÇÃO PARA MUDAR O FILME
   const changeFilm = (id: string) => {
     navigate(`/diretores/${nome}/${id}`);
     setInVideo(true);
@@ -39,12 +45,14 @@ const DiretorPage = () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  //FUNÇÃO PARA MUDAR O FILTRO
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro || "Todos");
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  //LÓGICA PARA CARREGAR IMAGENS E SCROLLAR AO TOPO QUANDO MUDAR O FILME
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -53,20 +61,24 @@ const DiretorPage = () => {
     img.onload = () => setIsLoaded(true);
   }, [film?.["Thumb Principal"]]);
 
+  //LÓGICA PARA MANTER O FILTRO ATUALIZADO
   useEffect(() => {
     if (sessionStorage.getItem("atualFilter")) {
       setAtualFilter(sessionStorage.getItem("atualFilter"));
     }
   }, []);
 
+  //LÓGICA PARA PREVENIR SCROLL QUANDO O VIDEO ESTÁ ABERTO
   useEffect(() => {
     document.body.style.overflow = inVideo ? "hidden" : "auto";
   }, [inVideo]);
 
+  //FUNÇÃO PARA IDENTIFICAR SE O NAVEGADOR É SAFARI
   function isSafari(): boolean {
     return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
   }
 
+  //SE FOR SAFARI O VIDEO COMEÇA MUTADO DEVIDO AS POLITCAS DO NAVEGADOR
   const [isMuted, setIsMuted] = useState(isSafari());
 
   return (

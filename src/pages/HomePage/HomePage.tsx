@@ -3,19 +3,32 @@ import "./HomePage.css";
 import Container from "./../../components/Container/Container";
 import { IoArrowDownSharp } from "react-icons/io5";
 import clipe from "@/assets/videos/clipe-homepage.mp4";
-import filmsArray from "@/data/films";
 import HomeFilm from "@/components/HomeFilm/HomeFilm";
 import { useNavigate } from "react-router-dom";
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { LanguageContext } from "@/App";
+import { filmsArrayProps } from "@/data/films";
 
-const HomePage = () => {
+const HomePage =  () => {
+  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
+
+  async function fetchData() {
+    const {filmsArray} = await import('@/data/films')
+      setFilmsLoaded(filmsArray);
+  }
+  useEffect(() => {
+    fetchData();
+}, []);
+
+
   const { language } = useContext(LanguageContext) || {};
 
-  let filmsHome = filmsArray
+  //ENCONTRA OS FILMES DA HOMEPAGE PELO IDIOMA
+  let filmsHome = filmsLoaded
     .find((films) => films.Idioma === language)!
     .Films.filter((film) => film.Home);
 
+  //SCROLLA AO TOPO AO CARREGAR E CARREGA O FILTRO ATUAL
   useEffect(() => {
     window.scrollTo(0, 0);
     sessionStorage.setItem("atualFilter", "Todos");

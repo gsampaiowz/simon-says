@@ -8,7 +8,6 @@ import AboutPage from "@/pages/AboutPage/AboutPage";
 import ServicosProducaoPage from "@/pages/ServicosProducaoPage/ServicosProducaoPage";
 import DiretoresPage from "@/pages/DiretoresPage/DiretoresPage";
 import ContatoPage from "@/pages/ContatoPage/ContatoPage";
-import SearchPage from "@/pages/SearchPage/SearchPage";
 import DiretorPage from "@/pages/DiretorPage/DiretorPage";
 
 const AppRoutes = () => {
@@ -24,7 +23,6 @@ const AppRoutes = () => {
         <Route element={<DiretoresPage/>} path="/diretores"/>
         <Route element={<DiretorPage/>} path="/diretores/:nome/:idFilme"/>
         <Route element={<ContatoPage/>} path="/contato"/>
-        <Route element={<SearchPage/>} path="/search"/>
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -91,6 +91,8 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     },
   ];
 
+  //CATERGORIA SELECIONADAS PARA A NAVBAR
+
   const categoriasNav = categoriasLinks.filter(
     (categoria) =>
       categoria.categoria !== "Todos" && categoria.categoria !== "All"

@@ -1,14 +1,25 @@
 import "./FilmsPage.css";
 import FilmItem from "@/components/FilmItem/FilmItem";
-import filmsArray from "@/data/films";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
 import MainContent from "@/components/MainContent/MainContent";
 import Container from "./../../components/Container/Container";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { LanguageContext } from "@/App";
+import { filmsArrayProps } from "@/data/films";
 
-const FilmsPage = () => {
+const FilmsPage =  () => {
+
+  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
+
+  async function fetchData() {
+    const {filmsArray} = await import('@/data/films')
+      setFilmsLoaded(filmsArray);
+  }
+  useEffect(() => {
+    fetchData();
+}, []);
+
   const navigate = useNavigate();
 
   const { language } = useContext(LanguageContext)!;
@@ -19,12 +30,14 @@ const FilmsPage = () => {
 
   const [filterDescription, setFilterDescription] = useState<string>("");
 
-  type Film = (typeof filmsArray)[0]["Films"][0];
+  //TIPAGEM PARA EVITAR FUTUROS ERROS
+  type Film = (typeof filmsLoaded)[0]["Films"][0];
 
   const films: Film[] = [];
 
+  //SELECIONA OS CLIENTES EXISTENTES SEM REPETIR
   const seenClientes = new Set();
-  filmsArray
+  filmsLoaded
     .find((f) => f.Idioma === language)!
     ["Films"].forEach((film) => {
       if (!seenClientes.has(film.Título)) {
@@ -37,6 +50,7 @@ const FilmsPage = () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  //FUNÇÃO PARA MUDAR O FILTRO
   const mudarFiltro = (filtro: string) => {
     (filtro);
     
@@ -45,6 +59,7 @@ const FilmsPage = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  //LÓGICA PARA CARREGAR 20 FILMES POR VEZ
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20;
 
@@ -55,7 +70,11 @@ const FilmsPage = () => {
     setCurrentPage(currentPage + 1);
   };
 
+  //PUXA O PARAMETRO DA CATEGORIA PELA URL
   const { categoria } = useParams();
+
+  //LÓGICA PARA CARREGAR O FILTRO SALVO E O ESTADO DO DROPDOWN NO SESSION STORAGE E REINICIAR OS FILMES QUANDO MUDAR DE CATEGORIA, IDIOMA, ESTADO DO DROPDOWN OU PÁGINA
+  // TAMBÉM MUDA O TEXTO DE DESCRIÇÃO DE ACORDO COM A CATEGORIA E IDIOMA
   useEffect(() => {
     setAtualFilter(sessionStorage.getItem("atualFilter")!);
     setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
@@ -107,6 +126,7 @@ const FilmsPage = () => {
     }
   }, [atualFilter, isDropdownOpen, language, window.document.URL]);
 
+  //LÓGICA PARA CARREGAR MAIS FILMES QUANDO O USUÁRIO CHEGA AO FINAL DA PÁGINA
   window.onscroll = function () {
     var d = document.documentElement;
     var offset = d.scrollTop + window.innerHeight;
@@ -170,6 +190,7 @@ const FilmsPage = () => {
     },
   ];
 
+  //LÓGICA PARA MUDAR DE CATEGORIA QUANDO O IDIOMA MUDA, PREVENINDO ERROS
   useEffect(() => {
     if (language === linguagemAtual) {
       return;

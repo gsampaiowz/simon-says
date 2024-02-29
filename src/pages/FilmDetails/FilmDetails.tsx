@@ -1,17 +1,28 @@
 import { NavLink, useNavigate, useParams } from "react-router-dom";
 import "./FilmDetails.css";
-import filmsArray from "@/data/films";
 import Container from "./../../components/Container/Container";
 import MainContent from "@/components/MainContent/MainContent";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useContext, useEffect, useState } from "react";
+import { filmsArrayProps } from "@/data/films";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { LanguageContext } from "@/App";
 
-const FilmDetails = () => {
+const FilmDetails =  () => {
+
+  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
+
+  async function fetchData() {
+    const {filmsArray} = await import('@/data/films')
+      setFilmsLoaded(filmsArray);
+  }
+  useEffect(() => {
+    fetchData();
+}, []);
+
   const [isLoaded, setIsLoaded] = useState(false);
 
   const navigate = useNavigate();
@@ -24,21 +35,25 @@ const FilmDetails = () => {
 
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
-  const film = filmsArray
+  //ENCONTRA O FILME PELO ID E IDIOMA
+  const film = filmsLoaded
     .find((films) => films.Idioma === localStorage.getItem("idioma"))!
     .Films.find((film) => film.FilmId === idFilme);
 
-  const filmsRelacionados = filmsArray
+  //ENCONTRA OS FILMES DA MESMA CAMPANHA
+  const filmsRelacionados = filmsLoaded
     .find((films) => films.Idioma === localStorage.getItem("idioma"))!
     .Films.filter(
       (f) => f.Título === film?.Título && f.FilmId !== film?.FilmId
     );
 
+  //SCROLLA AO TOPO AO CARREGAR E MANTEM O FILTRO SALVO NO SESSION STORAGE
   useEffect(() => {
     window.scrollTo(0, 0);
     setAtualFilter(sessionStorage.getItem("atualFilter"));
   }, []);
 
+  // FUNÇÃO PARA MUDAR O FILME
   const changeFilm = (id: string) => {
     navigate(`/filmes/${encodeURIComponent(atualFilter as string)}/${id}`);
     setInVideo(true);
@@ -46,12 +61,14 @@ const FilmDetails = () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  //FUNÇÃO PARA MUDAR O FILTRO
   const mudarFiltro = (filtro: string) => {
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro || "Todos");
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  //LÓGICA PARA CARREGAR IMAGENS E SCROLLAR AO TOPO QUANDO MUDAR O FILME
   useEffect(() => {
     window.scrollTo(0, 0);
 
@@ -113,14 +130,17 @@ const FilmDetails = () => {
     },
   ];
 
+  //LÓGICA PARA PREVENIR SCROLL QUANDO O VIDEO ESTÁ ABERTO
   useEffect(() => {
     document.body.style.overflow = inVideo ? "hidden" : "auto";
   }, [inVideo]);
 
+  //FUNÇÃO PARA VERIFICAR SE O NAVEGADOR É SAFARI
   function isSafari(): boolean {
     return /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
   }
 
+  //SE FOR SAFARI O VIDEO COMEÇA MUTADO DEVIDO AS POLITCAS DO NAVEGADOR
   const [isMuted, setIsMuted] = useState(isSafari());
 
   return (

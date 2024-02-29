@@ -11,8 +11,10 @@ const DiretoresPage = () => {
 
   const { language } = useContext(LanguageContext)!;
 
+  //FILTRA O IDIOMA
   const diretores = directors.find((d) => d.Idioma === language)!.Diretores;
 
+  //ORGANIZA EM ORDER ALFABETICA
   diretores.sort((a, b) => a.Nome.localeCompare(b.Nome));
 
   let currentIndex = 1;
@@ -21,6 +23,7 @@ const DiretoresPage = () => {
 
   const fundoRef = useRef(null);
 
+// FUNÇÃO PARA MUDAR A IMAGEM DE FUNDO AUTOMATICAMENTE
   function changeBackground() {
     let img = new Image();
     img.onload = function () {
@@ -34,6 +37,7 @@ const DiretoresPage = () => {
     }
   }
 
+  //EXECUÇÃO DA FUNÇÃO ACIMA
   useEffect(() => {
     fundo = fundoRef.current;
 
@@ -49,6 +53,7 @@ const DiretoresPage = () => {
     };
   }, [fundo!]);
 
+  //FUNÇÃO PARA MUDAR A IMAGEM DE FUNDO QUANDO O MOUSE PASSA POR CIMA DO NOME DO DIRETOR
   const mudarBg = (img: string) => {
     let image = new Image();
     image.onload = function () {

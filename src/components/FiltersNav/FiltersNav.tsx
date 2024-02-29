@@ -16,7 +16,7 @@ const FiltersNav = ({
   additionalClass,
 }: FiltersNavProps) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  //LÓGICA PAA CAPTAR A LARGUA DA TELA A TODO INSTANTE
+  //LÓGICA PAA CAPTAR A LARGURA DA TELA A TODO INSTANTE
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
