@@ -6,19 +6,9 @@ import MainContent from "@/components/MainContent/MainContent";
 import Container from "./../../components/Container/Container";
 import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { LanguageContext } from "@/App";
-import { filmsArrayProps } from "@/data/films";
+import { filmsArray } from "@/data/films";
 
 const FilmsPage =  () => {
-
-  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const {filmsArray} = await import('@/data/films')
-        setFilmsLoaded(filmsArray);
-    }
-    fetchData();
-}, []);
 
   const navigate = useNavigate();
 
@@ -31,13 +21,13 @@ const FilmsPage =  () => {
   const [filterDescription, setFilterDescription] = useState<string>("");
 
   //TIPAGEM PARA EVITAR FUTUROS ERROS
-  type Film = (typeof filmsLoaded)[0]["Films"][0];
+  type Film = (typeof filmsArray)[0]["Films"][0];
 
   const films: Film[] = [];
 
   //SELECIONA OS CLIENTES EXISTENTES SEM REPETIR
   const seenClientes = new Set();
-  filmsLoaded
+  filmsArray
     .find((f) => f.Idioma === language)!
     ["Films"].forEach((film) => {
       if (!seenClientes.has(film.Título)) {

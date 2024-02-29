@@ -6,22 +6,12 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { IoCloseSharp, IoPlaySharp } from "react-icons/io5";
 import ReactPlayer from "react-player";
 import { useContext, useEffect, useState } from "react";
-import { filmsArrayProps } from "@/data/films";
 import FilmItem from "@/components/FilmItem/FilmItem";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { LanguageContext } from "@/App";
+import { filmsArray } from "@/data/films";
 
 const FilmDetails =  () => {
-
-  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const {filmsArray} = await import('@/data/films')
-        setFilmsLoaded(filmsArray);
-    }
-    fetchData();
-}, []);
 
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -36,12 +26,12 @@ const FilmDetails =  () => {
   const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
 
   //ENCONTRA O FILME PELO ID E IDIOMA
-  const film = filmsLoaded
+  const film = filmsArray
     .find((films) => films.Idioma === localStorage.getItem("idioma"))!
     .Films.find((film) => film.FilmId === idFilme);
 
   //ENCONTRA OS FILMES DA MESMA CAMPANHA
-  const filmsRelacionados = filmsLoaded
+  const filmsRelacionados = filmsArray
     .find((films) => films.Idioma === localStorage.getItem("idioma"))!
     .Films.filter(
       (f) => f.Título === film?.Título && f.FilmId !== film?.FilmId

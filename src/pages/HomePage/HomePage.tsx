@@ -5,26 +5,16 @@ import { IoArrowDownSharp } from "react-icons/io5";
 import clipe from "@/assets/videos/clipe-homepage.mp4";
 import HomeFilm from "@/components/HomeFilm/HomeFilm";
 import { useNavigate } from "react-router-dom";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
 import { LanguageContext } from "@/App";
-import { filmsArrayProps } from "@/data/films";
+import { filmsArray } from "@/data/films";
 
 const HomePage =  () => {
-  const [filmsLoaded, setFilmsLoaded] = useState<filmsArrayProps>([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const {filmsArray} = await import('@/data/films')
-        setFilmsLoaded(filmsArray);
-    }
-    fetchData();
-}, []);
-
 
   const { language } = useContext(LanguageContext) || {};
 
   //ENCONTRA OS FILMES DA HOMEPAGE PELO IDIOMA
-  let filmsHome = filmsLoaded
+  let filmsHome = filmsArray
     .find((films) => films.Idioma === language)!
     .Films.filter((film) => film.Home);
 
