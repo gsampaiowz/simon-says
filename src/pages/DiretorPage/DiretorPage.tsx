@@ -84,7 +84,7 @@ const DiretorPage = () => {
   return (
     <MainContent additionalClass="film-details diretor-page">
       <Container additionalClass={"filter-and-title"}>
-        <h2 className="film-detail-title">Diretores</h2>
+        <h2 className="film-detail-title">{language === "BR" ? "Diretores" : language === "EN" ? "Directors" : "Directores"}</h2>
         <FiltersNav
           additionalClass="director-filters"
           map={diretores.map((director) => (
