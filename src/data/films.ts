@@ -9607,9 +9607,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "",
         YouTube: "https://youtu.be/ikSQsYlxqkk",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=17RnuL6w84QFWzyrsZGY75zQ92FTQSwim&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
         Texto:
           "Get ready to delve into the fascinating history of furniture design in Brazil in this series of 10 episodes, 55 minutes each, which is a co-production between SimonSays Filmes and Total Filmes. Featured Episodes: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult and Maurício Azeredo. Each episode will delve deeply into the lives, work and legacy of these designers, revealing how they shaped the history of furniture design in Brazil in a context of adaptation to the economy and politics of the time. Discover how these designers' choice of materials and creative approaches reflected the country's social and economic transformations. Get ready for a fascinating journey through images of archive, interviews and engaging narratives as we explore the rich heritage of Brazilian design",
         Diretor: "Kahue Rozzi",
@@ -14587,9 +14587,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "",
         YouTube: "https://youtu.be/ikSQsYlxqkk",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=17RnuL6w84QFWzyrsZGY75zQ92FTQSwim&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1uuJ4eP_OenAOH-iA1JVZeCzCDzLHjxe6&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
         Texto:
           "Prepárate para profundizar en la fascinante historia del diseño de muebles en Brasil en esta serie de 10 episodios de 55 minutos cada uno, que es una coproducción entre SimonSays Filmes y Total Filmes. Episodios destacados: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult y Maurício Azeredo. Cada episodio profundizará en la vida, el trabajo y el legado de estos diseñadores, revelando cómo dieron forma a la historia del mueble. diseño en Brasil en un contexto de adaptación a la economía y la política de la época. Descubra cómo la elección de materiales y enfoques creativos de estos diseñadores reflejaron las transformaciones sociales y económicas del país. Prepárese para un viaje fascinante a través de imágenes de archivo, entrevistas y experiencias interesantes. narrativas mientras exploramos la rica herencia del diseño brasileño",
         Diretor: "Kahue Rozzi",
