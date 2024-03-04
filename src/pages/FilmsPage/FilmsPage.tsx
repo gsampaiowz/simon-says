@@ -60,6 +60,8 @@ const FilmsPage =  () => {
     setCurrentPage(currentPage + 1);
   };
 
+  const [languageAtual,] = useState(language);
+
   //PUXA O PARAMETRO DA CATEGORIA PELA URL
   const { categoria } = useParams();
 
@@ -114,7 +116,7 @@ const FilmsPage =  () => {
         setFilterDescription("");
         break;
     }
-  }, [atualFilter, isDropdownOpen, language, window.document.URL]);
+  }, [atualFilter, isDropdownOpen, languageAtual, window.document.URL]);
 
   //LÓGICA PARA CARREGAR MAIS FILMES QUANDO O USUÁRIO CHEGA AO FINAL DA PÁGINA
   window.onscroll = function () {
@@ -194,7 +196,6 @@ const FilmsPage =  () => {
         setLinguagemAtual("");
     }
 
-    console.log(films)
   }, [language]);
 
   return (
