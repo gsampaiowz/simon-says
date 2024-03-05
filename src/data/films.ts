@@ -9725,7 +9725,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Without Censorship",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
