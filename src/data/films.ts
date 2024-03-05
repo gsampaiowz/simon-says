@@ -4713,7 +4713,7 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entretenimento",
       },
       {
-        Título: "Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta de Abertura",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
@@ -4728,7 +4728,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
@@ -4743,7 +4743,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
@@ -4758,7 +4758,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Chamada do Programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -4773,7 +4773,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Convidado Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -4788,7 +4788,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Convidado Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -4803,7 +4803,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Convidado Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -4818,7 +4818,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Convidado Sem Censura",
+        Título: "TV Brasil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -4833,7 +4833,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vinheta TV Brasil",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
@@ -4848,7 +4848,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vinheta ON AIR",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
@@ -4863,7 +4863,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vinheta Stadium",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
@@ -4878,7 +4878,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Cápsulas da Educação",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
@@ -9695,7 +9695,7 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entertainment",
       },
       {
-        Título: "Without Censorship",
+        Título: "TV Brasil",
         Subtítulo: "Opening Vignette",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
@@ -9710,7 +9710,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "No Censorship",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
@@ -9740,7 +9740,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "No Censorship",
+        Título: "TV Brasil",
         Subtítulo: "Program Call",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -9755,7 +9755,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Uncensored Guest",
+        Título: "TV Brasil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -9770,7 +9770,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Uncensored Guest",
+        Título: "TV Brasil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -9785,7 +9785,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Uncensored Guest",
+        Título: "TV Brasil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -9800,7 +9800,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Uncensored Guest",
+        Título: "TV Brasil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -9815,7 +9815,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vinheta TV Brasil",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
@@ -9830,7 +9830,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vignette ON AIR",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
@@ -9845,7 +9845,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Stadium Vignette",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
@@ -9860,7 +9860,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Capsules of Education",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
@@ -14675,7 +14675,7 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entretenimiento",
       },
       {
-        Título: "Sin Censura",
+        Título: "TV Brasil",
         Subtítulo: "Viñeta de apertura",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
@@ -14690,7 +14690,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sin Censura",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
@@ -14705,7 +14705,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Sin Censura",
+        Título: "TV Brasil",
         Subtítulo: "Viñeta de debate",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
@@ -14720,7 +14720,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "No Censorship",
+        Título: "TV Brasil",
         Subtítulo: "Llamada al programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -14735,7 +14735,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Huésped sin censura",
+        Título: "TV Brasil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -14750,7 +14750,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Invitado sin censura",
+        Título: "TV Brasil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -14765,7 +14765,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Huésped sin censura",
+        Título: "TV Brasil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -14780,7 +14780,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Huésped sin censura",
+        Título: "TV Brasil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -14795,7 +14795,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Vinheta TV Brasil",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
@@ -14810,7 +14810,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Viñeta EN EL AIRE",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
@@ -14825,7 +14825,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Viñeta del estadio",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
@@ -14840,7 +14840,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Cápsulas de educación",
+        Título: "TV Brasil",
         Subtítulo: "",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
