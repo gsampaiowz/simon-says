@@ -19,7 +19,7 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
     setCategoriaIndex(index);
-    sessionStorage.setItem("categoriaIndex", index.toString());
+    sessionStorage.setItem("categoriaIndex", (index + 1).toString());
     linkClick();
   };
 

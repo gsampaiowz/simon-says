@@ -40,7 +40,7 @@ const FilmsPage = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [categoriaIndex, setCategoriaIndex] = useState<number>(
-    Number(sessionStorage.getItem("categoriaIndex")) + 1
+    Number(sessionStorage.getItem("categoriaIndex"))
   );
 
   //FUNÇÃO PARA MUDAR O FILTRO

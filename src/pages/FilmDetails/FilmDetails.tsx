@@ -59,6 +59,7 @@ const FilmDetails = () => {
     sessionStorage.setItem("atualFilter", filtro);
     setIsDropdownOpen(!isDropdownOpen);
     setCategoriaIndex(index);
+    sessionStorage.setItem("categoriaIndex", (index).toString());
   };
 
   //LÓGICA PARA CARREGAR IMAGENS E SCROLLAR AO TOPO QUANDO MUDAR O FILME
