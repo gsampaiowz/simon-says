@@ -8,15 +8,14 @@ import FiltersNav from "@/components/FiltersNav/FiltersNav";
 import { LanguageContext } from "@/App";
 import { filmsArray } from "@/data/films";
 
-const FilmsPage =  () => {
-
+const FilmsPage = () => {
   const navigate = useNavigate();
 
   const { language } = useContext(LanguageContext)!;
 
-  const [linguagemAtual, setLinguagemAtual] = useState(language);
-
-  const [atualFilter, setAtualFilter] = useState<string>("Todos");
+  const [atualFilter, setAtualFilter] = useState<string>(
+    sessionStorage.getItem("atualFilter")?.toString()!
+  );
 
   const [filterDescription, setFilterDescription] = useState<string>("");
 
@@ -40,13 +39,17 @@ const FilmsPage =  () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  const [categoriaIndex, setCategoriaIndex] = useState<number>(
+    Number(sessionStorage.getItem("categoriaIndex")) + 1
+  );
+
   //FUNÇÃO PARA MUDAR O FILTRO
-  const mudarFiltro = (filtro: string) => {
-    (filtro);
-    
+  const mudarFiltro = (filtro: string, index: number) => {
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
     setIsDropdownOpen(!isDropdownOpen);
+    sessionStorage.setItem("categoriaIndex", index.toString());
+    setCategoriaIndex(index);
   };
 
   //LÓGICA PARA CARREGAR 20 FILMES POR VEZ
@@ -60,15 +63,12 @@ const FilmsPage =  () => {
     setCurrentPage(currentPage + 1);
   };
 
-  const [languageAtual,] = useState(language);
-
   //PUXA O PARAMETRO DA CATEGORIA PELA URL
   const { categoria } = useParams();
 
-  //LÓGICA PARA CARREGAR O FILTRO SALVO E O ESTADO DO DROPDOWN NO SESSION STORAGE E REINICIAR OS FILMES QUANDO MUDAR DE CATEGORIA, IDIOMA, ESTADO DO DROPDOWN OU PÁGINA
+  //LÓGICA PARA CARREGAR  O ESTADO DO DROPDOWN NO SESSION STORAGE E REINICIAR OS FILMES QUANDO MUDAR DE CATEGORIA, IDIOMA, ESTADO DO DROPDOWN OU PÁGINA
   // TAMBÉM MUDA O TEXTO DE DESCRIÇÃO DE ACORDO COM A CATEGORIA E IDIOMA
   useEffect(() => {
-    setAtualFilter(sessionStorage.getItem("atualFilter")!);
     setIsDropdownOpen(sessionStorage.getItem("isDropdownOpen") === "true");
     setCurrentPage(1);
 
@@ -116,7 +116,9 @@ const FilmsPage =  () => {
         setFilterDescription("");
         break;
     }
-  }, [atualFilter, isDropdownOpen, languageAtual, window.document.URL]);
+
+    setAtualFilter(sessionStorage.getItem("atualFilter")?.toString()!);
+  }, [atualFilter, isDropdownOpen, language, window.document.URL]);
 
   //LÓGICA PARA CARREGAR MAIS FILMES QUANDO O USUÁRIO CHEGA AO FINAL DA PÁGINA
   window.onscroll = function () {
@@ -131,85 +133,83 @@ const FilmsPage =  () => {
 
   const categoriasLinks = [
     {
-      categoria:
-        language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
+      categoria: ["Todos", "All", "Todos"],
       link: "todos",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Publicidade"
-          : language === "EN"
-          ? "Advertising"
-          : "Publicidad",
+      categoria: ["Publicidade", "Advertising", "Publicidad"],
       link: "publicidade",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Institucional"
-          : language === "EN"
-          ? "Institutional"
-          : "Institucional",
+      categoria: ["Institucional", "Institutional", "Institucional"],
       link: "institucional",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Motion 2D/3D"
-          : language === "EN"
-          ? "Motion 2D/3D"
-          : "Motion 2D/3D",
+      categoria: ["Motion 2D/3D", "Motion 2D/3D", "Motion 2D/3D"],
       link: "motion 2D/3D",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Clipes de Música"
-          : language === "EN"
-          ? "Music Clips"
-          : "Clips musicales",
+      categoria: ["Clipes de Música", "Music Clips", "Clips musicales"],
       link: "clipes de Música",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Entretenimento"
-          : language === "EN"
-          ? "Entertainment"
-          : "Entretenimiento",
+      categoria: ["Entretenimento", "Entertainment", "Entretenimiento"],
       link: "entretenimento",
     },
   ];
 
   //LÓGICA PARA MUDAR DE CATEGORIA QUANDO O IDIOMA MUDA, PREVENINDO ERROS
   useEffect(() => {
-    if (language === linguagemAtual) {
-      return;
-    } else {
-      navigate(`/filmes/todos`);
-      language === "EN"
-        ? mudarFiltro("All")
-        : language === "ESP"
-        ? mudarFiltro("Todos")
-        : mudarFiltro("Todos");
-        setLinguagemAtual("");
-    }
-
+    sessionStorage.setItem(
+      "atualFilter",
+      language === "BR"
+        ? categoriasLinks[categoriaIndex].categoria[0]
+        : language === "EN"
+        ? categoriasLinks[categoriaIndex].categoria[1]
+        : categoriasLinks[categoriaIndex].categoria[2]
+    );
+    setAtualFilter(
+      language === "BR"
+        ? categoriasLinks[categoriaIndex].categoria[0]
+        : language === "EN"
+        ? categoriasLinks[categoriaIndex].categoria[1]
+        : categoriasLinks[categoriaIndex].categoria[2]
+    );
+    
   }, [language]);
 
   return (
     <MainContent additionalClass="films-page">
       <Container additionalClass={"films-page-filter-section"}>
-        <FiltersNav additionalClass="films-page-filters"
-          map={categoriasLinks.map((c) => (
+        <FiltersNav
+          additionalClass="films-page-filters"
+          map={categoriasLinks.map((c, index) => (
             <NavLink
-              key={c.categoria}
-              onClick={() => mudarFiltro(c.categoria)}
+              key={
+                language === "BR"
+                  ? c.categoria[0]
+                  : language === "EN"
+                  ? c.categoria[1]
+                  : c.categoria[2]
+              }
+              onClick={() =>
+                mudarFiltro(
+                  language === "BR"
+                    ? c.categoria[0]
+                    : language === "EN"
+                    ? c.categoria[1]
+                    : c.categoria[2],
+                  index
+                )
+              }
               className="films-filters-link"
               to={`/filmes/${c.link.replace("motion 2D/3D", "animacao")}`}
             >
-              {c.categoria}
+              {language === "BR"
+                ? c.categoria[0]
+                : language === "EN"
+                ? c.categoria[1]
+                : c.categoria[2]}
             </NavLink>
           ))}
           atualFilter={atualFilter}
@@ -226,9 +226,9 @@ const FilmsPage =  () => {
             image={film["Thumb miniatura"]}
             onclick={() =>
               navigate(
-                `/filmes/${encodeURIComponent(atualFilter.replace("Motion 2D/3D", "Animacao") as string)}/${
-                  film.FilmId
-                }`
+                `/filmes/${encodeURIComponent(
+                  atualFilter.replace("Motion 2D/3D", "Animacao") as string
+                )}/${film.FilmId}`
               )
             }
             key={film.FilmId}

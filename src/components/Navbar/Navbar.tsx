@@ -12,16 +12,15 @@ type NavbarProps = {
 const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
   const [, setAtualFilter] = useState("");
 
-  //LÓGICA PARA MUDAR O FILTRO DE FILMES, SCROLL, E SALVAR NO SESSION STORAGE
+  const [categoriaIndex, setCategoriaIndex] = useState<number>(0);
 
-  const mudarFiltro = (filtro: string) => {
-    window.scrollTo(0, 0);
-    navbarRef.current?.scrollTo(0, 0);
-    setExibeNav(false);
-    
+  //FUNÇÃO PARA MUDAR O FILTRO
+  const mudarFiltro = (filtro: string, index: number) => {
     setAtualFilter(filtro);
     sessionStorage.setItem("atualFilter", filtro);
-
+    setCategoriaIndex(index);
+    sessionStorage.setItem("categoriaIndex", index.toString());
+    linkClick();
   };
 
   //LÓGICA PARA SCROLLAR PARA O TOPO QUANDO CLICAR EM UM LINK
@@ -30,73 +29,49 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
     window.scrollTo(0, 0);
     setExibeNav(false);
   };
-
   const { language } = useContext(LanguageContext) || {};
 
-  //LÓGICA PARA ESCONDER O NAVBAR QUANDO MUDAR DE IDIOMA
+  //LÓGICA PARA MUDAR DE CATEGORIA QUANDO O IDIOMA MUDA, PREVENINDO ERROS
   useEffect(() => {
-    setExibeNav(false);
+    setAtualFilter(
+      language === "BR"
+        ? categoriasLinks[categoriaIndex].categoria[0]
+        : language === "EN"
+        ? categoriasLinks[categoriaIndex].categoria[1]
+        : categoriasLinks[categoriaIndex].categoria[2]
+    );
   }, [language]);
 
   const categoriasLinks = [
     {
-      categoria:
-        language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
+      categoria: ["Todos", "All", "Todos"],
       link: "todos",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Publicidade"
-          : language === "EN"
-          ? "Advertising"
-          : "Publicidad",
+      categoria: ["Publicidade", "Advertising", "Publicidad"],
       link: "publicidade",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Institucional"
-          : language === "EN"
-          ? "Institutional"
-          : "Institucional",
+      categoria: ["Institucional", "Institutional", "Institucional"],
       link: "institucional",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Motion 2D/3D"
-          : language === "EN"
-          ? "Motion 2D/3D"
-          : "Motion 2D/3D",
+      categoria: ["Motion 2D/3D", "Motion 2D/3D", "Motion 2D/3D"],
       link: "motion 2D/3D",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Clipes de Música"
-          : language === "EN"
-          ? "Music Clips"
-          : "Clips musicales",
+      categoria: ["Clipes de Música", "Music Clips", "Clips musicales"],
       link: "clipes de Música",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Entretenimento"
-          : language === "EN"
-          ? "Entertainment"
-          : "Entretenimiento",
+      categoria: ["Entretenimento", "Entertainment", "Entretenimiento"],
       link: "entretenimento",
     },
   ];
 
   //CATERGORIA SELECIONADAS PARA A NAVBAR
 
-  const categoriasNav = categoriasLinks.filter(
-    (categoria) =>
-      categoria.categoria !== "Todos" && categoria.categoria !== "All"
-  );
+  const categoriasNav = categoriasLinks.slice(1);
 
   return (
     <nav
@@ -106,13 +81,32 @@ const Navbar = ({ navbarRef, exibeNav, setExibeNav }: NavbarProps) => {
       <NavLink onClick={() => linkClick()} to={"/sobre"}>
         {language === "BR" ? "Sobre" : language === "EN" ? "About" : "Sobre"}
       </NavLink>
-      {categoriasNav.map((categoria) => (
+      {categoriasNav.map((c, index) => (
         <NavLink
-          onClick={() => mudarFiltro(categoria.categoria)}
-          to={`/filmes/${categoria.link.replace("motion 2D/3D", "animacao")}`}
-          key={categoria.categoria}
+          key={
+            language === "BR"
+              ? c.categoria[0]
+              : language === "EN"
+              ? c.categoria[1]
+              : c.categoria[2]
+          }
+          onClick={() =>
+            mudarFiltro(
+              language === "BR"
+                ? c.categoria[0]
+                : language === "EN"
+                ? c.categoria[1]
+                : c.categoria[2],
+              index
+            )
+          }
+          to={`/filmes/${c.link.replace("motion 2D/3D", "animacao")}`}
         >
-          {categoria.categoria}
+          {language === "BR"
+            ? c.categoria[0]
+            : language === "EN"
+            ? c.categoria[1]
+            : c.categoria[2]}
         </NavLink>
       ))}
       <NavLink onClick={() => linkClick()} to={"/servicos-producao"}>

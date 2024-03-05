@@ -11,8 +11,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { LanguageContext } from "@/App";
 import { filmsArray } from "@/data/films";
 
-const FilmDetails =  () => {
-
+const FilmDetails = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   const navigate = useNavigate();
@@ -23,7 +22,9 @@ const FilmDetails =  () => {
 
   const [inVideo, setInVideo] = useState(false);
 
-  const [atualFilter, setAtualFilter] = useState<string | null>("Todos");
+  const [atualFilter, setAtualFilter] = useState<string>(
+    sessionStorage.getItem("atualFilter")?.toString()!
+  );
 
   //ENCONTRA O FILME PELO ID E IDIOMA
   const film = filmsArray
@@ -40,7 +41,6 @@ const FilmDetails =  () => {
   //SCROLLA AO TOPO AO CARREGAR E MANTEM O FILTRO SALVO NO SESSION STORAGE
   useEffect(() => {
     window.scrollTo(0, 0);
-    setAtualFilter(sessionStorage.getItem("atualFilter"));
   }, []);
 
   // FUNÇÃO PARA MUDAR O FILME
@@ -51,11 +51,14 @@ const FilmDetails =  () => {
 
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  const [categoriaIndex, setCategoriaIndex] = useState<number>(Number(sessionStorage.getItem("categoriaIndex")));
+
   //FUNÇÃO PARA MUDAR O FILTRO
-  const mudarFiltro = (filtro: string) => {
+  const mudarFiltro = (filtro: string, index: number) => {
     setAtualFilter(filtro);
-    sessionStorage.setItem("atualFilter", filtro || "Todos");
+    sessionStorage.setItem("atualFilter", filtro);
     setIsDropdownOpen(!isDropdownOpen);
+    setCategoriaIndex(index);
   };
 
   //LÓGICA PARA CARREGAR IMAGENS E SCROLLAR AO TOPO QUANDO MUDAR O FILME
@@ -67,58 +70,43 @@ const FilmDetails =  () => {
     img.onload = () => setIsLoaded(true);
   }, [film?.["Thumb principal"]]);
 
-  let categoriasLinks = [
+  const categoriasLinks = [
     {
-      categoria:
-        language === "BR" ? "Todos" : language === "EN" ? "All" : "Todos",
+      categoria: ["Todos", "All", "Todos"],
       link: "todos",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Publicidade"
-          : language === "EN"
-          ? "Advertising"
-          : "Publicidade",
+      categoria: ["Publicidade", "Advertising", "Publicidad"],
       link: "publicidade",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Institucional"
-          : language === "EN"
-          ? "Institutional"
-          : "Institucional",
+      categoria: ["Institucional", "Institutional", "Institucional"],
       link: "institucional",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Motion 2D/3D"
-          : language === "EN"
-          ? "Motion 2D/3D"
-          : "Motion 2D/3D",
+      categoria: ["Motion 2D/3D", "Motion 2D/3D", "Motion 2D/3D"],
       link: "motion 2D/3D",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Clipes de Música"
-          : language === "EN"
-          ? "Music Videos"
-          : "Clipes de Música",
+      categoria: ["Clipes de Música", "Music Clips", "Clips musicales"],
       link: "clipes de Música",
     },
     {
-      categoria:
-        language === "BR"
-          ? "Entretenimento"
-          : language === "EN"
-          ? "Entertainment"
-          : "Entretenimento",
+      categoria: ["Entretenimento", "Entertainment", "Entretenimiento"],
       link: "entretenimento",
     },
   ];
+
+  //LÓGICA PARA MUDAR DE CATEGORIA QUANDO O IDIOMA MUDA, PREVENINDO ERROS
+  useEffect(() => {
+    setAtualFilter(
+      language === "BR"
+        ? categoriasLinks[categoriaIndex].categoria[0]
+        : language === "EN"
+        ? categoriasLinks[categoriaIndex].categoria[1]
+        : categoriasLinks[categoriaIndex].categoria[2]
+    );
+  }, [language]);
 
   //LÓGICA PARA PREVENIR SCROLL QUANDO O VIDEO ESTÁ ABERTO
   useEffect(() => {
@@ -137,17 +125,33 @@ const FilmDetails =  () => {
     <MainContent additionalClass="film-details">
       <Container additionalClass={"filter-and-title"}>
         <FiltersNav
-          map={categoriasLinks.map((categoria) => (
+          map={categoriasLinks.map((c, index) => (
             <NavLink
-              key={categoria.categoria}
-              onClick={() => mudarFiltro(categoria.categoria)}
+              key={
+                language === "BR"
+                  ? c.categoria[0]
+                  : language === "EN"
+                  ? c.categoria[1]
+                  : c.categoria[2]
+              }
+              onClick={() =>
+                mudarFiltro(
+                  language === "BR"
+                    ? c.categoria[0]
+                    : language === "EN"
+                    ? c.categoria[1]
+                    : c.categoria[2],
+                  index
+                )
+              }
               className="films-filters-link"
-              to={`/filmes/${categoria.link.replace(
-                "motion 2D/3D",
-                "animacao"
-              )}`}
+              to={`/filmes/${c.link.replace("motion 2D/3D", "animacao")}`}
             >
-              {categoria.categoria}
+              {language === "BR"
+                ? c.categoria[0]
+                : language === "EN"
+                ? c.categoria[1]
+                : c.categoria[2]}
             </NavLink>
           ))}
           atualFilter={atualFilter || "Todos"}
