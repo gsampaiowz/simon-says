@@ -4623,11 +4623,11 @@ export const filmsArray: filmsArrayProps = [
         Cliente: "Séries",
         Título: "Fábrica de Sonhos - Em Produção",
         Subtítulo: "",
-        YouTube: "https://youtu.be/mW7lzjX44y4",
+        YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1FcwMZVnSTWxoqkG2P-larPoQIdSssAgh&sz=w10000",
         Texto:
           "Prepare-se para mergulhar na fascinante história do design de móveis no Brasil nesta série de 10 episódios, com 55 minutos cada, que é uma co-produção entre a SimonSays Filmes e a Total Filmes. Destaque nos Episódios: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult e Maurício Azeredo. Cada episódio mergulhará profundamente na vida, obra e legado desses designers, revelando como eles moldaram a história do design de móveis no Brasil em um contexto de adaptação à economia e política da época. Descubra como a escolha de materiais e as abordagens criativas desses designers refletiram as transformações sociais e econômicas do país. Prepare-se para uma jornada fascinante por meio de imagens de arquivo, entrevistas e narrativas envolventes enquanto exploramos a rica herança do design brasileiro",
         Diretor: "Kahue Rozzi",
@@ -9608,11 +9608,11 @@ export const filmsArray: filmsArrayProps = [
         Cliente: "Series",
         Título: "Dream Factory - In Production",
         Subtítulo: "",
-        YouTube: "https://youtu.be/ikSQsYlxqkk",
+        YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1FcwMZVnSTWxoqkG2P-larPoQIdSssAgh&sz=w10000",
         Texto:
           "Get ready to delve into the fascinating history of furniture design in Brazil in this series of 10 episodes, 55 minutes each, which is a co-production between SimonSays Filmes and Total Filmes. Featured Episodes: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult and Maurício Azeredo. Each episode will delve deeply into the lives, work and legacy of these designers, revealing how they shaped the history of furniture design in Brazil in a context of adaptation to the economy and politics of the time. Discover how these designers' choice of materials and creative approaches reflected the country's social and economic transformations. Get ready for a fascinating journey through images of archive, interviews and engaging narratives as we explore the rich heritage of Brazilian design",
         Diretor: "Kahue Rozzi",
@@ -14591,11 +14591,11 @@ export const filmsArray: filmsArrayProps = [
         Cliente: "Serie",
         Título: "Fábrica de sueños - En Producción",
         Subtítulo: "",
-        YouTube: "https://youtu.be/ikSQsYlxqkk",
+        YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1UkAxAdf31TGHlOB-_pHrKlYnCPQngUM0&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1qrzAx6wLEFmP0Rw14Infw4XNovlg3u5w&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1FcwMZVnSTWxoqkG2P-larPoQIdSssAgh&sz=w10000",
         Texto:
           "Prepárate para profundizar en la fascinante historia del diseño de muebles en Brasil en esta serie de 10 episodios de 55 minutos cada uno, que es una coproducción entre SimonSays Filmes y Total Filmes. Episodios destacados: Joaquim Tenreiro, Lina Bo Bardi, José Zanine Caldas, Sergio Rodrigues, Jorge Zalszupin, Oscar Niemeyer, Paulo Mendes da Rocha, Geraldo de Barros, Michel Arnoult y Maurício Azeredo. Cada episodio profundizará en la vida, el trabajo y el legado de estos diseñadores, revelando cómo dieron forma a la historia del mueble. diseño en Brasil en un contexto de adaptación a la economía y la política de la época. Descubra cómo la elección de materiales y enfoques creativos de estos diseñadores reflejaron las transformaciones sociales y económicas del país. Prepárese para un viaje fascinante a través de imágenes de archivo, entrevistas y experiencias interesantes. narrativas mientras exploramos la rica herencia del diseño brasileño",
         Diretor: "Kahue Rozzi",
