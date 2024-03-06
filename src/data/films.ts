@@ -4719,7 +4719,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Serviço de Produção",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
+          "https://drive.google.com/thumbnail?id=174FaaLlHLrNrOI3rxxlED4pc2-Smu2Mi&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
         Cliente: "EBC TV Brasil",
@@ -9705,9 +9705,9 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Production Service",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
+          "https://drive.google.com/thumbnail?id=174FaaLlHLrNrOI3rxxlED4pc2-Smu2Mi&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1QwhVWwBgR3KV4He3bFhPWGcAwCuZhdRJ&sz=w10000",
         Cliente: "EBC TV Brazil",
         Home: false,
         Categorias: "Entertainment",
@@ -14689,7 +14689,7 @@ export const filmsArray: filmsArrayProps = [
         Subtítulo: "Servicio de Producción",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
+          "https://drive.google.com/thumbnail?id=174FaaLlHLrNrOI3rxxlED4pc2-Smu2Mi&sz=w10000",
         "Thumb principal":
           "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
         Cliente: "EBC TV Brasil",
