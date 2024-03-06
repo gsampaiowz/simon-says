@@ -2619,6 +2619,21 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Motion 2D/3D",
       },
       {
+        FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstrução",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
         Home: true,
 
         Cliente:
@@ -4332,7 +4347,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "St. Marche",
-        Título: "Promoção Mini St Marche",
+        Título: "Promotion Mini St Marche",
         Subtítulo: "",
         YouTube: "https://youtube.com/shorts/oVdaEbWNex0",
         "Thumb miniatura":
@@ -4508,21 +4523,7 @@ export const filmsArray: filmsArrayProps = [
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
       },
-      {
-        FilmId: uuid(),
-        Home: false,
-        Cliente: "Itapevi",
-        Título: "Itapevi Reconstrução",
-        Subtítulo: "",
-        YouTube: "https://youtu.be/S3YZ6wkEPcs",
-        "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
-        "Thumb principal":
-          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
-        Texto: "",
-        Diretor: "Kahue Rozzi",
-        Categorias: "Motion 2D/3D",
-      },
+      
       {
         FilmId: uuid(),
         Home: true,
@@ -4605,8 +4606,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "DOC",
-        Título: "Documentário Dalva de Oliveira - Em Produção",
-        Subtítulo: "",
+        Título: "Documentário Dalva de Oliveira",
+        Subtítulo: "Em Produção",
         YouTube: "https://youtu.be/pgqAaXO9lIs",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq&sz=w10000",
@@ -4621,8 +4622,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Séries",
-        Título: "Fábrica de Sonhos - Em Produção",
-        Subtítulo: "",
+        Título: "Fábrica de Sonhos",
+        Subtítulo: "Em Produção",
         YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
@@ -4637,7 +4638,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - O Filme - Serviços de Produção",
+        Título: "Mamonas Assassinas - O Filme",
         Subtítulo: "Serviço de Produção",
         YouTube: "https://youtu.be/n_TmFQ5XfHc",
         "Thumb miniatura":
@@ -4653,7 +4654,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - A Série - Em Produção",
+        Título: "Mamonas Assassinas - A Série",
         Subtítulo: "Em Produção",
         YouTube: "https://youtu.be/_8G5VT4Z4G8",
         "Thumb miniatura":
@@ -4669,8 +4670,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "EBC TV Brasil",
-        Título: "Mundo da Nina - Produção Própria",
-        Subtítulo: "",
+        Título: "Mundo da Nina",
+        Subtítulo: "Produção Própria",
         YouTube:
           "https://www.youtube.com/watch?v&sz=w10000BrN-pTKonc&list=PLfpbyDuHNTPknb7yiNDRzV2h0SL-2zEPm",
         "Thumb miniatura":
@@ -4686,8 +4687,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Série",
-        Título: "C11 | College 11- DISNEY - Serviço de Produção",
-        Subtítulo: "College 11 - Serviço de Produção",
+        Título: "C11 | College 11 - DISNEY",
+        Subtítulo: "Serviço de Produção",
         YouTube: "https://youtu.be/NLEAVgq2WzE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1zRwyQ6TJHqXN4XvmXDRPOenQJG9XjYbJ&sz=w10000",
@@ -4702,8 +4703,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "EBC TV Brasil",
-        Título: "Sexo Sem Medo - Produção Própria",
-        Subtítulo: "",
+        Título: "Sexo Sem Medo",
+        Subtítulo: "Produção Própria",
         YouTube: "https://www.youtube.com/watch?v=VUEWs9UVO5Q",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1PjQqBPyiO8E7XUfN6AQezZs_H6fIqeUP&sz=w10000",
@@ -4714,8 +4715,8 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entretenimento",
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Serviço de Produção",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
@@ -4729,7 +4730,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
@@ -4744,7 +4745,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta Debatendo",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
@@ -4759,7 +4760,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Chamada do Programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -4774,7 +4775,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -4789,7 +4790,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -4804,7 +4805,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -4819,7 +4820,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -4834,8 +4835,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Vinheta TV Brasil",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
@@ -4849,8 +4850,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Vinheta ON AIR",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Icz8UuMWzfa8u01QSMhbgN-Y9OvSuPwp&sz=w10000",
@@ -4864,8 +4865,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Abertura Stadium",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Di83lQNf69mXHufkiUP8GrXMqs46lzWO&sz=w10000",
@@ -4879,8 +4880,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Cápsulas da Educação",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1tZyqI4sC0SUXVrceGBUiAUCdB2aEjevG&sz=w10000",
@@ -4894,8 +4895,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
-        Subtítulo: "",
+        Título: "TV Brasil Animada",
+        Subtítulo: "Serviço de Produção",
         YouTube: "https://youtu.be/C8vdg6EIcR4",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1pHzir0pWfOA2CJtbI8tYE8pFRjJ5e53V&sz=w10000",
@@ -4909,7 +4910,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "Meu Cavaleiro e Eu",
         YouTube: "https://youtu.be/yKbfQTzlCMQ",
         "Thumb miniatura":
@@ -4924,7 +4925,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "Mighty Mike",
         YouTube: "https://youtu.be/Eyo8uBNvmdA",
         "Thumb miniatura":
@@ -4939,7 +4940,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "S.O.S Fada Manu",
         YouTube: "https://youtu.be/X3S5JH-0jr0",
         "Thumb miniatura":
@@ -4954,7 +4955,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "Zig Zig ",
         YouTube: "https://youtu.be/sljwS1_DbUk",
         "Thumb miniatura":
@@ -4969,7 +4970,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "Pong",
         YouTube: "https://youtu.be/jGpY6VD4v8Y",
         "Thumb miniatura":
@@ -4984,7 +4985,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Serviço de Produção",
+        Título: "TV Brasil Animada",
         Subtítulo: "Tuum",
         YouTube: "https://youtu.be/A7EwJw0UnK4",
         "Thumb miniatura":
@@ -4999,7 +5000,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Serviço de Produção",
+        Título: "TV Brasil",
         Subtítulo: "Vinheta Mundo da Bola",
         YouTube: "https://youtu.be/KD303laFilE",
         "Thumb miniatura":
@@ -7603,6 +7604,21 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Motion 2D/3D",
       },
       {
+        FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstruction",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
         Home: true,
 
         Cliente:
@@ -9493,21 +9509,7 @@ export const filmsArray: filmsArrayProps = [
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
       },
-      {
-        FilmId: uuid(),
-        Home: false,
-        Cliente: "Itapevi",
-        Título: "Itapevi Reconstruction",
-        Subtítulo: "",
-        YouTube: "https://youtu.be/S3YZ6wkEPcs",
-        "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
-        "Thumb principal":
-          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
-        Texto: "",
-        Diretor: "Kahue Rozzi",
-        Categorias: "Motion 2D/3D",
-      },
+      
       {
         FilmId: uuid(),
         Home: true,
@@ -9590,8 +9592,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "DOC",
-        Título: "Teaser Dalva de Oliveira - In Production",
-        Subtítulo: "",
+        Título: "Teaser Dalva de Oliveira",
+        Subtítulo: "In Production",
         YouTube: "https://youtu.be/pgqAaXO9lIs",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq&sz=w10000",
@@ -9606,8 +9608,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Series",
-        Título: "Dream Factory - In Production",
-        Subtítulo: "",
+        Título: "Dream Factory",
+        Subtítulo: "In Production",
         YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
@@ -9622,7 +9624,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - The Movie - Production Services",
+        Título: "Mamonas Assassinas - The Movie",
         Subtítulo: "Production Service",
         YouTube: "https://youtu.be/n_TmFQ5XfHc",
         "Thumb miniatura":
@@ -9638,7 +9640,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - The Series - In Production",
+        Título: "Mamonas Assassinas - The Series",
         Subtítulo: "In Production",
         YouTube: "https://youtu.be/_8G5VT4Z4G8",
         "Thumb miniatura":
@@ -9654,8 +9656,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "EBC TV Brasil",
-        Título: "Nina's World - Own Production",
-        Subtítulo: "",
+        Título: "Nina's World",
+        Subtítulo: "Own Production",
         YouTube:
           "https://www.youtube.com/watch?v&sz=w10000BrN-pTKonc&list=PLfpbyDuHNTPknb7yiNDRzV2h0SL-2zEPm",
         "Thumb miniatura":
@@ -9671,8 +9673,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Series",
-        Título: "C11 | College 11- DISNEY - Production Services",
-        Subtítulo: "College 11 - Production Service",
+        Título: "C11 | College 11 - DISNEY",
+        Subtítulo: "Production Service",
         YouTube: "https://youtu.be/NLEAVgq2WzE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1zRwyQ6TJHqXN4XvmXDRPOenQJG9XjYbJ&sz=w10000",
@@ -9687,8 +9689,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "EBC TV Brazil",
-        Título: "Fearless Sex - Own Production",
-        Subtítulo: "",
+        Título: "Fearless Sex",
+        Subtítulo: "Own Production",
         YouTube: "https://www.youtube.com/watch?v=VUEWs9UVO5Q",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1PjQqBPyiO8E7XUfN6AQezZs_H6fIqeUP&sz=w10000",
@@ -9699,8 +9701,8 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entertainment",
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "TV Brazil",
+        Subtítulo: "Production Service",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
@@ -9714,8 +9716,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "Vinheta De Bate Pronto",
+        Título: "TV Brazil",
+        Subtítulo: "Bate Pronto Vignette",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1RyK6dEC0e0FY54KV5Trg71diCS9R16xg&sz=w10000",
@@ -9729,8 +9731,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "Vinheta Debatendo",
+        Título: "TV Brazil",
+        Subtítulo: "Debatendo Vignette",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1VUUR2B-al9nMzamaeeGV_nSYv898EsZF&sz=w10000",
@@ -9744,7 +9746,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "Program Call",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -9759,7 +9761,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -9774,7 +9776,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -9789,7 +9791,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -9804,7 +9806,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -9819,8 +9821,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "TV Brazil",
+        Subtítulo: "TV Brasil Vignette",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
@@ -9834,8 +9836,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "TV Brazil",
+        Subtítulo: "Vignette ON AIR",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Icz8UuMWzfa8u01QSMhbgN-Y9OvSuPwp&sz=w10000",
@@ -9849,8 +9851,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "TV Brazil",
+        Subtítulo: "Stadium Vignette",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Di83lQNf69mXHufkiUP8GrXMqs46lzWO&sz=w10000",
@@ -9864,8 +9866,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "TV Brazil",
+        Subtítulo: "Capsules of Education",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1tZyqI4sC0SUXVrceGBUiAUCdB2aEjevG&sz=w10000",
@@ -9879,8 +9881,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
-        Subtítulo: "",
+        Título: "Animated TV Brazil",
+        Subtítulo: "Production Service",
         YouTube: "https://youtu.be/C8vdg6EIcR4",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1pHzir0pWfOA2CJtbI8tYE8pFRjJ5e53V&sz=w10000",
@@ -9894,7 +9896,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "My Knight and I",
         YouTube: "https://youtu.be/yKbfQTzlCMQ",
         "Thumb miniatura":
@@ -9909,7 +9911,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "Mighty Mike",
         YouTube: "https://youtu.be/Eyo8uBNvmdA",
         "Thumb miniatura":
@@ -9924,7 +9926,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "S.O.S Fairy Manu",
         YouTube: "https://youtu.be/X3S5JH-0jr0",
         "Thumb miniatura":
@@ -9939,7 +9941,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "Zig Zig ",
         YouTube: "https://youtu.be/sljwS1_DbUk",
         "Thumb miniatura":
@@ -9954,7 +9956,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "Pong",
         YouTube: "https://youtu.be/jGpY6VD4v8Y",
         "Thumb miniatura":
@@ -9969,7 +9971,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "Animated TV Brazil - Production Service",
+        Título: "Animated TV Brazil",
         Subtítulo: "Tuum",
         YouTube: "https://youtu.be/A7EwJw0UnK4",
         "Thumb miniatura":
@@ -9984,7 +9986,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brazil - Production Service",
+        Título: "TV Brazil",
         Subtítulo: "World of the Ball Vignette",
         YouTube: "https://youtu.be/KD303laFilE",
         "Thumb miniatura":
@@ -12587,6 +12589,21 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Motion 2D/3D",
       },
       {
+        FilmId: uuid(),
+        Home: false,
+        Cliente: "Itapevi",
+        Título: "Itapevi Reconstrucción",
+        Subtítulo: "",
+        YouTube: "https://youtu.be/S3YZ6wkEPcs",
+        "Thumb miniatura":
+          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
+        "Thumb principal":
+          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
+        Texto: "",
+        Diretor: "Kahue Rozzi",
+        Categorias: "Motion 2D/3D",
+      },
+      {
         Home: true,
 
         Cliente:
@@ -13760,7 +13777,7 @@ export const filmsArray: filmsArrayProps = [
       {
         FilmId: uuid(),
         Home: false,
-        Cliente: "FTD Educação",
+        Cliente: "FTD Educación",
         Título: "FTD 120 Años",
         Subtítulo: "",
         YouTube: "https://youtu.be/53dGdk68sgc",
@@ -14477,21 +14494,7 @@ export const filmsArray: filmsArrayProps = [
         Diretor: "Kahue Rozzi",
         Categorias: "Motion 2D/3D",
       },
-      {
-        FilmId: uuid(),
-        Home: false,
-        Cliente: "Itapevi",
-        Título: "Itapevi Reconstrucción",
-        Subtítulo: "",
-        YouTube: "https://youtu.be/S3YZ6wkEPcs",
-        "Thumb miniatura":
-          "https://drive.google.com/thumbnail?id=1C67wvzSEXRbiGGN7JKBXTBpsso8Yj0yA&sz=w10000",
-        "Thumb principal":
-          "https://drive.google.com/thumbnail?id=10xGOLlcUZikPgrQyTrbJkEmgYDlde7X1&sz=w10000",
-        Texto: "",
-        Diretor: "Kahue Rozzi",
-        Categorias: "Motion 2D/3D",
-      },
+      
       {
         FilmId: uuid(),
         Home: true,
@@ -14573,8 +14576,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "DOC",
-        Título: "Documental Dalva de Oliveira - En Producción",
-        Subtítulo: "",
+        Título: "Documental Dalva de Oliveira",
+        Subtítulo: "En Producción",
         YouTube: "https://youtu.be/pgqAaXO9lIs",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=132OQQdY28_YKlrPmXWZnOqMXr1RU3wvq&sz=w10000",
@@ -14589,8 +14592,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Serie",
-        Título: "Fábrica de sueños - En Producción",
-        Subtítulo: "",
+        Título: "Fábrica de sueños",
+        Subtítulo: "En Producción",
         YouTube: "https://youtu.be/J0Pp3BHYdJE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1_b1RddYnnrSaZtkQTr-JcXjL-By4fO2n&sz=w10000",
@@ -14605,7 +14608,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - La Película - Servicios de Producción",
+        Título: "Mamonas Assassinas - La Película",
         Subtítulo: "Servicio de producción",
         YouTube: "https://youtu.be/n_TmFQ5XfHc",
         "Thumb miniatura":
@@ -14621,7 +14624,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Total Filmes",
-        Título: "Mamonas Assassinas - La Serie - En Producción",
+        Título: "Mamonas Assassinas - La Serie",
         Subtítulo: "En producción",
         YouTube: "https://youtu.be/_8G5VT4Z4G8",
         "Thumb miniatura":
@@ -14637,8 +14640,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "EBC TV Brasil",
-        Título: "El mundo de Nina - Producción Propria",
-        Subtítulo: "",
+        Título: "El mundo de Nina",
+        Subtítulo: "Producción Propria",
         YouTube:
           "https://www.youtube.com/watch?v&sz=w10000BrN-pTKonc&list=PLfpbyDuHNTPknb7yiNDRzV2h0SL-2zEPm",
         "Thumb miniatura":
@@ -14654,8 +14657,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: false,
         Cliente: "Serie",
-        Título: "C11 | College 11- DISNEY - Servicio de Producción",
-        Subtítulo: "Colegio 11 - Servicio de Producción",
+        Título: "C11 | College 11 - DISNEY",
+        Subtítulo: "Servicio de Producción",
         YouTube: "https://youtu.be/NLEAVgq2WzE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1zRwyQ6TJHqXN4XvmXDRPOenQJG9XjYbJ&sz=w10000",
@@ -14670,8 +14673,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
         Home: true,
         Cliente: "EBC TV Brasil",
-        Título: "Sexo sin miedo - Producción Propria",
-        Subtítulo: "",
+        Título: "Sexo sin miedo",
+        Subtítulo: "Producción Propria",
         YouTube: "https://www.youtube.com/watch?v=VUEWs9UVO5Q",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1PjQqBPyiO8E7XUfN6AQezZs_H6fIqeUP&sz=w10000",
@@ -14682,8 +14685,8 @@ export const filmsArray: filmsArrayProps = [
         Categorias: "Entretenimiento",
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Servicio de Producción",
         YouTube: "https://youtu.be/3hG0SWUK-Kw",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1nVTo01Dcd8oUvvmN_VKLpjaFcabFlCnE&sz=w10000",
@@ -14697,8 +14700,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "Vinheta De Bate Pronto",
+        Título: "TV Brasil",
+        Subtítulo: "Viñeta De Bate Pronto",
         YouTube: "https://youtu.be/NIAJag0JtF0",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1RyK6dEC0e0FY54KV5Trg71diCS9R16xg&sz=w10000",
@@ -14712,8 +14715,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Viñeta de Debate",
         YouTube: "https://youtu.be/ZdKCCaDY_lE",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1VUUR2B-al9nMzamaeeGV_nSYv898EsZF&sz=w10000",
@@ -14727,7 +14730,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "Llamada al programa",
         YouTube: "https://youtu.be/HdCMXmAo7jA",
         "Thumb miniatura":
@@ -14742,7 +14745,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "La Porta",
         YouTube: "https://youtu.be/y64g3OoKIyQ",
         "Thumb miniatura":
@@ -14757,7 +14760,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "Nelson Piquet",
         YouTube: "https://youtu.be/5uPCGU_Exsk",
         "Thumb miniatura":
@@ -14772,7 +14775,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "Marcos Pontes",
         YouTube: "https://youtu.be/lkmL36zFb8w",
         "Thumb miniatura":
@@ -14787,7 +14790,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "Otávio Mesquita",
         YouTube: "https://youtu.be/WMkp5SMGXTw",
         "Thumb miniatura":
@@ -14802,8 +14805,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Viñeta TV Brasil",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
@@ -14817,8 +14820,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Viñeta EN EL AIRE",
         YouTube: "https://youtu.be/imos-vkBiSc",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Icz8UuMWzfa8u01QSMhbgN-Y9OvSuPwp&sz=w10000",
@@ -14832,8 +14835,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Viñeta del estadio",
         YouTube: "https://youtu.be/OinOAeKsJAk",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Di83lQNf69mXHufkiUP8GrXMqs46lzWO&sz=w10000",
@@ -14847,8 +14850,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil",
+        Subtítulo: "Cápsulas de educación",
         YouTube: "https://youtu.be/BeERMDdt7tM",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1tZyqI4sC0SUXVrceGBUiAUCdB2aEjevG&sz=w10000",
@@ -14862,8 +14865,8 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
-        Subtítulo: "",
+        Título: "TV Brasil Animada",
+        Subtítulo: "Servicio de Producción",
         YouTube: "https://youtu.be/C8vdg6EIcR4",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1pHzir0pWfOA2CJtbI8tYE8pFRjJ5e53V&sz=w10000",
@@ -14877,7 +14880,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "Mi caballero y yo",
         YouTube: "https://youtu.be/yKbfQTzlCMQ",
         "Thumb miniatura":
@@ -14892,7 +14895,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "Mighty Mike",
         YouTube: "https://youtu.be/Eyo8uBNvmdA",
         "Thumb miniatura":
@@ -14907,7 +14910,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "S.O.S Hada Manu",
         YouTube: "https://youtu.be/X3S5JH-0jr0",
         "Thumb miniatura":
@@ -14922,7 +14925,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "Zig Zig ",
         YouTube: "https://youtu.be/sljwS1_DbUk",
         "Thumb miniatura":
@@ -14937,7 +14940,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "Pong",
         YouTube: "https://youtu.be/jGpY6VD4v8Y",
         "Thumb miniatura":
@@ -14952,7 +14955,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil Animada - Servicio de Producción",
+        Título: "TV Brasil Animada",
         Subtítulo: "Tuum",
         YouTube: "https://youtu.be/A7EwJw0UnK4",
         "Thumb miniatura":
@@ -14967,7 +14970,7 @@ export const filmsArray: filmsArrayProps = [
         FilmId: uuid(),
       },
       {
-        Título: "TV Brasil - Servicio de Producción",
+        Título: "TV Brasil",
         Subtítulo: "Viñeta del mundo de la pelota",
         YouTube: "https://youtu.be/KD303laFilE",
         "Thumb miniatura":
