@@ -4721,7 +4721,7 @@ export const filmsArray: filmsArrayProps = [
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=174FaaLlHLrNrOI3rxxlED4pc2-Smu2Mi&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1QwhVWwBgR3KV4He3bFhPWGcAwCuZhdRJ&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimento",
@@ -9822,7 +9822,7 @@ export const filmsArray: filmsArrayProps = [
       },
       {
         Título: "TV Brazil",
-        Subtítulo: "TV Brasil Vignette",
+        Subtítulo: "TV Brazil Vignette",
         YouTube: "https://youtu.be/qyaFrVRD-FA",
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=1Ve4jdILcYvFPdQEqi8I6geO2B3cotbE5&sz=w10000",
@@ -14691,7 +14691,7 @@ export const filmsArray: filmsArrayProps = [
         "Thumb miniatura":
           "https://drive.google.com/thumbnail?id=174FaaLlHLrNrOI3rxxlED4pc2-Smu2Mi&sz=w10000",
         "Thumb principal":
-          "https://drive.google.com/thumbnail?id=1EAqFxjGzYnW8bgzVDIR5MgHnLptJ8TYe&sz=w10000",
+          "https://drive.google.com/thumbnail?id=1QwhVWwBgR3KV4He3bFhPWGcAwCuZhdRJ&sz=w10000",
         Cliente: "EBC TV Brasil",
         Home: false,
         Categorias: "Entretenimiento",
