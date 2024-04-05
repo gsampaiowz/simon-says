@@ -15,27 +15,32 @@ const AboutPage = () => {
             <h1 className="about-page-title">QUEM SOMOS?</h1>
             <hr className="about-page-divider" />
             <p>
-              Bem-vindo à Simon Says Filmes, onde nos últimos 15 anos, não apenas
-              produzimos filmes – construímos histórias.
-            </p>
-            <p>
-              Na Simon Says, somos contadores de histórias com uma paixão por
-              criar algo verdadeiramente extraordinário. Asseguramos não apenas
-              entregas pontuais, mas oferecemos opções que ultrapassam o
-              convencional.
-            </p>
-            <p>
-              Com sedes estratégicas em Miami e Brasília, não nos limitamos a
-              filmes publicitários; exploramos a criação de personagens em 3D,
-              narrativas envolventes em motion graphics que ganham vida, além de
-              produzir filmes institucionais, documentários e séries que
-              cativam.
-            </p>
-            <p>
-              Equipados com tecnologia de última geração, convidamos você a
-              explorar nosso site e descobrir o poder da Simon Says Filmes.
-              Descubra como podemos colaborar para criar algo que vai além do
-              comum, algo que captura a essência da sua visão.
+              A SimonSays Filmes, situada no coração de São Paulo, é uma
+              produtora de conteúdo audiovisual de alta qualidade, especializada
+              na criação de filmes publicitários, séries, documentários, e na
+              realização de serviços de produção com parceiros. Somos
+              reconhecidos pela nossa competência em capturar o vivo dinamismo
+              do live-action, seja para televisão, streaming ou plataformas
+              digitais.
+              <br />
+              Desde 2008, nosso portfólio inclui colaborações com marcas de
+              prestígio, como CBF, VTEX, Petronas, SECOM, Coca-Cola, Localiza,
+              Disney, BMW, Honda, Yamaha, Mini Cooper, Safra, Jeep, CAOA, Tokio
+              Marine, Abbott, Abbvie, Ache, Zeiss, entre outras. Nosso gama de
+              serviços é vasto e inclui desde o desenvolvimento inicial de
+              conceitos até a entrega final, abrangendo roteirização, edição e
+              pós-produção de alto padrão. <br />
+              Nos destacamos também na criação de motion graphics, personagens e
+              filmes em 3D, explorando narrativas visuais. Com instalações
+              adicionais em Miami e Brasília, ampliamos nosso alcance para
+              co-produções internacionais, promovendo não apenas a visibilidade
+              global dos projetos, mas também a sua relevância cultural e
+              comercial. <br />
+              Na SimonSays Filmes, cada história é contada com inovação e
+              criatividade técnica. Se está em busca de uma produtora que
+              entende de filmes publicitários, séries, documentários, motion
+              graphics, personagens e filmes 3D, entre em contato conosco.
+              Estamos prontos para dar vida ao seu próximo projeto audiovisual.
             </p>
           </>
         ) : language === "EN" ? (
@@ -43,27 +48,29 @@ const AboutPage = () => {
             <h1 className="about-page-title">WHO ARE WE?</h1>
             <hr className="about-page-divider" />
             <p>
-              Welcome to Simon Says Filmes, where for the past 15 years, we
-              haven’t just produced films – we’ve built stories.
-            </p>
-            <p>
-              At Simon Says, we are storytellers with a passion for creating
-              something truly extraordinary. We ensure not just timely
-              deliveries, but offer options that go beyond the conventional.
-            </p>
-            <p>
-              With strategic headquarters in Miami and Brasília, we don’t limit
-              ourselves to commercial films; we explore the creation of 3D
-              characters, engaging narratives in motion graphics that come to
-              life, as well as producing institutional films, documentaries, and
-              series that captivate.
-            </p>
-            <p>
-              Equipped with state-of-the-art technology, we invite you to
-              explore our site and discover the power of Simon Says Filmes.
-              Discover how we can collaborate to create something that goes
-              beyond the ordinary, something that captures the essence of your
-              vision.
+              SimonSays Films, located in the heart of São Paulo, is a
+              high-quality audiovisual content producer, specialized in creating
+              commercials, series, documentaries, and providing production
+              services with partners. We are recognized for our ability to
+              capture the lively dynamism of live-action for television,
+              streaming, or digital platforms. <br />
+              Since 2008, our portfolio has included collaborations with
+              prestigious brands such as CBF, VTEX, Petronas, SECOM, Coca-Cola,
+              Localiza, Disney, BMW, Honda, Yamaha, Mini Cooper, Safra, Jeep,
+              CAOA, Tokio Marine, Abbott, Abbvie, Ache, Zeiss,, and others. Our
+              range of services is extensive and includes everything from
+              initial concept development to final delivery, covering scripting,
+              editing, and high-standard post-production. <br />
+              We also stand out in creating motion graphics, characters, and 3D
+              films, exploring visual narratives. With additional facilities in
+              Miami and Brasília, we expand our reach for international
+              co-productions, ensuring not only global visibility for our
+              projects but also their cultural and commercial relevance. <br />
+              At SimonSays Films, every story is told with innovation and
+              technical creativity. If you are looking for a producer that
+              understands commercials, series, documentaries, motion graphics,
+              characters, and 3D films, contact us. We are ready to bring your
+              next audiovisual project to life.
             </p>
           </>
         ) : (
@@ -71,27 +78,31 @@ const AboutPage = () => {
             <h1 className="about-page-title">¿QUIÉNES SOMOS?</h1>
             <hr className="about-page-divider" />
             <p>
-              Bienvenido a Simon Says Filmes, donde en los últimos 15 años, no
-              solo producimos películas, sino que construimos historias.
-            </p>
-            <p>
-              En Simon Says, somos narradores con pasión por crear algo
-              verdaderamente extraordinario. Aseguramos no solo entregas
-              oportunas, sino que ofrecemos opciones que van más allá de lo
-              convencional.
-            </p>
-            <p>
-              Con sedes estratégicas en Miami y Brasilia, no nos limitamos a
-              películas comerciales; exploramos la creación de personajes en 3D,
-              narrativas atractivas en motion graphics que cobran vida, además
-              de producir películas institucionales, documentales y series que
-              cautivan.
-            </p>
-            <p>
-              Equipados con tecnología de última generación, lo invitamos a
-              explorar nuestro sitio y descubrir el poder de Simon Says Filmes.
-              Descubra cómo podemos colaborar para crear algo que va más allá de
-              lo común, algo que captura la esencia de su visión.
+              SimonSays Filmes, ubicada en el corazón de São Paulo, es una
+              productora de contenido audiovisual de alta calidad, especializada
+              en la creación de anuncios publicitarios, series, documentales y
+              en la prestación de servicios de producción con socios. Somos
+              reconocidos por nuestra habilidad para capturar el dinamismo vivo
+              del live-action para televisión, streaming o plataformas
+              digitales. <br />
+              Desde 2008, nuestro portafolio ha incluido colaboraciones con
+              marcas prestigiosas como CBF, VTEX, Petronas, SECOM, Coca-Cola,
+              Localiza, Disney, BMW, Honda, Yamaha, Mini Cooper, Safra, Jeep,
+              CAOA, Tokio Marine, Abbott, Abbvie, Ache, Zeiss, y otras. Nuestra
+              gama de servicios es amplia e incluye desde el desarrollo de
+              conceptos iniciales hasta la entrega final, abarcando
+              guionización, edición y post-producción de alto estándar. <br />
+              También nos destacamos en la creación de gráficos en movimiento,
+              personajes y películas en 3D, explorando narrativas visuales. Con
+              instalaciones adicionales en Miami y Brasília, ampliamos nuestro
+              alcance para coproducciones internacionales, asegurando no solo la
+              visibilidad global de nuestros proyectos, sino también su
+              relevancia cultural y comercial. <br />
+              En SimonSays Filmes, cada historia se cuenta con innovación y
+              creatividad técnica. Si está buscando una productora que entiende
+              de anuncios publicitarios, series, documentales, gráficos en
+              movimiento, personajes y películas en 3D, contáctenos. Estamos
+              listos para dar vida a su próximo proyecto audiovisual.
             </p>
           </>
         )}
